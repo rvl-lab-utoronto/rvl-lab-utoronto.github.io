@@ -1,0 +1,70 @@
+
+.pbody
+{
+    color: gray;
+}
+
+.curr
+{
+    font-weight: bold;
+    color: firebrick;
+}
+
+.events td
+{
+    font-size: 100%;
+    color: firebrick;
+    vertical-align: top;
+}
+
+.event
+{
+   color: firebrick;
+}
+
+.description
+{
+    white-space: pre-line;
+    text-align: justify;
+    display: block;
+}
+
+.cal:link
+{
+    text-decoration: none;
+}
+
+.cal:visited
+{
+    text-decoration: none;
+}
+
+.cal:hover
+{
+    text-decoration: none;
+}
+
+.cal:active
+{
+    text-decoration: none;
+}
+
+.time
+{
+    text-align: right;
+    padding-right: 0.7em;
+    white-space: nowrap;
+}
+
+.date
+{
+    text-align: right;
+    padding-right: 0.5em;
+    white-space: nowrap;
+}
+
+.fontsmall
+{
+    font-size: 85%;
+}
+
