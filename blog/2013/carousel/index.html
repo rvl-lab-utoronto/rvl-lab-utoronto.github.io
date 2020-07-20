@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>You R. Name | You R. Name</title>
+<title>You R. Name | Let's build a Carousel!</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -20,13 +20,20 @@
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/assets/js/splide-2.4.8/dist/js/splide.min.js"></script>
+<script src="/assets/js/splide-2.4.8/dist/js/splide-extension-video.min.js"></script>
+<link rel="stylesheet" href="/assets/js/splide-2.4.8/dist/css/splide.min.css">
+<link rel="stylesheet" href="/assets/js/splide-2.4.8/dist/css/splide-extension-video.min.css">
+<script src="/assets/js/app.js"></script>
+
 
    
 <!-- Styles -->
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/blog/2013/carousel/">
 
 <!-- Open Graph -->
 
@@ -143,58 +150,54 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+<div class="post">
 
-
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with comments</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/math/">a post with math</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>an example of a blog post with some math</p>
-      </li>
-    
-  </ul>
+  <header class="post-header">
+    <h1 class="post-title">Let's build a Carousel!</h1>
+    <p class="post-meta">July 20, 2013</p>
+  </header>
 
   
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="You R. Name">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="You R. Name - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="You R. Name - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
 
+  <div class="splide">
+    <div class="splide__track">
+      <ul class="splide__list">
 
+        
+           <li class="splide__slide"><img src="/assets/img/1.jpg"></li>
+	
+           <li class="splide__slide"><img src="/assets/img/2.jpg"></li>
+	
+        
+      </ul>
+    </div>
+  </div>
+  
+  <!--div class="splide">
+    <ul class="slides">
+      
+      <li>
+        <img src="/assets/img/1.jpg">
+      </li>
+      
+      <li>
+        <img src="/assets/img/2.jpg">
+      </li>
+      
+    </ul>
+  </div-->
+
+  
+  
+
+  <article class="post-content">
+    <p>Lorem ipsum dolor sit amet, consectetur…</p>
+
+  </article>
+
+  
 
 </div>
 
