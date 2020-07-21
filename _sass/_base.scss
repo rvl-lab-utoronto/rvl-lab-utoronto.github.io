@@ -248,32 +248,79 @@ footer.sticky-bottom {
 
 // Team members
 
-.team {
+.people {
+    //position: relative;
+    width: 60%;
+    //display: grid;
+    //grid-template-columns: 80% 20%;
+    float: left;
 
-  .grid {
-      padding: 5.0rem;
-   }
+.group-members {
+
+    //float: left;
+    
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
     
   .grid-item {
-    width: 250px;
+    width: 180px;
     margin-bottom: 10px;
     a {
-      color: black;
+      color: #007AB8;  
       text-decoration: none;
       &:hover {
-        color: $theme-color;
+          color: $theme-color;
       }
     }
   }
+
+  .card {
+      box-shadow: none;
+      -webkit-box-shadow: none;
+
+      .member-name {
+          font-size: large;
+      }
+      
+      .member-description {
+          font-size: medium;
+          line-height: 1.0;
+          margin-top: 0.2rem;
+          font-weight: 100;
+      }
+  }
+  
   .card img {
       width: 100%;
       border: 1px solid #021a40;
+      border-radius: 5px;
   }
+  
+}
+}
 
-  .card-body  {
-      padding: 0;
-      padding-left: 0.7rem;
-  }
+.faq {
+    float: left;
+    width: 40%;
+    padding-left: 2rem;
+
+    .faq-block {
+        padding-top: 1rem!important;
+        
+        .faq-block-entry {
+            border-left: 1px dashed #333;
+
+            .faq-block-paragraph {
+                padding-left: 0.5rem!important;
+            }
+
+            .faq-block-paragraph strong {
+                font-weight: bold;
+            }
+        }
+    }
+    
 }
 
 
