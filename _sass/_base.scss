@@ -249,15 +249,11 @@ footer.sticky-bottom {
 // Team members
 
 .people {
-    //position: relative;
     width: 60%;
-    //display: grid;
-    //grid-template-columns: 80% 20%;
     float: left;
+    padding-bottom: 3rem;
 
 .group-members {
-
-    //float: left;
     
     padding-left: 1rem;
     display: grid;
@@ -267,7 +263,7 @@ footer.sticky-bottom {
     width: 180px;
     margin-bottom: 10px;
     a {
-      color: #007AB8;  
+      //color: #007AB8;  
       text-decoration: none;
       &:hover {
           color: $theme-color;
@@ -276,6 +272,10 @@ footer.sticky-bottom {
   }
 
   .card {
+      //position: relative;
+      width: 100%;
+      height: 100%;
+      
       box-shadow: none;
       -webkit-box-shadow: none;
 
@@ -289,13 +289,21 @@ footer.sticky-bottom {
           margin-top: 0.2rem;
           font-weight: 100;
       }
+
+      .member-description strong {
+          font-weight: bold;
+      }
   }
-  
+
   .card img {
       width: 100%;
+      height: 100%;
       border: 1px solid #021a40;
       border-radius: 5px;
   }
+      
+  
+  
   
 }
 }
@@ -303,7 +311,7 @@ footer.sticky-bottom {
 .faq {
     float: left;
     width: 40%;
-    padding-left: 2rem;
+    padding-left: 5rem;
 
     .faq-block {
         padding-top: 1rem!important;

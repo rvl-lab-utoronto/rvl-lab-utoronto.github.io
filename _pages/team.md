@@ -27,14 +27,14 @@ nav: true
     
       <div class="card hoverable">
         {% if member.img %}
-        <img class="float-left img-fluid pic mb-2" src="{{ member.img | relative_url }}" alt="member thumbnail">            
+        <img src="{{ member.img | relative_url }}" alt="member thumbnail">            
         {% endif %}
                
          <div class="member-name">
               <a href="{{ member.website }}"><b>{{ member.name }}</b></a>
          </div>
          <div class="member-description">
-              <p>{{ member.description }} {{ remainder }} </p>
+              <p>{{ member.description }}</p>
          </div>
           
       </div>
