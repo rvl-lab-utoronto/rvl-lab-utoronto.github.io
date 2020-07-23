@@ -16,36 +16,26 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <span class="title">{{entry.title}}</span>
+      <span class="title"><b>{{entry.title}}</b></span>
       <span class="author">
         {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-              <em>{{author.last}}, {{author.first}}</em>
-            {% else %}
-              {{author.last}}, {{author.first}}
-            {% endif %}
+              {{author.first}} {{author.last}}
           {% else %}
             {% unless forloop.last %}
-              {% if author.last == site.scholar.last_name %}
-                <em>{{author.last}}, {{author.first}}</em>,
-              {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
+                  <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,
                 {% else %}
-                  {{author.last}}, {{author.first}},
+                  {{author.first}} {{author.last}},
                 {% endif %}
-              {% endif %}
+              
             {% else %}
-              {% if author.last == site.scholar.last_name %}
-                and <em>{{author.last}}, {{author.first}}</em>
-              {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
                 {% else %}
-                  and {{author.last}}, {{author.first}}
+                  and {{author.first}} {{author.last}}
                 {% endif %}
-              {% endif %}
+              
             {% endunless %}
           {% endif %}
         {% endfor %}
@@ -65,29 +55,37 @@
 
     <span class="links">
     {% if entry.abstract %}
-      [<a class="abstract">Abs</a>]
+      [<a class="abstract">abstract</a>]
     {% endif %}
-    {% if entry.arxiv %}
-      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+    {% if entry.eprint %}
+      [<a href="http://arxiv.org/abs/{{ entry.eprint }}" target="_blank">pdf</a>]
     {% endif %}
     {% if entry.html %}
-      [<a href="{{ entry.html }}" target="_blank">HTML</a>]
+      [<a href="{{ entry.html }}" target="_blank">pdf</a>]
     {% endif %}
     {% if entry.pdf %}
-      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">PDF</a>]
+      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">pdf</a>]
     {% endif %}
+    [<a class="bibtex" href="javascript:void(0)">bibtex</a>]
     {% if entry.supp %}
-      [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Supp</a>]
+      [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">supp</a>]
     {% endif %}
     {% if entry.poster %}
-      [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Poster</a>]
+      [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">poster</a>]
     {% endif %}
     {% if entry.slides %}
-      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Slides</a>]
+      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">slides</a>]
     {% endif %}
     {% if entry.code %}
-      [<a href="{{ entry.code }}" target="_blank">Code</a>]
+      [<a href="{{ entry.code }}" target="_blank">code</a>]
     {% endif %}
+    {% if entry.video %}
+      [<a href="{{ entry.video }}" target="_blank">video</a>]
+    {% endif %}
+    {% if entry.project %}
+      [<a href="{{ entry.project }}" target="_blank">project</a>]
+    {% endif %}
+    
     </span>
 
     <!-- Hidden abstract block -->
@@ -96,5 +94,9 @@
       <p>{{ entry.abstract }}</p>
     </span>
     {% endif %}
+
+    <span class="bibtex hidden">
+      <p>{{ entry.bibtex }}</p>
+    </span>
   </div>
 </div>
