@@ -3,7 +3,7 @@
     <!-- Nav Bar -->
     <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
-      {% if page.title != "about" %}
+
       {% assign name = site.title | split: ' ' %}
       {% assign firstname = name | first %}
       {% if name.size > 2 %}
@@ -12,15 +12,14 @@
          {% assign middlenames = '' %}
       {% endif %}
       {% assign lastname = name | last %}
-      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
+      
+      <!-- a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
        <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
-      </a>
-      {% elsif site.show_social_icons %}
-        <!-- Social Icons -->
-        <div class="row ml-1 ml-sm-0">
-          {% include social.html %}
-        </div>
-      {% endif %}
+      </a-->
+      
+      <span class="navbar-lab-logo"><img src="/assets/img/RVL_Edited-15.png"></span> 
+      
+        
       <!-- Navbar Toogle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>

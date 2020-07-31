@@ -32,7 +32,24 @@ a, table.table a {
 }
 
 
-// Profile
+
+
+// About page
+
+.slideshow {
+    width: 65%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.news-front-page {
+    border-left: 1px dashed #333;
+    padding-left: 0.5rem;
+
+    strong {
+        font-weight: bold;
+    }
+}
 
 .profile {
     .address {
@@ -43,6 +60,8 @@ a, table.table a {
       }
     }
 }
+
+
 
 
 // Navbar customization
@@ -81,6 +100,10 @@ a, table.table a {
       }
     }
   }
+}
+
+.navbar-lab-logo img {
+    width: 20%;
 }
 
 .navbar-toggler {

@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
+  <!--header class="post-header">
     {% assign name = site.title | split: ' ' %}
     {% assign firstname = name | first %}
     {% if name.size > 2 %}
@@ -16,37 +16,91 @@ layout: default
     <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
      <span class="font-weight-bold">{{ firstname }}</span> {{ middlenames }}  {{ lastname }}
     </a>
-  </header>
+  </header-->
 
   <article>
     <div class="row">
-      <div class="col">
-        {{ content }}
+      <div class="slideshow">
+        
+           <div class="splide">
+             <div class="splide__track">
+	       <ul class="splide__list">
+                 <li class="splide__slide"><img src="/assets/img/photos/utah_flying_1.png"></li>
+	         <li class="splide__slide"><img src="/assets/img/photos/visual_search_diver_tracking_iros_2020.png"></li>
+	         <li class="splide__slide" data-splide-youtube="https://www.youtube.com/watch?v=DvWVC5R0zqs"></li>
+	       </ul>
+             </div>
+           </div>
+
+        
       </div>
-        {% if page.profile %}
-        <div class="profile col-4 {% if page.profile.align == 'left' %}order-first{% endif %}">
-          {% if page.profile.image %}
-            <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
-          {% endif %}
-          {% if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
+  
+      <div class="col-4">
+        <h2>news</h2>
+          <div class="news-front-page">
+            {% include news.html %}
+          </div>
+      </div>
+       
+  </div>
+
+    <h2>research themes</h2>
+    
+    
+    <div class="projects grid">
+
+      <div class="grid-item">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h5 class="card-title text-lowercase">autonomous robots for environmental monitoring</h5>
+            <p class="card-text">visual exploration and search</p>
+            <p class="card-text">robotics for scientific exploration</p>
+            <p class="card-text">active learning, information gathering, robot vision</p>
+            <p class="card-text">collaborative human-robot environmental monitoring</p>
+            <p class="card-text">field robotics</p>
+            <div class="row ml-1 mr-1 p-0">
             </div>
-          {% endif %}
+          </div>
         </div>
-        {% endif %}
+      </div>
+
+
+      <div class="grid-item">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h5 class="card-title text-lowercase">machine learning for planning and control</h5>
+
+            <p class="card-text">vision-based imitation learning</p>
+            <p class="card-text">bayesian inverse reinforcement learning of cost functions</p>
+            <p class="card-text">planning and control under uncertainty in cost and dynamics</p>
+            <p class="card-text">shared human-robot autonomy</p>
+            <p class="card-text">continual/lifelong learning for control</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="grid-item">
+        <div class="card hoverable">
+          <div class="card-body">
+            <h5 class="card-title text-lowercase">safe robot learning and sim-to-real transfer</h5>
+            
+            <p class="card-text">safe exploration in reinforcement learning</p>
+            <p class="card-text">physical adversarial examples in robotics</p>
+            <p class="card-text">backwards reachability, robust control</p>
+            <p class="card-text">differentiable physics and rendering</p>
+            <p class="card-text">simulation-based inference</p>
+            <div class="row ml-1 mr-1 p-0">
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
 
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
-
-    {% if page.social %}
-    <div class="social">
-      {% include social.html %}
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
+    
   </article>
 
 </div>
