@@ -49,9 +49,11 @@
             </a>
           </li>
           {% endif %}
-          <!-- Other pages -->
-          {% assign sorted_pages = site.pages | sort: "title" %}
-          {% for p in sorted_pages %}
+
+	  
+	  <!-- Other pages -->
+	  {% assign sorted_pages = site.pages | sort: "nav_order" %}
+	  {% for p in sorted_pages %}
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
@@ -63,6 +65,7 @@
           </li>
           {% endif %}
           {% endfor %}
+	  
         </ul>
       </div>
     </div>
