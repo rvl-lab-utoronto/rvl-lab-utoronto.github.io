@@ -11,8 +11,17 @@ nav_order: 5
 
 {% assign groups = "faculty|graduate|undergraduate|alumni" | split: "|" %}
 {% for group in groups %}
+
+{% if group == "graduate" %}
+<h3 class="mt-2 mb-3">{{ group }} students</h3>
+{% elsif group == "undergraduate" %}
+<h3 class="mt-2 mb-3">{{ group }} students</h3>
+{% else %}
 <h3 class="mt-2 mb-3">{{ group }}</h3>
-  
+{% endif %}
+
+
+
 <div class="group-members">
 
   {% assign sorted_members = site.team | where_exp:"item", "item.group == group" %} 

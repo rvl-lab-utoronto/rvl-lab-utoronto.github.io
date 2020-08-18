@@ -98,16 +98,6 @@ nav_order: 6
              </div>
 
              <div class="faq-block-paragraph">
-                              <p><strong>What background reading should I do to understand your lab's research?</strong> Check out this
-                   <a href="https://github.com/rvl-lab-utoronto/lab_onboarding_recommended_reading">recommended reading list</a>
-                   for new students who join my lab. It covers the set of all themes that current students
-                   in my lab are interested in and discuss daily. Note that you do not need to be interested in or understand
-                   all of these areas, but at least one. </p>
-
-             </div>
-
-
-             <div class="faq-block-paragraph">
                                    <p><strong>What background reading should I do to understand your lab's research?</strong> Check out this
                    <a href="https://github.com/rvl-lab-utoronto/lab_onboarding_recommended_reading">recommended reading list</a>
                    for new students who join my lab. It covers the set of all themes that current students
