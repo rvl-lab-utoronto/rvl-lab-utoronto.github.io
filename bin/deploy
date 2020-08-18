@@ -42,6 +42,11 @@ done
 # Exit if any subcommand fails
 set -e
 
+# Florian: setting this manually in case people forget to use --user with this script
+SRC_BRANCH="source"
+DEPLOY_BRANCH="master"
+
+
 echo "Deploying..."
 echo "Source branch: $SRC_BRANCH"
 echo "Deploy branch: $DEPLOY_BRANCH"
