@@ -208,6 +208,63 @@ footer.sticky-bottom {
   }
 }
 
+// Add gradient background and change title + subtitle color to white
+// Also add a subtle text shadow 
+d-title {
+  background-image: linear-gradient(to right, rgb(0, 115, 223) , rgb(0, 202, 94));
+  color: white;
+
+  h1 {
+
+    // justify-content: center;
+    // background-color: rgba(0, 0, 0, 0.287);
+    text-shadow: 1px 1px 3px black;
+  }
+
+
+  p {
+    // font-weight: lighter;
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 2px black;
+    // text-shadow: 1px 1px  black;
+  }
+
+}
+
+// Make author heading blue to match
+d-byline {
+  font-size: 1em;
+  h3 {
+    color: rgb(0, 83, 161);
+    font-size: 0.8em;
+
+  }
+}
+
+// Make article headings green
+d-article {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(21,153,87);
+    // text-shadow: 1px 1px  black;
+  }
+
+  // Make blockquote nicer
+  blockquote {
+    border-left: 0.3em solid #c5e3ff;
+    color: #747474;
+
+    padding-top: 0.5em;
+    // padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
 .post-list {
   margin: 0;
   margin-bottom: 40px;
