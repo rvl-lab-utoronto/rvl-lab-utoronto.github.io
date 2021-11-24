@@ -1,6 +1,25 @@
 # Robot Vision and Learning Lab
 
+This is the official website for Robot Vision and Learning Lab (RVL) at University of Toronto. 
 
+## Update member information
+
+All team members are listed in `_team` folder, and each person has a separate `.md` file. For new members joining the lab or existing members changing their status/interest, please create or edit the file to reflect the update. A template is as follows:
+
+```
+---
+layout: page
+name: Homanga Bharadhwaj
+description: 'reinforcement learning, safe exploration, robotics, recommender systems. co-supervised by <a href="https://animesh.garg.tech/">Animesh Garg</a>. <strong>next: CMU RI</strong>'
+img: /assets/img/people/homanga_bharadhwaj_1.png
+group: alumni
+website: https://homangab.github.io/
+---
+```
+
+Please update the name, description (research interest), image link, group (`faculty|graduate|undergraduate|alumni`) and personal website link accordingly. Images should be of aspect ratio of 4:3 and put in `/assets/img/people/` folder. 
+
+For simple update, you can directly edit the `md` file and upload files on GitHub. For any changes, commit the change as a new branch and start a pull request. Florian and website maintainers will review and merge the changes. 
 
 # al-folio
 
