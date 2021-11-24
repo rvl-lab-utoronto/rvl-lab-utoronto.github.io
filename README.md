@@ -1,10 +1,10 @@
 # Robot Vision and Learning Lab
 
-This is the official website for Robot Vision and Learning Lab (RVL) at University of Toronto. 
+This is the [official website](https://rvl.cs.toronto.edu/) for Robot Vision and Learning Lab (RVL) at University of Toronto. 
 
 ## Update member information
 
-All team members are listed in `_team` folder, and each person has a separate `.md` file. For new members joining the lab or existing members changing their status/interest, please create or edit the file to reflect the update. A template is as follows:
+All team members are listed in `_team` folder, and each person has a separate `.md` file. For new members joining the lab or existing members changing their status/interest, please create or edit the file to reflect the update. An example is as follows:
 
 ```
 ---
