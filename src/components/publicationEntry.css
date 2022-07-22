@@ -1,0 +1,92 @@
+.publication-entry{
+  margin-bottom: 10px;
+  margin-top: 22px;
+}
+.publication-entry h3{
+  margin:0;
+  font-weight: 600;
+}
+.publication-entry hr{
+  margin: 15px 0px;
+}
+.publication-entry h2{
+  float:right;
+  margin: 0;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+.publication-entry p{
+  margin:0;
+  margin-top: 2.5px;
+  margin-bottom: 2.5px;
+}
+.bibtex-expand{
+  margin: 10px 15px;
+  font-weight:300;
+  font-size: 15px;
+  font-family: var(--monospace);
+}
+.publication-tag{
+  display:inline-block;
+  background-color: var(--publication-tag);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px 7px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.publication-tag:hover{
+  background-color: var(--accent-color);
+  transition: background-color 0.2s;
+}
+.publication-tag-selected{
+  background-color: var(--accent-color);
+  transition: background-color 0.2s;
+}
+.loading{
+  width:50px;
+  height:50px;
+  background-color: var(--accent-color);
+  border-radius: 100%;
+  padding: 100px;
+  animation: loading 0.8s infinite;
+}
+.publication-thumbnail{
+  width:170px;
+  height:150px;
+  object-fit: cover;
+  transition: transform 400ms;
+  border-radius: 5px;
+}
+.publication-thumbnail:hover{
+  transform: scale(1.05);
+  transition: transform 400ms;
+}
+
+
+@keyframes loading{
+  0% {opacity: 0; transform: scale(0.2)}
+  40% {opacity: 1;}
+  100% {opacity: 0; transform: scale(0.5)}
+}
+@media only screen and (max-width: 767px) {
+  .publication-entry h2{
+    float:none;
+    text-align: right;
+    margin: 0;
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
+  .publication-tag{
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+    font-size: 14px;
+  }
+}

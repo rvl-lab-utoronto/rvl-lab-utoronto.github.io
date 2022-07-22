@@ -1,0 +1,30 @@
+.footer{
+  background-color: var(--footer-background-color);
+  margin-top:50px;
+  box-shadow: 0px 0px 10px var(--shadow-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100vw;
+}
+
+.footer-copyright{
+  font-size: 14px;
+  margin:8px 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-copyright{
+    font-size: 12px;
+    text-align: center;
+    margin:7px 5px;
+    max-width: unset;
+  }
+}

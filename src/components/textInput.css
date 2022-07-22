@@ -1,0 +1,24 @@
+input[type=text]{
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1.5px solid var(--light-dark-accent-color-heavy);
+  border-radius: 4px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input[type=text]:focus {
+  outline: none !important;
+  border:1.5px solid var(--accent-color);
+  box-shadow: 0 0 15px var(--shadow-color);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+@media only screen and (max-width: 767px) {
+  .page-exit-active {
+    transform: scale(1);
+  }
+  .page-enter {
+    transform: scale(1);
+  }
+}
