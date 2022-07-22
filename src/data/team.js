@@ -41,6 +41,8 @@ export const dataTeam = {
       "image":"assets/team/salar.jpg",
       "description":"one-shot exemplar-based visual search for video events",
       "linkedIn":"https://ca.linkedin.com/in/salar-hosseini",
+      "website":"https://salarios77.github.io/",
+      "googleScholar":"https://scholar.google.ca/citations?user=8OT5mY0AAAAJ&hl=en"
     },
     {
       "name":"Mohamed Khodeir",
