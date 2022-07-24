@@ -108,18 +108,21 @@ export const dataTeam = {
     },
     {
       "name":"Alex Alexiev",
-      "image":"assets/team/profile.png",
-      "description":"task and motion planning",
+      "image":"assets/team/alex_alexiev_1.jpeg",
+	"description":"task and motion planning",
+	"linkedIn": "https://ca.linkedin.com/in/alexander-alexiev-125a78201"
     },
     {
       "name":"Hamza Dugmag",
-      "image":"assets/team/profile.png",
-      "description":"field robotics, autonomous boat",
+      "image":"assets/team/hamza_dugmag_1.jpg",
+	"description":"field robotics, autonomous boat",
+	"website": "https://hamzadugmag.com/"
     },  
     {
       "name":"Jisu Qian",
-      "image":"assets/team/profile.png",
-      "description":"system identification",
+      "image":"assets/team/jisu_qian_1.jpeg",
+	"description":"system identification",
+	"linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
     },
     {
       "name":"Andrew Zou Li",
@@ -128,8 +131,10 @@ export const dataTeam = {
     },
     {
        "name":"Kathy Zhuang",
-       "image":"assets/team/profile.png",
-       "description":"computer vision for transparent objects",
+       "image":"assets/team/kathy_zhuang_1.jpeg",
+	"description":"computer vision for transparent objects",
+	"linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
+	"website": "https://kathyzhuang.github.io/"
     },	
     // {
     //   "name":"Fengjia Zhang",
