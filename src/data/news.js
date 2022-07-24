@@ -1,7 +1,15 @@
 // A list of objects : {"date":"", "content":""}
 // Date is of format : year-month-day
 export const dataNews = [
-  {
+{
+    "date":"2022-03-1",
+    "content":"Our paper on <a href='https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html'>video representation learning</a> was accepted to CVPR for oral presentation. "
+  },
+    {
+    "date":"2022-02-1",
+    "content":"Our paper on <a href='https://arxiv.org/abs/2110.07668'>equivariant representations for imitation learning</a> was accepted to ICRA. "
+  },
+    {
     "date":"2021-08-12",
     "content":"Two papers accepted at CoRL, one on <a href='https://openreview.net/forum?id=nWLt35BU1z_'>task planning in large 3D scene graphs</a>, and one on <a href='https://openreview.net/forum?id=tCfLLiP7vje'>perceiving transparent objects from RGBD sensors</a> (oral). "
   },

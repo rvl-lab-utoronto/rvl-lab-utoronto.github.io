@@ -198,9 +198,8 @@ class Publications extends Component {
       <div className="center">
         <div className="horizontal-padding max-width">
           <PageHeader showBreak={false} title="Publications">
-            <p style={{margin:"10px 0px"}}>Publications by categories in reversed chronological order</p>
             <div style={{marginRight:"30px"}}>
-              <TextInput value={this.searchTerm} onChange={(searchTerm)=>{this.searchTerm = searchTerm; this.filterPublications()}} placeholder={"Search title, author, book title..."}/>
+              <TextInput value={this.searchTerm} onChange={(searchTerm)=>{this.searchTerm = searchTerm; this.filterPublications()}} placeholder={"Search title, author name, or publication venue"}/>
             </div>
             {this.state.allTags!==undefined?<div>{this.state.allTags.map((tag)=>{
               return <PublicationTag tag={tag} addSelectedTag={this.addSelectedTag} removeSelectedTag={this.removeSelectedTag} selected={this.selectedTags.includes(tag)}/>
