@@ -1,6 +1,80 @@
 
 export const dataPublications = [
-  { 
+
+    { 
+    "bibtex":`
+      @inproceedings{xu2021seeing,
+        title={Seeing Glass: Joint Point-Cloud and Depth Completion for Transparent Objects},
+        author={Haoping Xu and Yi Ru Wang and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+        booktitle={5th Annual Conference on Robot Learning },
+        year={2021},
+        url={https://openreview.net/forum?id=tCfLLiP7vje}
+      }
+    `,
+    "html":"https://openreview.net/forum?id=tCfLLiP7vje",
+    "tags":["robot vision"],
+    "video": "https://www.youtube.com/watch?v=SuUMKy52b4E&ab_channel=ConferenceonRobotLearning",
+    "code": "https://www.pair.toronto.edu/TranspareNet/",
+    "data": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/ZJJAJ3",
+    "thumbnail":"/assets/publication-thumbnails/todd.png",
+    "description":"",
+    },
+    
+    { 
+    "bibtex":`
+      @inproceedings{agia2021taskography,
+         title={Taskography: Evaluating robot task planning over large 3D scene graphs},
+         author={Christopher Agia and Krishna Murthy Jatavallabhula and Mohamed Khodeir and Ondrej Miksik and Vibhav Vineet and Mustafa Mukadam and Liam Paull and Florian Shkurti},
+         booktitle={5th Annual Conference on Robot Learning (CoRL)},
+         year={2021},
+         url={https://openreview.net/forum?id=nWLt35BU1z_}
+     }
+    `,
+    "html":"https://taskography.github.io/",
+    "tags":["planning"],
+    "video": "https://www.youtube.com/watch?v=mM4v5hP4LdA&t=17s&ab_channel=KrishnaMurthy",
+    "code": "https://github.com/taskography",	
+    "thumbnail":"/assets/publication-thumbnails/taskography.png",
+    "description":"",
+  },
+
+    { 
+    "bibtex":`
+      @InProceedings{Khorasgani_2022_CVPR,
+    author    = {Salar Hosseini Khorasgani and Yuxuan Chen and Florian Shkurti},
+    title     = {SLIC: Self-Supervised Learning With Iterative Clustering for Human Action Videos},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {16091-16101}
+    }
+    `,
+    "html":"https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
+    "tags":["computer vision"],
+    "video": "https://youtu.be/iTt4rOLdjCo",
+    "code": "https://github.com/rvl-lab-utoronto/video_similarity_search",	
+    "thumbnail":"/assets/publication-thumbnails/slic.png",
+    "description":"",
+  },
+
+
+    { 
+    "bibtex":`
+      @inproceedings{equivariant_imitation_learning,
+        title={Augmenting Imitation Experience via Equivariant Representations},
+        author={Dhruv Sharma and Alihusein Kuwajerwala and Florian Shkurti},
+        year={2022},
+        booktitle = {International Conference on Robotics and Automation (ICRA)}, 
+      }
+    `,
+    "html":"https://arxiv.org/abs/2110.07668",
+    "tags":["robot vision","imitation learning"],
+    "video": "https://youtu.be/l-sCSj7PfmY",
+    "thumbnail":"/assets/publication-thumbnails/equivariant_imitation_sharma.png",
+    "description":"",
+  },
+
+    { 
     "bibtex":`
       @inproceedings{csc_homanga,
         title={Conservative Safety Critics for Exploration},
@@ -10,7 +84,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2010.14497",
-    "tags":["reinforcement learning","safe learning","exploration"],
+    "tags":["reinforcement learning","safe learning"],
     "thumbnail":"/assets/publication-thumbnails/Conservative Safety Critics for Exploration.png",
     "description":"",
   },
@@ -24,7 +98,8 @@ export const dataPublications = [
       }
     `,
     "html" : "https://openreview.net/forum?id=c_E8kFWfhp0",
-    "tags":["differentiable simulation","differentiable rendering","system identification","perception","image synthesis"],
+      "tags":["differentiable simulation","differentiable rendering","system identification"],
+      "project": "https://gradsim.github.io/",
     "thumbnail":"/assets/publication-thumbnails/gradSim Differentiable simulation for system identification and visuomotor control.png",
     "description":"",
   },
@@ -38,7 +113,7 @@ export const dataPublications = [
       }
     `,
     "html" : "https://openreview.net/forum?id=jXe91kq3jAq",
-    "tags":["reinforcement learning","skill learning","planning"],
+    "tags":["reinforcement learning"],
     "thumbnail":"/assets/publication-thumbnails/Skill Transfer via Partially Amortized Hierarchical Planning.png",
     "description":"",
   },
@@ -70,7 +145,7 @@ export const dataPublications = [
     `,
     "html":"https://arxiv.org/abs/2003.10010",
     "code":"https://github.com/rvl-lab-utoronto/visual_search_in_the_wild",
-    "tags":["field robotics","visual search","perception","human-robot interaction","visual navigation","visual tracking","visual attention"],
+    "tags":["field robotics","robot vision","human-robot interaction"],
     "thumbnail":"/assets/publication-thumbnails/One-Shot Informed Robotic Visual Search in the Wild.png",
     "description":"",
   },
@@ -89,7 +164,7 @@ export const dataPublications = [
     "html":"http://www.roboticsproceedings.org/rss16/p048.html",
     "video":"https://www.youtube.com/watch?v=qpcmwb_7QA4",
     "project":"http://www.cim.mcgill.ca/mrl/nav2goal/",
-    "tags":["field robotics","visual search","perception","visual navigation","imitation learning"],
+    "tags":["field robotics","robot vision","imitation learning"],
     "thumbnail":"/assets/publication-thumbnails/Vision-Based Goal-Conditioned Policies for Underwater Navigation in the Presence of Obstacles.png",
     "description":"",
   },
@@ -107,7 +182,7 @@ export const dataPublications = [
     `,
     "project":"https://sites.google.com/view/leaf-exploration",
     "html":"https://arxiv.org/abs/2005.10934",
-    "tags":["reinforcement learning","curriculum learning","exploration"],
+    "tags":["reinforcement learning"],
     "thumbnail":"/assets/publication-thumbnails/LEAF Latent Exploration Along the Frontier.png",
     "description":"",
   },
@@ -124,7 +199,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2011.01298",
-    "tags":["reinforcement learning","imitation learning","generative models"],
+    "tags":["reinforcement learning","imitation learning"],
     "thumbnail":"/assets/publication-thumbnails/Shaping Rewards for Reinforcement Learning with Imperfect Demonstrations using Generative Models.png",
     "description":"",
   },
@@ -158,7 +233,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2103.03891",
-    "tags":["generative models","disentanglement","image synthesis"],
+    "tags":["generative models", "image synthesis"],
     "thumbnail":"/assets/publication-thumbnails/LOHO Latent Optimization of Hairstyles via Orthogonalization.png",
     "description":"",
   },
@@ -176,7 +251,7 @@ export const dataPublications = [
     `,
     "html":"https://arxiv.org/abs/2003.07489",
     "video":"https://www.youtube.com/watch?v=4uCvzurthS4",
-    "tags":["manipulation","control theory"],
+    "tags":["manipulation","control"],
     "thumbnail":"/assets/publication-thumbnails/Catch the Ball Accurate High-Speed Motions for Mobile Manipulators via Inverse Dynamics Learning.png",
     "description":"",
   },
@@ -226,7 +301,7 @@ export const dataPublications = [
     `,
     "video":"http://www.cim.mcgill.ca/~florian/pursuit_via_irl.mp4",
     "pdf":"assets/pdf/icra_2018_irl_pursuit.pdf",
-    "tags":["planning under uncertainty","imitation learning"],
+    "tags":["planning","imitation learning"],
     "thumbnail":"/assets/publication-thumbnails/Model-Based Probabilistic Pursuit via Inverse Reinforcement Learning.png",
     "description":"",
   },
@@ -244,7 +319,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/oceans18_synthetic_tracking.pdf",
-    "tags":["visual tracking","field robotics","simulation"],
+    "tags":["robot vision","field robotics","simulation"],
     "thumbnail":"/assets/publication-thumbnails/Synthetically Trained 3D Visual Tracker of Underwater Vehicles.png",
     "description":"",
   },
@@ -262,7 +337,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/iros17_visual_convoying.pdf",
-    "tags":["visual tracking","field robotics"],
+    "tags":["robot vision","field robotics"],
     "thumbnail":"/assets/publication-thumbnails/Underwater Multi-Robot Convoying Using Visual Tracking by Detection.png",
     "description":"",
   },
@@ -279,7 +354,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/iros17_topological_pursuit.pdf",
-    "tags":["planning under uncertainty"],
+    "tags":["planning"],
     "thumbnail":"/assets/publication-thumbnails/Topologically distinct trajectory predictions for probabilistic pursuit.png",
     "description":"",
   },
@@ -318,7 +393,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/crv_2016_texture_aware_slam.pdf",
-    "tags":["field robotics","estimation","perception","visual navigation"],
+    "tags":["field robotics","estimation","robot vision"],
     "thumbnail":"/assets/publication-thumbnails/Texture-Aware SLAM Using Stereo Imagery And Inertial Information.png",
     "description":"",
   },
@@ -351,7 +426,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/iros2014_gvg.pdf",
-    "tags":["planning under uncertainty","exploration"],
+    "tags":["planning"],
     "thumbnail":"/assets/publication-thumbnails/Ear-based Exploration on Hybrid MetricTopological Maps.png",
     "description":"",
   },
@@ -366,7 +441,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/crv2014_asymmetric_rendezvous.pdf",
-    "tags":["field robotics","planning under uncertainty","control"],
+    "tags":["field robotics","planning","control"],
     "thumbnail":"/assets/publication-thumbnails/Asymmetric Rendezvous Search at Sea.png",
     "description":"",
   },
@@ -400,7 +475,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/icra2013_complexity_pursuit_evasion.pdf",
-    "tags":["planning under uncertainty"],
+    "tags":["planning"],
     "thumbnail":"/assets/publication-thumbnails/On the Complexity of Searching for an Evader with a Faster Pursuer.png",
     "description":"",
   },
@@ -470,7 +545,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/iros2011_boat.pdf",
-    "tags":["field robotics","exploration"],
+      "tags":["field robotics", "robot vision"],
     "thumbnail":"/assets/publication-thumbnails/MARE Marine Autonomous Robotic Explorer.png",
     "description":"",
   },
@@ -487,7 +562,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/crv2011_underwater_ft.pdf",
-    "tags":["field robotics","perception"],
+    "tags":["field robotics","robot vision"],
     "thumbnail":"/assets/publication-thumbnails/Feature Tracking Evaluation for Pose Estimation in Underwater Environments.png",
     "description":"",
   },
