@@ -11,7 +11,7 @@ export const dataTeam = {
   "Postdocs":[
     {
       "name":"Kourosh Darvish",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/kourosh_darvish_1.jpeg",
       "description":"robotics, control, task and motion planning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
       "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
     },
@@ -39,7 +39,7 @@ export const dataTeam = {
     },
     {
       "name":"Wei-Cheng Tseng",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/weicheng_tseng_1.jpg",
       "description":"multi-agent reinforcement learning, computer vision",
       "website":"https://weichengtseng.github.io/",      
     },
@@ -51,7 +51,7 @@ export const dataTeam = {
     },
     {
       "name":"Sepehr Samavi",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/sepehr_samavi_1.jpg",
       "description":"safe visual navigation. co-supervised by <a href='https://www.dynsyslab.org/prof-angela-schoellig/'>Angela Schoellig</a>",
       "website":"http://dsl.utias.utoronto.ca/~sep/",      
     },  
