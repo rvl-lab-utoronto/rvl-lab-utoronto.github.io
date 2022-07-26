@@ -135,7 +135,14 @@ export const dataTeam = {
 	"description":"computer vision for transparent objects",
 	"linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
 	"website": "https://kathyzhuang.github.io/"
-    },	
+    },
+    {
+      "name":"Yuchi(Allan) Zhao",
+      "image":"assets/team/profile.png",
+      "description":"robot manipulation, transparent object pose estimation, task and motion planning, chemistry lab automation",
+      "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
+    },
+	  
     // {
     //   "name":"Fengjia Zhang",
     //   "image":"assets/team/profile.png",
