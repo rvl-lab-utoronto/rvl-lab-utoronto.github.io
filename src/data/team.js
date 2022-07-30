@@ -127,7 +127,9 @@ export const dataTeam = {
     {
       "name":"Andrew Zou Li",
       "image":"assets/team/profile.png",
-      "description":"task and motion planning, chemistry lab automation",	
+      "description":"task and motion planning, chemistry lab automation",
+      "website": "https://andrewzl.github.io/",
+      "linkedIn": "https://www.linkedin.com/in/andrewzouli/"
     },
     {
        "name":"Kathy Zhuang",
