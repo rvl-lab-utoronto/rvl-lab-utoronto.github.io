@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rvl-lab-utoronto.github.io/static/css/main.92d363a5.chunk.css",
-    "main.js": "/rvl-lab-utoronto.github.io/static/js/main.ed8081ce.chunk.js",
-    "main.js.map": "/rvl-lab-utoronto.github.io/static/js/main.ed8081ce.chunk.js.map",
-    "runtime-main.js": "/rvl-lab-utoronto.github.io/static/js/runtime-main.95a7c853.js",
-    "runtime-main.js.map": "/rvl-lab-utoronto.github.io/static/js/runtime-main.95a7c853.js.map",
+    "main.css": "/rvl-lab-utoronto.github.io/static/css/main.36686f45.chunk.css",
+    "main.js": "/rvl-lab-utoronto.github.io/static/js/main.c78afa9d.chunk.js",
+    "main.js.map": "/rvl-lab-utoronto.github.io/static/js/main.c78afa9d.chunk.js.map",
+    "runtime-main.js": "/rvl-lab-utoronto.github.io/static/js/runtime-main.355e4480.js",
+    "runtime-main.js.map": "/rvl-lab-utoronto.github.io/static/js/runtime-main.355e4480.js.map",
     "static/css/2.b9f9bb3a.chunk.css": "/rvl-lab-utoronto.github.io/static/css/2.b9f9bb3a.chunk.css",
-    "static/js/2.436fb835.chunk.js": "/rvl-lab-utoronto.github.io/static/js/2.436fb835.chunk.js",
-    "static/js/2.436fb835.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/2.436fb835.chunk.js.map",
-    "static/js/3.962e38ef.chunk.js": "/rvl-lab-utoronto.github.io/static/js/3.962e38ef.chunk.js",
-    "static/js/3.962e38ef.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/3.962e38ef.chunk.js.map",
-    "static/js/4.9e9feddd.chunk.js": "/rvl-lab-utoronto.github.io/static/js/4.9e9feddd.chunk.js",
-    "static/js/4.9e9feddd.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/4.9e9feddd.chunk.js.map",
+    "static/js/2.c1a64c20.chunk.js": "/rvl-lab-utoronto.github.io/static/js/2.c1a64c20.chunk.js",
+    "static/js/2.c1a64c20.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/2.c1a64c20.chunk.js.map",
+    "static/js/3.39eabf3e.chunk.js": "/rvl-lab-utoronto.github.io/static/js/3.39eabf3e.chunk.js",
+    "static/js/3.39eabf3e.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/3.39eabf3e.chunk.js.map",
+    "static/js/4.53469693.chunk.js": "/rvl-lab-utoronto.github.io/static/js/4.53469693.chunk.js",
+    "static/js/4.53469693.chunk.js.map": "/rvl-lab-utoronto.github.io/static/js/4.53469693.chunk.js.map",
     "index.html": "/rvl-lab-utoronto.github.io/index.html",
     "static/css/2.b9f9bb3a.chunk.css.map": "/rvl-lab-utoronto.github.io/static/css/2.b9f9bb3a.chunk.css.map",
-    "static/css/main.92d363a5.chunk.css.map": "/rvl-lab-utoronto.github.io/static/css/main.92d363a5.chunk.css.map",
-    "static/js/2.436fb835.chunk.js.LICENSE.txt": "/rvl-lab-utoronto.github.io/static/js/2.436fb835.chunk.js.LICENSE.txt",
+    "static/css/main.36686f45.chunk.css.map": "/rvl-lab-utoronto.github.io/static/css/main.36686f45.chunk.css.map",
+    "static/js/2.c1a64c20.chunk.js.LICENSE.txt": "/rvl-lab-utoronto.github.io/static/js/2.c1a64c20.chunk.js.LICENSE.txt",
     "static/media/katex.min.css": "/rvl-lab-utoronto.github.io/static/media/KaTeX_Typewriter-Regular.c5c02d76.ttf",
     "static/media/RVL-icon.png": "/rvl-lab-utoronto.github.io/static/media/RVL-icon.0d20c34a.png",
     "static/media/index.css": "/rvl-lab-utoronto.github.io/static/media/RobotoCondensed-Regular.db6d9169.ttf",
@@ -24,6 +24,7 @@
     "static/media/caret-right-solid.svg": "/rvl-lab-utoronto.github.io/static/media/caret-right-solid.572aedcd.svg",
     "static/media/envelope-solid.svg": "/rvl-lab-utoronto.github.io/static/media/envelope-solid.80b23b18.svg",
     "static/media/expand_more.svg": "/rvl-lab-utoronto.github.io/static/media/expand_more.8322b254.svg",
+    "static/media/florian.jpg": "/rvl-lab-utoronto.github.io/static/media/florian.ef061895.jpg",
     "static/media/globe-solid.svg": "/rvl-lab-utoronto.github.io/static/media/globe-solid.cecdc87b.svg",
     "static/media/graduation-cap-solid.svg": "/rvl-lab-utoronto.github.io/static/media/graduation-cap-solid.af8ffce9.svg",
     "static/media/joining.md": "/rvl-lab-utoronto.github.io/static/media/joining.31ed1cce.md",
@@ -31,10 +32,10 @@
     "static/media/twitter-brands.svg": "/rvl-lab-utoronto.github.io/static/media/twitter-brands.87682341.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.95a7c853.js",
+    "static/js/runtime-main.355e4480.js",
     "static/css/2.b9f9bb3a.chunk.css",
-    "static/js/2.436fb835.chunk.js",
-    "static/css/main.92d363a5.chunk.css",
-    "static/js/main.ed8081ce.chunk.js"
+    "static/js/2.c1a64c20.chunk.js",
+    "static/css/main.36686f45.chunk.css",
+    "static/js/main.c78afa9d.chunk.js"
   ]
 }
