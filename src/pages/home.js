@@ -27,6 +27,7 @@ export default class Home extends Component {
       <div className="mobile-view">
         <div className="horizontal-padding">
           <Slideshow/>
+	  <LabIntro/>
           <ResearchThemes/>
           <News/>
         </div>

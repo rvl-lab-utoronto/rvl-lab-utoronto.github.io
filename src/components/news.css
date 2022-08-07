@@ -25,6 +25,12 @@
   line-height: 1.4;
 }
 
+.boxed {
+    border: 1px solid grey ;
+    border-radius: 7px;
+    padding: 1px 3px;
+    color: grey;
+}
 .news-load-more-button{
   padding: 10px;
   background-color: var(--accent-button);

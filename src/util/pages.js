@@ -13,11 +13,6 @@ export const pages = {
       "component" : <Home/>
     },
     {
-      "title": "Blog",
-      "link": "/blog",
-      "component" : <Blog/>
-    },
-    {
       "title": "Publications",
       "link": "/publications",
       "component" : <Publications/>
@@ -37,6 +32,12 @@ export const pages = {
       "link": "/joining",
       "component" : <Joining/>
     },
+    {
+      "title": "Blog",
+      "link": "/blog",
+      "component" : <Blog/>
+    },
+  
     
   ],
   "hidden" : [

@@ -20,7 +20,7 @@ export default class News extends Component {
                 return <></>
               } else {
                 return <div className="news-box">
-                  <p dangerouslySetInnerHTML={{__html: getMonth(item.date) + " " + getYear(item.date) + ": " + item.content}}/>
+                  <p dangerouslySetInnerHTML={{__html: "<span class=\"boxed\">" + getMonth(item.date) + " " + getYear(item.date) + "</span> " + item.content}}/>
                 </div>
               }
             })
