@@ -20,14 +20,25 @@
   box-shadow: 0px 0px 20px var(--shadow-color);
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
   text-overflow: clip;
 }
 
 .research-themes-box h3{
   margin: 0px;
-  font-size: 21px;
+  font-size: 16px;
   margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.research-themes-box h3 a{
+    color: black;
+    text-decoration: none;
+}
+
+.research-themes-box h3 a:hover{
+    font-weight: 600;
 }
 
 .research-themes-box p{

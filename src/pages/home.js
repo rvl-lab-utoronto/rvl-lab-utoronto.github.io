@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import './home.css';
 import ResearchThemes from '../components/researchThemes';
+import LabIntro from '../components/labIntro';
 import News from '../components/news';
 import {Slideshow} from '../components/slideshow';
 
@@ -13,7 +14,9 @@ export default class Home extends Component {
             <div className="left-section">
               <Slideshow/>
               <div style={{height:"20px"}}/>
-              <ResearchThemes/>
+	      <LabIntro/>
+	      <div style={{height:"20px"}}/>
+	      <ResearchThemes/>
             </div>
             <div className="news-section">
               <News/>

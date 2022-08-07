@@ -5,7 +5,9 @@ export const dataTeam = {
       "name":"Florian Shkurti",
       "image":"assets/team/florian.jpg",
       "description":"robot vision, machine learning, planning and control",
-      "website":"http://www.cs.toronto.edu/~florian/",
+	"website":"http://www.cs.toronto.edu/~florian/",
+	"twitter": "https://twitter.com/florian_shkurti",
+	"googleScholar": "https://scholar.google.com/citations?user=BDmtLHsAAAAJ&hl=en"	
     }
   ],
   "Postdocs":[
@@ -205,13 +207,15 @@ export const dataTeam = {
     },
     {
       "name":"Pranit Chawla",
-      "image":"assets/team/profile.png",
-      "description":"LiDAR and RGB representation for imitation learning. <b>next: CMU CS MSc</b>",	
+      "image":"assets/team/pranit_chawla_1.jpg",
+	"description":"LiDAR and RGB representation for imitation learning. <b>next: CMU CS MSc</b>",
+	"website": "https://www.pranitchawla.com/",
+	"linkedIn": "https://www.linkedin.com/in/pranit-chawla-503237145/"
     },  
     {
       "name":"Cong Wei",
-      "image":"assets/team/profile.png",
-      "linkedIn":"https://www.linkedin.com/in/cong-wei-568b8b14b",
+      "image":"assets/team/cong_wei_1.jpeg",
+      "linkedIn":"https://ca.linkedin.com/in/cong-wei-30",
       "description": "video summarization, generative models",	
     },  
     {
@@ -222,8 +226,9 @@ export const dataTeam = {
     },
     {
       "name":"Stephen Zhao",
-      "image":"assets/team/profile.png",
-      "description":"multi-agent reinforcement learning. co-supervised by <a href='http://www.cs.toronto.edu/~yangxu/'>Yang Xu</a>. <b>next: UofT CS MSc</b>",
+      "image":"assets/team/stephen_zhao_1.jpeg",
+	"description":"multi-agent reinforcement learning. co-supervised by <a href='http://www.cs.toronto.edu/~yangxu/'>Yang Xu</a>. <b>next: UofT CS MSc</b>",
+	"linkedIn": "https://ca.linkedin.com/in/zhaostephen"
     },
     {
       "name":"Ke Dong",
@@ -283,9 +288,9 @@ export const dataTeam = {
     },
     {
       "name":"Shichen Lu",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/shichen_lu_1.jpeg",
       "description":"control and reinforcement learning for mobile manipulation. <b>next: UTIAS MSc</b",
-      "linkedIn":"https://ca.linkedin.com/in/shichen-lu-95b713136",
+      "linkedIn":"https://ca.linkedin.com/in/shichen-lu",
     },
     {
       "name":"Siyun Li",

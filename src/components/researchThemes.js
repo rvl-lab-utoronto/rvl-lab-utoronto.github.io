@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './researchThemes.css';
+import {Link} from "react-router-dom";
 import {dataResearchThemes} from "../data/researchThemes.js"
 // import ReactWordcloud from 'react-wordcloud';
 // import BubbleUI from "react-bubble-ui";
@@ -34,7 +35,7 @@ class ResearchThemeComponent extends Component {
   render(){
     return(
       <div className={"research-themes-box"} >
-        <h3>{this.props.theme.title}</h3>
+            <h3><Link to={this.props.theme.web}>{this.props.theme.title}</Link></h3>
         {this.props.themes.map((data, i) => {
           return <p>{data}</p>
         })}

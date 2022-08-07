@@ -11,7 +11,8 @@ export const dataResearchThemes = [
       "collaborative human-robot environmental monitoring",
       "field robotics", */
     ],
-    "asset":"assets/research-themes/autonomous robots.jpg"
+      "asset":"assets/research-themes/autonomous robots.jpg",
+      "web": "/research/autonomous-robots"
   },
   {
     "title": "learning to plan, perceive, and control",
@@ -25,7 +26,8 @@ export const dataResearchThemes = [
       "simulation-based inference",
       "system identification" */
     ],
-    "asset":"assets/research-themes/machine learning.jpg"
+      "asset":"assets/research-themes/machine learning.jpg",
+      "web": "/research/machine-learning"
   },
   {
     "title": "safe robot learning",
@@ -36,6 +38,7 @@ export const dataResearchThemes = [
       "robust control",
       "safe system identification"*/
     ],
-    "asset":"assets/research-themes/safe robot learning.jpg"
+      "asset":"assets/research-themes/safe robot learning.jpg",
+      "web": "/research/safe-robot"
   },
 ]

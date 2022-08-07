@@ -9,9 +9,9 @@ problems we want them to tackle.
 
 >
 > 
-> We aim to enable robots to learn to interact effectively with a dynamic 3D world and the humans around them.
+> We want to enable robots to interact effectively with humans and the physical world.
 > Robots need to learn from their own experience, from other robots' experience, from vast streams of simulated data,
-> and from limited human supervision. 
+> and from limited human supervision and intervention. 
 >
 >
 
