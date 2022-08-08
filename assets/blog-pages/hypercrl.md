@@ -16,23 +16,23 @@ We consider the following problem setting: A robot interacts with the environmen
 
 We have a learned dynamics model, the parameters of which are inferred through a task-conditioned hypernetwork. Given learned task embeddings and parameters of the hypernetwork, we infer parameters of the dynamics neural network. Using this dynamics model, we perform CEM optimization to generate action sequences and execute them in the environment for $K$ time-steps with MPC. We store the observed transitions in the replay dataset and update the parameters of the hypernetwork and task-embeddings. We repeat this for $M$ episodes per task, and for each of the $T$ tasks sequentially.
 
-## Video
+## Videos
 
 ### Door-opening with a Panda arm (2x real time)
 
-<iframe src="https://www.youtube.com/embed/gsmLhP8WfKM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gsmLhP8WfKM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A panda arm must be controlled to open a door. The reward function is designed such that the agent receives higher reward for opening the door to a wider angle. The agent is controlled using an operational space controller (both position and orientation). The different tasks correspond to different shapes of the door knob.
 
 ### Pushing a non-uniform cube with a Panda arm (2x real time)
 
-<iframe src="https://www.youtube.com/embed/2fG-SJUXeNU" fallow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2fG-SJUXeNU" fallow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 A panda arm must be controlled to push a block to a goal location without changing the oreintation of the block. The agent is controlled using an operational space controller (only position. orientation of the end-effector is fixed.). The different tasks correspond to different friction coefficients between the cube and the two sides of the table top
 
 
 ### Sliding a block towards a goal location (1x real time)
-<iframe src="https://www.youtube.com/embed/stKMNnGDa8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/stKMNnGDa8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 To move the second blue block to its goal pose, the panda arm should first hit block 1, which would slide away and in turn set the second block into sliding motion until stoopped by friction. The agent is controlled with an operational space controller similar to the pusher. The different tasks correspond to different friction coeffiecient between the second block and the table top
 
