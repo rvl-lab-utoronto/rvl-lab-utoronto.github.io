@@ -142,8 +142,9 @@ export const dataTeam = {
     },
     {
       "name":"Yuchi(Allan) Zhao",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/yuchi_allan_zhao_1.jpg",
       "description":"robot manipulation, transparent object pose estimation, task and motion planning, chemistry lab automation",
+      "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
 	  
