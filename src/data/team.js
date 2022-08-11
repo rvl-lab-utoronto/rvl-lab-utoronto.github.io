@@ -112,7 +112,7 @@ export const dataTeam = {
       "name":"Alex Alexiev",
       "image":"assets/team/alex_alexiev_1.jpeg",
 	"description":"task and motion planning",
-	"linkedIn": "https://ca.linkedin.com/in/alexander-alexiev-125a78201"
+	"linkedIn": "https://alex-alexiev.github.io/"
     },
     {
       "name":"Hamza Dugmag",
