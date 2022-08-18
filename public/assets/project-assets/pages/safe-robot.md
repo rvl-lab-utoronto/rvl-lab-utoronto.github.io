@@ -5,7 +5,7 @@ modern robotics systems in the real world, there is an abundance of research, en
 challenges currently precluding the certification of these systems as safe for deployment around humans
 and other animals. Yet, that has not prevented private companies and other organizations from frequently
 deploying and testing (semi-)autonomous robot systems in the wild, among humans who have not necessarily
-explicitly consented to being part of such experiments. In order for the public to trust autonomous robots,
+explicitly consented to be part of such experiments. In order for the public to trust autonomous robots,
 these systems need to be able to reason about risk in the face of rare events and how to minimize it. 
 
 

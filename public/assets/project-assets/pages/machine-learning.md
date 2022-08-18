@@ -36,7 +36,7 @@ problems, trying to predict a ranking of high-level actions to be attempted next
 </div>
 
 There are many reasons we are excited about task and motion planning methods that are flexible enough to improve over time and to handle dynamic objects, one of them being that such methods could allow
-for simultaneous optimization of the planning, control, and perception systems considered holistically, while respecting the structure of all individual components. Additionally, task an motion planning
+for simultaneous optimization of the planning, control, and perception systems considered holistically, while respecting the structure of all individual components. Additionally, task and motion planning
 methods are fundamental in a variety of applications areas, ranging from multi-robot manipulation, assembly, and construction applications, to autonomous robots operating in chemistry labs, possibly
 around human chemists.  
 
