@@ -13,7 +13,7 @@ export const dataTeam = {
   "Postdocs":[
     {
       "name":"Kourosh Darvish",
-      "image":"assets/team/kourosh_darvish_1.jpeg",
+      "image":"assets/team/kourosh_darvish_2.jpg",
       "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
       "website":"https://kouroshd.github.io/",
       "email":"kdarvish@cs.toronto.edu",
