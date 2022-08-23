@@ -14,8 +14,11 @@ export const dataTeam = {
     {
       "name":"Kourosh Darvish",
       "image":"assets/team/kourosh_darvish_1.jpeg",
-      "description":"robotics, control, task and motion planning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
+      "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
+      "website":"https://kouroshd.github.io/",
+      "email":"kdarvish@cs.toronto.edu",
       "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
+      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",    
     },
   ],  
   "PhD students":[
