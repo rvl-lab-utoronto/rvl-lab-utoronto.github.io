@@ -94,8 +94,10 @@ export const dataTeam = {
     },
     {
       "name":"Yewon Lee",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/yewon_lee_1.jpeg",
       "description":"task and motion planning",	
+      "website":"https://yewon-lee.github.io/",
+      "email":"yewonlee@cs.toronto.edu",
     },
     {
       "name":"Yasasa Abeysirigoonawardena",
