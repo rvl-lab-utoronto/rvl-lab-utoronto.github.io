@@ -8,6 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bibtex-parse-js": "0.0.24",
+    "gifsicle": "^7.0.1",
     "html-entities": "^2.3.2",
     "query-string": "^7.0.1",
     "react": "^17.0.2",

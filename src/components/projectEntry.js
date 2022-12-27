@@ -9,7 +9,7 @@ export default class ProjectEntry extends Component {
       <img alt={this.props.project.name} className="project-image" src={process.env.PUBLIC_URL+"/"+this.props.project.image}/>
       <div style={{display:"flex", flexDirection:"column", justifyContent:"center"}}>
         <div className="project-box-content">
-          <h2 style={{margin:0}}>{this.props.project.title}</h2>
+          <h3 style={{margin:0}}>{this.props.project.title}</h3>
           {this.props.project.description!==undefined&&this.props.project.description!==""?<p dangerouslySetInnerHTML={{__html: this.props.project.description}}/>:<></>}
         </div>
       </div>

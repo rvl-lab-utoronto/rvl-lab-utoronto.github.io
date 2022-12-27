@@ -3,6 +3,87 @@ export const dataPublications = [
 
     { 
     "bibtex":`
+        
+       @article{Khodeir2022PolicyGuidedLS,
+         title={Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
+         author={Mohamed Khodeir and Atharv Sonwane and Florian Shkurti},
+         journal={ArXiv},
+         year={2022},
+         volume={abs/2210.14055}
+       }
+    `,
+    "html":"https://arxiv.org/abs/2210.14055",
+    "tags":['task and motion planning', 'manipulation'],
+    "code": "https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp",
+    "data": "https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp",
+    "thumbnail":"/assets/publication-thumbnails/icra23-policy-guided-tamp.png",
+    "description":"",
+    },
+
+
+    
+    { 
+    "bibtex":`
+      @article{https://doi.org/10.48550/arxiv.2111.13144,
+       author = {Mohamed Khodeir and Ben Agro and Florian Shkurti},
+       title = {Learning to Search in Task and Motion Planning with Streams},
+       journal = {ArXiv},
+       year = {2021},
+       volume={abs/2111.13144}
+    }
+
+    `,
+    "html":"https://arxiv.org/abs/2111.13144",
+    "tags":['task and motion planning', 'manipulation'],
+    "video": "https://rvl.cs.toronto.edu/learning-based-tamp/",
+    "code": "https://rvl.cs.toronto.edu/learning-based-tamp/",
+    "data": "https://rvl.cs.toronto.edu/learning-based-tamp/",
+    "thumbnail":"/assets/publication-thumbnails/ral23-learning-to-search.png",
+    "description":"",
+    },
+
+
+    
+    { 
+    "bibtex":`
+ 
+        @article{Huang2022StochasticPF,
+           title={Stochastic Planning for ASV Navigation Using Satellite Images},
+           author={Yizhou Huang and Hamza Dugmag and Tim D. Barfoot and Florian Shkurti},
+           journal={ArXiv},
+           year={2022},
+           volume={abs/2209.11864}
+        }
+
+    `,
+    "html":"https://arxiv.org/abs/2209.11864",
+    "tags":['planning', 'field robotics', 'robot vision'],
+    "thumbnail":"/assets/publication-thumbnails/icra23-asv-navigation.png",
+    "description":"",
+    },
+
+
+    { 
+    "bibtex":`
+      @article{https://doi.org/10.48550/arxiv.2212.09672,
+           author = {Naruki Yoshikawa and Andrew Zou Li and Kourosh Darvish and Yuchi Zhao and Haoping Xu and Alan Aspuru-Guzik and Animesh Garg and Florian Shkurti},
+           title = {An Adaptive Robotics Framework for Chemistry Lab Automation},
+           journal = {ArXiv},
+           year = {2022},
+           volume={abs/2212.09672}
+      }
+    `,
+    "html":"https://arxiv.org/abs/2212.09672",
+    "tags":["task and motion planning", 'planning', 'manipulation'],
+    "video": "https://ac-rad.github.io/arc-icra2023/",
+    "code": "https://ac-rad.github.io/arc-icra2023/",
+    "data": "https://ac-rad.github.io/arc-icra2023/",
+    "thumbnail":"/assets/publication-thumbnails/icra23-chemistry-tamp.gif",
+    "description":"",
+    },
+
+    { 
+    "bibtex":`
       @inproceedings{xu2021seeing,
         title={Seeing Glass: Joint Point-Cloud and Depth Completion for Transparent Objects},
         author={Haoping Xu and Yi Ru Wang and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
