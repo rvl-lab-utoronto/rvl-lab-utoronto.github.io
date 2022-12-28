@@ -207,8 +207,9 @@ export const dataTeam = {
     },
     {
       "name":"Ruiqi Wang",
-      "image":"assets/team/profile.png",
-      "description":"adversarial scenario generation. <b>next: Stanford CS MSc</b>",	 		
+      "image":"assets/team/ruiqi_wang_1.jpeg",
+      "description":"adversarial scenario generation. <b>next: Stanford CS MSc</b>",	
+      "linkedIn":"https://www.linkedin.com/in/ruiqi-wang-3b970b150/", 		
     },  
     {
       "name":"Charlotte Zhang",
