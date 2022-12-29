@@ -110,8 +110,9 @@ export const dataTeam = {
   "undergraduate students":[
     {
       "name":"Anthony Lem",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/anthony_lem_1.jpg",
       "description":"human pose detection and prediction",
+      "email":"anthony.lem@mail.utoronto.ca",
     },
     {
       "name":"Alex Alexiev",
