@@ -10,7 +10,7 @@ them, robots that carry science instruments and sensors are a means to an end. O
 themes at RVL is to work together with scientists to enable robust autonomous robots that
 collect useful environmental data on behalf of, or together with, scientists.
 
-> We want to enable fully autonomous robots to collect data like scientists would.
+> We want to enable fully autonomous robots to collect environmental data and samples like scientists would.
 
 The areas and volumes these robots are tasked to inspect are too vast to cover exhaustively, so
 a major challenge in retrieving relevant sensor data is to enable informed sensing in physical space.
@@ -106,6 +106,7 @@ Robotics has a fundamental role to play in overcoming these inefficiencies and b
 robot data collection for environmental monitoring. 
 
 ### **Some of our representative papers in this area**
+[Stochastic Planning for ASV Navigation Using Satellite Images (under review, ICRA 2023)](https://arxiv.org/abs/2209.11864)
 
 [Vision-Based Goal-Conditioned Policies for Underwater Navigation in the Presence of Obstacles (RSS 2020)](http://www.roboticsproceedings.org/rss16/p048.html)
 
