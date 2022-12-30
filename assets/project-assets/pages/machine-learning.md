@@ -156,10 +156,13 @@ Given video observations of an evolving physical system (e), we randomly initial
 
 Mobile manipulators consist of a mobile platform equipped with one or more robot arms and are of interest for a wide array of challenging tasks because of their extended workspace and dexterity. Typically, mobile manipulators are deployed in slow-motion collaborative robot scenarios. [In a paper published at IROS'20](https://arxiv.org/abs/2003.07489) we consider scenarios where accurate high-speed motions are required. We introduce a framework for this regime of tasks including two main components: (i) a bi-level motion optimization algorithm for real-time trajectory generation, which relies on Sequential Quadratic Programming (SQP) and Quadratic Programming (QP), respectively; and (ii) a learning-based controller optimized for precise tracking of high-speed motions via a learned inverse dynamics model. We evaluate our framework with a mobile manipulator platform through numerous high-speed ball catching experiments:
 
-<div>
-  <p align="center">
 
- <iframe width="560" height="315" src="https://www.youtube.com/embed/4uCvzurthS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<figure>
+<p align="center">
+<img src="assets/slideshow/ball_catching_ke.gif"  style="width:70%;" alt="method diag"/>
+<figcaption align="center">
+     <em></em>
+  </figcaption>
 </p>
-</div>
+</figure>
