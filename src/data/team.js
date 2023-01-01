@@ -203,8 +203,11 @@ export const dataTeam = {
     },  
     {
       "name":"Artur Kuramshin",
-      "image":"assets/team/profile.png",
-      "description":"field robotics, autonomous boat",		
+      "image":"assets/team/artur_kuramshin_1.jpeg",
+      "description":"field robotics, autonomous boat",	
+      "website":"http://akuramshin.ca",	
+      "email":"artur.kuramshin@mail.utoronto.ca",
+      "linkedIn":"https://www.linkedin.com/in/artur-kuramshin-4b926616a/",
     },
     {
       "name":"Ruiqi Wang",
