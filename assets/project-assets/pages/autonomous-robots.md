@@ -12,8 +12,8 @@ collect useful environmental data on behalf of, or together with, scientists.
 
 >
 > We want to enable fully autonomous robots to collect environmental data and samples like scientists would.
-> This effort includes searching for sites and features of interest, exploring for unseen features,
-> and autonomously selecting what to measure and where (optimal experiment design) and reliably navigating there.  
+> This includes autonomous visual search for sites and features of interest, autonomous exploration for unseen features,
+> and autonomous selection of what to measure, where (optimal experiment design), and how to reliably navigate there.  
 >
 
 The areas and volumes these robots are tasked to inspect are too vast to cover exhaustively, so
