@@ -103,7 +103,7 @@ export const dataTeam = {
       "name":"Yasasa Abeysirigoonawardena",
       "image":"assets/team/yasasa_1.jpeg",
       "description":"adversarial scenario generation, neural rendering",
-      "website":"https://www.yasasa.me,
+      "website":"https://www.yasasa.me",
       "linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
     },  
   ],
