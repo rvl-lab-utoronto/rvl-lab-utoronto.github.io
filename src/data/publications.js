@@ -3,19 +3,39 @@ export const dataPublications = [
 
     { 
     "bibtex":`
+
+      @article{jatavallabhula2023conceptfusion,
+          title={ConceptFusion: Open-set Multimodal 3D Mapping}, 
+          author={Krishna Murthy Jatavallabhula and Alihusein Kuwajerwala and Qiao Gu and Mohd Omama and Tao Chen and Shuang Li and Ganesh Iyer and Soroush Saryazdi and Nikhil Keetha and Ayush Tewari and Joshua B. Tenenbaum and Celso Miguel de Melo and Madhava Krishna and Liam Paull and Florian Shkurti and Antonio Torralba},
+          year={2023},
+      booktitle={Robotics: Science and Systems (RSS)},
+      }
         
-       @article{Khodeir2022PolicyGuidedLS,
+    `,
+    "html": "https://arxiv.org/abs/2302.07241",
+    "tags":['computer vision', 'robot vision'],
+    "code": "https://concept-fusion.github.io/",
+    "video": "https://concept-fusion.github.io/",
+    "thumbnail":"/assets/publication-thumbnails/rss23-conceptfusion.gif",
+    "description":"",
+    },
+
+    
+    { 
+    "bibtex":`
+        
+       @article{Khodeir2023PolicyGuidedLS,
          title={Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
-         author={Mohamed Khodeir and Atharv Sonwane and Florian Shkurti},
-         journal={ArXiv},
-         year={2022},
-         volume={abs/2210.14055}
+         author={Mohamed Khodeir and Atharv Sonwane and Ruthrash Hari and Florian Shkurti},
+         booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+         year={2023},
        }
     `,
     "html":"https://arxiv.org/abs/2210.14055",
     "tags":['task and motion planning', 'manipulation'],
     "code": "https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp",
     "data": "https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp",
+    "video": "https://www.youtube.com/watch?v=HjSZOVkXSLU&t=1s&ab_channel=MohamedKhodeir",
     "thumbnail":"/assets/publication-thumbnails/icra23-policy-guided-tamp.png",
     "description":"",
     },
@@ -27,8 +47,8 @@ export const dataPublications = [
       @article{https://doi.org/10.48550/arxiv.2111.13144,
        author = {Mohamed Khodeir and Ben Agro and Florian Shkurti},
        title = {Learning to Search in Task and Motion Planning with Streams},
-       journal = {ArXiv},
-       year = {2021},
+       journal = {Robotics and Automation Letters (RA-L)},
+       year = {2023},
        volume={abs/2111.13144}
     }
 
@@ -50,14 +70,16 @@ export const dataPublications = [
         @article{Huang2022StochasticPF,
            title={Stochastic Planning for ASV Navigation Using Satellite Images},
            author={Yizhou Huang and Hamza Dugmag and Tim D. Barfoot and Florian Shkurti},
-           journal={ArXiv},
-           year={2022},
-           volume={abs/2209.11864}
+           booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+           year={2023},
         }
 
     `,
     "html":"https://arxiv.org/abs/2209.11864",
     "tags":['planning', 'field robotics', 'robot vision'],
+    "code": "https://pcctp.github.io/",
+    "data": "https://pcctp.github.io/",
+    "video": "https://pcctp.github.io/",
     "thumbnail":"/assets/publication-thumbnails/icra23-asv-navigation.png",
     "description":"",
     },
@@ -65,9 +87,29 @@ export const dataPublications = [
 
     { 
     "bibtex":`
+
+      @article{wang2023mvtrans,
+          title={MVTrans: Multi-View Perception of Transparent Objects}, 
+          author={Yi Ru Wang and Yuchi Zhao and Haoping Xu and Saggi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+          year={2023},
+          booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+      }        
+    `,
+    "html":"https://arxiv.org/abs/2302.11683",
+    "tags":['computer vision', 'robot vision'],
+    "code": "https://ac-rad.github.io/MVTrans/",
+    "data": "https://ac-rad.github.io/MVTrans/",
+    "video": "https://www.youtube.com/watch?v=8Qdc_xWVp-k&ab_channel=XuHaoping",	
+    "thumbnail":"/assets/publication-thumbnails/icra23-mvtrans.png",
+    "description":"",
+    },
+
+    
+    { 
+    "bibtex":`
       @article{https://doi.org/10.48550/arxiv.2212.09672,
            author = {Naruki Yoshikawa and Andrew Zou Li and Kourosh Darvish and Yuchi Zhao and Haoping Xu and Alan Aspuru-Guzik and Animesh Garg and Florian Shkurti},
-           title = {An Adaptive Robotics Framework for Chemistry Lab Automation},
+           title = {Chemistry Lab Automation via Constrained Task and Motion Planning},
            journal = {ArXiv},
            year = {2022},
            volume={abs/2212.09672}
@@ -145,6 +187,7 @@ export const dataPublications = [
         title={Augmenting Imitation Experience via Equivariant Representations},
         author={Dhruv Sharma and Alihusein Kuwajerwala and Florian Shkurti},
         year={2022},
+        pages={9383-9389},   
         booktitle = {International Conference on Robotics and Automation (ICRA)}, 
       }
     `,
