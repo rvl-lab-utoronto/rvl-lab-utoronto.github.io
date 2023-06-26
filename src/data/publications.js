@@ -1,6 +1,46 @@
 
 export const dataPublications = [
 
+
+    { 
+    "bibtex":`
+
+       @InProceedings{Wei_2023_CVPR,
+          author    = {Cong Wei and Brendan Duke and Ruowei Jiang and Parham Aarabi and Graham Taylor and Florian Shkurti},
+          title     = {Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers},
+          booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+          month     = {June},
+          year      = {2023},
+          pages     = {22680-22689}
+       }         
+    `,
+    "html": "https://arxiv.org/abs/2303.13755",
+    "tags":['computer vision', 'robot vision'],
+    "thumbnail":"/assets/publication-thumbnails/cvpr23-sparsifiner.png",
+    "description":"",
+    },
+
+    { 
+    "bibtex":`
+
+      @InProceedings{Gu_2023_CVPR,
+         author    = {Qiao Gu and Dongsub Shim and Florian Shkurti},
+         title     = {Preserving Linear Separability in Continual Learning by Backward Feature Projection},
+         booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+         month     = {June},
+         year      = {2023},
+         pages     = {24286-24295}
+      }
+        
+    `,
+    "html": "https://arxiv.org/abs/2303.14595",
+    "tags":['computer vision', 'robot vision', 'continual learning'],
+    "code": "https://github.com/rvl-lab-utoronto/BFP",
+    "thumbnail":"/assets/publication-thumbnails/cvpr23-bfp.png",
+    "description":"",
+    },
+
+    
     { 
     "bibtex":`
 
@@ -129,7 +169,7 @@ export const dataPublications = [
       @inproceedings{xu2021seeing,
         title={Seeing Glass: Joint Point-Cloud and Depth Completion for Transparent Objects},
         author={Haoping Xu and Yi Ru Wang and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
-        booktitle={5th Annual Conference on Robot Learning },
+        booktitle={Conference on Robot Learning (CoRL)},
         year={2021},
         url={https://openreview.net/forum?id=tCfLLiP7vje}
       }
@@ -148,7 +188,7 @@ export const dataPublications = [
       @inproceedings{agia2021taskography,
          title={Taskography: Evaluating robot task planning over large 3D scene graphs},
          author={Christopher Agia and Krishna Murthy Jatavallabhula and Mohamed Khodeir and Ondrej Miksik and Vibhav Vineet and Mustafa Mukadam and Liam Paull and Florian Shkurti},
-         booktitle={5th Annual Conference on Robot Learning (CoRL)},
+         booktitle={Conference on Robot Learning (CoRL)},
          year={2021},
          url={https://openreview.net/forum?id=nWLt35BU1z_}
      }
@@ -166,7 +206,7 @@ export const dataPublications = [
       @InProceedings{Khorasgani_2022_CVPR,
     author    = {Salar Hosseini Khorasgani and Yuxuan Chen and Florian Shkurti},
     title     = {SLIC: Self-Supervised Learning With Iterative Clustering for Human Action Videos},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2022},
     pages     = {16091-16101}
