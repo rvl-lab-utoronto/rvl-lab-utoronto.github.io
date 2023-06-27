@@ -20,6 +20,21 @@
   margin-top: 2.5px;
   margin-bottom: 2.5px;
 }
+
+.publication-entry p span{
+  display:inline-block;
+  background-color: var(--publication-venue);
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px 7px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  user-select: none;
+  font-family: "Helvetica", "Arial", sans-serif;  
+}
+
 .bibtex-expand{
   margin: 10px 15px;
   font-weight:300;

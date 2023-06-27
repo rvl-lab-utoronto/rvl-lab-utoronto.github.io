@@ -4,7 +4,7 @@ import useCollapse from 'react-collapsed'
 
 
 export default function PublicationEntry(props){
-  let extraParams = {"pdf":"pdf","html":"pdf", "bibtex":"bibtex", "video":"video", "project":"project", "code":"code"}
+    let extraParams = {"pdf":"pdf","html":"pdf", "bibtex":"bibtex", "video":"video", "project":"project", "code":"code"}
 
   const { getCollapseProps, getToggleProps} = useCollapse()
   let thumbnail = <></>
@@ -30,8 +30,8 @@ export default function PublicationEntry(props){
       <div>
         <h3>{props.publication["title"]}</h3>
         <p>{props.publication["author"]}</p>
-        {props.publication["booktitle"]!==""?<p><i>{"In " + props.publication["booktitle"]}</i>{" " + props.publication["year"]}</p>:<div/>}
-        {props.publication["journal"]!==""?<p><i>{props.publication["journal"]}</i>{" " + props.publication["year"]}</p>:<div/>}
+        {props.publication["booktitle"]!==""?<p><span>{props.publication["booktitle"]}</span></p>:<div/>}
+        {props.publication["journal"]!==""?<p><span>{props.publication["journal"]}</span></p>:<div/>}
         {props.publication["tags"]!==undefined?<div>{props.publication["tags"].map((tag)=>{
           return <PublicationTag tag={tag} selected={props.selectedTags.includes(tag)} addSelectedTag={props.addSelectedTag} removeSelectedTag={props.removeSelectedTag}/>
         })}</div>:<div/>}

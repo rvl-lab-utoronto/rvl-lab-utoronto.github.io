@@ -17,7 +17,7 @@ export const dataPublications = [
     "html": "https://arxiv.org/abs/2303.13755",
     "tags":['computer vision', 'robot vision'],
     "thumbnail":"/assets/publication-thumbnails/cvpr23-sparsifiner.png",
-    "description":"",
+    "description":"",	
     },
 
     { 
@@ -262,7 +262,7 @@ export const dataPublications = [
       }
     `,
     "html" : "https://openreview.net/forum?id=c_E8kFWfhp0",
-      "tags":["differentiable simulation","differentiable rendering","system identification"],
+      "tags":["simulation","differentiable rendering","system identification"],
       "project": "https://gradsim.github.io/",
     "thumbnail":"/assets/publication-thumbnails/gradSim Differentiable simulation for system identification and visuomotor control.png",
     "description":"",
