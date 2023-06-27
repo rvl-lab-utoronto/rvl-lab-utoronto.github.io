@@ -1,11 +1,43 @@
 // A list of objects : {"date":"", "content":""}
 // Date is of format : year-month-day
 export const dataNews = [
-{
+
+ {
+    "date":"2023-06-1",
+    "content":"Our paper on open-set 3D mapping, <a href='https://concept-fusion.github.io/'>ConceptFusion</a>, got accepted at RSS. Congratulations to Krishna Murthy and the wonderful co-authors, who also demoed the method live at CVPR."
+ },
+    
+ {
+    "date":"2023-04-1",
+    "content":"The <a href='https://acceleration.utoronto.ca/'>Acceleration Consortium</a> won a <a href=''>$200M grant</a> to accelerate materials discovery using chemistry, machine learning, lab automation and robotics. <a href='https://acceleration.utoronto.ca/news/were-hiring'>We're hiring staff scientists, postdocs, graduate, and undergraduate students</a>."
+ },
+    
+ {
+    "date":"2023-02-1",
+    "content":"Our field robotics paper on <a href='https://arxiv.org/abs/2209.11864'>vision-based navigation for autonomous boats</a> got accepted at ICRA. This is a collaboration with Tim Barfoot. Philip Huang, who led the work, graduated from his MSc and will start his PhD at CMU."
+ },
+    
+  {
+    "date":"2023-02-1",
+    "content":"Two papers accepted at CVPR, one on <a href='https://arxiv.org/abs/2303.14595'>continual learning of neural networks</a>, led by Qiao Gu, and another on <a href='https://arxiv.org/abs/2303.13755'>sparsifying vision transformers</a>, led by Cong Wei."
+  },
+   
+  {
+    "date":"2023-02-1",
+    "content":"Two papers on learning for task and motion planning got accepted at <a href='https://arxiv.org/abs/2210.14055'>ICRA</a> and <a href='https://arxiv.org/abs/2111.13144'>RA-L</a>. Mohamed Khodeir, the first author, graduated from his MSc."
+  },
+
+  {
+    "date":"2023-02-1",
+    "content":"Many thanks to <a href='https://scholar.google.com/citations?user=5HHtXzwAAAAJ'>Michal Zajac</a> and David Helm for visiting RVL for 4 and 6 months respectively. It was a pleasure hosting them."
+  },
+   
+  {
     "date":"2022-03-1",
     "content":"Our paper on <a href='https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html'>video representation learning</a> was accepted to CVPR for oral presentation. "
   },
-    {
+
+  {
     "date":"2022-02-1",
     "content":"Our paper on <a href='https://arxiv.org/abs/2110.07668'>equivariant representations for imitation learning</a> was accepted to ICRA. "
   },
