@@ -15,7 +15,7 @@ export const dataPublications = [
        }         
     `,
     "html": "https://arxiv.org/abs/2303.13755",
-    "tags":['computer vision', 'robot vision'],
+    "tags":['computer vision'],
     "thumbnail":"/assets/publication-thumbnails/cvpr23-sparsifiner.png",
     "description":"",	
     },
@@ -291,7 +291,7 @@ export const dataPublications = [
       }
     `,
     "html" : "https://arxiv.org/abs/2003.04514",
-    "tags":["ensemble methods"],
+    "tags":["generative models"],
     "thumbnail":"/assets/publication-thumbnails/DIBS Diversity-Inducing Information Bottleneck in Model Ensembles.png",
     "description":"",
   },
@@ -397,7 +397,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2103.03891",
-    "tags":["generative models", "image synthesis"],
+    "tags":["generative models"],
     "thumbnail":"/assets/publication-thumbnails/LOHO Latent Optimization of Hairstyles via Orthogonalization.png",
     "description":"",
   },

@@ -20,6 +20,15 @@ export const dataTeam = {
       "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
       "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",    
     },
+    {
+      "name":"Miroslav Bogdanovic",
+      "image":"assets/team/profile.png",
+      "description":"robotics, control, imitation and reinforcement learning. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
+      "website":"",
+      "email":"",
+      "linkedIn":"",
+      "googleScholar":"",    
+    },  
   ],  
   "PhD students":[
     {
