@@ -54,10 +54,16 @@
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-@media only screen and (max-width: 767px) {
-  .research-themes-box h3{
+/*@media only screen and (max-width: 767px) {*/
+@media (pointer: coarse) {
+  .research-themes {
+	display: inline-block;
+  }
+  
+    .research-themes-box h3{
     font-size: 18px;
   }
+
   .research-themes-box{
     min-width: calc(100% - 40px);
     max-width: 100%;

@@ -93,7 +93,7 @@
 .navbar-menu-icon{
   height:25px;
   padding:10px;
-  position:absolute;
+  /*position:absolute;*/
   right:15px;
   border-radius: 10px;
   transition: background-color 500ms ;

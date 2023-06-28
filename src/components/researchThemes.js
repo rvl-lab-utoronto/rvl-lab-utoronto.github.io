@@ -9,9 +9,14 @@ import {dataResearchThemes} from "../data/researchThemes.js"
 export default class ResearchThemes extends Component {
   render(){
     return(
-      <>
-        <h2 className="research-theme-title">Research Themes</h2>
-        <div className="research-themes-box-container">
+	<>
+
+            <div className="research-themes">
+	   
+	    <h2 className="research-theme-title">Research Themes</h2>
+	
+	    <div className="research-themes-box-container">
+	    
           {
             dataResearchThemes.map((item, index)=>{
               if(this.props.indexesToShow===undefined || this.props.indexesToShow.includes(index))
@@ -25,7 +30,9 @@ export default class ResearchThemes extends Component {
                 return <div/>
             })
           }
-        </div>
+            </div>
+	</div>    	
+	   
       </>
     )
   }
