@@ -68,15 +68,28 @@
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-@media only screen and (max-width: 767px) {
-  .lab-intro-box h3{
+/* @media only screen and (max-width: 767px) { */
+@media (pointer: coarse) { 
+
+    .lab-intro-box h3{
     font-size: 18px;
   }
   .lab-intro-box{
-    min-width: calc(100% - 40px);
-    max-width: 100%;
-    padding: 20px 20px;
-    margin:10px 0px;
+    min-width: 20%;
+    max-width: 40%;
+    padding: 10px 10px;
+    margin:10px 10px 10px 0px;
+    float: left;
+  }
+
+  .lab-intro-box-container{
+    display: block;  
+    flex-wrap: wrap;
+    text-overflow: clip;
+  }
+
+  .lab-intro-box-text{
+      display: block;   
   }
 
   .research-theme-title{
