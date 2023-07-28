@@ -7,7 +7,7 @@ export const dataTeam = {
       "description":"robot vision, machine learning, planning and control",
 	"website":"http://www.cs.toronto.edu/~florian/",
 	"twitter": "https://twitter.com/florian_shkurti",
-	"googleScholar": "https://scholar.google.com/citations?user=BDmtLHsAAAAJ&hl=en"	
+	"googleScholar": "https://scholar.google.com/citations?user=BDmtLHsAAAAJ&hl=en"
     }
   ],
   "Postdocs":[
@@ -18,7 +18,7 @@ export const dataTeam = {
       "website":"https://kouroshd.github.io/",
       "email":"kdarvish@cs.toronto.edu",
       "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
-      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",    
+      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",
     },
     {
       "name":"Miroslav Bogdanovic",
@@ -27,9 +27,9 @@ export const dataTeam = {
       "website":"",
       "email":"",
       "linkedIn":"",
-      "googleScholar":"",    
-    },  
-  ],  
+      "googleScholar":"",
+    },
+  ],
   "PhD students":[
     {
       "name":"Kevin Xie",
@@ -44,7 +44,7 @@ export const dataTeam = {
       "website":"https://georgegu1997.github.io/",
       "email":"qiaog@andrew.cmu.edu",
       "googleScholar":"https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en",
-      "description": "continual learning, computer vision"	
+      "description": "continual learning, computer vision"
     },
     {
       "name":"Skylar Hao",
@@ -55,14 +55,16 @@ export const dataTeam = {
       "name":"Wei-Cheng Tseng",
       "image":"assets/team/weicheng_tseng_1.jpg",
       "description":"multi-agent reinforcement learning, computer vision",
-      "website":"https://weichengtseng.github.io/",      
+      "website":"https://weichengtseng.github.io/",
     },
     {
       "name":"Sepehr Samavi",
       "image":"assets/team/sepehr_samavi_1.jpg",
-      "description":"safe visual navigation. co-supervised by <a href='https://www.dynsyslab.org/prof-angela-schoellig/'>Angela Schoellig</a>",
-      "website":"http://dsl.utias.utoronto.ca/~sep/",      
-    },  
+      "description":"safe interactive navigation. co-supervised by <a href='https://www.dynsyslab.org/prof-angela-schoellig/'>Angela Schoellig</a>",
+      "website":"http://dsl.utias.utoronto.ca/~sep/",
+      "email":"sepehr@robotics.utias.utoronto.ca",
+      "googleScholar":"https://scholar.google.ca/citations?user=_j5XWygAAAAJ&hl=en",
+    },
   ],
 
   "MSc students":[
@@ -76,7 +78,7 @@ export const dataTeam = {
       "name":"Mohamed Khodeir",
       "image":"assets/team/mk.png",
       "linkedIn":"https://ca.linkedin.com/in/khodeir",
-      "description": "learning to plan, task and motion planning",	
+      "description": "learning to plan, task and motion planning",
     },
     {
        "name":"Andrei Ivanovic",
@@ -87,7 +89,7 @@ export const dataTeam = {
     {
       "name":"Yewon Lee",
       "image":"assets/team/yewon_lee_1.jpeg",
-      "description":"task and motion planning",	
+      "description":"task and motion planning",
       "website":"https://yewon-lee.github.io/",
       "email":"yewonlee@cs.toronto.edu",
     },
@@ -101,17 +103,17 @@ export const dataTeam = {
       "name":"Jinbang Huang",
       "image":"assets/team/profile.png",
       "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>",
-      "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",      
-    },  
+      "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
+    },
   ],
-    
+
   "undergraduate students":[
     {
       "name":"Hamza Dugmag",
       "image":"assets/team/hamza_dugmag_1.jpg",
 	"description":"field robotics, autonomous boat",
 	"website": "https://hamzadugmag.com/"
-    },  
+    },
     {
       "name":"Jisu Qian",
       "image":"assets/team/jisu_qian_1.jpeg",
@@ -132,11 +134,11 @@ export const dataTeam = {
       "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
-	  
-   
+
+
   ],
 
-    
+
   "alumni":[
     {
       "name":"Haozhe Sheng",
@@ -148,7 +150,7 @@ export const dataTeam = {
       "image":"assets/team/julia_chae_1.jpg",
       "description":"LiDAR and RGB representation learning <b>next: MIT EECS PhD</b>",
       "linkedIn":"https://ca.linkedin.com/in/julia-chae",
-	"website": "https://juliachae.github.io/",	
+	"website": "https://juliachae.github.io/",
     },
     {
       "name":"Philip Huang",
@@ -157,7 +159,7 @@ export const dataTeam = {
       "linkedIn":"https://ca.linkedin.com/in/philip-yizhou-huang",
       "website":"https://philip-huang.github.io/",
       "googleScholar":"https://scholar.google.com/citations?hl=en&user=YDCsS5EAAAAJ"
-    },  
+    },
     {
       "name":"Ben Agro",
       "image":"assets/team/ben_agro.jpg",
@@ -170,7 +172,7 @@ export const dataTeam = {
       "name":"Aditya Saigal",
       "image":"assets/team/profile.png",
       "linkedIn":"https://ca.linkedin.com/in/aditya-saigal-221207143?trk=pub-pbmap",
-      "description":"continual reinforcement learning",	
+      "description":"continual reinforcement learning",
     },
     {
       "name":"Salar Hosseini",
@@ -179,7 +181,7 @@ export const dataTeam = {
       "linkedIn":"https://ca.linkedin.com/in/salar-hosseini",
       "website":"https://salarios77.github.io/",
       "googleScholar":"https://scholar.google.ca/citations?user=8OT5mY0AAAAJ&hl=en"
-    },  
+    },
     {
        "name":"Cathlyn Chen",
        "image":"assets/team/cathlyn_chen_1.jpg",
@@ -198,30 +200,30 @@ export const dataTeam = {
 	"description":"computer vision for transparent objects. <b>next: Berkeley CS MSc</b>",
 	"linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
 	"website": "https://kathyzhuang.github.io/"
-    },  
+    },
     {
       "name":"Artur Kuramshin",
       "image":"assets/team/artur_kuramshin_1.jpeg",
-      "description":"field robotics, autonomous boat",	
-      "website":"http://akuramshin.ca",	
+      "description":"field robotics, autonomous boat",
+      "website":"http://akuramshin.ca",
       "email":"artur.kuramshin@mail.utoronto.ca",
       "linkedIn":"https://www.linkedin.com/in/artur-kuramshin-4b926616a/",
     },
     {
       "name":"Ruiqi Wang",
       "image":"assets/team/ruiqi_wang_1.jpeg",
-      "description":"adversarial scenario generation. <b>next: Stanford CS MSc</b>",	
-      "linkedIn":"https://www.linkedin.com/in/ruiqi-wang-3b970b150/", 		
-    },  
+      "description":"adversarial scenario generation. <b>next: Stanford CS MSc</b>",
+      "linkedIn":"https://www.linkedin.com/in/ruiqi-wang-3b970b150/",
+    },
     {
       "name":"Charlotte Zhang",
 	"image":"assets/team/profile.png",
-	"description":"field robotics, autonomous boat",		 
+	"description":"field robotics, autonomous boat",
     },
     {
       "name":"Jason Tang",
       "image":"assets/team/profile.png",
-      "description":"continual image classification. <b>next: UofT CS MSc</b>",	 	
+      "description":"continual image classification. <b>next: UofT CS MSc</b>",
     },
     {
       "name":"Pranit Chawla",
@@ -229,13 +231,13 @@ export const dataTeam = {
 	"description":"LiDAR and RGB representation for imitation learning. <b>next: CMU CS MSc</b>",
 	"website": "https://www.pranitchawla.com/",
 	"linkedIn": "https://www.linkedin.com/in/pranit-chawla-503237145/"
-    },  
+    },
     {
       "name":"Cong Wei",
       "image":"assets/team/cong_wei_1.jpeg",
       "linkedIn":"https://ca.linkedin.com/in/cong-wei-30",
-      "description": "video summarization, generative models <b>next: Waterloo CS PhD</b>",	
-    },  
+      "description": "video summarization, generative models <b>next: Waterloo CS PhD</b>",
+    },
     {
       "name":"Kamran Ramji",
       "image":"assets/team/kamran_ramji_1.jpg",
