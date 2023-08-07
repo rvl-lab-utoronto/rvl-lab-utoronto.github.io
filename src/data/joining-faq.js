@@ -31,7 +31,13 @@ export const dataFAQ = [
 {
     "question": "How can I maximize my chances of MSc/PhD admission?",
     "answer": 'The more of these criteria apply to you, the better: (1) you have done well in mathematically demanding courses, (2) you have done well in robotics, machine learning, or computer vision courses, (3) you have done research before, (4) you have strong software engineering skills, (5) you have read and understood relevant research papers, (6) you have industry experience, (7) you have excellent reference letters, (8) you are really persistent and eager to learn more about the field, (9) you can work well both independently and in a team setting.'
- },
+},
+
+    {
+    "question": "Is it ok if I email you to express interest in a MSc/PhD position in your lab?",
+    "answer": "I welcome emails from prospective students, however, I might not be able to answer your email. I do reply to messages from prospective students who seem like a good fit for my lab and I encourage them to apply. If I haven't replied to your message, it's probably because I don't see a strong fit with my lab's research."
+},
+
 {
     "question": "What background reading should I do to understand your lab's research?",
     "answer": 'Check out this <a href="https://github.com/rvl-lab-utoronto/lab_onboarding_recommended_reading">recommended reading list</a> for new students who join my lab. It covers the set of all themes that current students in my lab are interested in and discuss daily. Note that you do not need to be interested in or understand all of these areas, but at least one.'
@@ -40,12 +46,12 @@ export const dataFAQ = [
 
 {
     "question": "I am an undergraduate student at UofT. Can I do my thesis/capstone project with you?",
-    "answer": 'I supervise undergraduate thesis/capstone students every year. You are expected to have taken or audited one of the <a href="http://www.cs.toronto.edu/~florian/">courses that I teach</a>, or the AI-related courses in CS or Engineering.'
+    "answer": 'I enjoy supervising about 3 undergraduate thesis/capstone students every year. You are expected to have taken or audited one of the <a href="http://www.cs.toronto.edu/~florian/">courses that I teach</a>, or some of the AI-related courses in CS or Engineering.'
 },
     
 {
     "question": "I am an undergraduate student at UofT. Can I do summer research in your lab?",
-    "answer": 'Our lab offer multiple opportunities for undergraduate students to do paid summer research. You are expected to have taken or audited one of the <a href="http://www.cs.toronto.edu/~florian/">courses that I teach</a>, or the AI-related courses in CS or Engineering. If that is not the case, you are expected to have done well in math-heavy courses or have software engineering skills. If you are interested in applying for these positions, you should apply for NSERC USRA, UofT UTEA, Engineering ESROP awards, or Mitacs RTA awards. The deadlines for many of these awards are in mid-January, so please contact me in December, if possible. If you do not get any of these awards I will find other ways to pay you.'
+    "answer": 'Our lab offers multiple opportunities for undergraduate students to do paid summer research. You are expected to have taken or audited one of the <a href="http://www.cs.toronto.edu/~florian/">courses that I teach</a>, or some of the AI-related courses in CS or Engineering. If that is not the case, you are expected to have done well in math-heavy courses or have software engineering skills. If you are interested in applying for these positions, you should apply for NSERC USRA, UofT UTEA, Engineering ESROP awards, or Mitacs RTA awards. The deadlines for many of these awards are in mid-January, so please contact me in December. If you do not get any of these awards, I will try to find other ways to pay you, but I will have significantly fewer such positions every year.'
 },
     
 {
