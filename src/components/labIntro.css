@@ -68,8 +68,8 @@
   transition: transform 0.5s, box-shadow 0.5s;
 }
 
-/* @media only screen and (max-width: 767px) { */
-@media (pointer: coarse) { 
+ @media only screen and (max-width: 767px) {
+/*@media (pointer: coarse) { */
 
     .lab-intro-box h3{
     font-size: 18px;
