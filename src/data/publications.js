@@ -5,6 +5,127 @@ export const dataPublications = [
     { 
     "bibtex":`
 
+       
+         @InProceedings{pmlr-v229-abeysirigoonawardena23a,
+          title = 	 {Generating Transferable Adversarial Simulation Scenarios for Self-Driving via Neural Rendering},
+          author =       {Abeysirigoonawardena, Yasasa and Xie, Kevin and Chen, Chuhan and Khorasgani, Salar Hosseini and Chen, Ruiting and Wang, Ruiqi and Shkurti, Florian},
+          booktitle = 	 {7th Conference on Robot Learning (CoRL)},
+          pages = 	 {3710--3731},
+          year = 	 {2023},
+          volume = 	 {229},
+          series = 	 {Proceedings of Machine Learning Research},
+          month = 	 {06--09 Nov},
+          publisher =    {PMLR},
+  
+        }
+ 
+    `,
+       
+    "tags":['adversarial scenarios', 'robot vision', 'differentiable rendering', 'simulation'],
+    "thumbnail":"/assets/publication-thumbnails/adv_scenarios_nerf_corl23.png",
+    "video": "https://openreview.net/attachment?id=4uFVn6WHyzo&name=poster_spotlight_video",
+    "html": "https://arxiv.org/abs/2309.15770",
+    "project": "https://www.yasasa.me/advscenarios/",
+    "code": "",   
+    "description":"",  
+    },
+
+
+    { 
+    "bibtex":`
+
+       @misc{gu2023conceptgraphs,
+         title={ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning}, 
+         author={Qiao Gu and Alihusein Kuwajerwala and Sacha Morin and Krishna Murthy Jatavallabhula and Bipasha Sen and Aditya Agarwal and Corban Rivera and William Paul and Kirsty Ellis and Rama Chellappa and Chuang Gan and Celso Miguel de Melo and Joshua B. Tenenbaum and Antonio Torralba and Florian Shkurti and Liam Paull},
+         year={2023},
+         eprint={2309.16650},
+         archivePrefix={arXiv},
+         primaryClass={cs.RO}
+       }
+    `,
+       
+    "tags":['computer vision', 'robot vision', 'manipulation', 'simulation'],
+    "thumbnail":"/assets/publication-thumbnails/conceptgraphs.gif",
+    "video": "https://www.youtube.com/watch?v=mRhNkQwRYnc",
+    "html": "https://arxiv.org/abs/2309.16650",
+    "project": "https://concept-graphs.github.io/",
+    "code": "https://github.com/concept-graphs/concept-graphs",   
+    "description":"",  
+    },
+
+    
+    { 
+    "bibtex":`
+
+       @misc{lee2023stamp,
+         title={STAMP: Differentiable Task and Motion Planning via Stein Variational Gradient Descent}, 
+         author={Yewon Lee and Philip Huang and Krishna Murthy Jatavallabhula and Andrew Z. Li and Fabian Damken and Eric Heiden and Kevin Smith and Derek Nowrouzezahrai and Fabio Ramos and Florian Shkurti},
+         year={2023},
+         eprint={2310.01775},
+         archivePrefix={arXiv},
+         primaryClass={cs.RO}
+       }
+
+    `,
+       
+    "tags":['planning', 'task and motion planning', 'manipulation', 'simulation'],
+    "thumbnail":"/assets/publication-thumbnails/stamp.png",
+    "html": "https://arxiv.org/abs/2310.01775", 	
+    "video": "",
+    "code": "",   
+    "description":"",  
+  },
+ 
+    
+   { 
+    "bibtex":`
+
+       @misc{samavi2023sicnav,
+        title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization}, 
+        author={Sepehr Samavi and Florian Shkurti and Angela P. Schoellig},
+        year={2023},
+        eprint={2310.10982},
+        archivePrefix={arXiv},
+        primaryClass={cs.RO}
+      }
+
+    `,
+       
+    "tags":['planning', 'control', 'social navigation', 'human-robot interaction'],
+    "thumbnail":"/assets/publication-thumbnails/sicnav.png",
+    "video": "",
+    "project": "",
+    "html": "https://arxiv.org/abs/2310.10982",    
+    "code": "",   
+    "description":"",  
+  },
+
+    
+  { 
+    "bibtex":`
+
+
+       @article{auro_llms_chemistry_robotics_2023,
+          author    = {Naruki Yoshikawa, Marta Skreta, Kourosh Darvish, Sebastian Arellano-Rubach, Zhi Ji, Lasse Bjørn Kristensen, Andrew Zou Li, Yuchi Zhao, Haoping Xu, Artur Kuramshin, Alán Aspuru-Guzik, Florian Shkurti, Animesh Garg},
+          title     = {Large Language Models for Chemistry Robotics},
+          booktitle = {Autonomous Robots},
+          year      = {2023},
+          pages     = {1057-1086},
+          issue     = {47} 
+       }         
+
+    `,
+    "html": "https://link.springer.com/article/10.1007/s10514-023-10136-2",
+    "tags":['planning', 'task and motion planning', 'manipulation', 'chemistry robotics'],
+    "thumbnail":"/assets/publication-thumbnails/auro23_llms_chemistry_robotics.gif",
+    "video": "https://www.youtube.com/watch?v=-87yrXytluw",
+    "code": "https://github.com/ac-rad/xdl-generation",  
+    "description":"",  
+    },
+
+    { 
+    "bibtex":`
+
        @InProceedings{Wei_2023_CVPR,
           author    = {Cong Wei and Brendan Duke and Ruowei Jiang and Parham Aarabi and Graham Taylor and Florian Shkurti},
           title     = {Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers},
