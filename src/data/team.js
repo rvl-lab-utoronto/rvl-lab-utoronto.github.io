@@ -10,7 +10,17 @@ export const dataTeam = {
 	"googleScholar": "https://scholar.google.com/citations?user=BDmtLHsAAAAJ&hl=en"
     }
   ],
-  "Postdocs":[
+    "Postdocs":[
+    {
+      "name":"Mike Gimelfarb",
+      "image":"assets/team/mike_gimelfarb_1.jpg",
+      "description":"reinforcement learning, planning, learning to search",
+      "website":"https://mike-gimelfarb.github.io/",
+      "email":"mike.gimelfarb@mail.utoronto.ca",
+      "linkedIn":"https://ca.linkedin.com/in/michael-gimelfarb-0ba5723b",
+      "googleScholar":"https://scholar.google.com/citations?user=1tBgyLYAAAAJ&hl=en",
+      "github": "https://github.com/mike-gimelfarb" 	
+    },	
     {
       "name":"Kourosh Darvish",
       "image":"assets/team/kourosh_darvish_2.jpg",
@@ -22,13 +32,13 @@ export const dataTeam = {
     },
     {
       "name":"Miroslav Bogdanovic",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/miroslav_bogdanovic_1.jpeg",
       "description":"robotics, control, imitation and reinforcement learning. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
-      "website":"",
-      "email":"",
-      "linkedIn":"",
-      "googleScholar":"",
-    },
+      "website":"https://miroslavbogdanovic.super.site/",
+      "email":"miroslav.bogdanovic@utoronto.ca",
+      "linkedIn":"https://de.linkedin.com/in/miroslavbogdanovic",
+      "googleScholar":"https://scholar.google.com/citations?user=SAdQhg4AAAAJ&hl=fr",
+    },      
   ],
   "PhD students":[
     {
@@ -75,16 +85,11 @@ export const dataTeam = {
       "email":"anthony.lem@mail.utoronto.ca",
     },
     {
-      "name":"Mohamed Khodeir",
-      "image":"assets/team/mk.png",
-      "linkedIn":"https://ca.linkedin.com/in/khodeir",
-      "description": "learning to plan, task and motion planning",
-    },
-    {
        "name":"Andrei Ivanovic",
        "image":"assets/team/andrei_ivanovic_2.jpeg",
        "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>",
-       "linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
+	"linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
+	"website": "https://aivanovic1.github.io/"
     },
     {
       "name":"Yewon Lee",
@@ -95,31 +100,42 @@ export const dataTeam = {
     },
     {
       "name":"Yasasa Abeysirigoonawardena",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/yasasa_abeysirigoonawardena_1.jpeg",
       "description":"adversarial scenario generation, neural rendering",
-      "linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
+	"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
+	"website": "https://www.yasasa.me/"
     },
     {
       "name":"Jinbang Huang",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/jinbang_huang_1.jpg",
       "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>",
       "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
     },
+    {
+      "name":"Blerim Abdullai",
+      "image":"assets/team/blerim_abdullai_1.jpg",
+      "description":"computer vision, field robotics, stochastic planning",
+      "linkedIn":"https://www.linkedin.com/in/blerimabdullai",
+    },
+
+    {
+      "name":"Fabian Damken",
+      "image":"assets/team/fabian_damken_1.jpg",
+      "description":"learning planning heuristics",
+      "linkedIn":"https://linkedin.com/in/fdamken",
+      "website": "https://fabian.damken.net/",
+      "twitter": "https://twitter.com/fabian_damken"
+    },  
   ],
 
   "undergraduate students":[
     {
-      "name":"Hamza Dugmag",
-      "image":"assets/team/hamza_dugmag_1.jpg",
-	"description":"field robotics, autonomous boat",
-	"website": "https://hamzadugmag.com/"
-    },
-    {
-      "name":"Jisu Qian",
-      "image":"assets/team/jisu_qian_1.jpeg",
-	"description":"system identification",
-	"linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
-    },
+      "name":"Ruiting Chen",
+      "image":"assets/team/ruiting_chen_1.jpg",
+	"description":"adversarial scenarios and mesh optimization",
+	"linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
+
+    },  
     {
       "name":"Andrew Zou Li",
       "image":"assets/team/andrew_z_li.jpg",
@@ -134,6 +150,14 @@ export const dataTeam = {
       "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
+    {
+      "name":"Sirui (Ariel) Chen",
+      "image":"assets/team/ariel_chen_1.jpg",
+	"description":"pedestrian trajectory prediction",
+	"website": "https://github.com/arielchen07",
+        "linkedIn": "https://ca.linkedin.com/in/sirui-chen-6492a0232" 
+    },  
+      
 
 
   ],
@@ -168,12 +192,31 @@ export const dataTeam = {
       "twitter":"https://twitter.com/BenAgro4",
       "email":"ben.agro@mail.utoronto.ca",
     },
+          {
+      "name":"Mohamed Khodeir",
+      "image":"assets/team/mk.png",
+      "linkedIn":"https://ca.linkedin.com/in/khodeir",
+      "description": "learning to plan, task and motion planning. <b>next: Waabi</b>",
+    },
+
     {
       "name":"Aditya Saigal",
       "image":"assets/team/profile.png",
       "linkedIn":"https://ca.linkedin.com/in/aditya-saigal-221207143?trk=pub-pbmap",
       "description":"continual reinforcement learning",
     },
+    {
+      "name":"Hamza Dugmag",
+      "image":"assets/team/hamza_dugmag_1.jpg",
+	"description":"field robotics, autonomous boat",
+	"website": "https://hamzadugmag.com/"
+    },
+    {
+      "name":"Jisu Qian",
+      "image":"assets/team/jisu_qian_1.jpeg",
+	"description":"system identification",
+	"linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
+    },  
     {
       "name":"Salar Hosseini",
       "image":"assets/team/salar.jpg",
