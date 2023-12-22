@@ -25,7 +25,7 @@ export const dataProjects = [
     "title":"Safe robot learning",
     "description":"",
     "image":"assets/project-assets/images/placeholder3.jpg",
-    "asset":"assets/project-assets/pages/safe-robot.md",
-    "webLocation":"safe-robot",
+    "asset":"assets/project-assets/pages/safe-robotics.md",
+    "webLocation":"safe-robot-learning",
   }
 ]

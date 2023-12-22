@@ -3,8 +3,13 @@
 export const dataNews = [
 
  {
+    "date":"2023-09-1",
+    "content":"<a href='https://arxiv.org/abs/2309.15770'>Our paper</a> on generating transferable adversarial scenarios for driving, using neural radiance fields, was accepted at CoRL. Congratulations to Yasasa and the co-authors."
+ },
+    
+ {
     "date":"2023-06-1",
-    "content":"Our paper on open-set 3D mapping, <a href='https://concept-fusion.github.io/'>ConceptFusion</a>, got accepted at RSS. Congratulations to Krishna Murthy and the wonderful co-authors, who also demoed the method live at CVPR."
+    "content":"Our paper on open-set 3D mapping, <a href='https://concept-fusion.github.io/'>ConceptFusion</a>, was accepted at RSS. Congratulations to Krishna Murthy and the wonderful co-authors, who also demoed the method live at CVPR."
  },
     
  {

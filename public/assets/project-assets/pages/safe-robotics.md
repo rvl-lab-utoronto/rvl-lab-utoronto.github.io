@@ -110,7 +110,11 @@ How does the optimization work? We cast adversarial scenario generation as a hig
 <p align="center">
   <img src="assets/project-assets/images/method-overview-corl23.png"  alt="method diag"/>  
 </p>
+<figcaption align="center">
+     <em>Adversarial scenario generation using optimal control, treating the physics and rendering simulator as differentiable.</em>
+</figcaption>
 </figure>
+
 
 The inner driving loop shown in the figure above consists of three components: the neural rendering model, the differentiable driving
 policy, and the differentiable kinematic car model. We inject the adversarial perturbation to the surrogate scene by composing the
