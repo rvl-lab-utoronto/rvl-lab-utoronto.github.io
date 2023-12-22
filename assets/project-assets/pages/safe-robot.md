@@ -89,8 +89,35 @@ however, it could result in missing critical testing configurations.
     </p>
 </div>
 
-We are currently working on adversarial scenario generation that leverages recent progress in differentiable physics and
-rendering, in order to more efficiently discover and optimize high-dimensional adversarial scenarios.  
+
+### **Generating Adversarial Driving Scenarios in Simulation so that They Transfer in the Real World**
+
+How do we ensure that an adversarial scenario that we find in simulation transfers (remains adversarial to the driving pipeline)
+when physically constructed in the real world? Answering this question will help us ensure that we can test autonomous driving
+policies in simulation while providing guarantees about their performance in the real world. Consider the following experiment
+from our [CoRL 2023 paper](https://arxiv.org/abs/2309.15770): 
+<figure>
+<p align="center">
+  <img src="assets/project-assets/images/adv-scenarios-corl23.png"  alt="method diag"/>  
+</p>
+</figure>
+
+The first row of images shows a vision-based driving policy that has been trained to do lane following and which manages to execute a full square trajectory along the real track. The second row overlays a random synthetic object on the side of the square track, and adds random texture to that object; the car does not deviate and is still able to execute the square. This means that we need to optimize the texture if we want it to be adversarial to the given driving policy. To do this, we train a NeRF representation of the entire scene and we assume we have a physics-based dynamics model of the car. We can optimize the texture, mesh, and location of the synthetic adversarial object; this is shown in row 4, where the car indeed deviates from its desired trajectory in the NeRF simulation environment. Due to the similarity between NeRF and the real scene, in row 3 we see that the same adversarial object found in simulation actually transfers to the real scene, without further optimization.    
+
+How does the optimization work? We cast adversarial scenario generation as a high-dimensional optimal control problem. Given a known image-based driving policy that we want to attack, as well as the dynamics of the autonomous vehicle, we aim to optimize a photorealistic simulation environment such that it produces sensor observations that are 3D-viewpoint-consistent, but adversarial with respect to the policy, causing it to deviate from its nominal trajectory. The objective of the optimal control problem is to maximize this deviation through plausible perturbations of objects in the photorealistic environment. The figure below shows an overview of the method:  
+
+<figure>
+<p align="center">
+  <img src="assets/project-assets/images/method-overview-corl23.png"  alt="method diag"/>  
+</p>
+</figure>
+
+The inner driving loop shown in the figure above consists of three components: the neural rendering model, the differentiable driving
+policy, and the differentiable kinematic car model. We inject the adversarial perturbation to the surrogate scene by composing the
+outputs of one or more neural object renderers (the single object case is shown above for simplicity) with the output of the neural
+background scene renderer. The parameters of the object renderer(s) are optimized to maximize the deviation of the realized trajectory from the
+reference trajectory, while keeping the parameters of the driving policy and background scene renderer frozen. The parameters $\theta$ include
+the mesh, texture, and the location of the synthetic objects that are optimized. More details are included in our [CoRL 2023 paper](https://arxiv.org/abs/2309.15770).  
 
 
 
