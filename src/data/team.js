@@ -51,7 +51,7 @@ export const dataTeam = {
     },
     {
       "name":"Qiao Gu",
-      "image":"assets/team/qiaogu.png",
+      "image":"assets/team/qiaogu.jpg",
       "website":"https://georgegu1997.github.io/",
       "email":"qiaog@andrew.cmu.edu",
       "googleScholar":"https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en",
@@ -59,7 +59,7 @@ export const dataTeam = {
     },
     {
       "name":"Skylar Hao",
-      "image":"assets/team/skylar.png",
+      "image":"assets/team/skylar.jpg",
       "description":"sim-to-real transfer, safe learning, statistics, machine learning",
     },
     {
@@ -176,7 +176,7 @@ export const dataTeam = {
     },  
     {
       "name":"Haozhe Sheng",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/profile.jpg",
       "description":"<b>next: Google</b>",
     },
     {
@@ -204,14 +204,14 @@ export const dataTeam = {
     },
           {
       "name":"Mohamed Khodeir",
-      "image":"assets/team/mk.png",
+      "image":"assets/team/mk.jpg",
       "linkedIn":"https://ca.linkedin.com/in/khodeir",
       "description": "learning to plan, task and motion planning. <b>next: Waabi</b>",
     },
 
     {
       "name":"Aditya Saigal",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/profile.jpg",
       "linkedIn":"https://ca.linkedin.com/in/aditya-saigal-221207143?trk=pub-pbmap",
       "description":"continual reinforcement learning",
     },
@@ -270,12 +270,12 @@ export const dataTeam = {
     },
     {
       "name":"Charlotte Zhang",
-	"image":"assets/team/profile.png",
+	"image":"assets/team/profile.jpg",
 	"description":"field robotics, autonomous boat",
     },
     {
       "name":"Jason Tang",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/profile.jpg",
       "description":"continual image classification. <b>next: UofT CS MSc</b>",
     },
     {
@@ -311,7 +311,7 @@ export const dataTeam = {
     },
     {
       "name":"Dhruv Sharma",
-      "image":"assets/team/dhruv_sharma_1.png",
+      "image":"assets/team/dhruv_sharma_1.jpg",
       "description":"autonomous driving, robotics, computer vision. <b>next: Huawei</b>",
       "linkedIn":"https://ca.linkedin.com/in/dhruvsharmauw",
       "website":"https://sharmadhruv.weebly.com/",
@@ -331,7 +331,7 @@ export const dataTeam = {
     },
     {
       "name":"Homanga Bharadhwaj",
-      "image":"assets/team/homanga_bharadhwaj_1.png",
+      "image":"assets/team/homanga_bharadhwaj_1.jpg",
       "description":"reinforcement learning, safe exploration, robotics, recommender systems. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <b>next: CMU CS PhD</b>",
       "website":"https://homangab.github.io/",
       "email":"homangablackhole36@gmail.com",
@@ -367,7 +367,7 @@ export const dataTeam = {
     },
     {
       "name":"Siyun Li",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/profile.jpg",
       "description":"adversarial examples for self-driving simulators. <b>next: Stanford CS MSc</b>",
       "linkedIn":"https://ca.linkedin.com/in/siyun-li",
     },
@@ -379,7 +379,7 @@ export const dataTeam = {
     },
     {
       "name":"Zidong Weng",
-      "image":"assets/team/profile.png",
+      "image":"assets/team/profile.jpg",
       "description":"out-of-distribution detection for image and lidar data. <b>next: Intel</b>",
       "linkedIn":"https://ca.linkedin.com/in/zidong-weng-232035134",
     },
