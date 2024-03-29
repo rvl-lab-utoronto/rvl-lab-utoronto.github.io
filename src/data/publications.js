@@ -51,6 +51,29 @@ export const dataPublications = [
     "description":"",  
     },
 
+
+    { 
+    "bibtex":`
+
+      @misc{darvish2024organa,
+      title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization}, 
+      author={Kourosh Darvish and Marta Skreta and Yuchi Zhao and Naruki Yoshikawa and Sagnik Som and Miroslav Bogdanovic and Yang Cao and Han Hao and Haoping Xu and Alán Aspuru-Guzik and Animesh Garg and Florian Shkurti},
+      year={2024},
+      eprint={2401.06949},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+      }
+    `,
+       
+    "tags":['task and motion planning', 'manipulation', 'chemistry robotics'],
+    "thumbnail":"/assets/publication-thumbnails/organa_setup.jpg",
+    "video": "https://www.youtube.com/watch?v=fpe1_2FeMnE",
+    "html": "https://arxiv.org/abs/2401.06949",
+    "project": "https://ac-rad.github.io/organa/",
+    "code": "",   
+    "description":"",  
+    },
+
     
     { 
     "bibtex":`
@@ -255,7 +278,7 @@ export const dataPublications = [
       }        
     `,
     "html":"https://arxiv.org/abs/2302.11683",
-    "tags":['computer vision', 'robot vision'],
+    "tags":['computer vision', 'robot vision', 'chemistry robotics'],
     "code": "https://ac-rad.github.io/MVTrans/",
     "data": "https://ac-rad.github.io/MVTrans/",
     "video": "https://www.youtube.com/watch?v=8Qdc_xWVp-k&ab_channel=XuHaoping",	
@@ -275,7 +298,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2212.09672",
-    "tags":["task and motion planning", 'planning', 'manipulation'],
+    "tags":["task and motion planning", 'planning', 'manipulation', 'chemistry robotics'],
     "video": "https://ac-rad.github.io/arc-icra2023/",
     "code": "https://ac-rad.github.io/arc-icra2023/",
     "data": "https://ac-rad.github.io/arc-icra2023/",
