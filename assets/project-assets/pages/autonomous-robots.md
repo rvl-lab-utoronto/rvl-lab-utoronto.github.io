@@ -1,4 +1,3 @@
-
 ## **Autonomous Robots for Environmental Monitoring**
 
 One of the main functions of robots in the context of environmental monitoring
@@ -72,12 +71,12 @@ and members of the public can freely access the measurements on the internet.
 
 <div>
   <p align="center">
-  <img src="assets/project-assets/images/argo.png" style="width:80%;"  alt="method diag"/>
+  <img src="assets/project-assets/images/argo.jpg" style="width:80%;"  alt="method diag"/>
   </p>
 </div>
 <div>
     <p align="center">
-        <em>How an Argo float works. Image <a href="https://argo.ucsd.edu/wp-content/uploads/sites/361/2020/06/float_cycle_1.png">courtesy</a> of UCSD and the Argo program.</em>
+        <em>How an Argo float works. Image <a href="https://argo.ucsd.edu/wp-content/uploads/sites/361/2020/06/float_cycle_1.jpg">courtesy</a> of UCSD and the Argo program.</em>
     </p>
 </div>
 
@@ -156,7 +155,7 @@ Our main framework consists of 3 major phases. In the first phase, a non-goal co
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/block-diagram-rss2020.png"  style="width:80%;" alt="method diag"/>
+<img src="assets/project-assets/images/block-diagram-rss2020.jpg"  style="width:80%;" alt="method diag"/>
 <figcaption align="center">
      <em></em>
   </figcaption>
@@ -168,7 +167,7 @@ and scientifically relevant data collection.
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/scenic-route-vs-shortest-path-rss2020.png"  style="width:50%;" alt="method diag"/>
+<img src="assets/project-assets/images/scenic-route-vs-shortest-path-rss2020.jpg"  style="width:50%;" alt="method diag"/>
 <figcaption align="center">
      <em>Sample trajectories from simulation illustrating the behavioural differ-
 ences between the proposed goal conditioned model and a direct policy model
@@ -208,7 +207,7 @@ human scientist collaboratively search for relevant visual content.
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/visual-search-iros2020.png"  style="width:70%;" alt="method diag"/>
+<img src="assets/project-assets/images/visual-search-iros2020.jpg"  style="width:70%;" alt="method diag"/>
 <figcaption align="center">
      <em>The output of our visual similarity operator, which is informed by a
 single exemplar image, given by the user. The exemplar image dictates the
@@ -234,7 +233,7 @@ achieve multi-domain monitoring of coral reefs, based on realtime interaction wi
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/multirobotsystem-iros2012.png"  style="width:70%;" alt="method diag"/>
+<img src="assets/project-assets/images/multirobotsystem-iros2012.jpg"  style="width:70%;" alt="method diag"/>
 <figcaption align="center">
      <em></em>
   </figcaption>

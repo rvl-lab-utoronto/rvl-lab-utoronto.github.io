@@ -39,7 +39,7 @@ problems, trying to predict a ranking of high-level actions to be attempted next
 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/lazy-policy-diagram-1.png"  alt="method diag"/>
+  <img src="assets/project-assets/images/lazy-policy-diagram-1.jpg"  alt="method diag"/>
   <figcaption align="center">
    <em> </em>  
   </figcaption>
@@ -49,7 +49,7 @@ problems, trying to predict a ranking of high-level actions to be attempted next
 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/train-vs-solve-lazy.png"  style="width:70%;" alt="method diag"/>
+  <img src="assets/project-assets/images/train-vs-solve-lazy.jpg"  style="width:70%;" alt="method diag"/>
   <figcaption align="center">
    <em> Planning time decreases and more problems are solved, as the planning heuristic is trained on more data (solutions to previously solved problems). See <a href="https://arxiv.org/abs/2210.14055">our paper</a> for more details.</em>  
   </figcaption>
@@ -78,7 +78,7 @@ physics-based human motion tracking from videos in an [ICCV'21 paper](https://nv
 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/diff_cio_1.png"  style="width:90%;" alt="method diag"/>
+  <img src="assets/project-assets/images/diff_cio_1.jpg"  style="width:90%;" alt="method diag"/>
 <figcaption align="center">
      <em> Estimated motion of human skeleton from video, remapped into a synthetic human mesh. Contact forces are inferred from video, without the need for motion capture. <a href="https://nv-tlabs.github.io/physics-pose-estimation-project-page/">Source.</a> </em>
   </figcaption>
@@ -107,7 +107,7 @@ image formation.
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/gradsim-teaser.png"  style="width:90%;" alt="method diag"/>
+<img src="assets/project-assets/images/gradsim-teaser.jpg"  style="width:90%;" alt="method diag"/>
 
 <figcaption align="center">
      <em><a href="https://gradsim.github.io/">gradSim</a>, a unified differentiable rendering and multiphysics
@@ -120,7 +120,7 @@ framework that allows solving a range of control and parameter estimation tasks 
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/gradsim-pipeline-v10.png"  style="width:90%;" alt="method diag"/>
+<img src="assets/project-assets/images/gradsim-pipeline-v10.jpg"  style="width:90%;" alt="method diag"/>
 
 <figcaption align="center">
      <em> </em>
@@ -134,7 +134,7 @@ Given video observations of an evolving physical system (e), we randomly initial
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/gradsim-deformables.png"  style="width:70%;" alt="method diag"/>
+<img src="assets/project-assets/images/gradsim-deformables.jpg"  style="width:70%;" alt="method diag"/>
 <figcaption align="center">
      <em>Parameter Estimation: For deformable experiments, we optimize the material properties of a beam to match a video of a beam hanging under gravity. In the rigid experiments, we estimate contact parameters (elasticity/friction) and object density to match a video (GT). We visualize entire time sequences (t) with color-coded blends.</em>
   </figcaption>
@@ -143,7 +143,7 @@ Given video observations of an evolving physical system (e), we randomly initial
 
 <figure>
 <p align="center">
-<img src="assets/project-assets/images/gradsim-control.png"  style="width:70%;" alt="method diag"/>
+<img src="assets/project-assets/images/gradsim-control.jpg"  style="width:70%;" alt="method diag"/>
 <figcaption align="center">
      <em>Visuomotor Control: gradSim provides gradients suitable for diverse, complex visuomotor control tasks. For control-fem and control-walker experiments, we train a neural network to actuate a soft body towards a target image (GT). For control-cloth, we optimize the cloth’s initial velocity to hit a target (GT) (specified as an image), under nonlinear lift/drag forces. </em>
   </figcaption>
