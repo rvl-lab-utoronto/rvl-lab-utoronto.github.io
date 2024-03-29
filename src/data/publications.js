@@ -34,13 +34,11 @@ export const dataPublications = [
     { 
     "bibtex":`
 
-       @misc{gu2023conceptgraphs,
+       @InProceedings{gu2023conceptgraphs,
          title={ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning}, 
          author={Qiao Gu and Alihusein Kuwajerwala and Sacha Morin and Krishna Murthy Jatavallabhula and Bipasha Sen and Aditya Agarwal and Corban Rivera and William Paul and Kirsty Ellis and Rama Chellappa and Chuang Gan and Celso Miguel de Melo and Joshua B. Tenenbaum and Antonio Torralba and Florian Shkurti and Liam Paull},
-         year={2023},
-         eprint={2309.16650},
-         archivePrefix={arXiv},
-         primaryClass={cs.RO}
+         year={2024},
+         booktitle={IEEE International Conference on Robotics and Automation (ICRA)},  
        }
     `,
        

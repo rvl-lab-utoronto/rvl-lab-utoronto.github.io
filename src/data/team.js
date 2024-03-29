@@ -20,16 +20,17 @@ export const dataTeam = {
       "linkedIn":"https://ca.linkedin.com/in/michael-gimelfarb-0ba5723b",
       "googleScholar":"https://scholar.google.com/citations?user=1tBgyLYAAAAJ&hl=en",
       "github": "https://github.com/mike-gimelfarb" 	
-    },	
-    {
-      "name":"Kourosh Darvish",
-      "image":"assets/team/kourosh_darvish_2.jpg",
-      "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
-      "website":"https://kouroshd.github.io/",
-      "email":"kdarvish@cs.toronto.edu",
-      "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
-      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",
     },
+    {
+      "name":"Qi Chen",
+      "image":"assets/team/qi_chen_1.jpg",
+      "description":"statistical learning theory, transfer learning, meta-learning",
+      "website":"https://livreq.github.io/",
+      "email":"",
+      "linkedIn":"",
+      "googleScholar":"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MqLoSeoAAAAJ",
+      "github": "https://github.com/livreQ" 	
+    },	
     {
       "name":"Miroslav Bogdanovic",
       "image":"assets/team/miroslav_bogdanovic_1.jpeg",
@@ -83,13 +84,6 @@ export const dataTeam = {
       "image":"assets/team/anthony_lem_1.jpg",
       "description":"human pose detection and prediction",
       "email":"anthony.lem@mail.utoronto.ca",
-    },
-    {
-       "name":"Andrei Ivanovic",
-       "image":"assets/team/andrei_ivanovic_2.jpeg",
-       "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>",
-	"linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
-	"website": "https://aivanovic1.github.io/"
     },
     {
       "name":"Yewon Lee",
@@ -164,6 +158,22 @@ export const dataTeam = {
 
 
   "alumni":[
+        {
+      "name":"Kourosh Darvish",
+      "image":"assets/team/kourosh_darvish_2.jpg",
+      "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <b>next: Research Scientist, Acceleraction Consortium</b>",
+      "website":"https://kouroshd.github.io/",
+      "email":"kdarvish@cs.toronto.edu",
+      "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
+      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",
+    },
+    {
+       "name":"Andrei Ivanovic",
+       "image":"assets/team/andrei_ivanovic_2.jpeg",
+       "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>. <b>next: Amazon Robotics</b>",
+	"linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
+	"website": "https://aivanovic1.github.io/"
+    },  
     {
       "name":"Haozhe Sheng",
       "image":"assets/team/profile.png",
