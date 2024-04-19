@@ -1,5 +1,5 @@
 import React from 'react'
-import {Route, Redirect, Switch, HashRouter} from 'react-router-dom'
+import {Route, Redirect, Switch, BrowserRouter} from 'react-router-dom'
 import {TransitionGroup, CSSTransition} from 'react-transition-group'
 import ScrollToTop from "./components/scrollToTop"
 import {pages} from "./util/pages"
@@ -23,7 +23,7 @@ export default function App() {
   }
   
   return (
-    <HashRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route render={({ location }) => {
         return(
         <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
@@ -59,9 +59,7 @@ export default function App() {
 
                       </div>
                     )}} key={blog.title}/>
-                  } else {
-                    return <Route key={"404"} path='/404' component={Error404} />
-                  }
+                  } 
                 })}
                 {dataProjects.map((project)=>{
                   if(project.asset!==undefined && project.asset!=="" && project.webLocation!==undefined && project.webLocation!==""){
@@ -75,18 +73,16 @@ export default function App() {
                         <Footer/>
                       </div>
                     )}} key={project.title}/>
-                  } else {
-                    return <Route key={"404"} path='/404' component={Error404} />
-                  }
+                  } 
                 })}
-                <Route key={"404"} path='/404' component={Error404} />
-                <Redirect from='*' to='/404' />
+                <Route path='*' component={Error404} />
+                
               </Switch>
             </CSSTransition>
           </TransitionGroup>
         </div>
       )}} />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

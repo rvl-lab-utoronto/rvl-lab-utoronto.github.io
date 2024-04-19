@@ -1,11 +1,12 @@
 import React,{Component} from 'react'
+import { useEffect } from 'react';
 
-export default class Page2 extends Component {
-  render(){
-    return(
-      <div style={{display:"flex", justifyContent:"center", alignItems:"center", height:"80vh", padding: "50px"}}>
-        <h1 style={{fontSize: "50px", textAlign:"center"}}>This page does not exist.</h1>
-      </div>
-    )
-  }
-}
+const Error404 = () => {
+  useEffect(() => {
+    window.location.href = '/404.html'; // Specify the path to your static 404 page
+  }, []);
+
+  return null; // Returns null because we're redirecting
+};
+
+export default Error404;
