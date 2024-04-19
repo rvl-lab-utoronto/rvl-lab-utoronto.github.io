@@ -23,7 +23,7 @@ export default function App() {
   }
   
   return (
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter >
       <Route render={({ location }) => {
         return(
         <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
