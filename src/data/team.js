@@ -26,8 +26,8 @@ export const dataTeam = {
       "image":"assets/team/qi_chen_1.jpg",
       "description":"statistical learning theory, transfer learning, meta-learning",
       "website":"https://livreq.github.io/",
-      "email":"",
-      "linkedIn":"",
+      // "email":"",
+      // "linkedIn":"",
       "googleScholar":"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MqLoSeoAAAAJ",
       "github": "https://github.com/livreQ"
     },
@@ -93,7 +93,6 @@ export const dataTeam = {
       "description":"",
       "website":"https://chronorium.wordpress.com/about/",
       "email":"qtcc@cs.toronto.edu",
-      "googleScholar":"https://scholar.google.ca/citations?user=_j5XWygAAAAJ&hl=en",
     },
   ],
 
@@ -149,9 +148,7 @@ export const dataTeam = {
       "googleScholar":"https://scholar.google.ca/citations?user=-OvkuacAAAAJ&hl=en",
       "linkedIn":"https://www.linkedin.com/in/nathan-d-a00821126/",
       "email":"nathan.delara@mail.utoronto.ca",
-      "website":"delaraanalytics.com",
-
-
+      "website":"http://www.delaraanalytics.com",
     },
   ],
 
@@ -192,7 +189,6 @@ export const dataTeam = {
       "image":"assets/team/jzhu2.jpeg",
       "description":"bayesian optimisation, deep learning",
       "email":"jerryzhu@uchicago.edu",
-      "website": "https://www.andrewmagnuson.ca/",
       "linkedIn": "www.linkedin.com/in/jerryzhu509",
     },
     {
@@ -201,7 +197,6 @@ export const dataTeam = {
       "description":"perception, implicit occupancy and flow representation.",
       "email":"maria.chzhen@mail.utoronto.ca",
       "linkedIn": "https://ca.linkedin.com/in/mariachzhen",
-      "twitter":"https://x.com/ajwmagnuson",
     },
     {
       "name":"Hossein Goli",
