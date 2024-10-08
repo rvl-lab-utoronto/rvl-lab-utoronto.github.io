@@ -19,7 +19,7 @@ export const dataTeam = {
       "email":"mike.gimelfarb@mail.utoronto.ca",
       "linkedIn":"https://ca.linkedin.com/in/michael-gimelfarb-0ba5723b",
       "googleScholar":"https://scholar.google.com/citations?user=1tBgyLYAAAAJ&hl=en",
-      "github": "https://github.com/mike-gimelfarb" 	
+      "github": "https://github.com/mike-gimelfarb"
     },
     {
       "name":"Qi Chen",
@@ -29,8 +29,8 @@ export const dataTeam = {
       "email":"",
       "linkedIn":"",
       "googleScholar":"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MqLoSeoAAAAJ",
-      "github": "https://github.com/livreQ" 	
-    },	
+      "github": "https://github.com/livreQ"
+    },
     {
       "name":"Miroslav Bogdanovic",
       "image":"assets/team/miroslav_bogdanovic_1.jpeg",
@@ -39,7 +39,16 @@ export const dataTeam = {
       "email":"miroslav.bogdanovic@utoronto.ca",
       "linkedIn":"https://de.linkedin.com/in/miroslavbogdanovic",
       "googleScholar":"https://scholar.google.com/citations?user=SAdQhg4AAAAJ&hl=fr",
-    },      
+    },
+  ],
+  "Research Associates":[
+    {
+      "name":"Sebastian Aegidius",
+      "image":"assets/team/seb_rvl.jpg",
+      "description":"robot perception, motion and path planning, RL",
+      "email":"s.aegidius@utoronto.ca",
+      "linkedIn":"https://www.linkedin.com/in/sebastian-aegidius-a7584521a/",
+    },
   ],
   "PhD students":[
     {
@@ -53,9 +62,11 @@ export const dataTeam = {
       "name":"Qiao Gu",
       "image":"assets/team/qiaogu.jpg",
       "website":"https://georgegu1997.github.io/",
-      "email":"qiaog@andrew.cmu.edu",
+      "email":"q.gu@mail.utoronto.ca",
       "googleScholar":"https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en",
-      "description": "continual learning, computer vision"
+      "linkedIn":"https://www.linkedin.com/in/qiao-gu/",
+      "twitter":"https://x.com/qiaogu1997",
+      "description": "3D computer vision, robot learning"
     },
     {
       "name":"Skylar Hao",
@@ -71,9 +82,17 @@ export const dataTeam = {
     {
       "name":"Sepehr Samavi",
       "image":"assets/team/sepehr_samavi_1.jpg",
-      "description":"safe interactive navigation. co-supervised by <a href='https://www.dynsyslab.org/prof-angela-schoellig/'>Angela Schoellig</a>",
+      "description":"safe control, crowd navigation. co-supervised by <a href='https://www.dynsyslab.org/prof-angela-schoellig/'>Angela Schoellig</a>",
       "website":"http://dsl.utias.utoronto.ca/~sep/",
       "email":"sepehr@robotics.utias.utoronto.ca",
+      "googleScholar":"https://scholar.google.ca/citations?user=_j5XWygAAAAJ&hl=en",
+    },
+    {
+      "name":"Quentin Clark",
+      "image":"assets/team/quentin.jpg",
+      "description":"",
+      "website":"https://chronorium.wordpress.com/about/",
+      "email":"qtcc@cs.toronto.edu",
       "googleScholar":"https://scholar.google.ca/citations?user=_j5XWygAAAAJ&hl=en",
     },
   ],
@@ -84,20 +103,6 @@ export const dataTeam = {
       "image":"assets/team/anthony_lem_1.jpg",
       "description":"human pose detection and prediction",
       "email":"anthony.lem@mail.utoronto.ca",
-    },
-    {
-      "name":"Yewon Lee",
-      "image":"assets/team/yewon_lee_1.jpeg",
-      "description":"task and motion planning",
-      "website":"https://yewon-lee.github.io/",
-      "email":"yewonlee@cs.toronto.edu",
-    },
-    {
-      "name":"Yasasa Abeysirigoonawardena",
-      "image":"assets/team/yasasa_abeysirigoonawardena_1.jpeg",
-      "description":"adversarial scenario generation, neural rendering",
-	"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
-	"website": "https://www.yasasa.me/"
     },
     {
       "name":"Jinbang Huang",
@@ -117,19 +122,48 @@ export const dataTeam = {
       "image":"assets/team/fabian_damken_1.jpg",
       "description":"learning planning heuristics",
       "linkedIn":"https://linkedin.com/in/fdamken",
+      "email":"fabian@damken.net",
       "website": "https://fabian.damken.net/",
-      "twitter": "https://twitter.com/fabian_damken"
-    },  
+      "twitter": "https://twitter.com/fabian_damken",
+      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
+    },
+    {
+      "name":"Daniel Hocevar",
+      "image":"assets/team/headshot-danielhocevar.jpg",
+      "description":"computer vision, chemistry lab automation. co-supervised by <a href='https://radisiclab.com/people/'>Milica Radisic</a>",
+      "linkedIn":"https://www.linkedin.com/in/danielhocevar/",
+      "email":"danielhocevar1@gmail.com",
+      "twitter":"https://x.com/daniel_hocevar",
+    },
+    {
+      "name":"James Ross",
+      "image":"assets/team/james_ross.jpg",
+      "description":"computer vision, adversarial simulation generation",
+      "googleScholar":"https://scholar.google.com/citations?user=BYyE10gAAAAJ&hl=en",
+      "linkedIn":"https://www.linkedin.com/in/jamesrosstwo/",
+    },
+    {
+      "name":"Nathan de Lara",
+      "image":"assets/team/nathan.jpg",
+      "description":"reinforcement learning, optimal control, optimization",
+      "googleScholar":"https://scholar.google.ca/citations?user=-OvkuacAAAAJ&hl=en",
+      "linkedIn":"https://www.linkedin.com/in/nathan-d-a00821126/",
+      "email":"nathan.delara@mail.utoronto.ca",
+      "website":"delaraanalytics.com",
+
+
+    },
   ],
 
   "undergraduate students":[
     {
       "name":"Ruiting Chen",
       "image":"assets/team/ruiting_chen_1.jpg",
-	"description":"adversarial scenarios and mesh optimization",
-	"linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
-
-    },  
+	    "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization",
+	    "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
+      "email":"ruiting.chen@mail.utoronto.ca",
+      "website":"https://ruiting-chen.github.io",
+    },
     {
       "name":"Andrew Zou Li",
       "image":"assets/team/andrew_z_li.jpg",
@@ -145,13 +179,60 @@ export const dataTeam = {
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
     {
-      "name":"Sirui (Ariel) Chen",
-      "image":"assets/team/ariel_chen_1.jpg",
-	"description":"pedestrian trajectory prediction",
-	"website": "https://github.com/arielchen07",
-        "linkedIn": "https://ca.linkedin.com/in/sirui-chen-6492a0232" 
-    },  
-      
+      "name":"Andrew Magnuson",
+      "image":"assets/team/andrew_magnuson.png",
+      "description":"learning from human video, latent spaces for robot manipulation",
+      "email":"andrew.magnuson@mail.utoronto.ca",
+      "website": "https://www.andrewmagnuson.ca/",
+      "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
+      "twitter":"https://x.com/ajwmagnuson",
+    },
+    {
+      "name":"Jerry Zhu",
+      "image":"assets/team/jzhu2.jpeg",
+      "description":"bayesian optimisation, deep learning",
+      "email":"jerryzhu@uchicago.edu",
+      "website": "https://www.andrewmagnuson.ca/",
+      "linkedIn": "www.linkedin.com/in/jerryzhu509",
+    },
+    {
+      "name":"Maria Chzhen",
+      "image":"assets/team/maria_c.jpeg",
+      "description":"perception, implicit occupancy and flow representation.",
+      "email":"maria.chzhen@mail.utoronto.ca",
+      "linkedIn": "https://ca.linkedin.com/in/mariachzhen",
+      "twitter":"https://x.com/ajwmagnuson",
+    },
+    {
+      "name":"Hossein Goli",
+      "image":"assets/team/goli.jpg",
+      "description":"reinforcement learning, planning, learning to search",
+      "email":"hosseingoli02@gmail.com",
+      "website": "https://hgoli02.github.io/",
+      "linkedIn": "https://www.linkedin.com/in/hosseingoli/",
+    },
+    {
+      "name":"Yije Wang",
+      "image":"assets/team/yije.jpg",
+      "description":"constrained motion planning, chemistry lab automation",
+      "linkedIn":"https://www.linkedin.com/in/yijie-wang0806/",
+      "email":"yijies.wang@mail.utoronto.ca",
+    },
+    {
+      "name":"Garvish Bhutani",
+      "image":"assets/team/garvish.jpg",
+      "description":"robotic crowd navigation",
+      "linkedIn":"https://www.linkedin.com/in/garvish-bhutani/",
+      "email":"garvish.bhutani@mail.utoronto.ca",
+    },
+    {
+      "name":"Alex Alexiev",
+      "image":"assets/team/alexiev.jpg",
+	    "description":"non-rigid body manipulation",
+      "linkedIn":"https://www.linkedin.com/in/alexander-alexiev-125a78201/",
+      "email":"alex.alexiev@mail.utoronto.ca",
+	    "website": "https://alex-alexiev.github.io/",
+    },
 
 
   ],
@@ -173,7 +254,7 @@ export const dataTeam = {
        "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>. <b>next: Amazon Robotics</b>",
 	"linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
 	"website": "https://aivanovic1.github.io/"
-    },  
+    },
     {
       "name":"Haozhe Sheng",
       "image":"assets/team/profile.jpg",
@@ -226,7 +307,7 @@ export const dataTeam = {
       "image":"assets/team/jisu_qian_1.jpeg",
 	"description":"system identification",
 	"linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
-    },  
+    },
     {
       "name":"Salar Hosseini",
       "image":"assets/team/salar.jpg",
@@ -240,12 +321,6 @@ export const dataTeam = {
        "image":"assets/team/cathlyn_chen_1.jpg",
        "description":"backwards reachability for nonlinear systems",
        "link":"",
-    },
-    {
-      "name":"Alex Alexiev",
-      "image":"assets/team/alex_alexiev_1.jpeg",
-	"description":"task and motion planning",
-	"linkedIn": "https://alex-alexiev.github.io/"
     },
     {
        "name":"Kathy Zhuang",
@@ -390,6 +465,36 @@ export const dataTeam = {
       "website":"https://avinwangzh.github.io/Personal-Website/",
       "email":"avin.wangzihan@gmail.com",
       "linkedIn":"https://ca.linkedin.com/in/zihan-wang-70aa47ab"
+    },
+    {
+      "name":"Sirui (Ariel) Chen",
+      "image":"assets/team/ariel_chen_1.jpg",
+	    "description":"pedestrian trajectory prediction. <b>next: Stanford MSc</b>",
+	    "website": "https://github.com/arielchen07",
+        "linkedIn": "https://ca.linkedin.com/in/sirui-chen-6492a0232"
+    },
+    {
+      "name":"Kelly Zhu",
+      "image":"assets/team/kellyzhu.jpg",
+      "description":"trajectory prediction, uncertainty-aware planning <b>next: UofT CS MSc</b>",
+      "googleScholar":"https://scholar.google.com/citations?user=4k-1QxAAAAAJ&hl=en&oi=sra",
+      "linkedin":"https://www.linkedin.com/in/kellyzhu-ca",
+      "email":"zhu@cs.toronto.edu",
+      "website":"https://kellyzoo.github.io",
+    },
+    {
+      "name":"Yewon Lee",
+      "image":"assets/team/yewon_lee_1.jpeg",
+      "description":"task and motion planning <b>next: University of Washington CS PhD</b>",
+      "website":"https://yewon-lee.github.io/",
+      "email":"yewonlee@cs.toronto.edu",
+    },
+    {
+      "name":"Yasasa Abeysirigoonawardena",
+      "image":"assets/team/yasasa_abeysirigoonawardena_1.jpeg",
+      "description":"adversarial scenario generation, neural rendering. <b>next: Waabi</b>",
+	"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
+	"website": "https://www.yasasa.me/"
     },
   ],
 }

@@ -2,10 +2,10 @@
 export const dataPublications = [
 
 
-    { 
+    {
     "bibtex":`
 
-       
+
          @InProceedings{pmlr-v229-abeysirigoonawardena23a,
           title = 	 {Generating Transferable Adversarial Simulation Scenarios for Self-Driving via Neural Rendering},
           author =       {Abeysirigoonawardena, Yasasa and Xie, Kevin and Chen, Chuhan and Khorasgani, Salar Hosseini and Chen, Ruiting and Wang, Ruiqi and Shkurti, Florian},
@@ -16,47 +16,47 @@ export const dataPublications = [
           series = 	 {Proceedings of Machine Learning Research},
           month = 	 {06--09 Nov},
           publisher =    {PMLR},
-  
+
         }
- 
+
     `,
-       
+
     "tags":['adversarial scenarios', 'robot vision', 'differentiable rendering', 'simulation'],
     "thumbnail":"/assets/publication-thumbnails/adv_scenarios_nerf_corl23.jpg",
     "video": "https://openreview.net/attachment?id=4uFVn6WHyzo&name=poster_spotlight_video",
     "html": "https://arxiv.org/abs/2309.15770",
     "project": "https://www.yasasa.me/advscenarios/",
-    "code": "",   
-    "description":"",  
+    "code": "",
+    "description":"",
     },
 
 
-    { 
+    {
     "bibtex":`
 
        @InProceedings{gu2023conceptgraphs,
-         title={ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning}, 
+         title={ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning},
          author={Qiao Gu and Alihusein Kuwajerwala and Sacha Morin and Krishna Murthy Jatavallabhula and Bipasha Sen and Aditya Agarwal and Corban Rivera and William Paul and Kirsty Ellis and Rama Chellappa and Chuang Gan and Celso Miguel de Melo and Joshua B. Tenenbaum and Antonio Torralba and Florian Shkurti and Liam Paull},
          year={2024},
-         booktitle={IEEE International Conference on Robotics and Automation (ICRA)},  
+         booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
        }
     `,
-       
+
     "tags":['computer vision', 'robot vision', 'manipulation', 'simulation'],
     "thumbnail":"/assets/publication-thumbnails/conceptgraphs2.gif",
     "video": "https://www.youtube.com/watch?v=mRhNkQwRYnc",
     "html": "https://arxiv.org/abs/2309.16650",
     "project": "https://concept-graphs.github.io/",
-    "code": "https://github.com/concept-graphs/concept-graphs",   
-    "description":"",  
+    "code": "https://github.com/concept-graphs/concept-graphs",
+    "description":"",
     },
 
 
-    { 
+    {
     "bibtex":`
 
       @misc{darvish2024organa,
-      title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization}, 
+      title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization},
       author={Kourosh Darvish and Marta Skreta and Yuchi Zhao and Naruki Yoshikawa and Sagnik Som and Miroslav Bogdanovic and Yang Cao and Han Hao and Haoping Xu and Alán Aspuru-Guzik and Animesh Garg and Florian Shkurti},
       year={2024},
       eprint={2401.06949},
@@ -64,22 +64,22 @@ export const dataPublications = [
       primaryClass={cs.RO}
       }
     `,
-       
+
     "tags":['task and motion planning', 'manipulation', 'chemistry robotics'],
     "thumbnail":"/assets/publication-thumbnails/organa_setup.jpg",
     "video": "https://www.youtube.com/watch?v=fpe1_2FeMnE",
     "html": "https://arxiv.org/abs/2401.06949",
     "project": "https://ac-rad.github.io/organa/",
-    "code": "",   
-    "description":"",  
+    "code": "",
+    "description":"",
     },
 
-    
-    { 
+
+    {
     "bibtex":`
 
        @misc{lee2023stamp,
-         title={STAMP: Differentiable Task and Motion Planning via Stein Variational Gradient Descent}, 
+         title={STAMP: Differentiable Task and Motion Planning via Stein Variational Gradient Descent},
          author={Yewon Lee and Philip Huang and Krishna Murthy Jatavallabhula and Andrew Z. Li and Fabian Damken and Eric Heiden and Kevin Smith and Derek Nowrouzezahrai and Fabio Ramos and Florian Shkurti},
          year={2023},
          eprint={2310.01775},
@@ -88,21 +88,21 @@ export const dataPublications = [
        }
 
     `,
-       
+
     "tags":['planning', 'task and motion planning', 'manipulation', 'simulation'],
     "thumbnail":"/assets/publication-thumbnails/stamp.jpg",
-    "html": "https://arxiv.org/abs/2310.01775", 	
+    "html": "https://arxiv.org/abs/2310.01775",
     "video": "",
-    "code": "",   
-    "description":"",  
+    "code": "",
+    "description":"",
   },
- 
-    
-   { 
+
+
+   {
     "bibtex":`
 
        @misc{samavi2023sicnav,
-        title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization}, 
+        title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization},
         author={Sepehr Samavi and Florian Shkurti and Angela P. Schoellig},
         year={2023},
         eprint={2310.10982},
@@ -111,18 +111,18 @@ export const dataPublications = [
       }
 
     `,
-       
+
     "tags":['planning', 'control', 'social navigation', 'human-robot interaction'],
     "thumbnail":"/assets/publication-thumbnails/sicnav.jpg",
     "video": "",
     "project": "",
-    "html": "https://arxiv.org/abs/2310.10982",    
-    "code": "",   
-    "description":"",  
+    "html": "https://arxiv.org/abs/2310.10982",
+    "code": "",
+    "description":"",
   },
 
-    
-  { 
+
+  {
     "bibtex":`
 
 
@@ -132,19 +132,19 @@ export const dataPublications = [
           booktitle = {Autonomous Robots},
           year      = {2023},
           pages     = {1057-1086},
-          issue     = {47} 
-       }         
+          issue     = {47}
+       }
 
     `,
     "html": "https://link.springer.com/article/10.1007/s10514-023-10136-2",
     "tags":['planning', 'task and motion planning', 'manipulation', 'chemistry robotics'],
     "thumbnail":"/assets/publication-thumbnails/auro23_llms_chemistry_robotics2.gif",
     "video": "https://www.youtube.com/watch?v=-87yrXytluw",
-    "code": "https://github.com/ac-rad/xdl-generation",  
-    "description":"",  
+    "code": "https://github.com/ac-rad/xdl-generation",
+    "description":"",
     },
 
-    { 
+    {
     "bibtex":`
 
        @InProceedings{Wei_2023_CVPR,
@@ -154,15 +154,15 @@ export const dataPublications = [
           month     = {June},
           year      = {2023},
           pages     = {22680-22689}
-       }         
+       }
     `,
     "html": "https://arxiv.org/abs/2303.13755",
     "tags":['computer vision'],
     "thumbnail":"/assets/publication-thumbnails/cvpr23-sparsifiner.jpg",
-    "description":"",	
+    "description":"",
     },
 
-    { 
+    {
     "bibtex":`
 
       @InProceedings{Gu_2023_CVPR,
@@ -173,7 +173,7 @@ export const dataPublications = [
          year      = {2023},
          pages     = {24286-24295}
       }
-        
+
     `,
     "html": "https://arxiv.org/abs/2303.14595",
     "tags":['computer vision', 'robot vision', 'continual learning'],
@@ -182,17 +182,17 @@ export const dataPublications = [
     "description":"",
     },
 
-    
-    { 
+
+    {
     "bibtex":`
 
       @article{jatavallabhula2023conceptfusion,
-          title={ConceptFusion: Open-set Multimodal 3D Mapping}, 
+          title={ConceptFusion: Open-set Multimodal 3D Mapping},
           author={Krishna Murthy Jatavallabhula and Alihusein Kuwajerwala and Qiao Gu and Mohd Omama and Tao Chen and Shuang Li and Ganesh Iyer and Soroush Saryazdi and Nikhil Keetha and Ayush Tewari and Joshua B. Tenenbaum and Celso Miguel de Melo and Madhava Krishna and Liam Paull and Florian Shkurti and Antonio Torralba},
           year={2023},
       booktitle={Robotics: Science and Systems (RSS)},
       }
-        
+
     `,
     "html": "https://arxiv.org/abs/2302.07241",
     "tags":['computer vision', 'robot vision'],
@@ -202,10 +202,10 @@ export const dataPublications = [
     "description":"",
     },
 
-    
-    { 
+
+    {
     "bibtex":`
-        
+
        @article{Khodeir2023PolicyGuidedLS,
          title={Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
          author={Mohamed Khodeir and Atharv Sonwane and Ruthrash Hari and Florian Shkurti},
@@ -223,8 +223,8 @@ export const dataPublications = [
     },
 
 
-    
-    { 
+
+    {
     "bibtex":`
       @article{https://doi.org/10.48550/arxiv.2111.13144,
        author = {Mohamed Khodeir and Ben Agro and Florian Shkurti},
@@ -245,10 +245,10 @@ export const dataPublications = [
     },
 
 
-    
-    { 
+
+    {
     "bibtex":`
- 
+
         @article{Huang2022StochasticPF,
            title={Stochastic Planning for ASV Navigation Using Satellite Images},
            author={Yizhou Huang and Hamza Dugmag and Tim D. Barfoot and Florian Shkurti},
@@ -267,27 +267,27 @@ export const dataPublications = [
     },
 
 
-    { 
+    {
     "bibtex":`
 
       @article{wang2023mvtrans,
-          title={MVTrans: Multi-View Perception of Transparent Objects}, 
+          title={MVTrans: Multi-View Perception of Transparent Objects},
           author={Yi Ru Wang and Yuchi Zhao and Haoping Xu and Saggi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
           year={2023},
           booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-      }        
+      }
     `,
     "html":"https://arxiv.org/abs/2302.11683",
     "tags":['computer vision', 'robot vision', 'chemistry robotics'],
     "code": "https://ac-rad.github.io/MVTrans/",
     "data": "https://ac-rad.github.io/MVTrans/",
-    "video": "https://www.youtube.com/watch?v=8Qdc_xWVp-k&ab_channel=XuHaoping",	
+    "video": "https://www.youtube.com/watch?v=8Qdc_xWVp-k&ab_channel=XuHaoping",
     "thumbnail":"/assets/publication-thumbnails/icra23-mvtrans.jpg",
     "description":"",
     },
 
-    
-    { 
+
+    {
     "bibtex":`
       @article{https://doi.org/10.48550/arxiv.2212.09672,
            author = {Naruki Yoshikawa and Andrew Zou Li and Kourosh Darvish and Yuchi Zhao and Haoping Xu and Alan Aspuru-Guzik and Animesh Garg and Florian Shkurti},
@@ -306,26 +306,44 @@ export const dataPublications = [
     "description":"",
     },
 
-    { 
+    {
+      "bibtex":`
+        @inproceedings{xu2021seeing,
+          title={Seeing Glass: Joint Point-Cloud and Depth Completion for Transparent Objects},
+          author={Haoping Xu and Yi Ru Wang and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+          booktitle={Conference on Robot Learning (CoRL)},
+          year={2021},
+          url={https://openreview.net/forum?id=tCfLLiP7vje}
+        }
+      `,
+      "html":"https://openreview.net/forum?id=tCfLLiP7vje",
+      "tags":["robot vision"],
+      "video": "https://www.youtube.com/watch?v=SuUMKy52b4E&ab_channel=ConferenceonRobotLearning",
+      "code": "https://www.pair.toronto.edu/TranspareNet/",
+      "data": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/ZJJAJ3",
+      "thumbnail":"/assets/publication-thumbnails/todd.jpg",
+      "description":"",
+    },
+
+    {
     "bibtex":`
-      @inproceedings{xu2021seeing,
-        title={Seeing Glass: Joint Point-Cloud and Depth Completion for Transparent Objects},
-        author={Haoping Xu and Yi Ru Wang and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
-        booktitle={Conference on Robot Learning (CoRL)},
-        year={2021},
-        url={https://openreview.net/forum?id=tCfLLiP7vje}
-      }
+      @InProceedings{Xie_2021_ICCV,
+        author    = {Xie, Kevin and Wang, Tingwu and Iqbal, Umar and Guo, Yunrong and Fidler, Sanja and Shkurti, Florian},
+        title     = {Physics-Based Human Motion Estimation and Synthesis From Videos},
+        booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+        month     = {October},
+        year      = {2021},
+        pages     = {11532-11541}
+    }
     `,
-    "html":"https://openreview.net/forum?id=tCfLLiP7vje",
-    "tags":["robot vision"],
-    "video": "https://www.youtube.com/watch?v=SuUMKy52b4E&ab_channel=ConferenceonRobotLearning",
-    "code": "https://www.pair.toronto.edu/TranspareNet/",
-    "data": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/ZJJAJ3",
-    "thumbnail":"/assets/publication-thumbnails/todd.jpg",
+    "html":"https://research.nvidia.com/labs/toronto-ai/physics-pose-estimation-project-page/",
+    "tags":['physics based', 'simulation'],
+    "video": "https://drive.google.com/file/d/1tdkN64wi1QEEx5EzakYT96uF376S-dWK/view",
+    "thumbnail":"/assets/publication-thumbnails/physics_based.png",
     "description":"",
     },
-    
-    { 
+
+    {
     "bibtex":`
       @inproceedings{agia2021taskography,
          title={Taskography: Evaluating robot task planning over large 3D scene graphs},
@@ -338,12 +356,12 @@ export const dataPublications = [
     "html":"https://taskography.github.io/",
     "tags":["planning"],
     "video": "https://www.youtube.com/watch?v=mM4v5hP4LdA&t=17s&ab_channel=KrishnaMurthy",
-    "code": "https://github.com/taskography",	
+    "code": "https://github.com/taskography",
     "thumbnail":"/assets/publication-thumbnails/taskography.jpg",
     "description":"",
   },
 
-    { 
+    {
     "bibtex":`
       @InProceedings{Khorasgani_2022_CVPR,
     author    = {Salar Hosseini Khorasgani and Yuxuan Chen and Florian Shkurti},
@@ -357,20 +375,20 @@ export const dataPublications = [
     "html":"https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
     "tags":["computer vision"],
     "video": "https://youtu.be/iTt4rOLdjCo",
-    "code": "https://github.com/rvl-lab-utoronto/video_similarity_search",	
+    "code": "https://github.com/rvl-lab-utoronto/video_similarity_search",
     "thumbnail":"/assets/publication-thumbnails/slic.jpg",
     "description":"",
   },
 
 
-    { 
+    {
     "bibtex":`
       @inproceedings{equivariant_imitation_learning,
         title={Augmenting Imitation Experience via Equivariant Representations},
         author={Dhruv Sharma and Alihusein Kuwajerwala and Florian Shkurti},
         year={2022},
-        pages={9383-9389},   
-        booktitle = {International Conference on Robotics and Automation (ICRA)}, 
+        pages={9383-9389},
+        booktitle = {International Conference on Robotics and Automation (ICRA)},
       }
     `,
     "html":"https://arxiv.org/abs/2110.07668",
@@ -380,13 +398,13 @@ export const dataPublications = [
     "description":"",
   },
 
-    { 
+    {
     "bibtex":`
       @inproceedings{csc_homanga,
         title={Conservative Safety Critics for Exploration},
         author={Homanga Bharadhwaj and Aviral Kumar and Nicholas Rhinehart and Sergey Levine and Florian Shkurti and Animesh Garg},
         year={2021},
-        booktitle = {International Conference on Learning Representations (ICLR)}, 
+        booktitle = {International Conference on Learning Representations (ICLR)},
       }
     `,
     "html":"https://arxiv.org/abs/2010.14497",
@@ -394,13 +412,13 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Conservative Safety Critics for Exploration.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{gradsim,
         title={gradSim: Differentiable simulation for system identification and visuomotor control },
         author={Krishna Jatavallabhula and Miles Macklin and Florian Golemo and Vikram Voleti and Linda Petrini and Martin Weiss and Breandan Considine and Jerome Parent-Levesque and Kevin Xie and Kenny Erleben and Liam Paull and Florian Shkurti and Sanja Fidler and Derek Nowrouzezahrai},
         year={2021},
-        booktitle = {International Conference on Learning Representations (ICLR)}, 
+        booktitle = {International Conference on Learning Representations (ICLR)},
       }
     `,
     "html" : "https://openreview.net/forum?id=c_E8kFWfhp0",
@@ -409,7 +427,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/gradSim Differentiable simulation for system identification and visuomotor control.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{transferable_skills_kevin,
         title={Skill Transfer via Partially Amortized Hierarchical Planning},
@@ -423,13 +441,13 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Skill Transfer via Partially Amortized Hierarchical Planning.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{sinha2020dibs,
         title={DIBS: Diversity-Inducing Information Bottleneck in Model Ensembles},
         author={Samarth Sinha and Homanga Bharadhwaj and Anirudh Goyal and Hugo Larochelle and Animesh Garg and Florian Shkurti},
         year={2021},
-        booktitle = {Association for the Advancement of Artificial Intelligence (AAAI)}, 
+        booktitle = {Association for the Advancement of Artificial Intelligence (AAAI)},
       }
     `,
     "html" : "https://arxiv.org/abs/2003.04514",
@@ -437,7 +455,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/DIBS Diversity-Inducing Information Bottleneck in Model Ensembles.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{koreitem2020oneshot,
         title={One-Shot Informed Robotic Visual Search in the Wild},
@@ -455,17 +473,17 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/One-Shot Informed Robotic Visual Search in the Wild.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
-      @INPROCEEDINGS{Manderson-RSS-20, 
-        AUTHOR    = {Travis Manderson AND Juan Camilo Gamboa Higuera AND Stefan Wapnick AND Jean-François Tremblay AND Florian Shkurti AND David Meger AND Gregory Dudek}, 
-        TITLE     = {{Vision-Based Goal-Conditioned Policies for Underwater Navigation in the Presence of Obstacles}}, 
-        BOOKTITLE = {Robotics: Science and Systems (RSS)}, 
-        YEAR      = {2020}, 
-        ADDRESS   = {Corvalis, Oregon, USA}, 
-        MONTH     = {July}, 
+      @INPROCEEDINGS{Manderson-RSS-20,
+        AUTHOR    = {Travis Manderson AND Juan Camilo Gamboa Higuera AND Stefan Wapnick AND Jean-François Tremblay AND Florian Shkurti AND David Meger AND Gregory Dudek},
+        TITLE     = {{Vision-Based Goal-Conditioned Policies for Underwater Navigation in the Presence of Obstacles}},
+        BOOKTITLE = {Robotics: Science and Systems (RSS)},
+        YEAR      = {2020},
+        ADDRESS   = {Corvalis, Oregon, USA},
+        MONTH     = {July},
         DOI       = {10.15607/RSS.2020.XVI.048},
-      } 
+      }
     `,
     "html":"http://www.roboticsproceedings.org/rss16/p048.html",
     "video":"https://www.youtube.com/watch?v=qpcmwb_7QA4",
@@ -474,7 +492,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Vision-Based Goal-Conditioned Policies for Underwater Navigation in the Presence of Obstacles.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{bharadhwaj2020leaf,
         title={LEAF: Latent Exploration Along the Frontier},
@@ -492,7 +510,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/LEAF Latent Exploration Along the Frontier.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{yuchen_wu_il_rl,
         title={Shaping Rewards for Reinforcement Learning with Imperfect Demonstrations using Generative Models},
@@ -509,7 +527,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Shaping Rewards for Reinforcement Learning with Imperfect Demonstrations using Generative Models.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{hypercrl,
         title={Continual Model-Based Reinforcement Learning with Hypernetworks},
@@ -526,7 +544,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Continual Model-Based Reinforcement Learning with Hypernetworks.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{loho,
         title={LOHO: Latent Optimization of Hairstyles via Orthogonalization},
@@ -543,7 +561,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/LOHO Latent Optimization of Hairstyles via Orthogonalization.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{dong2020catch,
         title={Catch the Ball: Accurate High-Speed Motions for Mobile Manipulators via Inverse Dynamics Learning},
@@ -561,7 +579,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Catch the Ball Accurate High-Speed Motions for Mobile Manipulators via Inverse Dynamics Learning.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{bharadhwaj2020modelpredictive,
         title={Model-Predictive Control via Cross-Entropy and Gradient-Based Optimization},
@@ -578,7 +596,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Model-Predictive Control via Cross-Entropy and Gradient-Based Optimization.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @article{Abeysirigoonawardena2019GeneratingAD,
         title={Generating Adversarial Driving Scenarios in High-Fidelity Simulators},
@@ -593,7 +611,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Generating Adversarial Driving Scenarios in High-Fidelity Simulators.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{ florianICRA2018,
         author = {Shkurti, Florian and Kakodkar, Nikhil and Dudek, Gregory},
@@ -611,16 +629,16 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Model-Based Probabilistic Pursuit via Inverse Reinforcement Learning.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
-      @INPROCEEDINGS{koreitemoceans18, 
-        author={Karim Koreitem and Jimmy Li and Ian Karp and Travis Manderson and Florian Shkurti and Gregory Dudek}, 
-        booktitle={IEEE OCEANS}, 
-        title={Synthetically Trained 3D Visual Tracker of Underwater Vehicles}, 
-        year={2018}, 
-        volume={}, 
-        number={}, 
-        pages={1-7}, 
+      @INPROCEEDINGS{koreitemoceans18,
+        author={Karim Koreitem and Jimmy Li and Ian Karp and Travis Manderson and Florian Shkurti and Gregory Dudek},
+        booktitle={IEEE OCEANS},
+        title={Synthetically Trained 3D Visual Tracker of Underwater Vehicles},
+        year={2018},
+        volume={},
+        number={},
+        pages={1-7},
         month={Oct},
       }
     `,
@@ -629,7 +647,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Synthetically Trained 3D Visual Tracker of Underwater Vehicles.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{convoying_iros_2017,
         author = {Shkurti, Florian and Chang, {Wei Di} and Henderson, Peter and Islam, {Md. Jahidul} and {Gamboa Higuera}, {Juan Camilo} and Li, Jimmy and Manderson, Travis and Xu, Anqi and Dudek, Gregory and Sattar, Junaed},
@@ -647,7 +665,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Underwater Multi-Robot Convoying Using Visual Tracking by Detection.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{topological_pursuit_iros_2017,
         author = "Florian Shkurti and Gregory Dudek",
@@ -664,7 +682,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Topologically distinct trajectory predictions for probabilistic pursuit.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @article{benchmark_environments_multitask,
         author    = {Peter Henderson and
@@ -686,7 +704,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Benchmark Environments for Multitask Learning in Continuous Domains.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{manderson_crv_2016,
         Author = {Manderson, Travis and Shkurti, Florian and Dudek, Gregory},
@@ -703,7 +721,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Texture-Aware SLAM Using Stereo Imagery And Inertial Information.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{iros2014_megerShkurtiCortesPozaGiguereDudek,
         author = {David Meger and Florian Shkurti and David Cort'{e}s Poza and Philippe Gigu\`{e}re and Gregory Dudek},
@@ -718,7 +736,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/3D Trajectory Synthesis and Control for a Legged Swimming Robot.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{Qiwen14iros,
         author = {Zhang, Qiwen and Whitney, David and Shkurti, Florian and Rekleitis, Ioannis},
@@ -736,7 +754,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Ear-based Exploration on Hybrid MetricTopological Maps.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{Meghjani:2014:ARS:2623380.2623579,
         author = {Meghjani, Malika and Shkurti, Florian and Higuera, Juan Camilo Gamboa and Kalmbach, Arnold and Whitney, David and Dudek, Gregory},
@@ -751,7 +769,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Asymmetric Rendezvous Search at Sea.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{ Florian2014MaxViz,
         author = {Shkurti, Florian and Dudek, Gregory},
@@ -768,7 +786,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Maximizing Visibility in Collaborative Trajectory Planning.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{Shkurti13icra,
         author = {Shkurti, Florian and Dudek, Gregory},
@@ -785,7 +803,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/On the Complexity of Searching for an Evader with a Faster Pursuer.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{Shkurti12iros,
         author = {Shkurti, Florian and Xu, Anqi and Meghjani, Malika and {Gamboa Higuera}, {Juan Camilo} and  Girdhar, Yogesh and Giguere, Philippe and Dey, {Bir Bikram} and Li, Jimmy and Kalmbach, Arnold and Prahacs, Chris and Turgeon, Katrine and Rekleitis, Ioannis and Dudek, Gregory},
@@ -794,7 +812,7 @@ export const dataPublications = [
         pages = "1747--1753",
         year = "2012",
         month = "October",
-        address = "Algarve, Portugal",              
+        address = "Algarve, Portugal",
       }
     `,
     "pdf":"assets/pdf/iros2012_multirobot_env_monitoring.pdf",
@@ -804,7 +822,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Multi-Domain Monitoring of Marine Environments Using a Heterogeneous Robot Team.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{ Gamboa2012SocialPlan,
         author = {Juan Camilo Gamboa Higuera and Anqi Xu and Florian Shkurti and Gregory Dudek},
@@ -821,7 +839,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/Socially-Driven Collective Path Planning for Robot Missions.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{florian_state_est,
         author = {Shkurti, Florian and Rekleitis, Ioannis and Scaccia, Milena and Dudek, Gregory},
@@ -838,7 +856,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/State estimation of an underwater robot using visual and inertial information.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @InProceedings{ Girdhar2011MARE,
         author = "Yogesh Girdhar and Anqi Xu and Bir Bikram Dey and Malika Meghjani and Florian Shkurti and Ioannis Rekleitis and Gregory Dudek",
@@ -855,7 +873,7 @@ export const dataPublications = [
     "thumbnail":"/assets/publication-thumbnails/MARE Marine Autonomous Robotic Explorer.jpg",
     "description":"",
   },
-  { 
+  {
     "bibtex":`
       @inproceedings{florian_crv_2011,
         Author = {Shkurti, Florian and Rekleitis, Ioannis and Dudek, Gregory},
