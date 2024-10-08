@@ -8,13 +8,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 2. Verify installation with
     ```shell
-    $ npm 
+    $ npm
     ```
 
-3. Install project dependencies with 
+3. Install project dependencies with
     ```shell
     $ npm install
     ```
+
+### NB Compatible Versions
+
+(updated 2024-10-08)
+
+This project is compatible with node version 12.22.9. The most straight forward way is to use [nvm](https://github.com/nvm-sh/nvm) to switch to this version before doing `npm install`.
 
 ## Available Scripts
 
@@ -207,7 +213,7 @@ You can always test your changes before by running ```npm start```
 {
   "title": "Blog Title To Readme",
   "date": "September 20, 2020",
-  "webLocation": "blogPage2", 
+  "webLocation": "blogPage2",
   "asset": "assets/blog-pages/blogPage2.md",
   "articleData":{
     "title": "Blog Title",
@@ -241,7 +247,7 @@ You can always test your changes before by running ```npm start```
 
 ### Publication Object
 ```
-  { 
+  {
     "bibtex":`
       @InProceedings{id,
         author = "author",
@@ -374,7 +380,7 @@ You can always test your changes before by running ```npm start```
 2. Add socials object to the list
 
 ### Socials Object
-``` 
+```
   {
     "link":"https://www.youtube.com/",
     "name":"YouTube",
