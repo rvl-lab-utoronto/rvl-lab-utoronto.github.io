@@ -31,6 +31,28 @@ export const dataPublications = [
     },
 
 
+    
+    {
+    "bibtex":`
+
+        @article{Huang2024FieldTesting,
+           title={Field Testing of a Stochastic Planner for ASV Navigation System using Satellite Images},
+           author={Yizhou Huang and Tony Wang and Florian Shkurti and Timothy D. Barfoot},
+           booktitle={Field Robotics},
+           year={2024},
+        }
+
+    `,
+    "html":"https://arxiv.org/abs/2309.14657",
+    "tags":['planning', 'field robotics', 'robot vision'],
+    "code": "",
+    "data": "",
+    "video": "https://www.youtube.com/watch?v=KVSTmWFLqjk&ab_channel=utiasASRL",
+    "thumbnail":"/assets/publication-thumbnails/FieldTestingBoat2023.png",
+    "description":"",
+    },
+
+
     {
     "bibtex":`
 
@@ -55,13 +77,11 @@ export const dataPublications = [
     {
     "bibtex":`
 
-      @misc{darvish2024organa,
+      @article{darvish2024organa,
       title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization},
       author={Kourosh Darvish and Marta Skreta and Yuchi Zhao and Naruki Yoshikawa and Sagnik Som and Miroslav Bogdanovic and Yang Cao and Han Hao and Haoping Xu and Alán Aspuru-Guzik and Animesh Garg and Florian Shkurti},
       year={2024},
-      eprint={2401.06949},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
+      booktitle={Matter},
       }
     `,
 
@@ -101,13 +121,11 @@ export const dataPublications = [
    {
     "bibtex":`
 
-       @misc{samavi2023sicnav,
+       @article{samavi2024sicnav,
         title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization},
-        author={Sepehr Samavi and Florian Shkurti and Angela P. Schoellig},
-        year={2023},
-        eprint={2310.10982},
-        archivePrefix={arXiv},
-        primaryClass={cs.RO}
+        author={Sepehr Samavi and James Han and Florian Shkurti and Angela P. Schoellig},
+        year={2024},
+        booktitle={Transactions on Robotics}
       }
 
     `,
