@@ -39,7 +39,7 @@ problems, trying to predict a ranking of high-level actions to be attempted next
 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/lazy-policy-diagram-1.jpg"  alt="method diag"/>
+  <img src="assets/project-assets/images/lazy-policy-diagram-1.jpg" style="width:80%;" alt="method diag"/>
   <figcaption align="center">
    <em> </em>  
   </figcaption>
