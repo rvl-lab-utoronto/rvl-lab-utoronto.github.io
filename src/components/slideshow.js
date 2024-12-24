@@ -21,8 +21,12 @@ export class Slideshow extends Component {
             </div>
           )
         }>
-          {dataSlideshow.map((item)=>{
-            return <img style={{borderRadius:"7px"}} src={process.env.PUBLIC_URL+"/"+item} alt={"slideshow"}/>
+          {dataSlideshow.map((item, index)=>{
+            return <img 
+                key={index} 
+                style={{borderRadius:"7px"}} 
+                src={process.env.PUBLIC_URL+"/"+item} 
+                alt={"slideshow"}/>
           })}
       </Carousel>
   );

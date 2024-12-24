@@ -11,8 +11,8 @@ export default class Blog extends Component {
         <div style={{minHeight: "100vh"}}>
           <NavbarSpace/>
           <div style={{height:"1px"}}/>
-          {dataBlog.map((blog)=>{
-            return <BlogEntry blog={blog}/>
+          {dataBlog.map((blog, index)=>{
+            return <BlogEntry key={index} blog={blog}/>
           })}
         </div>
         <div style={{position:"absolute", left:0, width:"100vw"}}>

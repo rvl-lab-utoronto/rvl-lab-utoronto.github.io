@@ -3,6 +3,7 @@ import './navbar.css';
 import {pages} from "../util/pages"
 import {Link} from "react-router-dom";
 import { dataSocials } from '../data/socials';
+import rvl_logo from '../assets/RVL-icon.png';
 
 export class Navbar extends Component {
   constructor() {
@@ -28,52 +29,91 @@ export class Navbar extends Component {
     }
     return({"title":"","category":""});
   }
-  render(){
-    return(
+
+  render() {
+    return (
       <div className="navbar">
         <div className="desktop-view">
           <div className="navbar-flex horizontal-padding max-width-home">
-            <div style={{width:"250px"}}><Link to="/"><img alt="RVL" className="rvl-icon-desktop" src={require("../assets/RVL-icon.png").default}/></Link></div>
-            <div>
-              {
-                this.navbarPagesTotal.map((item,index)=>{
-                  return <NavbarLink selected={this.state.currentLink===item.link} title={item.title} link={item.link}/>
-                })
-              }
+            <div style={{ width: "250px" }}>
+              <Link to="/">
+
+                <img
+                  alt="RVL"
+                  className="rvl-icon-desktop"
+                  src={rvl_logo}
+                />
+              
+              </Link>
             </div>
-            <div className="navbar-socials" style={{width:"250px"}}>
-              {dataSocials.map((social, index)=>{
-                return <>
-                  <NavbarSocial key={social.name} social={social}/>
-                </>
-              })}
+            <div>
+              {this.navbarPagesTotal.map((item) => (
+                <NavbarLink
+                  key={item.link}
+                  selected={this.state.currentLink === item.link}
+                  title={item.title}
+                  link={item.link}
+                />
+              ))}
+            </div>
+            <div className="navbar-socials" style={{ width: "250px" }}>
+              {dataSocials.map((social) => (
+                <NavbarSocial key={social.name} social={social} />
+              ))}
             </div>
           </div>
         </div>
         <div className="mobile-view">
-          <div className="navbar-flex" style={{zIndex:100, backgroundColor:"white"}}>
-            <Link to="/"><img alt="RVL" className="rvl-icon-mobile" src={require("../assets/RVL-icon.png").default}/></Link>
-            <div style={{height:"50px"}}/>
-            <div className="navbar-socials" style={{position:"absolute", right:"38px", top:"10px"}}>
-              {dataSocials.map((social, index)=>{
-                return <>
-                  <NavbarSocial key={social.name} social={social}/>
-                </>
-              })}
+          <div
+            className="navbar-flex"
+            style={{ zIndex: 100, backgroundColor: "white" }}
+          >
+            <Link to="/">
+              <img
+                alt="RVL"
+                className="rvl-icon-mobile"
+                src={rvl_logo}
+              />
+            </Link>
+            <div style={{ height: "50px" }} />
+            <div
+              className="navbar-socials"
+              style={{ position: "absolute", right: "38px", top: "10px" }}
+            >
+              {dataSocials.map((social) => (
+                <NavbarSocial key={social.name} social={social} />
+              ))}
             </div>
-            <img onClick={()=>{this.setState({open:!this.state.open})}} alt="menu" className="navbar-menu-icon" src={require("../assets/buttons/bars-solid.svg").default}/>
+            <img
+              onClick={() => {
+                this.setState({ open: !this.state.open });
+              }}
+              alt="menu"
+              className="navbar-menu-icon"
+              src={require("../assets/buttons/bars-solid.svg").default}
+            />
           </div>
-          <div className={"navbar-items-mobile " + (!this.state.open?"navbar-items-mobile-open":"")}>
-            {
-              this.navbarPagesTotal.map((item,index)=>{
-                return <NavbarLinkMobile selected={this.state.currentLink===item.link} title={item.title} link={item.link}/>
-              })
+          <div
+            className={
+              "navbar-items-mobile " +
+              (!this.state.open ? "navbar-items-mobile-open" : "")
             }
+          >
+            {this.navbarPagesTotal.map((item) => (
+              <NavbarLinkMobile
+                key={item.link}
+                selected={this.state.currentLink === item.link}
+                title={item.title}
+                link={item.link}
+              />
+            ))}
           </div>
         </div>
       </div>
-    )
+    );
   }
+  
+
 }
 
 class NavbarLink extends Component {

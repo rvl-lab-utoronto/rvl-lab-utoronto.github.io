@@ -15,8 +15,8 @@ export default class Projects extends Component {
       <div className="horizontal-padding max-width">
         <div style={{height:"10px"}}/>
         <Masonry breakpointCols={breakpointColumnsObj} className="masonry-grid">
-          {dataProjects.map((project)=>{
-            return <ProjectEntry project={project}/>
+          {dataProjects.map((project, index)=>{
+            return <ProjectEntry key={index} project={project}/>
           })}
         </Masonry>
       </div>

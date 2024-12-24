@@ -1,57 +1,76 @@
-import React,{Component} from 'react'
+import React, { useState } from 'react';
 import './news.css';
-import {dataNews} from "../data/news.js"
+import { dataNews } from '../data/news.js';
+import expandMoreIcon from '../assets/buttons/expand_more.svg';
 
-export default class News extends Component {
-  constructor() {
-    super();
-    this.amountShow = 10;
-    this.amountShowExpand = 10;
-    this.state={show:this.amountShow}
-  }
-  render(){
-    return(
-      <>
-        <h2 className="news-title">News</h2>
-        <div className="news-box-container">
-          {
-            dataNews.map((item, index)=>{
-              if(index >= this.state.show){
-                return <></>
-              } else {
-                return <div className="news-box">
-                  <p dangerouslySetInnerHTML={{__html: "<span class=\"boxed\">" + getMonth(item.date) + " " + getYear(item.date) + "</span> " + item.content}}/>
-                </div>
-              }
-            })
-          }
-          {!(this.state.show>=dataNews.length)?
-            <div style={{width:"100%", marginTop:"10px"}} className={"center"}>
-              <div onClick={()=>{this.setState({show:this.state.show+this.amountShowExpand})}} className={"news-load-more-button"}>
-                <img alt="more" style={{height:"24px", width:"24px"}} src={require('../assets/buttons/expand_more.svg').default}/>
-              </div>
+const News = () => {
+  const amountShow = 10;
+  const amountShowExpand = 10;
+  const [show, setShow] = useState(amountShow);
+
+  const visibleNews = dataNews.slice(0, show);
+
+  return (
+    <>
+      <h2 className="news-title">News</h2>
+      <div className="news-box-container">
+        {visibleNews.map((item, index) => (
+          <div key={item.id || index} className="news-box">
+            <p
+              dangerouslySetInnerHTML={{
+                __html:
+                  `<span class="boxed">${getMonth(item.date)} ${getYear(
+                    item.date
+                  )}</span> ` + item.content,
+              }}
+            />
+          </div>
+        ))}
+        {show < dataNews.length && (
+          <div style={{ width: '100%', marginTop: '10px' }} className="center">
+            <div
+              onClick={() => setShow(show + amountShowExpand)}
+              className="news-load-more-button"
+            >
+              <img
+                alt="more"
+                style={{ height: '24px', width: '24px' }}
+                src={expandMoreIcon}
+              />
             </div>
-            :
-            <></>
-          }
-          
-        </div>
-      </>
-    )
-  }
+          </div>
+        )}
+      </div>
+    </>
+  );
+};
+
+// Utility functions
+function getYear(date) {
+  const parts = date?.split('-');
+  return parts && parts.length === 3 ? parts[0] : '';
 }
 
-//format: 2021-08-25 (year, month, day)
-function getYear(date){
-  if(date===undefined||date.split("-").length!==3){
-    return "";
-  }
-  return date.split("-")[0];
+const monthsShort = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sept',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+function getMonth(date) {
+  const parts = date?.split('-');
+  return parts && parts.length === 3
+    ? monthsShort[parseInt(parts[1], 10) - 1]
+    : '';
 }
-const monthsShort = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
-function getMonth(date){
-  if(date===undefined||date.split("-").length!==3){
-    return "";
-  }
-  return monthsShort[parseInt(date.split("-")[1])-1];
-}
+
+export default News;

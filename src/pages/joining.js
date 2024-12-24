@@ -53,8 +53,8 @@ research. You will be part of a large, vibrant and healthy community.</p>
         {/* `transitionTimeout` prop should be equal to the transition duration in CSS */}
 		  <Accordion transition transitionTimeout={250} allowMultiple>
 
-	  {dataFAQ.map((qa)=>{
-	      return <AccordionItem header={qa.question}><ReactMarkdown rehypePlugins={[rehypeRaw]}>{qa.answer}</ReactMarkdown>
+	  {dataFAQ.map((qa, index)=>{
+	      return <AccordionItem key={index} header={qa.question}><ReactMarkdown rehypePlugins={[rehypeRaw]}>{qa.answer}</ReactMarkdown>
 	  </AccordionItem>
           })}
 

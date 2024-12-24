@@ -132,8 +132,8 @@ export class BlogEntryPage extends Component {
                   {this.props.articleData.authors!==undefined?
                   <div style={{display:"flex", flexDirection:"column"}}>
                     <h4 className="article-data-header">Authors</h4>
-                    {this.props.articleData?.authors?.map((author)=>{
-                      return <h3 className="article-data-label">{author}</h3>
+                    {this.props.articleData?.authors?.map((author, index)=>{
+                      return <h3 key={index} className="article-data-label">{author}</h3>
                     })}
                   </div>
                   :
@@ -142,8 +142,8 @@ export class BlogEntryPage extends Component {
                   {this.props.articleData.affiliations!==undefined?
                   <div style={{display:"flex", flexDirection:"column"}}>
                     <h4 className="article-data-header">Affiliations</h4>
-                    {this.props.articleData?.affiliations?.map((author)=>{
-                      return <h3 className="article-data-label">{author}</h3>
+                    {this.props.articleData?.affiliations?.map((author, index)=>{
+                      return <h3 key={index} className="article-data-label">{author}</h3>
                     })}
                   </div>
                   :
@@ -161,14 +161,14 @@ export class BlogEntryPage extends Component {
               </>)
             :<></>}
             <div style={{height:"16px"}}/></>:<></>}
-            {this.state.htmlSplit && this.state.htmlSplit.map((html)=>{
+            {this.state.htmlSplit && this.state.htmlSplit.map((html, index)=>{
               if(html.startsWith("<pre><code>")){
                 let htmlRemoved = html.split("<pre><code>")[1]
-                return <SyntaxHighlighter language="javascript" style={docco}>
+                return <SyntaxHighlighter key={index} language="javascript" style={docco}>
                   {htmlRemoved}
                 </SyntaxHighlighter>
               } else{
-                return <div dangerouslySetInnerHTML={{__html: html}}/>
+                return <div key={index} dangerouslySetInnerHTML={{__html: html}}/>
               }
             })}
           </div>

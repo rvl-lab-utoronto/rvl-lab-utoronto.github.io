@@ -1,88 +1,118 @@
-import React from 'react'
-import {Route, Redirect, Switch, BrowserRouter} from 'react-router-dom'
-import {TransitionGroup, CSSTransition} from 'react-transition-group'
-import ScrollToTop from "./components/scrollToTop"
-import {pages} from "./util/pages"
-import Error404 from './pages/error404'
-import { Navbar, NavbarSpace } from './components/navbar'
-import Footer from "./components/footer"
-import { dataBlog } from './data/blogs'
-import { BlogEntryPage } from './components/blogEntry'
-import { dataProjects } from './data/projects'
-import { ProjectEntryPage } from './components/projectEntry'
+import React from 'react';
+import { Route, Routes, BrowserRouter, useLocation } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
+import ScrollToTop from "./components/scrollToTop";
+import { pages } from "./util/pages";
+import Error404 from './pages/error404';
+import { Navbar, NavbarSpace } from './components/navbar';
+import Footer from "./components/footer";
+import { dataBlog } from './data/blogs';
+import { BlogEntryPage } from './components/blogEntry';
+import { dataProjects } from './data/projects';
+import { ProjectEntryPage } from './components/projectEntry';
 
-export default function App() {
+function App() {
   const navbarRef = React.useRef();
+  const location = useLocation();
+
+  // 1. Ref for <CSSTransition> to avoid findDOMNode
+  const nodeRef = React.useRef(null);
+
 
   React.useEffect(() => {
-    handlePageChange(window.location.pathname);
-  }, []);
+    handlePageChange(location.pathname);
+  }, [location]);
 
-  function handlePageChange(link){
+  function handlePageChange(link) {
     navbarRef.current?.handlePageChange(link);
   }
-  
-  return (
-      <BrowserRouter >
-      <Route render={({ location }) => {
-        return(
-        <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
-          <ScrollToTop/>
-          <Navbar ref={navbarRef}/>
-          <TransitionGroup component="div" className="App">
-            <CSSTransition timeout={300} classNames='page' key={location.pathname}> 
-              <Switch location={location}>
-                {[...pages["main"],...pages["hidden"]].map((item, index)=>{
-                  return(<Route path={item.link} exact render={()=>{
-                    handlePageChange(item.link); 
-                    return (
-                    <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
-                      <div style={{minHeight: "calc(100vh - 162px)"}}>
-                        {item.link!=="/blog"?<NavbarSpace/>:<div/>}
-                        {item.component}
-                      </div>
-                      {item.link!=="/blog"?<Footer/>:<div/>}
-                    </div>
-                  )}} key={item.link}/>)
-                })}
-                {dataBlog.map((blog)=>{
-                  if(blog.asset!==undefined && blog.asset!=="" && blog.webLocation!==undefined && blog.webLocation!==""){
-                    return <Route path={"/blog/"+blog.webLocation} exact render={()=>{
-                      handlePageChange("/blog"); 
-                      let distill = blog.asset?.includes(".html")
-                      return (
-                      <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
-                        <div style={{minHeight: "100vh"}}>
-                          <BlogEntryPage articleData={blog.articleData} distill={distill} src={process.env.PUBLIC_URL+"/"+blog.asset}/>
-                        </div>
-                        {!distill?<Footer/>:<></>}
 
-                      </div>
-                    )}} key={blog.title}/>
-                  } 
-                })}
-                {dataProjects.map((project)=>{
-                  if(project.asset!==undefined && project.asset!=="" && project.webLocation!==undefined && project.webLocation!==""){
-                    return <Route path={"/research/"+project.webLocation} exact render={()=>{
-                      handlePageChange("/research"); 
-                      return (
-                      <div style={{position:"absolute",right:0, left:0, bottom:0, top:0}}>
-                        <div style={{minHeight: "100vh",}}>
-                          <ProjectEntryPage src={process.env.PUBLIC_URL+"/"+project.asset}/>
+  return (
+    <div style={{ position: "absolute", right: 0, left: 0, bottom: 0, top: 0 }}>
+      <ScrollToTop />
+      <Navbar ref={navbarRef} />
+      <TransitionGroup component="div" className="App">
+        <CSSTransition timeout={300} classNames="page" key={location.pathname} nodeRef={nodeRef}>
+          <div ref={nodeRef} style={{ position: "relative", width: "100%", height: "100%" }}>
+
+          <Routes location={location}>
+            {[...pages["main"], ...pages["hidden"]].map((item) => (
+              <Route
+                path={item.link}
+                key={item.link}
+                element={
+                  <div style={{ position: "absolute", right: 0, left: 0, bottom: 0, top: 0 }}>
+                    <div style={{ minHeight: "calc(100vh - 162px)" }}>
+                      {item.link !== "/blog" ? <NavbarSpace /> : <div />}
+                      {item.component}
+                    </div>
+                    {item.link !== "/blog" ? <Footer /> : <div />}
+                  </div>
+                }
+              />
+            ))}
+
+            {dataBlog.map((blog, index) => {
+              if (blog.asset && blog.webLocation) {
+                const distill = blog.asset.includes(".html");
+                return (
+                  <Route
+                    path={`/blog/${blog.webLocation}`}
+                    key={blog.title}
+                    element={
+                      <div style={{ position: "absolute", right: 0, left: 0, bottom: 0, top: 0 }}>
+                        <div style={{ minHeight: "100vh" }}>
+                          <BlogEntryPage
+                            key={index}
+                            articleData={blog.articleData}
+                            distill={distill}
+                            src={`${process.env.PUBLIC_URL}/${blog.asset}`}
+                          />
                         </div>
-                        <Footer/>
+                        {!distill && <Footer />}
                       </div>
-                    )}} key={project.title}/>
-                  } 
-                })}
-                <Route path='*' component={Error404} />
-                
-              </Switch>
-            </CSSTransition>
-          </TransitionGroup>
-        </div>
-      )}} />
+                    }
+                  />
+                );
+              }
+              //return null;
+            })}
+            
+            
+            {dataProjects.map((project, index) => {
+              if (project.asset && project.webLocation) {
+                return (
+                  <Route
+                    path={`/research/${project.webLocation}`}
+                    key={project.title}
+                    element={
+                      <div style={{ position: "absolute", right: 0, left: 0, bottom: 0, top: 0 }}>
+                        <div style={{ minHeight: "100vh" }}>
+                          <ProjectEntryPage src={`${process.env.PUBLIC_URL}/${project.asset}`} />
+                        </div>
+                        <Footer />
+                      </div>
+                    }
+                  />
+                );
+              }
+              //return null;
+            })}
+            <Route path="*" element={<Error404 />} />
+          </Routes>
+          </div>
+        </CSSTransition>
+      </TransitionGroup>
+    </div>
+  );
+}
+
+function AppWrapper() {
+  return (
+    <BrowserRouter>
+      <App />
     </BrowserRouter>
   );
 }
 
+export default AppWrapper;

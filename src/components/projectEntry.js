@@ -28,6 +28,6 @@ export default class ProjectEntry extends Component {
 
 export class ProjectEntryPage extends Component {
   render(){
-   return <BlogEntryPage src={this.props.src} removeExtraSpace/>
+   return <BlogEntryPage key={this.props.key} src={this.props.src} removeExtraSpace/>
   }
 }
