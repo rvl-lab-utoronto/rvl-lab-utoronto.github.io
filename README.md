@@ -18,9 +18,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### NB Compatible Versions
 
-(updated 2024-10-08)
+(updated Dec 2024)
 
-This project is compatible with node version 12.22.9. The most straight forward way is to use [nvm](https://github.com/nvm-sh/nvm) to switch to this version before doing `npm install`.
+This project is compatible with node version 22.11.0. The most straight forward way is to use [nvm](https://github.com/nvm-sh/nvm) to switch to this version before doing `npm install`.
 
 ## Available Scripts
 
