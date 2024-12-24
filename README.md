@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup
 
-1. Install [node.js](https://nodejs.org/en/)
+1. Install [node.js](https://nodejs.org/en/) (version 22.11.0 as of Dec 2024)
 
 2. Verify installation with
     ```shell
@@ -15,12 +15,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     ```shell
     $ npm install
     ```
-
-### NB Compatible Versions
-
-(updated 2024-10-08)
-
-This project is compatible with node version 12.22.9. The most straight forward way is to use [nvm](https://github.com/nvm-sh/nvm) to switch to this version before doing `npm install`.
 
 ## Available Scripts
 
