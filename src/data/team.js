@@ -103,17 +103,6 @@ export const dataTeam = {
       "description":"computer vision, field robotics, stochastic planning",
       "linkedIn":"https://www.linkedin.com/in/blerimabdullai",
     },
-
-    {
-      "name":"Fabian Damken",
-      "image":"assets/team/fabian_damken_1.jpg",
-      "description":"learning planning heuristics",
-      "linkedIn":"https://linkedin.com/in/fdamken",
-      "email":"fabian@damken.net",
-      "website": "https://fabian.damken.net/",
-      "twitter": "https://twitter.com/fabian_damken",
-      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
-    },
     {
       "name":"Daniel Hocevar",
       "image":"assets/team/headshot-danielhocevar.jpg",
@@ -478,6 +467,16 @@ export const dataTeam = {
       "description":"adversarial scenario generation, neural rendering. <b>next: Waabi</b>",
 	"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
 	"website": "https://www.yasasa.me/"
+    },
+    {
+      "name":"Fabian Damken",
+      "image":"assets/team/fabian_damken_1.jpg",
+      "description":"learning planning heuristics",
+      "linkedIn":"https://linkedin.com/in/fdamken",
+      "email":"fabian@damken.net",
+      "website": "https://fabian.damken.net/",
+      "twitter": "https://twitter.com/fabian_damken",
+      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
     },
     {
       "name":"Jinbang Huang",
