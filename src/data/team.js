@@ -98,18 +98,6 @@ export const dataTeam = {
 
   "MSc students":[
     {
-      "name":"Anthony Lem",
-      "image":"assets/team/anthony_lem_1.jpg",
-      "description":"human pose detection and prediction",
-      "email":"anthony.lem@mail.utoronto.ca",
-    },
-    {
-      "name":"Jinbang Huang",
-      "image":"assets/team/jinbang_huang_1.jpg",
-      "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>",
-      "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
-    },
-    {
       "name":"Blerim Abdullai",
       "image":"assets/team/blerim_abdullai_1.jpg",
       "description":"computer vision, field robotics, stochastic planning",
@@ -490,6 +478,18 @@ export const dataTeam = {
       "description":"adversarial scenario generation, neural rendering. <b>next: Waabi</b>",
 	"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
 	"website": "https://www.yasasa.me/"
+    },
+    {
+      "name":"Jinbang Huang",
+      "image":"assets/team/jinbang_huang_1.jpg",
+      "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>",
+      "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
+    },
+    {
+      "name":"Anthony Lem",
+      "image":"assets/team/anthony_lem_1.jpg",
+      "description":"human pose detection and prediction",
+      "email":"anthony.lem@mail.utoronto.ca",
     },
   ],
 }
