@@ -1,7 +1,44 @@
 
 export const dataPublications = [
 
+  {
+    "bibtex":`
+         @InProceedings{tseng2025,
+          title = 	 {Gaussian Splatting Visual MPC for Granular Media Manipulation},
+          author =  {Wei-Cheng Tseng and Ellina Zhang and Krishna Murthy Jatavallabhula and Florian Shkurti},
+          booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+          year = 	 {2025},
+        }
 
+    `,
+
+    "tags":['manipulation', 'robot vision',  'planning', 'control'],
+    "thumbnail":"/assets/publication-thumbnails/granular_icra25.png",
+    "video": "",
+    "html": "https://arxiv.org/abs/2410.09740",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+         @InProceedings{huang2025,
+          title = 	 {Automated Planning Domain Inference for Task and Motion Planning},
+          author =  {Jinbang Huang and Allen Tao and Rozilyn Marco and Miroslav Bogdanovic and Jonathan Kelly and Florian Shkurti},
+          booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+          year = 	 {2025},
+        }
+
+    `,
+
+    "tags":['task and motion planning', 'manipulation', 'planning'],
+    "thumbnail":"/assets/publication-thumbnails/tamp_icra25.png",
+    "video": "",
+    "html": "https://arxiv.org/abs/2410.16445",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
   {
     "bibtex":`
 
