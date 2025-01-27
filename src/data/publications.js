@@ -2,7 +2,29 @@
 export const dataPublications = [
 
 
-    {
+  {
+    "bibtex":`
+
+
+         @InProceedings{chen2025,
+          title = 	 {Generalization in VAE and Diffusion Models: A Unified Information-Theoretic Analysis},
+          author =  {Qi Chen and Jerry Zhu and Florian Shkurti},
+          booktitle = {International Conference on Learning Representations (ICLR)},
+          year = 	 {2025},
+        }
+
+    `,
+
+    "tags":['theoretical machine learning'],
+    "thumbnail":"/assets/publication-thumbnails/vae_dm_generalization.png",
+    "video": "",
+    "html": "https://openreview.net/forum?id=NGB6YNnO5o",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+
+  {
     "bibtex":`
 
 
@@ -31,7 +53,7 @@ export const dataPublications = [
     },
 
 
-    
+
     {
     "bibtex":`
 
@@ -125,7 +147,11 @@ export const dataPublications = [
         title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization},
         author={Sepehr Samavi and James Han and Florian Shkurti and Angela P. Schoellig},
         year={2024},
-        booktitle={Transactions on Robotics}
+        booktitle={IEEE Transactions on Robotics},
+        volume={41},
+        number={},
+        pages={801-818},
+        doi={10.1109/TRO.2024.3484634}
       }
 
     `,
