@@ -98,7 +98,7 @@ policies in simulation while providing guarantees about their performance in the
 from our [CoRL 2023 paper](https://arxiv.org/abs/2309.15770): 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/adv-scenarios-corl23.jpg"  alt="method diag"/>  
+  <img style="height: auto;" src="assets/project-assets/images/adv-scenarios-corl23.jpg"  alt="method diag"/>  
 </p>
 </figure>
 
@@ -108,7 +108,7 @@ How does the optimization work? We cast adversarial scenario generation as a hig
 
 <figure>
 <p align="center">
-  <img src="assets/project-assets/images/method-overview-corl23.jpg"  alt="method diag"/>  
+  <img style="height: auto;" src="assets/project-assets/images/method-overview-corl23.jpg"  alt="method diag"/>  
 </p>
 <figcaption align="center">
      <em>Adversarial scenario generation using optimal control, treating the physics and rendering simulator as differentiable.</em>
