@@ -52,7 +52,7 @@ export const dataPublications = [
 
     `,
 
-    "tags":['theoretical machine learning'],
+    "tags":['generative models'],
     "thumbnail":"/assets/publication-thumbnails/vae_dm_generalization.png",
     "video": "",
     "html": "https://openreview.net/forum?id=NGB6YNnO5o",
