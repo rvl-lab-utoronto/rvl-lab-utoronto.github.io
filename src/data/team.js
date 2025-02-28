@@ -490,5 +490,12 @@ export const dataTeam = {
       "description":"human pose detection and prediction",
       "email":"anthony.lem@mail.utoronto.ca",
     },
+    {
+      "name":"Jason Liu",
+      "image":"assets/team/JasonLiu.jpg",
+      "description":"reinforcement learning, control, simulation, and manipulation. <b>next: CMU RI PhD</b>",
+      "email":"liujason@cmu.edu",
+      "website":"https://jasonjzliu.com/",
+    },
   ],
 }
