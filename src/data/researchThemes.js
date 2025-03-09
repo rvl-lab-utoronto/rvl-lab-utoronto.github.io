@@ -39,6 +39,6 @@ export const dataResearchThemes = [
       "safe system identification"*/
     ],
       "asset":"assets/research-themes/safe robot learning.jpg",
-      "web": "/research/safe-robot"
+      "web": "/research/safe-robot-learning"
   },
 ]
