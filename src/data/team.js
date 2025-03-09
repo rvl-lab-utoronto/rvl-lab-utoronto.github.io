@@ -179,11 +179,6 @@ export const dataTeam = {
 	"website": "https://aivanovic1.github.io/"
     },
     {
-      "name":"Haozhe Sheng",
-      "image":"assets/team/profile.jpg",
-      "description":"<b>next: Google</b>",
-    },
-    {
       "name":"Julia Chae",
       "image":"assets/team/julia_chae_1.jpg",
       "description":"LiDAR and RGB representation learning <b>next: MIT EECS PhD</b>",
@@ -230,6 +225,11 @@ export const dataTeam = {
 	"website": "https://hamzadugmag.com/"
     },
     {
+      "name":"Haozhe Sheng",
+      "image":"assets/team/haozhe_sheng_1.jpeg",
+      "description":"<b>next: Google</b>",
+    },
+    {
       "name":"Jisu Qian",
       "image":"assets/team/jisu_qian_1.jpeg",
 	"description":"system identification",
@@ -272,7 +272,7 @@ export const dataTeam = {
     {
       "name":"Artur Kuramshin",
       "image":"assets/team/artur_kuramshin_1.jpeg",
-      "description":"field robotics, autonomous boat",
+      "description":"field robotics, autonomous boat <b>next: MILA MSc</b>",
       "website":"http://akuramshin.ca",
       "linkedIn":"https://www.linkedin.com/in/artur-kuramshin-4b926616a/",
     },
@@ -285,17 +285,17 @@ export const dataTeam = {
     {
       "name":"Jerry Zhu",
       "image":"assets/team/jzhu2.jpeg",
-      "description":"bayesian optimisation, deep learning <b>next: UChicago Stats PhD</b>",
+      "description":"bayesian optimisation, deep learning <b>next: U. of Chicago Stats PhD</b>",
       "linkedIn": "www.linkedin.com/in/jerryzhu509",
     },
     {
       "name":"Charlotte Zhang",
-	"image":"assets/team/profile.jpg",
+	"image":"assets/team/charlotte_zhang_1.jpeg",
 	"description":"field robotics, autonomous boat <b>next: SFU CS PhD</b>",
     },
     {
       "name":"Jason Tang",
-      "image":"assets/team/profile.jpg",
+      "image":"assets/team/jason_tang_1.jpg",
       "description":"continual image classification. <b>next: UofT CS MSc</b>",
     },
     {
@@ -332,7 +332,7 @@ export const dataTeam = {
     {
       "name":"Dhruv Sharma",
       "image":"assets/team/dhruv_sharma_1.jpg",
-      "description":"autonomous driving, robotics, computer vision. <b>next: Huawei</b>",
+      "description":"autonomous driving, robotics, computer vision. <b>next: Huawei AI, Toronto</b>",
       "linkedIn":"https://ca.linkedin.com/in/dhruvsharmauw",
       "website":"https://sharmadhruv.weebly.com/",
     },
@@ -390,7 +390,7 @@ export const dataTeam = {
     },
     {
       "name":"Siyun Li",
-      "image":"assets/team/profile.jpg",
+      "image":"assets/team/siyun_li_1.jpg",
       "description":"adversarial examples for self-driving simulators. <b>next: Stanford CS MSc</b>",
       "linkedIn":"https://ca.linkedin.com/in/siyun-li",
     },
@@ -402,7 +402,7 @@ export const dataTeam = {
     },
     {
       "name":"Zidong Weng",
-      "image":"assets/team/profile.jpg",
+      "image":"assets/team/zidong_weng_1.jpeg",
       "description":"out-of-distribution detection for image and lidar data. <b>next: Intel</b>",
       "linkedIn":"https://ca.linkedin.com/in/zidong-weng-232035134",
     },
@@ -431,7 +431,7 @@ export const dataTeam = {
     {
       "name":"Yewon Lee",
       "image":"assets/team/yewon_lee_1.jpeg",
-      "description":"task and motion planning <b>next: University of Washington CS PhD</b>",
+      "description":"task and motion planning <b>next: U. of Washington CS PhD</b>",
       "website":"https://yewon-lee.github.io/",
     },
     {
@@ -454,7 +454,7 @@ export const dataTeam = {
       "name":"Aditya Saigal",
       "image":"assets/team/profile.jpg",
       "linkedIn":"https://ca.linkedin.com/in/aditya-saigal-221207143?trk=pub-pbmap",
-      "description":"continual reinforcement learning",
+      "description":"continual reinforcement learning <b>next: Tenstorrent</b>",
     },
     {
       "name":"Jinbang Huang",
