@@ -10,28 +10,34 @@ export default class Home extends Component {
     return(<>
       <div className="desktop-view" >
         <div className="horizontal-padding max-width-home">
-          <div style={{display:"flex",flexDirection:"row"}}>
+          <div style={{display:"flex",flexDirection:"column"}}>
             <div className="left-section">
               <Slideshow/>
+
               <div style={{height:"20px"}}/>
-	      <LabIntro/>
-	      <div style={{height:"20px"}}/>
-	      <ResearchThemes/>
-            </div>
-            <div className="news-section">
+              <LabIntro/>
+	      
+              <div style={{height:"20px"}}/>
+	            <ResearchThemes/>
+            
               <News/>
+            
             </div>
+          
+            
           </div>
         </div>
       </div>
-      <div className="mobile-view">
-        <div className="horizontal-padding">
-          <Slideshow/>
-	  <LabIntro/>
-          <ResearchThemes/>
-          <News/>
-        </div>
+
+    <div className="mobile-view">
+      <div className="horizontal-padding">
+        <Slideshow/>
+	      <LabIntro/>
+        <ResearchThemes/>
+        <News/>
       </div>
+    </div>
+    
     </>)
   }
 }

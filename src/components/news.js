@@ -16,14 +16,14 @@ const News = () => {
       <div className="news-box-container">
         {visibleNews.map((item, index) => (
           <div key={item.id || index} className="news-box">
+            <div class="news-box-item-date">{getMonth(item.date)} {getYear(item.date)}</div>
+            <div class="news-box-item-content">
             <p
               dangerouslySetInnerHTML={{
-                __html:
-                  `<span class="boxed">${getMonth(item.date)} ${getYear(
-                    item.date
-                  )}</span> ` + item.content,
+                __html: item.content,
               }}
             />
+            </div>
           </div>
         ))}
         {show < dataNews.length && (
@@ -60,7 +60,7 @@ const monthsShort = [
   'Jun',
   'Jul',
   'Aug',
-  'Sept',
+  'Sep',
   'Oct',
   'Nov',
   'Dec',

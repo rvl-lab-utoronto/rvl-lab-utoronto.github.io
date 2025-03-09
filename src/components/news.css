@@ -1,18 +1,18 @@
 .news-title{
   margin: 10px;
-  margin-left: 1vw;
+  /*margin-left: 1vw;*/
 }
 
 .news-box-container{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0vw 1vw;
 }
 
 .news-box{
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
+  /*align-self: flex-start;*/
   padding: 12px 0px;
 }
 
@@ -25,12 +25,26 @@
   line-height: 1.4;
 }
 
-.boxed {
-    border: 1px solid grey ;
-    border-radius: 7px;
-    padding: 1px 3px;
-    color: grey;
+
+
+.news-box-item-date {
+  float: left;
+  border: 1px solid grey ;
+  border-radius: 7px;
+  padding: 1px 3px;
+  color: grey;
+  width: 75px;
+  margin-right: 0px; /* Optional: Add some space between the span and the paragraph */
+  margin-bottom: 5px; /* Optional: Add some space between the span and the paragraph */
+  
 }
+
+.news-box-item-content {
+  float: right;
+  padding: 1px 3px;
+  margin-right: 10px; /* Optional: Add some space between the span and the paragraph */
+}
+
 .news-load-more-button{
   padding: 10px;
   background-color: var(--accent-button);
