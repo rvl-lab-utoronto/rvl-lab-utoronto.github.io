@@ -49,12 +49,6 @@ export const dataTeam = {
   ],
   "PhD students":[
     {
-      "name":"Kevin Xie",
-      "image":"assets/team/kevin.jpg",
-      "description":"reinforcement learning, control, 3D vision. co-supervised by <a href='https://www.cs.utoronto.ca/~fidler/'>Sanja Fidler</a>",
-      "website":"https://kevincxie.github.io/",
-    },
-    {
       "name":"Qiao Gu",
       "image":"assets/team/qiaogu.jpg",
       "website":"https://georgegu1997.github.io/",
@@ -192,6 +186,12 @@ export const dataTeam = {
       "linkedIn":"https://ca.linkedin.com/in/philip-yizhou-huang",
       "website":"https://philip-huang.github.io/",
       "googleScholar":"https://scholar.google.com/citations?hl=en&user=YDCsS5EAAAAJ"
+    },
+    {
+      "name":"Kevin Xie",
+      "image":"assets/team/kevin.jpg",
+      "description":"reinforcement learning, control, 3D vision. co-supervised by <a href='https://www.cs.utoronto.ca/~fidler/'>Sanja Fidler</a>. <b>next: Nvidia</b>",
+      "website":"https://kevincxie.github.io/",
     },
     {
       "name":"Ben Agro",
