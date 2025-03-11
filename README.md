@@ -108,11 +108,11 @@ The RVL Blog supports 2 types of blog posts: a local .html file, a local .md mar
    {
     "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
     "date": "August 18, 2020",
-    "webLocation": "hypercrl", 
+    "webLocation": "blogpage", 
     "asset": "assets/blog-pages/hypercrl/hypercrl.html",
    },
 ```
-* Your blog page will be accessible at `https://rvl.cs.toronto.edu/blog/hypercrl`
+* Your blog page will be accessible at `https://rvl.cs.toronto.edu/blog/blogpage`
    
 
 | attribute | type | notes | example value  |
@@ -135,7 +135,7 @@ The RVL Blog supports 2 types of blog posts: a local .html file, a local .md mar
    {
     "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
     "date": "August 18, 2020",
-    "webLocation": "hypercrl", 
+    "webLocation": "blogpage", 
     "asset": "assets/blog-pages/hypercrl/hypercrl.md",
     "articleData":{
       "title": "Blog Title",
@@ -144,7 +144,7 @@ The RVL Blog supports 2 types of blog posts: a local .html file, a local .md mar
       "affiliations":["University of Toronto"],
    },
 ```
-* Your blog page will be accessible at `https://rvl.cs.toronto.edu/blog/hypercrl`
+* Your blog page will be accessible at `https://rvl.cs.toronto.edu/blog/blogpage`
   
 | attribute | type | notes | example value  |
 |---|---|---|---|
