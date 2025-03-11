@@ -95,10 +95,10 @@ You can always test your changes before by running ```npm start```
 The RVL Blog supports 2 types of blog posts: a local .html file, a local .md markdown file or a link to an external post:
 
 ### Blog Page (type 1, PREFERRED): Creating a local `.html` file from a Quarto `.qmd` markdown file
-* If you haven't done this already, install Quarto on your machine
-* If you are working from VSCode, also install the Quarto extension for VSCode
+* If you haven't done this already, install [Quarto](https://quarto.org/docs/get-started/) on your machine
+* If you are working from VSCode, also install the [Quarto extension for VSCode](https://quarto.org/docs/tools/vscode.html)
 * Create a new directory (let's call it `hypercrl`) for your blog page under `public/assets/blog-pages/`, for example `public/assets/blog-pages/hypercrl`  
-* Create a `.qmd` markdown file in that directory, for example `public/assets/blog-pages/hypercrl/hypercrl.qmd`. This type of markdown supports math 
+* Create a `.qmd` markdown file in that directory, for example `public/assets/blog-pages/hypercrl/hypercrl.qmd`. This type of markdown supports math. See this [example html page](https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html) that resulted from [this .qmd file](https://raw.githubusercontent.com/quarto-dev/quarto-gallery/main/page-layout/tufte.qmd) 
 * Compile the `.qmd` file into an `.html` file, either via the command line, or through the VSCode Quarto extension (see Preview Format here)
 * This will create the `.html` file and related media files, found under `public/assets/blog-pages/hypercrl/hypercrl_files`
 * You should commit the `.qmd` file, the `.html` file, and the `hypercrl_files` folder to the repository, both are necessary
