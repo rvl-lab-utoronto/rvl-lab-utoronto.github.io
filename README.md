@@ -92,7 +92,7 @@ You can always test your changes before by running ```npm start```
 | dataSlideshow | list of string | All locations should point to where assets are stored: `public/` | `["assets/slideshow/husky_utm_2020.png"]` |
 
 ## Blog Pages
-The RVL Blog supports 2 types of blog posts: a local .html file, a local .md markdown file or a link to an external post:
+The RVL Blog supports 3 types of blog posts: a local .html file, a local .md markdown file or a link to an external post:
 
 ### Blog Page (type 1, PREFERRED): Creating a local `.html` file from a Quarto `.qmd` markdown file
 * If you haven't done this already, install [Quarto](https://quarto.org/docs/get-started/) on your machine
