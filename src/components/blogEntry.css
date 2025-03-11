@@ -13,13 +13,16 @@
 }
 
 .blog-entry-page iframe{
-  /* width: 80% !important;*/ 
   max-width: 560px; 
-  /* height:315px; */
+  border-width: 0;
+}
+
+#iframe {
+  border: none;
+  padding-left: 4%;
 }
 
 .blog-entry-page img{
-  /*width: 80% !important;*/ 
   height:100%;
   max-width: 860px;
   border-radius: 5px;
@@ -38,7 +41,7 @@ pre{
 }
 
 code{
-  background-color: var(--light-dark-accent-color-code);
+  background-color: #fff;
   padding: 5px;
   border-radius: 5px;
 }

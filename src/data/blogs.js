@@ -7,7 +7,7 @@ Examples:
   "title": "Blog Entry",
   "date": "August 18, 2020",
   "webLocation": "hypercrl", 
-  "asset": "assets/blog-pages/hypercrl.html",
+  "asset": "assets/blog-pages/hypercrl/hypercrl.html",
 },
 {
   "title": "Test Entry To External Link",
@@ -30,22 +30,22 @@ export const dataBlog = [
   //   "link": "https://rvl.cs.toronto.edu/backwards-reachability/",
   //   "description": "Using reachability analysis to compute safety guarantees for safety critical dynamic systems."
   // },
-  {
-    "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
-    "date": "August 18, 2020",
-    "webLocation": "hypercrl-md", 
-    "asset": "assets/blog-pages/hypercrl.md",
-    "articleData":{
-      "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
-      "date": "August 18, 2020",
-      "authors":["Yizhou (Philip) Huang","Kevin Xie","Homanga Bharadhwaj","Florian Shkurti"],
-      "affiliations":["University of Toronto"],
-    },
-  },
   //{
   //  "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
   //  "date": "August 18, 2020",
-  //  "webLocation": "hypercrl-html", 
-  //  "asset": "assets/blog-pages/hypercrl.html",
+  //  "webLocation": "hypercrl", 
+  //  "asset": "assets/blog-pages/hypercrl/hypercrl.md",
+  //  "articleData":{
+  //    "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
+  //    "date": "August 18, 2020",
+  //    "authors":["Yizhou (Philip) Huang","Kevin Xie","Homanga Bharadhwaj","Florian Shkurti"],
+  //    "affiliations":["University of Toronto"],
+  //  },
   //},
+  {
+    "title": "Continual Model-Based Reinforcement Learning with Hypernetworks",
+    "date": "August 18, 2020",
+    "webLocation": "hypercrl", 
+    "asset": "assets/blog-pages/hypercrl/hypercrl.html",
+  },
 ]

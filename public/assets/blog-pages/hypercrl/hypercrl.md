@@ -10,7 +10,7 @@ We consider the following problem setting: A robot interacts with the environmen
 
 ## Our method
 <div>
-  <img src="assets/blog-assets/hypercrl/hypercrl_diag.png"  alt="method diag" width="700" height="280">
+  <img src="assets/blog-pages/hypercrl/hypercrl_diag.png"  alt="method diag" width="700" height="280">
   <p></p>
 </div>
 
@@ -40,7 +40,7 @@ To move the second blue block to its goal pose, the panda arm should first hit b
 
 ### Normalized Reward on the Door Environment during training
 <div>
-  <img src="assets/blog-assets/hypercrl/door_pose_reward-01.png"  alt="method diag" width="690" height="230">
+  <img src="assets/blog-pages/hypercrl/door_pose_reward-01.png"  alt="method diag" width="690" height="230">
   <p></p>
 </div>
 
@@ -48,14 +48,14 @@ To move the second blue block to its goal pose, the panda arm should first hit b
 ### Reward on the Pusher Environment during training
 
 <div>
-  <img src="assets/blog-assets/hypercrl/pusher_reward-01.png"  alt="method diag" width="690" height="230">
+  <img src="assets/blog-pages/hypercrl/pusher_reward-01.png"  alt="method diag" width="690" height="230">
   <p></p>
 </div>
 
 ### Reward on the Slider environment during training
 
 <div>
-  <img src="assets/blog-assets/hypercrl/pusher_slide_reward-01.png"  alt="method diag" width="690" height="230">
+  <img src="assets/blog-pages/hypercrl/pusher_slide_reward-01.png"  alt="method diag" width="690" height="230">
   <p></p>
 </div>
 
