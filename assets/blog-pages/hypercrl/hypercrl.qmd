@@ -3,7 +3,6 @@ title: "Continual Model-Based Reinforcement Learning with Hypernetworks"
 subtitle: "Philip Huang"
 date: "August 18, 2020"
 format:
-    pdf: default
     html: 
       link-external-newwindow: true
       self-contained: false
