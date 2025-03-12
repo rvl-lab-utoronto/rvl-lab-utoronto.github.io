@@ -16,8 +16,8 @@ const News = () => {
       <div className="news-box-container">
         {visibleNews.map((item, index) => (
           <div key={item.id || index} className="news-box">
-            <div class="news-box-item-date">{getMonth(item.date)} {getYear(item.date)}</div>
-            <div class="news-box-item-content">
+            <div className="news-box-item-date">{getMonth(item.date)} {getYear(item.date)}</div>
+            <div className="news-box-item-content">
             <p
               dangerouslySetInnerHTML={{
                 __html: item.content,
