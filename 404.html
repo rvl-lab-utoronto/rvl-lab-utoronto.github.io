@@ -60,7 +60,7 @@
   var l = window.location;
   
 // Prevent infinite redirect loop
-if (!window.location.search.includes('?/')) {
+if (!window.location.includes('?/')) {
         
   l.replace(
     l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
