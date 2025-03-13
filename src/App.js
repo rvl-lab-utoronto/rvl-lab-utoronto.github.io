@@ -17,7 +17,7 @@ function App() {
 
   // 1. Ref for <CSSTransition> to avoid findDOMNode
   const nodeRef = React.useRef(null);
-
+  const validRoutes = ['/', '/blog', '/research'];
 
   React.useEffect(() => {
     handlePageChange(location.pathname);
@@ -98,7 +98,27 @@ function App() {
               }
               //return null;
             })}
-            <Route path="*" element={<Error404 />} />
+            
+        
+             {!location.pathname.includes("404.html") && !location.pathname.includes("/?/") && !validRoutes.includes(location.pathname) && (
+  <Route path="*" element={<Error404 />} />
+            )}
+
+            {location.pathname.includes("404.html") && (
+                <Route path="*" 
+                       element={
+                              <div class="container404">
+                                  <p></p>  
+                                  <p></p>  
+                                  <h1>Error 404</h1>
+                                  <p>Oops! The page you're looking for doesn't exist.</p>
+                                  <p><a href="/">Go back to the homepage</a></p>
+                              </div>
+                              }
+                  />
+            )}
+
+
           </Routes>
           </div>
         </CSSTransition>
