@@ -60,7 +60,7 @@ export const dataTeam = {
     {
       "name":"Wei-Cheng Tseng",
       "image":"assets/team/weicheng_tseng_1.jpg",
-      "description":"multi-agent reinforcement learning, computer vision",
+      "description":"visual foundation models, robot learning",
       "website":"https://weichengtseng.github.io/",
     },
     {
