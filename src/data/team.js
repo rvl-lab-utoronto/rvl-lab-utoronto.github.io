@@ -125,11 +125,19 @@ export const dataTeam = {
 
   "undergraduate students":[
     {
-      "name":"Ruiting Chen",
-      "image":"assets/team/ruiting_chen_1.jpg",
-	    "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization",
-	    "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
-      "website":"https://ruiting-chen.github.io",
+      "name":"Jibran Iqbal Shah",
+      "image":"assets/team/jibran_headshot.png",
+	    "description":"trajectory prediction, uncertainty-aware planning",
+	    "linkedIn": "https://www.linkedin.com/in/jibran-iqbal-shah/",
+      "website":"https://jibby1729.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?user=XxKtRlMAAAAJ&hl=en",
+    },
+    {
+      "name":"Emma Xing",
+      "image":"assets/team/emma-xing-headshot.png",
+	    "description":"non-rigid body manipulation, physics simulation for robotics, imitation learning",
+	    "linkedIn": "https://www.linkedin.com/in/emmaxing/",
+      "website":"https://emma-x1.github.io/",
     },
     {
       "name":"Andrew Zou Li",
@@ -157,7 +165,22 @@ export const dataTeam = {
 
 
   "alumni":[
-        {
+    {
+      "name":"Ruiting Chen",
+      "image":"assets/team/ruiting_chen_1.jpg",
+	    "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization <b>next: Stanford CS MSc</b>",
+	    "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
+      "website":"https://ruiting-chen.github.io",
+    },
+    {
+      "name":"Derek Tan",
+      "image":"assets/team/derektan_headshot_v3.jpg",
+      "description":"test-time adaptation, multimodal visual search. <b>next: Visitor National University of Singapore</b>",
+      "website":"https://derektan95.github.io/",
+      "linkedIn":"https://www.linkedin.com/in/derektan95/",
+      "googleScholar":"https://scholar.google.com/citations?user=dVvzYaoAAAAJ&hl=en",
+    },
+    {
       "name":"Kourosh Darvish",
       "image":"assets/team/kourosh_darvish_2.jpg",
       "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <b>next: Research Scientist, Acceleraction Consortium</b>",
