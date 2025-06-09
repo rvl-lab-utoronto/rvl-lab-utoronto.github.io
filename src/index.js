@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// 🔧 Force service worker unregistration (fix for Safari cache issues)
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(registrations => {
+      registrations.forEach(reg => reg.unregister());
+    });
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(<App />);
