@@ -146,20 +146,6 @@ export const dataTeam = {
       "website": "https://andrewzl.github.io/",
       "linkedIn": "https://www.linkedin.com/in/andrewzouli/"
     },
-    {
-      "name":"Maria Chzhen",
-      "image":"assets/team/maria_c.jpeg",
-      "description":"perception, implicit occupancy and flow representation.",
-      "linkedIn": "https://ca.linkedin.com/in/mariachzhen",
-    },
-    {
-      "name":"Alex Alexiev",
-      "image":"assets/team/alexiev.jpg",
-	    "description":"non-rigid body manipulation",
-      "linkedIn":"https://www.linkedin.com/in/alexander-alexiev-125a78201/",
-	    "website": "https://alex-alexiev.github.io/",
-    },
-
 
   ],
 
@@ -171,6 +157,19 @@ export const dataTeam = {
 	    "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization <b>next: Stanford CS MSc</b>",
 	    "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
       "website":"https://ruiting-chen.github.io",
+    },
+    {
+      "name":"Alex Alexiev",
+      "image":"assets/team/alexiev.jpg",
+	    "description":"non-rigid body manipulation <b>next: MIT MechEng PhD</b>",
+      "linkedIn":"https://www.linkedin.com/in/alexander-alexiev-125a78201/",
+	    "website": "https://alex-alexiev.github.io/",
+    },
+    {
+      "name":"Maria Chzhen",
+      "image":"assets/team/maria_c.jpeg",
+      "description":"perception, implicit occupancy and flow representation.",
+      "linkedIn": "https://ca.linkedin.com/in/mariachzhen",
     },
     {
       "name":"Derek Tan",
