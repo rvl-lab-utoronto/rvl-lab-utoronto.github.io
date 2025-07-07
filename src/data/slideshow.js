@@ -6,5 +6,9 @@ export const dataSlideshow = [
   "assets/slideshow/boat_1.jpg",
   "assets/slideshow/boat_2.jpg",
   "assets/slideshow/visual_search_diver_tracking_iros_2020.jpg",
+  "assets/slideshow/maritime-robotics.jpeg",
+  "assets/slideshow/robot-items.jpg",
+  "assets/slideshow/robot-lifting-cup.gif",
+  "assets/slideshow/robot-lifting-fabric.gif",
   "assets/slideshow/ball_catching_ke.gif"    
 ]
