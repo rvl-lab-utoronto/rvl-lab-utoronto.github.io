@@ -4,8 +4,8 @@
 }
 
 .news-box-container{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
   margin: 0vw 1vw;
 }
 
