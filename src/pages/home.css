@@ -33,13 +33,13 @@
   }
 }
 
-@media (min-width: 767px) and (max-width: 1119px) {
+@media (max-width: 1119px) {
   .left-section {
     width:90%;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
   .news-section {
     float: none;
     height: unset; 
@@ -50,6 +50,7 @@
   }
   .left-section {
     float:none;
+    width: 100%;
   }
 }
 
