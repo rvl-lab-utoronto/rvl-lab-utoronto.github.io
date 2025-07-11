@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learning to Search in Task and Motion Planning</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Learning To Search in Task and Motion Planning with Streams</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://khodeir.github.io/">Mohamed Khodeir</a>,</span>
+            <span class="author-block">
+              <a href="https://benagro314.github.io/">Ben Agro</a>,</span>
+            <span class="author-block">
+              <a href="https://www.cs.toronto.edu/~florian">Florian Shkurti</a>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">University of Toronto, UofT Robotics Institute, Vector Institute</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2111.13144"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2111.13144"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/rvl-lab-utoronto/drake-tamp"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+	    Task and motion planning problems in robotics combine symbolic planning over discrete task variables with motion optimization over continuous state and action variables. Recent works such as PDDLStream have focused on optimistic planning with an incrementally growing set of objects until a feasible trajectory is found. However, this set is exhaustively expanded in a breadth-first manner, regardless of the logical and geometric structure of the problem at hand, which makes long-horizon reasoning with large numbers of objects prohibitively time-consuming. To address this issue, we propose a geometrically informed symbolic planner that expands the set of objects and facts in a best-first manner, prioritized by a Graph Neural Network that is learned from prior search computations. We evaluate our approach on a diverse set of problems and demonstrate an improved ability to plan in difficult scenarios. We also apply our algorithm on a 7DOF robotic arm in block-stacking manipulation tasks.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <iframe src="https://www.youtube.com/embed/pzzpR4wh_Zk" title="YouTube video player" width="560" height="315" allowfullscreen="allowfullscreen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Policy-Guided Lazy Search with Feedback for Task and Motion Planning</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://khodeir.github.io/">Mohamed Khodeir</a><sup>1,2,3</sup>,</span>
+            <span class="author-block">
+              <a href="https://threewisemonkeys-as.github.io/">Atharv Sonwane</a><sup>4</sup>,</span>
+	    <span class="author-block">
+              <a href="https://ca.linkedin.com/in/ruthrash-hari-b5b790112">Ruthrash Hari</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://www.cs.toronto.edu/~florian">Florian Shkurti</a><sup>1,2,3</sup>
+            </span>
+          </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">University of Toronto<sup>1</sup>, UofT Robotics Institute<sup>2</sup>, Vector Institute<sup>3</sup>, BITS Pilani<sup>4</sup></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2210.14055"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2210.14055"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+	    PDDLStream solvers have recently emerged as viable solutions for Task and Motion Planning (TAMP) problems, extending PDDL to problems with continuous action spaces. Prior work has shown how PDDLStream problems can be reduced to a sequence of PDDL planning problems, which can then be solved using off-the-shelf planners. However, this approach can suffer from long runtimes. In this paper we propose LAZY, a solver for PDDLStream problems that maintains a single integrated search over action skeletons, which gets progressively more geometrically informed, as samples of possible motions are lazily drawn during motion planning. We explore how learned models of goal-directed policies and current motion sampling data can be incorporated in LAZY to adaptively guide the task planner. We show that this leads to significant speed-ups in the search for a feasible solution evaluated over unseen test environments of varying numbers of objects, goals, and initial conditions. We evaluate our TAMP approach by comparing to existing solvers for PDDLStream problems on a range of simulated 7DoF rearrangement/manipulation problems.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <iframe src="https://www.youtube.com/embed/HjSZOVkXSLU" title="YouTube video player" width="560" height="315" allowfullscreen="allowfullscreen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+    @article{khodeir_ral,
+ 	author = {Mohamed Khodeir and Ben Agro and Florian Shkurti},
+	title = {Learning to Search in Task and Motion Planning with Streams},
+	journal = {Robotics and Automation Letters (RA-L)},
+        year = {2023}
+    }
+
+    @article{Khodeir2023PolicyGuidedLS,
+        author = {Mohamed Khodeir and Atharv Sonwane and Ruthrash Hari and Florian Shkurti},     
+        title = {Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
+        booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+        year = {2023}
+    }
+    
+    </code></pre>
+  </div>
+</section>
+
+
+
+</body>
+</html>

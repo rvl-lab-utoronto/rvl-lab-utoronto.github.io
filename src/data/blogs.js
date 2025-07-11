@@ -22,7 +22,8 @@ export const dataBlog = [
   {
     "title": "Learning to Search in Task and Motion Planning with Streams",
     "date": "September 14, 2021",
-    "link": "https://rvl.cs.toronto.edu/learning-based-tamp/", 
+    "webLocation": "learning-based-tamp", 
+    "asset": "assets/blog-pages/learning-based-tamp/index.html",
   },
   // {
   //   "title": "Backwards Reachability Tutorial",
