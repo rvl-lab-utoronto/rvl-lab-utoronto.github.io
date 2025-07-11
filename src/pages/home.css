@@ -27,6 +27,18 @@
   margin-right: auto;
 }
 
+@media (min-width: 1120px) and (max-width: 1200px) {
+  .left-section {
+    width: 80%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1119px) {
+  .left-section {
+    width:90%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .news-section {
     float: none;
