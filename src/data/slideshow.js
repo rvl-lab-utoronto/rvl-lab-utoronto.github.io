@@ -3,6 +3,7 @@ export const dataSlideshow = [
     "assets/slideshow/ball_catching_ke.gif",
     "assets/slideshow/robot-lifting-cup.gif",
   "assets/slideshow/robot-lifting-fabric.gif",
+  "assets/slideshow/students_robot.jpg",
   "assets/slideshow/husky_utm_2020.jpg",
   "assets/slideshow/arm_farm.jpg",  
   "assets/slideshow/utah_flying_1.jpg",
