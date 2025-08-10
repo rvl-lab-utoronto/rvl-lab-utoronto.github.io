@@ -53,9 +53,9 @@ export default function PublicationEntry(props) {
           <h2>{props.publication['year']}</h2>
         </div>
       ) : null}
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-        <div className="desktop-view">
-          <div style={{ paddingRight: '25px' }}>{thumbnail}</div>
+      <div style={{ display: 'flex'}} className="publication-entry-content">
+        <div className="thumbnail-container">
+          <div style={{ paddingRight: '20px' }}>{thumbnail}</div>
         </div>
         <div>
           <h3>{props.publication['title']}</h3>
