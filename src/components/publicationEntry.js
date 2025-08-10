@@ -17,11 +17,11 @@ export default function PublicationEntry(props) {
 
   if (props.publication['pdf'] && props.publication['thumbnail']) {
     thumbnail = (
-      <a href={process.env.PUBLIC_URL + '/' + props.publication['pdf']}>
+      <a href={props.publication['pdf']}>
         <img
           className="publication-thumbnail"
           alt={props.publication['title']}
-          src={process.env.PUBLIC_URL + '/' + props.publication['thumbnail']}
+          src={'../' + props.publication['thumbnail']}
         />
       </a>
     );
@@ -31,7 +31,7 @@ export default function PublicationEntry(props) {
         <img
           className="publication-thumbnail"
           alt={props.publication['title']}
-          src={process.env.PUBLIC_URL + '/' + props.publication['thumbnail']}
+          src={'../' + props.publication['thumbnail']}
         />
       </a>
     );
@@ -40,7 +40,7 @@ export default function PublicationEntry(props) {
       <img
         className="publication-thumbnail"
         alt={props.publication['title']}
-        src={process.env.PUBLIC_URL + '/' + props.publication['thumbnail']}
+        src={'../' + props.publication['thumbnail']}
       />
     );
   }
@@ -107,7 +107,7 @@ export default function PublicationEntry(props) {
                       style={{ display: 'inline', marginLeft: '3px' }}
                     >
                       [
-                      <a href={process.env.PUBLIC_URL + '/' + props.publication[key]}>
+                      <a href={'../' + props.publication[key]}>
                         {extraParams[key]}
                       </a>
                       ]
