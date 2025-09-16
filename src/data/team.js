@@ -74,7 +74,7 @@ export const dataTeam = {
       "name":"Quentin Clark",
       "image":"assets/team/quentin.webp",
       "description":"generative models, reinforcement learning",
-      "website":"https://chronorium.wordpress.com/about/",
+      "website":"https://qtcc-uoft.github.io",
     },
     {
       "name":"Hossein Goli",
