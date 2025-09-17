@@ -5,8 +5,12 @@ const path = require("path");
 // const inputFolder = "./team-copy";         // Your source folder
 // const outputFolder = "./team-webp";        // Your target folder
 
-const inputFolder = "./publication-thumbnails-og";         // Your source folder
-const outputFolder = "./publication-thumbnails";        // Your target folder
+// const inputFolder = "./publication-thumbnails-og";         // Your source folder
+// const outputFolder = "./publication-thumbnails";        // Your target folder
+
+
+const inputFolder = "./new-pics";         // Your source folder
+const outputFolder = "./new-pics-webp";        // Your target folder
 
 // Create output folder if it doesn't exist
 if (!fs.existsSync(outputFolder)) {
