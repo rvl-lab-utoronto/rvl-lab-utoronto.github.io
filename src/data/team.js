@@ -169,7 +169,7 @@ export const dataTeam = {
     },
     {
       "name":"Liyu(Laura) Tao",
-      "image":"assets/team/profile.webp",
+      "image":"assets/team/liyu-tao.webp",
 	    "description":"Robot manipulation, chemistry lab automation, imitation learning",
 	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
         "website":"https://github.com/laura513",
