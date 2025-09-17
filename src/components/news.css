@@ -1,12 +1,12 @@
 .news-title{
-  margin: 10px;
+  margin: 10px 10px 0 10px;
   /*margin-left: 1vw;*/
 }
 
 .news-box-container{
   display: flex;
   flex-direction: column;
-  margin: 0vw 1vw;
+  margin: 0vw 10px;
 }
 
 .news-box{
@@ -89,4 +89,10 @@
     margin-top: 20px;
     margin-left: 0px;
   }
+
+  .news-box-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+    }
 }
