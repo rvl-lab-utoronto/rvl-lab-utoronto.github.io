@@ -182,6 +182,22 @@ export const dataTeam = {
 	    "linkedIn": "https://ca.linkedin.com/in/frank-zhaodong-jiang-04558b261",
       "googleScholar":"https://scholar.google.com/citations?user=ISNrsywAAAAJ&hl=en",
     },
+    {
+      "name":"Nikhil Thiyagarajan",
+      "image":"assets/team/Nikhil-Profile-Picture.webp",
+	    "description":"crowd navigation, multi-robot planning",
+	    "linkedIn": "https://www.linkedin.com/in/nikhil-thiyagarajan-7800841b4/",
+        "website":"https://nthiyag.github.io/resume/",
+    },
+    {
+      "name":"Andrew Magnuson",
+      "image":"assets/team/andrew_headshot.webp",
+	    "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
+        "website":"https://www.andrewmagnuson.ca/",
+        "twitter":"https://x.com/ajwmagnuson",
+      "googleScholar":"https://scholar.google.com/citations?hl=en&user=x3L1rLQAAAAJ",
+    },
+
 
   ],
 
