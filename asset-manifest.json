@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e1ba813c.css",
+    "main.css": "/static/css/main.1402718c.css",
     "main.js": "/static/js/main.51e9a3d6.js",
     "static/js/453.06e9535f.chunk.js": "/static/js/453.06e9535f.chunk.js",
     "static/media/florian.jpg": "/static/media/florian.ef0618950f3a2a0905a6.jpg",
@@ -76,12 +76,12 @@
     "static/media/caret-left-solid.svg": "/static/media/caret-left-solid.f3619997a928becd29fd92becb0ec639.svg",
     "static/media/caret-right-solid.svg": "/static/media/caret-right-solid.572aedcd3672424647529b863c77b3bb.svg",
     "static/media/expand_more.svg": "/static/media/expand_more.8322b254aa7db62c20fde7acc6f5c150.svg",
-    "main.e1ba813c.css.map": "/static/css/main.e1ba813c.css.map",
+    "main.1402718c.css.map": "/static/css/main.1402718c.css.map",
     "main.51e9a3d6.js.map": "/static/js/main.51e9a3d6.js.map",
     "453.06e9535f.chunk.js.map": "/static/js/453.06e9535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1ba813c.css",
+    "static/css/main.1402718c.css",
     "static/js/main.51e9a3d6.js"
   ]
 }
