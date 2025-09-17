@@ -11,7 +11,9 @@
 
 .news-box{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  gap: 15px; 
   /*align-self: flex-start;*/
   padding: 12px 0px;
 }
@@ -36,13 +38,14 @@
   width: 75px;
   margin-right: 0px; /* Optional: Add some space between the span and the paragraph */
   margin-bottom: 5px; /* Optional: Add some space between the span and the paragraph */
-  
+  text-align: center;
 }
 
 .news-box-item-content {
   float: right;
   padding: 1px 0px;
   margin-right: 10px; /* Optional: Add some space between the span and the paragraph */
+  flex:1;
 }
 
 .news-load-more-button{
@@ -81,8 +84,18 @@
     font-size: 20px;
   }
   .news-box{
-    padding: 8px 0px;
+    display: flex;
+    /* padding: 8px 0px; */
+    gap:0px;
+    flex-direction: column;
   }
+
+  .news-box-item-content {
+  float: right;
+  padding: 1px 0px;
+  margin-right: 10px; /* Optional: Add some space between the span and the paragraph */
+}
+
 
   .news-title{
     margin:0px;
