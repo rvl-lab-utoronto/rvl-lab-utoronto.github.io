@@ -28,6 +28,21 @@ export const dataTeam = {
       "linkedIn":"https://de.linkedin.com/in/miroslavbogdanovic",
       "googleScholar":"https://scholar.google.com/citations?user=SAdQhg4AAAAJ&hl=fr",
     },
+    {
+    "name":"Giseung Park",
+    "image":"assets/team/Giseung-Park.webp",
+    "description":"reinforcement learning, RL applications",
+    "website":"https://sites.google.com/view/giseung-park",
+    "googleScholar":"https://scholar.google.com/citations?user=M0n5A0AAAAAJ&hl=en&oi=ao",
+  },
+  {
+    "name":"Adam Heins",
+    "image":"assets/team/adam_heins_rvl.webp",
+    "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alán Aspuru-Guzik</a>",
+    "website":"https://adamheins.com/",
+    "linkedIn":"https://linkedin.com/in/adamwheins",
+    "googleScholar":"https://scholar.google.com/citations?hl=en&user=4G2IkRUAAAAJ",
+  },
   ],
   "PhD students":[
     {
@@ -61,9 +76,11 @@ export const dataTeam = {
     {
       "name":"Hossein Goli",
       "image":"assets/team/goli.webp",
-      "description":"reinforcement learning, planning, learning to search",
+      "description":"Generative models, Reinforcement learning, Optimization",
       "website": "https://hgoli02.github.io/",
       "linkedIn": "https://www.linkedin.com/in/hosseingoli/",
+      "twitter":"https://x.com/HogoGoli",
+        "googleScholar":"https://scholar.google.com/citations?user=M0LAA-oAAAAJ",
     },
     {
       "name":"Yuchi(Allan) Zhao",
@@ -71,6 +88,19 @@ export const dataTeam = {
       "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alan Aspuru-Guzik</a> and <a href='https://animesh.garg.tech'>Animesh Garg</a>",
       "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
+    },
+    {
+      "name":"Yuanliang(Avery) Ju",
+      "image":"assets/team/avery1.webp",
+      "description":"Robot Manipulation, 3D Vision",
+      "twitter":"https://x.com/averyjuuu0213",
+        "googleScholar":"https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=zh-CN",
+    },
+    {
+      "name":"Brandon(Dun-Ming) Huang",
+      "image":"assets/team/profile.webp",
+      "description":"Reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
+        "website":"http://bransthre.github.io/",
     },
   ],
 
@@ -114,6 +144,43 @@ export const dataTeam = {
 	    "description":"non-rigid body manipulation, physics simulation for robotics, imitation learning",
 	    "linkedIn": "https://www.linkedin.com/in/emmaxing/",
       "website":"https://emma-x1.github.io/",
+    },
+    {
+      "name":"Shengxiang(Owen) Sun",
+      "image":"assets/team/owensun.webp",
+	    "description":"Robot Manipulation, Foundation Models",
+	    "linkedIn": "https://www.linkedin.com/in/shengxiang-sun/",
+      "website":"https://owensun2004.github.io/",
+      "googleScholar":"https://scholar.google.ca/citations?hl=en&user=4nVa1oIAAAAJ",
+    },
+    {
+      "name":"Yubo Wang",
+      "image":"assets/team/yubo-wang.webp",
+	    "description":"Field robotics, navigation, localization, autonomous surface vessels",
+	    "linkedIn": "https://www.linkedin.com/in/yubo-wang-yyz/",
+      "website":"https://yubowng.github.io/",
+    },
+    {
+      "name":"Tanmay Patel",
+      "image":"assets/team/tanmay-patel.webp",
+	    "description":"non-rigid body manipulation, imitation learning",
+	    "linkedIn": "https://www.linkedin.com/in/tanmay-patel-uoft/",
+      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
+    },
+    {
+      "name":"Liyu(Laura) Tao",
+      "image":"assets/team/profile.webp",
+	    "description":"Robot manipulation, chemistry lab automation, imitation learning",
+	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
+        "website":"https://github.com/laura513",
+      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
+    },
+    {
+      "name":"Frank Jiang",
+      "image":"assets/team/frank-jiang.webp",
+	    "description":"non-rigid body manipulation, robot learning",
+	    "linkedIn": "https://ca.linkedin.com/in/frank-zhaodong-jiang-04558b261",
+      "googleScholar":"https://scholar.google.com/citations?user=ISNrsywAAAAJ&hl=en",
     },
 
   ],
@@ -255,7 +322,9 @@ export const dataTeam = {
   "name":"Blerim Abdullai",
   "image":"assets/team/blerim_abdullai_1.webp",
   "description":"computer vision, field robotics, stochastic planning <div><b>next: Robotics Engineer, Zeon Systems</b></div>",
+  "website":"https://www.cs.toronto.edu/~blerim/",
   "linkedIn":"https://www.linkedin.com/in/blerimabdullai",
+    "googleScholar":"https://scholar.google.com/citations?user=wdKWt3gAAAAJ&hl=en",
 },
 ],
   "alumni: undergraduate students":[
