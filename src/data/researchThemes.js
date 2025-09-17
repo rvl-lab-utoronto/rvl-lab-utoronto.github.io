@@ -1,21 +1,6 @@
 export const dataResearchThemes = [
   {
-    "title": "autonomous robots for environmental monitoring",
-      "content": [ /* [
-      "robots for scientific exploration",
-      "visual exploration",
-      "visual similarity search",
-      "contrastive representation learning",
-      "3d vision and perception",
-      "active sampling and information gathering",
-      "collaborative human-robot environmental monitoring",
-      "field robotics", */
-    ],
-      "asset":"assets/research-themes/autonomous robots.jpg",
-      "web": "/research/autonomous-robots"
-  },
-  {
-    "title": "learning to plan, perceive, and control",
+    "title": "reasoning and learning for robotics",
       "content": [ /*
       "vision-based imitation learning",
       "bayesian inverse reinforcement learning",
@@ -26,8 +11,8 @@ export const dataResearchThemes = [
       "simulation-based inference",
       "system identification" */
     ],
-      "asset":"assets/research-themes/machine learning.jpg",
-      "web": "/research/machine-learning"
+      //"asset":"assets/research-themes/machine learning.jpg",
+      "web": "/research/reasoning-and-learning-for-robotics"
   },
   {
     "title": "safe robot learning",
@@ -38,7 +23,53 @@ export const dataResearchThemes = [
       "robust control",
       "safe system identification"*/
     ],
-      "asset":"assets/research-themes/safe robot learning.jpg",
+      //"asset":"assets/research-themes/safe robot learning.jpg",
       "web": "/research/safe-robot-learning"
+  },
+  {
+    "title": "3D vision \& generative models for simulation",
+    "content": [ /*
+      "safe exploration in reinforcement learning",
+      "physical adversarial examples in robotics",
+      "backwards reachability",
+      "robust control",
+      "safe system identification"*/
+    ],
+      //"asset":"assets/research-themes/todo.jpg",
+      "web": "/research/generative-models-and-perception"
+  },
+]
+
+
+export const dataApplicationAreas = [
+  {
+    "title": "robotics for chemistry and biology lab automation",
+      "content": [ /* [
+      "robots for scientific exploration",
+      "visual exploration",
+      "visual similarity search",
+      "contrastive representation learning",
+      "3d vision and perception",
+      "active sampling and information gathering",
+      "collaborative human-robot environmental monitoring",
+      "field robotics", */
+    ],
+      "asset":"assets/research-themes/todo.jpg",
+      "web": "/research/chemistry-and-biology-lab-automation"
+  },
+  {
+    "title": "  field robotics for environmental monitoring  ",
+      "content": [ /* [
+      "robots for scientific exploration",
+      "visual exploration",
+      "visual similarity search",
+      "contrastive representation learning",
+      "3d vision and perception",
+      "active sampling and information gathering",
+      "collaborative human-robot environmental monitoring",
+      "field robotics", */
+    ],
+      "asset":"assets/research-themes/field_robotics.jpg",
+      "web": "/research/field-robotics"
   },
 ]

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './researchThemes.css';
 import { Link } from 'react-router-dom';
-import { dataResearchThemes } from '../data/researchThemes.js';
+import { dataResearchThemes, dataApplicationAreas } from '../data/researchThemes.js';
 
 export default class ResearchThemes extends Component {
   render() {
@@ -26,6 +26,27 @@ export default class ResearchThemes extends Component {
               else return <div key={index} />;
             })}
           </div>
+
+          <h2 className="research-theme-title">Application Areas</h2>
+          <div className="research-themes-box-container">
+            {dataApplicationAreas.map((item, index) => {
+              if (
+                this.props.indexesToShow === undefined ||
+                this.props.indexesToShow.includes(index)
+              )
+                return (
+                  <React.Fragment key={index}>
+                    <ResearchThemeComponent
+                      themes={dataApplicationAreas[index].content}
+                      theme={item}
+                    />
+                  </React.Fragment>
+                );
+              else return <div key={index} />;
+            })}
+          </div>
+
+
         </div>
       </>
     );

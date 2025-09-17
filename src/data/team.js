@@ -76,7 +76,7 @@ export const dataTeam = {
     {
       "name":"Hossein Goli",
       "image":"assets/team/goli.webp",
-      "description":"Generative models, Reinforcement learning, Optimization",
+      "description":"generative models, reinforcement learning, optimization",
       "website": "https://hgoli02.github.io/",
       "linkedIn": "https://www.linkedin.com/in/hosseingoli/",
       "twitter":"https://x.com/HogoGoli",
@@ -92,14 +92,14 @@ export const dataTeam = {
     {
       "name":"Yuanliang(Avery) Ju",
       "image":"assets/team/avery1.webp",
-      "description":"Robot Manipulation, 3D Vision",
+      "description":"robot manipulation, 3D Vision",
       "twitter":"https://x.com/averyjuuu0213",
         "googleScholar":"https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=zh-CN",
     },
     {
       "name":"Brandon(Dun-Ming) Huang",
       "image":"assets/team/brandon-huang.webp",
-      "description":"Reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
+      "description":"reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
         "website":"http://bransthre.github.io/",
     },
   ],
@@ -148,7 +148,7 @@ export const dataTeam = {
     {
       "name":"Shengxiang(Owen) Sun",
       "image":"assets/team/owensun.webp",
-	    "description":"Robot Manipulation, Foundation Models",
+	    "description":"robot manipulation, foundation models",
 	    "linkedIn": "https://www.linkedin.com/in/shengxiang-sun/",
       "website":"https://owensun2004.github.io/",
       "googleScholar":"https://scholar.google.ca/citations?hl=en&user=4nVa1oIAAAAJ",
@@ -156,7 +156,7 @@ export const dataTeam = {
     {
       "name":"Yubo Wang",
       "image":"assets/team/yubo-wang.webp",
-	    "description":"Field robotics, navigation, localization, autonomous surface vessels",
+	    "description":"field robotics, navigation, localization, autonomous surface vessels",
 	    "linkedIn": "https://www.linkedin.com/in/yubo-wang-yyz/",
       "website":"https://yubowng.github.io/",
     },
@@ -170,7 +170,7 @@ export const dataTeam = {
     {
       "name":"Liyu(Laura) Tao",
       "image":"assets/team/liyu-tao.webp",
-	    "description":"Robot manipulation, chemistry lab automation, imitation learning",
+	    "description":"robot manipulation, chemistry lab automation, imitation learning",
 	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
         "website":"https://github.com/laura513",
       "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
@@ -192,6 +192,7 @@ export const dataTeam = {
     {
       "name":"Andrew Magnuson",
       "image":"assets/team/andrew_headshot.webp",
+      "description":"robot learning, manipulation",
 	    "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
         "website":"https://www.andrewmagnuson.ca/",
         "twitter":"https://x.com/ajwmagnuson",
@@ -431,14 +432,6 @@ export const dataTeam = {
 	"description":"computer vision for transparent objects. <div><b>next: Berkeley CS MSc</b></div>",
 	"linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
 	"website": "https://kathyzhuang.github.io/"
-    },
-    {
-      "name":"Andrew Magnuson",
-      "image":"assets/team/andrew_magnuson.webp",
-      "description":"learning from human video, latent spaces for robot manipulation",
-      "website": "https://www.andrewmagnuson.ca/",
-      "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
-      "twitter":"https://x.com/ajwmagnuson",
     },
     {
       "name":"Artur Kuramshin",
