@@ -98,7 +98,7 @@ export const dataTeam = {
     },
     {
       "name":"Brandon(Dun-Ming) Huang",
-      "image":"assets/team/profile.webp",
+      "image":"assets/team/brandon-huang.webp",
       "description":"Reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
         "website":"http://bransthre.github.io/",
     },
