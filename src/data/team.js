@@ -213,6 +213,7 @@ export const dataTeam = {
  {
   "name":"Ke Dong",
   "image":"assets/team/ke_dong_1.webp",
+  "description":"control theory, mobile manipulation. <div><b>next: Research Scientist, Tencent AI</b></div>",
   "linkedIn":"https://ca.linkedin.com/in/ke-dong-7a33a9171",
 },
 {

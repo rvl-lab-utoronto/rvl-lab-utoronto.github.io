@@ -2,14 +2,65 @@
 // Date is of format : year-month-day
 export const dataNews = [
 
+  {
+    "date":"2025-09-1",
+    "content":"New PhD students <a href='https://hgoli02.github.io'>Hossein Goli</a>, <a href='https://bransthre.github.io'>Brandon Huang</a>, <a href='https://openreview.net/profile?id=~Zhengyang_Liang2'>Zhengyang Liang</a>, <a href='https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=en'>Yuanliang Ju</a> and new postdoc <a href='https://sites.google.com/view/giseung-park'>Giseung Park</a> join the lab. Welcome to RVL!"
+  },
+  {
+    "date":"2025-06-1",
+    "content":"Congratulations to PhD student <a href='https://georgegu1997.github.io'>Qiao Gu</a>, who started another internship at Meta. "
+  },
+  {
+    "date":"2025-1-1",
+    "content":"Our paper <a href='https://arxiv.org/abs/2310.10982'>SICNav</a> on bilevel optimization for safe crowd navigation was accepted to Transactions of Robotics. Its followup, <a href='https://arxiv.org/abs/2503.08858'>SICNav-Diffusion</a> was accepted at Robotics and Automation Letters. A <a href='https://arxiv.org/abs/2506.08851'>large-scale field deployment</a> of the method was published at the ICRA'25 field robotics workshop. Congratulations to Sepehr Samavi, Anthony Lem, Garvish Bhoutani and to the rest of the co-authors!"
+ },
+
+ {
+  "date":"2025-1-1",
+  "content":"Yewon Lee's paper <a href='https://arxiv.org/abs/2310.01775'>Stein Task and Motion Planning</a> was accepted to Robotics and Automation Letters. Congratulations to Yewon Lee, Philip Huang, and Andrew Li and the rest of the team! Yewon started her PhD at the University of Washington!"
+},
+
+{
+  "date":"2024-10-1",
+  "content":"Florian receives the <a href='https://ai2050.schmidtsciences.org'>AI2050 Early Researcher Fellowship</a> from Schmidt Sciences."
+},
+{
+  "date":"2024-09-1",
+  "content":"New graduate students <a href='https://qtcc-uoft.github.io'>Quentin Clark</a>, <a href=''>Nathan De Lara</a>, <a href='https://www.jamesross.xyz'>James Ross</a>, and <a href='https://scholar.google.com/citations?user=zrN54fsAAAAJ&hl=en'>Daniel Hocevar</a> join the lab. Welcome to RVL!"
+},
+{
+  "date":"2024-07-1",
+  "content":"Congratulations to PhD student <a href='https://weichengtseng.github.io'>Wei-Cheng Tseng</a>, who started an internship at Nvidia. "
+},
+
+  {
+    "date":"2024-06-1",
+    "content":"Our paper <a href='https://ac-rad.github.io/organa/'>ORGANA</a> on automating common chemistry experiments was accepted at the journal Matter and covered by the <a href='https://www.technologyreview.com/2024/10/17/1105122/this-lab-robot-mixes-chemicals/'>MIT Tech Review</a>. Congratulations to Kourosh, Naruki, Marta and the co-authors!"
+ },
+ 
+
+ {
+  "date":"2024-04-1",
+  "content":"Welcoming <a href='http://livreq.github.io'>Qi Chen</a>, a new postdoc to the lab. She works on ML theory and generalization bounds."
+},
+
+{
+  "date":"2024-03-1",
+  "content":"Florian and Igor start collaboration with Toyota Research Institute on policy evaluation and uncertainty quantification for VLAs."
+},
+{
+  "date":"2023-10-1",
+  "content":"Congratulations to PhD student <a href='https://georgegu1997.github.io'>Qiao Gu</a>, who started an internship at Meta. "
+},
+
  {
     "date":"2023-09-1",
-    "content":"<a href='https://arxiv.org/abs/2309.15770'>Our paper</a> on generating transferable adversarial scenarios for driving, using neural radiance fields, was accepted at CoRL. Congratulations to Yasasa and the co-authors."
+    "content":"<a href='https://arxiv.org/abs/2309.15770'>Our paper</a> on generating transferable adversarial scenarios for driving, using neural radiance fields, was accepted at CoRL. Congratulations to Yasasa and the co-authors!"
  },
     
  {
     "date":"2023-06-1",
-    "content":"Our paper on open-set 3D mapping, <a href='https://concept-fusion.github.io/'>ConceptFusion</a>, was accepted at RSS. Congratulations to Krishna Murthy and the wonderful co-authors, who also demoed the method live at CVPR."
+    "content":"Our paper on open-set 3D mapping, <a href='https://concept-fusion.github.io/'>ConceptFusion</a>, was accepted to RSS'23, and its followup <a href='https://concept-graphs.github.io/'>ConceptGraphs</a> was accepted at ICRA '24. Congratulations to Krishna Murthy, Qiao Gu, Ali Kuwajerwala and the wonderful co-authors, who also demoed the method live at CVPR!"
  },
     
  {
