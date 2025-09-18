@@ -1,12 +1,13 @@
+// Script to convert images in a folder to WebP format using Sharp 
+// Usage: node webp-sharp.js
+
 const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 
-// const inputFolder = "./team-copy";         // Your source folder
-// const outputFolder = "./team-webp";        // Your target folder
 
-const inputFolder = "./publication-thumbnails-og";         // Your source folder
-const outputFolder = "./publication-thumbnails";        // Your target folder
+const inputFolder = "./project-assets/images";         // Your source folder
+const outputFolder = "./project-assets/webp-images";        // Your target folder
 
 // Create output folder if it doesn't exist
 if (!fs.existsSync(outputFolder)) {
