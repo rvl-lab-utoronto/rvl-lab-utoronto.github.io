@@ -3,8 +3,20 @@
 export const dataNews = [
 
   {
+    "date":"2025-09-10",
+    "content":"Two papers accepted at NeurIPS'25, one on <a href='https://arxiv.org/abs/2505.20781'>off-policy evaluation with diffusion guidance</a> and another on <a href='https://arxiv.org/abs/2506.09937'>multi-task failure detection in VLAs</a>. Both papers were collaborations with TRI. Congratulations to Hossein Goli, Mike Gimelfarb, Qiao Gu, Yuanliang Ju, and the rest of the team!"
+  },
+  {
+    "date":"2025-09-03",
+    "content":"One paper accepted at Nature Computational Science on digital twins for chemistry labs and another paper (viewpoint) accepted to Science Robotics. Congratulations to Kourosh Darvish and all the collaborators!" 
+  },
+  {
     "date":"2025-09-1",
     "content":"New PhD students <a href='https://hgoli02.github.io'>Hossein Goli</a>, <a href='https://bransthre.github.io'>Brandon Huang</a>, <a href='https://openreview.net/profile?id=~Zhengyang_Liang2'>Zhengyang Liang</a>, <a href='https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=en'>Yuanliang Ju</a> and new postdoc <a href='https://sites.google.com/view/giseung-park'>Giseung Park</a> join the lab. Welcome to RVL!"
+  },
+  {
+    "date":"2025-08-05",
+    "content":"Two papers accepted at CoRL'25, one on <a href='https://anyplace-pnp.github.io'>learning policies for generalizable placement</a> and another on <a href='https://search-tta.github.io'>test-time adaptation of VLMs for Bayesian search</a>. Congratulations to Yuchi Zhao, Derek Tan, and the rest of the co-authors!"
   },
   {
     "date":"2025-06-1",
