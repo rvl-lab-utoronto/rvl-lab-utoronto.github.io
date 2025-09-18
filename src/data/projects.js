@@ -10,7 +10,7 @@ export const dataProjects = [
   {
     "title":"Reasoning and learning for robotics",
     "description":"",
-    "image":"assets/project-assets/images/placeholder2.jpg",
+    "image":"assets/project-assets/images/arm_farm.jpg",
     "asset":"assets/project-assets/pages/reasoning-and-learning-for-robotics.md",
     "webLocation":"reasoning-and-learning-for-robotics",
   },
@@ -21,20 +21,20 @@ export const dataProjects = [
     "asset":"assets/project-assets/pages/safe-robot-learning.md",
     "webLocation":"safe-robot-learning",
   },
-  //{
-  //  "title":"3D vision and generative models for simulation",
-  //  "description":"",
-  //  "image":"assets/project-assets/images/todo.jpg",
-  //  "asset":"assets/project-assets/pages/generative-models-and-perception.md",
-  //  "webLocation":"generative-models-and-perception",
-  //},
-  //{
-  //  "title":"Robotics for chemistry and biology lab automation",
-  //  "description":"",
-  //  "image":"assets/project-assets/images/todo.jpg",
-  //  "asset":"assets/project-assets/pages/chemistry-and-biology-lab-automation.md",
-  //  "webLocation":"chemistry-and-biology-lab-automation",
-  //},
+  {
+    "title":"3D vision and generative models for simulation",
+    "description":"",
+    "image":"assets/project-assets/images/freekick.gif",
+    "asset":"assets/project-assets/pages/generative-models-and-perception.md",
+    "webLocation":"generative-models-and-perception",
+  },
+  {
+    "title":"Robotics for chemistry and biology lab automation",
+    "description":"",
+    "image":"assets/project-assets/images/icra23-chemistry-tamp2.gif",
+    "asset":"assets/project-assets/pages/chemistry-and-biology-lab-automation.md",
+    "webLocation":"chemistry-and-biology-lab-automation",
+  },
   {
     "title":"Field robotics \& environmental monitoring",
     "description":"",
