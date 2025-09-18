@@ -81,3 +81,31 @@ a:hover {
     color: #0056b3;
 }
 }
+
+.custom-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (min-width: 985px) {
+  .custom-grid > a {
+    flex: 1;
+    min-width: 33%;
+    max-width: 33%;
+    }
+  }
+
+@media (max-width: 985px) {
+  .custom-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .custom-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

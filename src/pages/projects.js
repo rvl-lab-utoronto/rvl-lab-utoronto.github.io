@@ -1,7 +1,6 @@
 import React,{Component} from 'react'
 import {dataProjects} from "../data/projects"
 import ProjectEntry from '../components/projectEntry';
-import Masonry from 'react-masonry-css'
 
 const breakpointColumnsObj = {
   default: 3,
@@ -14,11 +13,11 @@ export default class Projects extends Component {
     return(<div className="center">
       <div className="horizontal-padding max-width">
         <div style={{height:"10px"}}/>
-        <Masonry breakpointCols={breakpointColumnsObj} className="masonry-grid">
+        <div className="custom-grid">
           {dataProjects.map((project, index)=>{
             return <ProjectEntry key={index} project={project}/>
           })}
-        </Masonry>
+        </div>
       </div>
     </div>)
   }
