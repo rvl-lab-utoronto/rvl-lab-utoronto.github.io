@@ -96,7 +96,7 @@ export const dataPublications = [
     "description":"",
   },
 
-  {
+  /* {
     "bibtex":`
 
         @InProceedings{cooper2025acceleratingdiscoverynaturalscience,
@@ -113,7 +113,7 @@ export const dataPublications = [
     "project": "",
     "code": "",
     "description":"",
-  },
+  }, */
   {
     "bibtex":`
          @InProceedings{tseng2025,
