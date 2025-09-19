@@ -21,8 +21,7 @@ export default class LabIntro extends Component {
 
 
 	    <p> Welcome to the Robot Vision and Learning (RVL) lab. 
-        We are part of the <a href="https://web.cs.toronto.edu/">Computer Science</a> 
-        department at the <a href="https://www.utoronto.ca/">University of Toronto</a>, 
+        We are part of the <a href="https://web.cs.toronto.edu/">Computer Science</a> department at the <a href="https://www.utoronto.ca/">University of Toronto</a>, 
         the <a href="https://www.utm.utoronto.ca/math-cs-stats/">MCS</a> department 
         at <a href="https://www.utm.utoronto.ca">UTM</a>, and the <a href="https://robotics.utoronto.ca/">UofT Robotics Institute</a>. The 
         group is led by <a href="http://www.cs.toronto.edu/~florian/">Prof. Florian Shkurti</a>, 

@@ -1,6 +1,119 @@
 
 export const dataPublications = [
+  {
+    "bibtex":`
 
+        @ARTICLE{11068142,
+          author={Sepehr Samavi and Anthony Lem and Fumiaki Sato and Sirui Chen and Qiao Gu and Keijiro Yano and Angela P. Schoellig and Florian Shkurti},
+          journal={IEEE Robotics and Automation Letters}, 
+          title={SICNav-Diffusion: Safe and Interactive Crowd Navigation With Diffusion Trajectory Predictions}, 
+          year={2025},
+          volume={10},
+          number={9},
+          pages={8738-8745},
+       }
+
+    `,
+    "tags":['control', 'planning', 'generative models'],
+    "thumbnail":"/assets/publication-thumbnails/sicnav_diffusion.webp",
+    "video": "https://www.youtube.com/watch?v=GpclV9MiNTA",
+    "html": "https://arxiv.org/abs/2503.08858",
+    "project": "",
+    "code": "https://github.com/sepsamavi/safe-interactive-crowdnav",
+    "description":"",
+  },
+  {
+    "bibtex":`
+
+      @Article{clark2025needdiversetrajectorystitching,
+        title={What Do You Need for Diverse Trajectory Stitching in Diffusion Planning?}, 
+        author={Quentin Clark and Florian Shkurti},
+        year={2025},
+        journal={arXiv}
+      }    
+  
+    `,
+    "tags":['planning', 'generative models', 'imitation learning'],
+    "thumbnail":"/assets/publication-thumbnails/quentin_stitching.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2505.18083",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+
+        @InProceedings{stitch_ope,
+          title={ STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation },  
+          author={Hossein Goli and Michael Gimelfarb and Nathan Samuel de Lara and Haruki Nishimura and Masha Itkina and Florian Shkurti},
+          year={2025},
+          booktitle={Neural Information Processing Systems (NeurIPS)},
+        }
+    `,
+    "tags":['reinforcement learning', 'generative models'],
+    "thumbnail":"/assets/publication-thumbnails/stitch_ope.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2505.20781",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+
+        @InProceedings{qiao_safe,
+          title={ SAFE: Multitask Failure Detection for Vision-Language-Action Models },  
+          author={Qiao Gu and Yuanliang Ju and Shengxiang Sun and Igor Gilitschenski and Haruki Nishimura and Masha Itkina and Florian Shkurti},
+          year={2025},
+          booktitle={Neural Information Processing Systems (NeurIPS)},
+        }
+    `,
+    "tags":['safe learning', 'manipulation', 'imitation learning', 'generative models'],
+    "thumbnail":"/assets/publication-thumbnails/vla-feature.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2505.20781",
+    "project": "https://vla-safe.github.io",
+    "code": "https://github.com/vla-safe/SAFE",
+    "description":"",
+  },
+  {
+    "bibtex":`
+
+        @InProceedings{matterix,
+          title={ MATTERIX: Towards a Digital Twin for Robotics-Assisted Chemistry Lab Automation },  
+          author={Kourosh Darvish and Arjun Sohal and Abhijoy Mandal and Hatem Fakhruldeen and Nikola Radulov and Zhengxue Zhou and Joshua Choi and Skyler Han and Brayden Zhang and Jeeyeoun Chae and Satheeshkumar Veeramani and Alex Wright and Yijie Wang and Hossein Darvish and Yuchi (Allan) Zhao and Gary Tom and Han Hao and Miroslav Bogdanovic and Gabriella Pizzuto and Andrew Cooper and Alan Aspuru Guzik and  Florian Shkurti and Animesh Garg},
+          year={2025},
+          booktitle={Nature Computational Science},
+        }
+    `,
+    "tags":['chemistry robotics'],
+    "thumbnail":"/assets/publication-thumbnails/matterix.webp",
+    "video": "",
+    "html": "https://ac-rad.github.io/matterix",
+    "project": "https://ac-rad.github.io/matterix",
+    "code": "",
+    "description":"",
+  },
+
+  {
+    "bibtex":`
+
+        @InProceedings{cooper2025acceleratingdiscoverynaturalscience,
+          title={Accelerating Discovery in Natural Science Laboratories with AI and Robotics: Perspectives and Challenges from the 2024 IEEE ICRA Workshop, Yokohama, Japan}, 
+          author={Andrew I. Cooper and Patrick Courtney and Kourosh Darvish and Moritz Eckhoff and Hatem Fakhruldeen and Andrea Gabrielli and Animesh Garg and Sami Haddadin and Kanako Harada and Jason Hein and Maria Hübner and Dennis Knobbe and Gabriella Pizzuto and Florian Shkurti and Ruja Shrestha and Kerstin Thurow and Rafael Vescovi and Birgit Vogel-Heuser and Ádám Wolf and Naruki Yoshikawa and Yan Zeng and Zhengxue Zhou and Henning Zwirnmann},
+          year={2025},
+          booktitle={Science Robotics},
+        }
+    `,
+    "tags":['chemistry robotics'],
+    "thumbnail":"/assets/publication-thumbnails/organa_setup.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2501.06847",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
   {
     "bibtex":`
          @InProceedings{tseng2025,
@@ -184,7 +297,7 @@ export const dataPublications = [
         title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization},
         author={Sepehr Samavi and James Han and Florian Shkurti and Angela P. Schoellig},
         year={2024},
-        booktitle={IEEE Transactions on Robotics},
+        booktitle={IEEE Transactions on Robotics (T-RO)},
         volume={41},
         number={},
         pages={801-818},
@@ -196,7 +309,7 @@ export const dataPublications = [
     "tags":['planning', 'control', 'social navigation', 'human-robot interaction'],
     "thumbnail":"/assets/publication-thumbnails/sicnav.webp",
     "video": "",
-    "project": "",
+    "project": "http://dsl.utias.utoronto.ca/~sep/projects/sicnav/",
     "html": "https://arxiv.org/abs/2310.10982",
     "code": "",
     "description":"",
@@ -418,7 +531,7 @@ export const dataPublications = [
     }
     `,
     "html":"https://research.nvidia.com/labs/toronto-ai/physics-pose-estimation-project-page/",
-    "tags":['physics based', 'simulation'],
+    "tags":['simulation', 'computer vision'],
     "video": "https://drive.google.com/file/d/1tdkN64wi1QEEx5EzakYT96uF376S-dWK/view",
     "thumbnail":"/assets/publication-thumbnails/physics_based.webp",
     "description":"",
