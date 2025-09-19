@@ -337,3 +337,25 @@ The RVL Blog supports 3 types of blog posts: a local .html file, a local .md mar
 ## Copyright / Footer Note
 1. Open `src/data/copyright.js` in an editor
 2. Edit the string `copyrightMessage` as needed
+
+## Converting Images to WebP
+This project includes a WebP converter script `webp-converter.js` to optimize images for faster web loading. WebP is a modern image format providing smaller file sizes compared to JPEG and PNG formats.
+
+The converter script is located at `public/assets/webp-converter.js` and uses the [sharp](https://github.com/lovell/sharp) node.js module to convert images. 
+
+### Usage
+1. Navigate to the assets directory:
+   ```bash
+   cd public/assets
+   ```
+
+2. Configure the script by editing `webp-converter.js`:
+   - Set the `input folder` variable to specify where your source images are located
+   - Set the `output folder` variable to specify where converted images should be saved
+
+3. Run the converter:
+   ```bash
+   node webp-converter.js
+   ```
+   
+It will automatically process all supported image format('.jpeg', '.jpg', '.png', and '.gif') in the specified input folder.
