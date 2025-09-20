@@ -72,7 +72,7 @@ export const dataPublications = [
     "tags":['safe learning', 'manipulation', 'imitation learning', 'generative models'],
     "thumbnail":"/assets/publication-thumbnails/vla-feature.webp",
     "video": "",
-    "html": "https://arxiv.org/abs/2505.20781",
+    "html": "https://arxiv.org/abs/2506.09937",
     "project": "https://vla-safe.github.io",
     "code": "https://github.com/vla-safe/SAFE",
     "description":"",
