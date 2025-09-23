@@ -48,7 +48,7 @@ export const dataPublications = [
           title={ STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation },  
           author={Hossein Goli and Michael Gimelfarb and Nathan Samuel de Lara and Haruki Nishimura and Masha Itkina and Florian Shkurti},
           year={2025},
-          booktitle={Neural Information Processing Systems (NeurIPS)},
+          booktitle={Neural Information Processing Systems (NeurIPS) [spotlight]},
         }
     `,
     "tags":['reinforcement learning', 'generative models'],
