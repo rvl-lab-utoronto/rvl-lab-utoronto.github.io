@@ -180,6 +180,7 @@ export const dataTeam = {
       "image":"assets/team/frank-jiang.webp",
 	    "description":"non-rigid body manipulation, robot learning",
 	    "linkedIn": "https://ca.linkedin.com/in/frank-zhaodong-jiang-04558b261",
+        "website":"https://frankzhaodong.github.io/",
       "googleScholar":"https://scholar.google.com/citations?user=ISNrsywAAAAJ&hl=en",
     },
     {
@@ -197,6 +198,19 @@ export const dataTeam = {
         "website":"https://www.andrewmagnuson.ca/",
         "twitter":"https://x.com/ajwmagnuson",
       "googleScholar":"https://scholar.google.com/citations?hl=en&user=x3L1rLQAAAAJ",
+    },
+    {
+      "name":"Joshua Choi",
+      "image":"assets/team/joshua-choi.webp",
+      "description":"Offline Reinforcement Learning, Imitation Learning, Data Curation, Autonomous Drones",
+	    "linkedIn": "https://www.linkedin.com/in/joshua-choi-416-uoft/",
+        "website":"https://choijoshua.github.io/",
+    },
+    {
+      "name":"Sofia Luo",
+      "image":"assets/team/sofia-luo.webp",
+      "description":"Computer Vision, Robot Learning",
+	    "linkedIn": "https://www.linkedin.com/in/sofialuo/",
     },
 
 
