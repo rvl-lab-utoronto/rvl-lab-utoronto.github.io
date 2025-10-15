@@ -211,6 +211,7 @@ export const dataTeam = {
       "image":"assets/team/sofia-luo.webp",
       "description":"Computer Vision, Robot Learning",
 	    "linkedIn": "https://www.linkedin.com/in/sofialuo/",
+        "website":"https://sofialuo15.github.io/",
     },
 
 
