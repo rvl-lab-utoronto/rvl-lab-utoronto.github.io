@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.debcf5ac.css",
-    "main.js": "/static/js/main.e4035aef.js",
+    "main.css": "/static/css/main.52530014.css",
+    "main.js": "/static/js/main.d47d99b2.js",
     "static/js/453.06e9535f.chunk.js": "/static/js/453.06e9535f.chunk.js",
     "static/media/florian.jpg": "/static/media/florian.ef0618950f3a2a0905a6.jpg",
     "static/media/RobotoCondensed-Regular.ttf": "/static/media/RobotoCondensed-Regular.db6d916952fb988edac1.ttf",
@@ -67,21 +67,16 @@
     "static/media/KaTeX_Size3-Regular.woff": "/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/index.html",
-    "static/media/twitter-brands.svg": "/static/media/twitter-brands.87682341d07c5f155f20c82e111fd3ae.svg",
-    "static/media/globe-solid.svg": "/static/media/globe-solid.cecdc87b5a4d8174c9b667cbb8cd3da2.svg",
-    "static/media/graduation-cap-solid.svg": "/static/media/graduation-cap-solid.af8ffce9fd8ac5e008db0a231b008aa9.svg",
-    "static/media/envelope-solid.svg": "/static/media/envelope-solid.80b23b18d1593391d450dd1f4c0155f9.svg",
-    "static/media/linkedin-brands.svg": "/static/media/linkedin-brands.f40410445e859153f9822ead79adc02e.svg",
     "static/media/bars-solid.svg": "/static/media/bars-solid.e8db7520285d01597a75c139d54e29ce.svg",
     "static/media/caret-left-solid.svg": "/static/media/caret-left-solid.f3619997a928becd29fd92becb0ec639.svg",
     "static/media/caret-right-solid.svg": "/static/media/caret-right-solid.572aedcd3672424647529b863c77b3bb.svg",
     "static/media/expand_more.svg": "/static/media/expand_more.8322b254aa7db62c20fde7acc6f5c150.svg",
-    "main.debcf5ac.css.map": "/static/css/main.debcf5ac.css.map",
-    "main.e4035aef.js.map": "/static/js/main.e4035aef.js.map",
+    "main.52530014.css.map": "/static/css/main.52530014.css.map",
+    "main.d47d99b2.js.map": "/static/js/main.d47d99b2.js.map",
     "453.06e9535f.chunk.js.map": "/static/js/453.06e9535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.debcf5ac.css",
-    "static/js/main.e4035aef.js"
+    "static/css/main.52530014.css",
+    "static/js/main.d47d99b2.js"
   ]
 }
