@@ -2,11 +2,30 @@
 export const dataPublications = [
   {
     "bibtex":`
+    @inproceedings{tan2025searchtta,
+      title        = {Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild},
+      author       = {Derek Ming Siang Tan, Shailesh, Boyang Liu, Alok Raj, Qi Xuan Ang, Weiheng Dai, Tanishq Duhan, Jimmy Chiun, Yuhong Cao, Florian Shkurti, Guillaume Sartoretti},
+      booktitle    = {Conference on Robot Learning (CoRL)},
+      year         = {2025},
+      organization = {PMLR}
+    }
+
+    `,
+    "tags":['online adaptation', 'computer vision', 'planning'],
+    "thumbnail":"/assets/publication-thumbnails/search_tta_cover_v6.gif",
+    "video": "",
+    "html": "https://arxiv.org/pdf/2505.11350",
+    "project": "https://search-tta.github.io/",
+    "code": "https://github.com/marmotlab/Search-TTA-VLN",
+    "description":"",
+  },
+  {
+    "bibtex":`
 
         @ARTICLE{11068142,
           author={Sepehr Samavi and Anthony Lem and Fumiaki Sato and Sirui Chen and Qiao Gu and Keijiro Yano and Angela P. Schoellig and Florian Shkurti},
-          journal={IEEE Robotics and Automation Letters}, 
-          title={SICNav-Diffusion: Safe and Interactive Crowd Navigation With Diffusion Trajectory Predictions}, 
+          journal={IEEE Robotics and Automation Letters (RA-L)},
+          title={SICNav-Diffusion: Safe and Interactive Crowd Navigation With Diffusion Trajectory Predictions},
           year={2025},
           volume={10},
           number={9},
@@ -26,12 +45,12 @@ export const dataPublications = [
     "bibtex":`
 
       @Article{clark2025needdiversetrajectorystitching,
-        title={What Do You Need for Diverse Trajectory Stitching in Diffusion Planning?}, 
+        title={What Do You Need for Diverse Trajectory Stitching in Diffusion Planning?},
         author={Quentin Clark and Florian Shkurti},
         year={2025},
         journal={arXiv}
-      }    
-  
+      }
+
     `,
     "tags":['planning', 'generative models', 'imitation learning'],
     "thumbnail":"/assets/publication-thumbnails/quentin_stitching.webp",
@@ -45,7 +64,7 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{stitch_ope,
-          title={ STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation },  
+          title={ STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation },
           author={Hossein Goli and Michael Gimelfarb and Nathan Samuel de Lara and Haruki Nishimura and Masha Itkina and Florian Shkurti},
           year={2025},
           booktitle={Neural Information Processing Systems (NeurIPS) [spotlight]},
@@ -63,7 +82,7 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{qiao_safe,
-          title={ SAFE: Multitask Failure Detection for Vision-Language-Action Models },  
+          title={ SAFE: Multitask Failure Detection for Vision-Language-Action Models },
           author={Qiao Gu and Yuanliang Ju and Shengxiang Sun and Igor Gilitschenski and Haruki Nishimura and Masha Itkina and Florian Shkurti},
           year={2025},
           booktitle={Neural Information Processing Systems (NeurIPS)},
@@ -81,7 +100,7 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{matterix,
-          title={ MATTERIX: Towards a Digital Twin for Robotics-Assisted Chemistry Lab Automation },  
+          title={ MATTERIX: Towards a Digital Twin for Robotics-Assisted Chemistry Lab Automation },
           author={Kourosh Darvish and Arjun Sohal and Abhijoy Mandal and Hatem Fakhruldeen and Nikola Radulov and Zhengxue Zhou and Joshua Choi and Skyler Han and Brayden Zhang and Jeeyeoun Chae and Satheeshkumar Veeramani and Alex Wright and Yijie Wang and Hossein Darvish and Yuchi (Allan) Zhao and Gary Tom and Han Hao and Miroslav Bogdanovic and Gabriella Pizzuto and Andrew Cooper and Alan Aspuru Guzik and  Florian Shkurti and Animesh Garg},
           year={2025},
           booktitle={Nature Computational Science},
@@ -100,7 +119,7 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{cooper2025acceleratingdiscoverynaturalscience,
-          title={Accelerating Discovery in Natural Science Laboratories with AI and Robotics: Perspectives and Challenges from the 2024 IEEE ICRA Workshop, Yokohama, Japan}, 
+          title={Accelerating Discovery in Natural Science Laboratories with AI and Robotics: Perspectives and Challenges from the 2024 IEEE ICRA Workshop, Yokohama, Japan},
           author={Andrew I. Cooper and Patrick Courtney and Kourosh Darvish and Moritz Eckhoff and Hatem Fakhruldeen and Andrea Gabrielli and Animesh Garg and Sami Haddadin and Kanako Harada and Jason Hein and Maria Hübner and Dennis Knobbe and Gabriella Pizzuto and Florian Shkurti and Ruja Shrestha and Kerstin Thurow and Rafael Vescovi and Birgit Vogel-Heuser and Ádám Wolf and Naruki Yoshikawa and Yan Zeng and Zhengxue Zhou and Henning Zwirnmann},
           year={2025},
           booktitle={Science Robotics},
