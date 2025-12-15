@@ -32,8 +32,8 @@ export const dataProjects = [
     "title":"Robotics for chemistry and biology lab automation",
     "description":"",
     "image":"assets/project-assets/webp-images/icra23-chemistry-tamp2.webp",
-    "asset":"assets/project-assets/pages/chemistry-and-biology-lab-automation.md",
-    "webLocation":"chemistry-and-biology-lab-automation",
+    "asset":"assets/project-assets/pages/robotics-for-chemistry-and-biology-lab-automation.md",
+    "webLocation":"robotics-for-chemistry-and-biology-lab-automation",
   },
   {
     "title":"Field robotics \& environmental monitoring",

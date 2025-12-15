@@ -112,7 +112,7 @@ export const visitorFAQ = [
    
        
    {
-       "question": "I am a student at a university other than U. Toronto. Can I do an in-person visit your lab?",
+       "question": "I am a student at a university other than U. Toronto. Can I do an in-person visit in your lab?",
        "answer": 'If you think we are a strong research match and if you are planning to dedicate at least 6 months of full-time work to your visit then feel free to email me with your CV, unofficial transcript, and research interests. You should also check out funding opportunities for visiting students, such as <a href="https://www.mitacs.ca/en/programs/globalink/globalink-research-award">Mitacs Globalink</a> or <a href="https://www.sgs.utoronto.ca/admissions/international-students/international-visiting-graduate-students/"> opportunities for international visiting graduate students (IVGS) at UofT</a>. For the IVGS program please reach out to me at least 6 months before the start date of your visit. Finally, check out <a href="https://web.cs.toronto.edu/graduate/visiting-students">this page</a>.'
     },
     {

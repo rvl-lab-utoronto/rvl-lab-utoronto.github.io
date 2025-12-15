@@ -52,7 +52,7 @@ export const dataPublications = [
       }
   
     `,
-    "tags":['policy evaluation', 'generative models', 'manipulation'],
+    "tags":['policy evaluation', 'generative models', 'manipulation', 'safe learning'],
     "thumbnail":"/assets/publication-thumbnails/weicheng_icra2026.webp",
     "video": "",
     "html": "https://arxiv.org/abs/2511.11520",
@@ -107,7 +107,7 @@ export const dataPublications = [
           booktitle={Neural Information Processing Systems (NeurIPS) [spotlight]},
         }
     `,
-    "tags":['policy evaluation', 'reinforcement learning', 'generative models'],
+    "tags":['policy evaluation', 'reinforcement learning', 'generative models', 'safe learning'],
     "thumbnail":"/assets/publication-thumbnails/stitch_ope.webp",
     "video": "",
     "html": "https://arxiv.org/abs/2505.20781",
@@ -319,7 +319,7 @@ export const dataPublications = [
     "video": "https://www.youtube.com/watch?v=fpe1_2FeMnE",
     "html": "https://arxiv.org/abs/2401.06949",
     "project": "https://ac-rad.github.io/organa/",
-    "code": "",
+    "code": "https://github.com/ac-rad/organa",
     "description":"",
     },
 
@@ -363,7 +363,7 @@ export const dataPublications = [
 
     `,
 
-    "tags":['planning', 'control', 'social navigation', 'human-robot interaction'],
+    "tags":['planning', 'control', 'social navigation'],
     "thumbnail":"/assets/publication-thumbnails/sicnav.webp",
     "video": "",
     "project": "http://dsl.utias.utoronto.ca/~sep/projects/sicnav/",
@@ -673,7 +673,7 @@ export const dataPublications = [
       }
     `,
     "html" : "https://openreview.net/forum?id=c_E8kFWfhp0",
-      "tags":["simulation","differentiable rendering","system identification"],
+      "tags":["simulation","differentiable rendering"],
       "project": "https://gradsim.github.io/",
     "thumbnail":"/assets/publication-thumbnails/gradSim Differentiable simulation for system identification and visuomotor control.webp",
     "description":"",
@@ -720,7 +720,7 @@ export const dataPublications = [
     `,
     "html":"https://arxiv.org/abs/2003.10010",
     "code":"https://github.com/rvl-lab-utoronto/visual_search_in_the_wild",
-    "tags":["field robotics","vision","human-robot interaction"],
+    "tags":["field robotics","vision"],
     "thumbnail":"/assets/publication-thumbnails/One-Shot Informed Robotic Visual Search in the Wild.webp",
     "description":"",
   },
@@ -901,7 +901,7 @@ export const dataPublications = [
   {
     "bibtex":`
       @InProceedings{convoying_iros_2017,
-        author = { Florian Shkurti and {Wei Di} Chang and Peter Henderson and {Md. Jahidul} Islam and {Juan Camilo} {Gamboa Higuera} and Jimmy Li and Travis Manderson and  Anqi Xu and Gregory Dudek and  Junaed Sattar},
+        author = { Florian Shkurti and Wei Di Chang and Peter Henderson and Md. Jahidul Islam and Juan Camilo Gamboa Higuera and Jimmy Li and Travis Manderson and  Anqi Xu and Gregory Dudek and  Junaed Sattar},
         title = "Underwater Multi-Robot Convoying Using Visual Tracking by Detection",
         booktitle = "IEEE International Conference on Intelligent Robots and Systems (IROS)",
         pages = "4189--4196",
@@ -968,7 +968,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/crv_2016_texture_aware_slam.pdf",
-    "tags":["field robotics","estimation","vision"],
+    "tags":["field robotics","vision"],
     "thumbnail":"/assets/publication-thumbnails/Texture-Aware SLAM Using Stereo Imagery And Inertial Information.webp",
     "description":"",
   },
@@ -1008,7 +1008,7 @@ export const dataPublications = [
   {
     "bibtex":`
       @inproceedings{Meghjani:2014:ARS:2623380.2623579,
-        author = { Malika Meghjani and  Florian Shkurti and  {Juan Camilo} {Gamboa Higuera} and Arnold Kalmbach and David Whitney and Gregory Dudek},
+        author = { Malika Meghjani and  Florian Shkurti and  Juan Camilo Gamboa Higuera and Arnold Kalmbach and David Whitney and Gregory Dudek},
         title = {Asymmetric Rendezvous Search at Sea},
         booktitle = {Conference on Computer and vision (CRV)},
         year = {2014},
@@ -1057,7 +1057,7 @@ export const dataPublications = [
   {
     "bibtex":`
       @InProceedings{Shkurti12iros,
-        author = {Florian Shkurti and  Anqi Xu and  Malika Meghjani and {Juan Camilo} {Gamboa Higuera} and  Yogesh Girdhar and  Philippe Giguere and  {Bir Bikram} Dey, and  Jimmy Li and  Arnold Kalmbach and  Chris Prahacs and  Katrine Turgeon and  Ioannis Rekleitis and  Gregory Dudek},
+        author = {Florian Shkurti and  Anqi Xu and  Malika Meghjani and Juan Camilo Gamboa Higuera and  Yogesh Girdhar and  Philippe Giguere and  {Bir Bikram} Dey, and  Jimmy Li and  Arnold Kalmbach and  Chris Prahacs and  Katrine Turgeon and  Ioannis Rekleitis and  Gregory Dudek},
         title = {{Multi-Domain Monitoring of Marine Environments Using a Heterogeneous Robot Team}},
         booktitle = "IEEE International Conference on Intelligent Robots and Systems (IROS)",
         pages = "1747--1753",
@@ -1103,7 +1103,7 @@ export const dataPublications = [
       }
     `,
     "pdf":"assets/pdf/iros_2011_state_est.pdf",
-    "tags":["estimation", "field robotics"],
+    "tags":["field robotics"],
     "thumbnail":"/assets/publication-thumbnails/State estimation of an underwater robot using visual and inertial information.webp",
     "description":"",
   },

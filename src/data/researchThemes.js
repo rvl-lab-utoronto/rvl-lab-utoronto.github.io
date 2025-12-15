@@ -54,8 +54,8 @@ export const dataApplicationAreas = [
       "collaborative human-robot environmental monitoring",
       "field robotics", */
     ],
-      "asset":"assets/research-themes/todo.jpg",
-      "web": "/research/chemistry-and-biology-lab-automation"
+     // "asset":"assets/research-themes/todo.jpg",
+      "web": "/research/robotics-for-chemistry-and-biology-lab-automation"
   },
   {
     "title": "  field robotics for environmental monitoring  ",
@@ -69,7 +69,7 @@ export const dataApplicationAreas = [
       "collaborative human-robot environmental monitoring",
       "field robotics", */
     ],
-      "asset":"assets/research-themes/field_robotics.jpg",
+      //"asset":"assets/research-themes/field_robotics.jpg",
       "web": "/research/field-robotics"
   },
 ]

@@ -1,7 +1,10 @@
 // A list of objects : {"date":"", "content":""}
 // Date is of format : year-month-day
 export const dataNews = [
-
+  {
+    "date":"2025-11-01",
+    "content":"Wei-Cheng's paper on leveraging <a href='https://arxiv.org/abs/2511.11520'>video models for policy evaluation</a> in robotic manipulation is out on arxiv."
+  },
   {
     "date":"2025-09-10",
     "content":"Two papers accepted at NeurIPS'25, one on <a href='https://arxiv.org/abs/2505.20781'>off-policy evaluation with diffusion guidance</a> and another on <a href='https://arxiv.org/abs/2506.09937'>multi-task failure detection in VLAs</a>. Both papers were collaborations with TRI. Congratulations to Hossein Goli, Mike Gimelfarb, Qiao Gu, Yuanliang Ju, and the rest of the team!"
@@ -29,7 +32,7 @@ export const dataNews = [
 
  {
   "date":"2025-1-1",
-  "content":"Yewon Lee's paper <a href='https://arxiv.org/abs/2310.01775'>Stein Task and Motion Planning</a> was accepted to Robotics and Automation Letters. Congratulations to Yewon Lee, Philip Huang, and Andrew Li and the rest of the team! Yewon started her PhD at the University of Washington!"
+  "content":"Yewon Lee's paper <a href='https://arxiv.org/abs/2310.01775'>Stein Task and Motion Planning</a> was accepted to Robotics and Automation Letters. Congratulations to Yewon Lee, Philip Huang, and Andrew Li and the rest of the team!"
 },
 
 {

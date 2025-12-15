@@ -83,21 +83,21 @@ export const dataTeam = {
         "googleScholar":"https://scholar.google.com/citations?user=M0LAA-oAAAAJ",
     },
     {
-      "name":"Yuchi(Allan) Zhao",
+      "name":"Yuchi (Allan) Zhao",
       "image":"assets/team/yuchi_allan_zhao_1.webp",
       "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alan Aspuru-Guzik</a> and <a href='https://animesh.garg.tech'>Animesh Garg</a>",
       "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
     {
-      "name":"Yuanliang(Avery) Ju",
+      "name":"Yuanliang (Avery) Ju",
       "image":"assets/team/avery1.webp",
-      "description":"robot manipulation, 3D Vision",
+      "description":"robot manipulation, 3D vision",
       "twitter":"https://x.com/averyjuuu0213",
         "googleScholar":"https://scholar.google.com/citations?user=rG90YVAAAAAJ&hl=zh-CN",
     },
     {
-      "name":"Brandon(Dun-Ming) Huang",
+      "name":"Brandon (Dun-Ming) Huang",
       "image":"assets/team/brandon-huang.webp",
       "description":"reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
         "website":"http://bransthre.github.io/",
@@ -146,7 +146,7 @@ export const dataTeam = {
       "website":"https://emma-x1.github.io/",
     },
     {
-      "name":"Shengxiang(Owen) Sun",
+      "name":"Shengxiang (Owen) Sun",
       "image":"assets/team/owensun.webp",
 	    "description":"robot manipulation, foundation models",
 	    "linkedIn": "https://www.linkedin.com/in/shengxiang-sun/",
@@ -168,7 +168,7 @@ export const dataTeam = {
       "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
     },
     {
-      "name":"Liyu(Laura) Tao",
+      "name":"Liyu (Laura) Tao",
       "image":"assets/team/liyu-tao.webp",
 	    "description":"robot manipulation, chemistry lab automation, imitation learning",
 	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
@@ -202,14 +202,14 @@ export const dataTeam = {
     {
       "name":"Joshua Choi",
       "image":"assets/team/joshua-choi.webp",
-      "description":"Offline Reinforcement Learning, Imitation Learning, Data Curation, Autonomous Drones",
+      "description":"offline RL, imitation learning, data curation",
 	    "linkedIn": "https://www.linkedin.com/in/joshua-choi-416-uoft/",
         "website":"https://choijoshua.github.io/",
     },
     {
       "name":"Sofia Luo",
       "image":"assets/team/sofia-luo.webp",
-      "description":"Computer Vision, Robot Learning",
+      "description":"computer vision, robot learning",
 	    "linkedIn": "https://www.linkedin.com/in/sofialuo/",
         "website":"https://sofialuo15.github.io/",
     },
@@ -337,7 +337,7 @@ export const dataTeam = {
 {
   "name":"Anthony Lem",
   "image":"assets/team/anthony_lem_1.webp",
-  "description":"human pose detection and prediction",
+  "description":"human pose detection and prediction. <div><b>next: Epson, Toronto</b></div>",
 },
 {
   "name":"Skylar Hao",
