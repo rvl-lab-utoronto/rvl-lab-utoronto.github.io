@@ -54,7 +54,8 @@ new and prospective students. Note that you do not need to be interested in all 
 </p>
 
 <h3>Email policy</h3>
-<p>I welcome emails from prospective students, however, I might not be able to answer your email. 
+
+<p>I welcome emails from prospective students, however, I will not be able to answer all of them. 
 I reply to messages from prospective students who seem like a good fit for my lab and I encourage them to apply. 
 If I haven't replied to your message, it is probably because I don't see a strong fit with my lab's research.
 </p>
