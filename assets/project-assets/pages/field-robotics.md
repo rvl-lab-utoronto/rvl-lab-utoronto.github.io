@@ -21,7 +21,7 @@ Autonomous robots need to pay attention to the right parts of the environment in
 balances *exploration*, to seek out observations that the scientist might consider novel or surprising,
 and *exploitation*, to record data that the user already knows they will be interested in.
 
-### **Why aim for fully autonomous robots?**
+### **Why aim for fully autonomous robots in the field?**
 
 Many robotics technologies that have been deployed so far
 for environmental monitoring have been either semi-autonomous or not sufficiently intelligent
