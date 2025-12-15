@@ -1,4 +1,36 @@
-### **Physics-based 3D Perception**
+## **Semantic 3D Mapping**
+
+Building 3D maps of the environment is central to
+robot navigation, planning, and interaction with objects in a
+scene. Most existing approaches that integrate semantic concepts
+with 3D maps largely remain confined to the closed-set setting:
+they can only reason about a finite set of concepts, pre-defined
+at training time. Further, these maps can only be queried using
+class labels, or in more recent work, using text prompts.
+We address both these issues with ConceptFusion, a scene
+representation that is: (i) fundamentally open-set, enabling rea-
+soning beyond a closed set of concepts (ii) inherently multi-modal, enabling a diverse range of possible queries to the
+3D map, from language, to images, to audio, to 3D geometry,
+all working in concert. ConceptFusion leverages the open-set
+capabilities of today’s foundation models that have been pre-
+trained on internet-scale data to reason about concepts across
+modalities such as natural language, images, and audio. We
+demonstrate that pixel-aligned open-set features can be fused into
+3D maps via traditional SLAM and multi-view fusion approaches.
+This enables effective zero-shot spatial reasoning, not needing
+any additional training or finetuning, and retains long-tailed
+concepts better than supervised approaches.
+<div>
+  <p align="center">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rkXgws8fiDs?si=Xqp_xf6gCNlH8h1u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mRhNkQwRYnc?si=WCnblQj7rWPS5y_7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</p>
+</div>
+
+## **Physics-based 3D Perception**
 
 Inferring the shape, pose, kinematics, dynamics, affordances, and physical properties of objects in the scene is of fundamental importance to downstream planning and
 control. We are particularly interested in inferring physics-based dynamics models of objects in 3D, based on RGB(D) observations, and we explored this idea in the context of
@@ -25,7 +57,7 @@ physics-based human motion tracking from videos in an [ICCV'21 paper](https://nv
 </div> 
 
 
-### **Differentiable Physics and Rendering Simulators**
+## **Differentiable Physics and Rendering Simulators**
 
 Accurately predicting the dynamics and physical characteristics of objects from video or tactile interactions is a long-standing challenge in 3D perception.
 Imagine watching a short video of a basketball bouncing off the ground and ask: ``Can we infer the mass and elasticity of the ball, predict its trajectory,

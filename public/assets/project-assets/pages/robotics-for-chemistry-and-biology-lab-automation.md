@@ -5,7 +5,8 @@ Robotics for lab automation focuses on enabling general-purpose robots to perfor
 > Automating laboratory workflows stands to transform scientific research by increasing experiment 
 > throughput, improving reproducibility, and enabling new modes of discovery where human scientists and
 > robots collaborate seamlessly. Our research aims to bridge fundamental robotics with real-world 
-> laboratory systems to make **self-driving labs** a practical reality.
+> laboratory systems to make **self-driving labs** a practical reality. Our lab collaborates very 
+> closely with chemists and biologists at the [Acceleration Consortium](http://acceleration.utoronto.ca/) at the University of Toronto (e.g. Alan Aspuru-Guzik and Milica Radisic). 
 
 Traditional experimentation in chemistry and biology involves labor-intensive and time-consuming 
 procedures that limit throughput and scale. In our lab develops AI-driven robotic systems capable of
@@ -98,12 +99,13 @@ CLAIRIFY is an approach that combines automatic iterative prompting with program
 </div>
 
 
+
+
 <div>
   <p align="center">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VW1_NgMaYFY?si=JApQgTtfPD_a3jHb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lnXevj4Mm8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
 </div>
 
 
