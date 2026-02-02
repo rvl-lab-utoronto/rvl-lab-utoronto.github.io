@@ -137,6 +137,16 @@ export const dataTeam = {
     },
   ],
 
+  "Visiting students":[
+      {
+      "name":"Sehee Kweon",
+      "image":"assets/team/sehee_kweon.webp",
+      "description":"computer vision, generative models, robot learning. visiting from <a href='https://en.snu.ac.kr/'>Seoul National University</a>",
+      "linkedIn":"https://www.linkedin.com/in/sehee-kweon-6a2654172",
+      "googleScholar":"https://scholar.google.com/citations?hl=en&user=fw1FdlIAAAAJ",
+    },
+  ],
+
   "undergraduate students":[
     {
       "name":"Emma Xing",
@@ -217,163 +227,164 @@ export const dataTeam = {
 
   ],
 
-"alumni: postdocs":[
-  {
-    "name":"Qi Chen",
-    "image":"assets/team/qi_chen_1.webp",
-    "description":"statistical learning theory, transfer learning, meta-learning <div><b>next: Assistant Professor, ML Group, Aalto University \& ELLIS</b></div>",
-    "website":"https://livreq.github.io/",
-    // "email":"",
-    // "linkedIn":"",
-    "googleScholar":"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MqLoSeoAAAAJ",
-    "github": "https://github.com/livreQ"
-  },
-  {
-    "name":"Kourosh Darvish",
-    "image":"assets/team/kourosh_darvish_2.webp",
-    "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <div><b>next: Research Scientist, Acceleraction Consortium</b></div>",
-    "website":"https://kouroshd.github.io/",
-    "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
-    "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",
-  },
-],
+  "alumni: postdocs":[
+    {
+      "name":"Qi Chen",
+      "image":"assets/team/qi_chen_1.webp",
+      "description":"statistical learning theory, transfer learning, meta-learning <div><b>next: Assistant Professor, ML Group, Aalto University \& ELLIS</b></div>",
+      "website":"https://livreq.github.io/",
+      // "email":"",
+      // "linkedIn":"",
+      "googleScholar":"https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=MqLoSeoAAAAJ",
+      "github": "https://github.com/livreQ"
+    },
+    {
+      "name":"Kourosh Darvish",
+      "image":"assets/team/kourosh_darvish_2.webp",
+      "description":"robotics, control, task and motion planning, machine learning, chemistry lab automation. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <div><b>next: Research Scientist, Acceleraction Consortium</b></div>",
+      "website":"https://kouroshd.github.io/",
+      "linkedIn":"https://it.linkedin.com/in/kouroshdarvish",
+      "googleScholar":"https://scholar.google.com/citations?user=FwFFVdIAAAAJ",
+    },
+  ],
 
-"alumni: research associates \& visitors":[
-  {
-    "name":"Sebastian Aegidius",
-    "image":"assets/team/seb_rvl.webp",
-    "description":"robot perception, motion and path planning, RL <div><b>next: PhD student, UTIAS",
-    "linkedIn":"https://www.linkedin.com/in/sebastian-aegidius-a7584521a/",
-  },
-  {
-    "name":"Derek Tan",
-    "image":"assets/team/derektan_headshot_v3.webp",
-    "description":"test-time adaptation, multimodal visual search. <div><b>next: PhD student, National University of Singapore</b></div>",
-    "website":"https://derektan95.github.io/",
-    "linkedIn":"https://www.linkedin.com/in/derektan95/",
-    "googleScholar":"https://scholar.google.com/citations?user=dVvzYaoAAAAJ&hl=en",
-  },
-  {
-    "name":"Melissa Mozifian",
-    "image":"assets/team/melissa_mozifian_1.webp",
-    "description":"visiting phd student, McGill/MILA. combining imitation and reinforcement learning. <div><b>visitor: MILA, McGill</b></div>",
-    "website":"https://melfm.github.io/about.html",
-    "googleScholar":"https://scholar.google.com/citations?user=sygJEU0AAAAJ&hl=en",
-  },
-  {
-    "name":"Fabian Damken",
-    "image":"assets/team/fabian_damken_1.webp",
-    "description":"learning planning heuristics <div><b>next: Mathematics PhD student, U. Twente</b></div>",
-    "linkedIn":"https://linkedin.com/in/fdamken",
-    "website": "https://fabian.damken.net/",
-    "twitter": "https://twitter.com/fabian_damken",
-    "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
-  },
-],
+  "alumni: research associates \& visitors":[
+    {
+      "name":"Sebastian Aegidius",
+      "image":"assets/team/seb_rvl.webp",
+      "description":"robot perception, motion and path planning, RL <div><b>next: PhD student, UTIAS",
+      "linkedIn":"https://www.linkedin.com/in/sebastian-aegidius-a7584521a/",
+    },
+    {
+      "name":"Derek Tan",
+      "image":"assets/team/derektan_headshot_v3.webp",
+      "description":"test-time adaptation, multimodal visual search. <div><b>next: PhD student, National University of Singapore</b></div>",
+      "website":"https://derektan95.github.io/",
+      "linkedIn":"https://www.linkedin.com/in/derektan95/",
+      "googleScholar":"https://scholar.google.com/citations?user=dVvzYaoAAAAJ&hl=en",
+    },
+    {
+      "name":"Melissa Mozifian",
+      "image":"assets/team/melissa_mozifian_1.webp",
+      "description":"visiting phd student, McGill/MILA. combining imitation and reinforcement learning. <div><b>visitor: MILA, McGill</b></div>",
+      "website":"https://melfm.github.io/about.html",
+      "googleScholar":"https://scholar.google.com/citations?user=sygJEU0AAAAJ&hl=en",
+    },
+    {
+      "name":"Fabian Damken",
+      "image":"assets/team/fabian_damken_1.webp",
+      "description":"learning planning heuristics <div><b>next: Mathematics PhD student, U. Twente</b></div>",
+      "linkedIn":"https://linkedin.com/in/fdamken",
+      "website": "https://fabian.damken.net/",
+      "twitter": "https://twitter.com/fabian_damken",
+      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
+    },
+  ],
 
-"alumni: graduate students":[
-  {
-    "name":"Homanga Bharadhwaj",
-    "image":"assets/team/homanga_bharadhwaj_1.webp",
-    "description":"reinforcement learning, safe exploration, robotics, recommender systems. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <div><b>next: CMU CS PhD</b></div>",
-    "website":"https://homangab.github.io/",
-    "googleScholar":"https://scholar.google.ca/citations?user=wwW4HRQAAAAJ&hl=en",
-    "twitter":"https://twitter.com/mangahomanga"
+  "alumni: graduate students":[
+    {
+      "name":"Homanga Bharadhwaj",
+      "image":"assets/team/homanga_bharadhwaj_1.webp",
+      "description":"reinforcement learning, safe exploration, robotics, recommender systems. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <div><b>next: CMU CS PhD</b></div>",
+      "website":"https://homangab.github.io/",
+      "googleScholar":"https://scholar.google.ca/citations?user=wwW4HRQAAAAJ&hl=en",
+      "twitter":"https://twitter.com/mangahomanga"
+    },
+    {
+      "name":"Philip Huang",
+      "image":"assets/team/philip.webp",
+      "description":"continual learning, field robotics, task and motion planning. co-supervised by <a href='http://asrl.utias.utoronto.ca/~tdb/'>Tim Barfoot</a>. <div><b>next: CMU CS PhD</b></div>",
+      "linkedIn":"https://ca.linkedin.com/in/philip-yizhou-huang",
+      "website":"https://philip-huang.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?hl=en&user=YDCsS5EAAAAJ"
+    },
+    {
+      "name":"Andrei Ivanovic",
+      "image":"assets/team/andrei_ivanovic_2.webp",
+      "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>. <div><b>next: Amazon Robotics</b></div>",
+  "linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
+  "website": "https://aivanovic1.github.io/"
   },
   {
-    "name":"Philip Huang",
-    "image":"assets/team/philip.webp",
-    "description":"continual learning, field robotics, task and motion planning. co-supervised by <a href='http://asrl.utias.utoronto.ca/~tdb/'>Tim Barfoot</a>. <div><b>next: CMU CS PhD</b></div>",
-    "linkedIn":"https://ca.linkedin.com/in/philip-yizhou-huang",
-    "website":"https://philip-huang.github.io/",
-    "googleScholar":"https://scholar.google.com/citations?hl=en&user=YDCsS5EAAAAJ"
+    "name":"Kevin Xie",
+    "image":"assets/team/kevin.webp",
+    "description":"reinforcement learning, control, 3D vision. co-supervised by <a href='https://www.cs.utoronto.ca/~fidler/'>Sanja Fidler</a>. <div><b>next: Research Scientist, Nvidia</b></div>",
+    "website":"https://kevincxie.github.io/",
   },
   {
-    "name":"Andrei Ivanovic",
-    "image":"assets/team/andrei_ivanovic_2.webp",
-    "description":"trajectory prediction and planning. co-supervised by <a href='https://www.gilitschenski.org/igor/'>Igor Gilitschenski</a>. <div><b>next: Amazon Robotics</b></div>",
-"linkedIn":"https://ca.linkedin.com/in/andrei-ivanovic-438313178",
-"website": "https://aivanovic1.github.io/"
- },
- {
-  "name":"Kevin Xie",
-  "image":"assets/team/kevin.webp",
-  "description":"reinforcement learning, control, 3D vision. co-supervised by <a href='https://www.cs.utoronto.ca/~fidler/'>Sanja Fidler</a>. <div><b>next: Research Scientist, Nvidia</b></div>",
-  "website":"https://kevincxie.github.io/",
- },
- {
-  "name":"Salar Hosseini",
-  "image":"assets/team/salar.webp",
-  "description":"computer vision, adversarial scenario generation. <div><b>next: Samsung AI</b></div>",
-  "linkedIn":"https://ca.linkedin.com/in/salar-hosseini",
-  "website":"https://salarios77.github.io/",
-  "googleScholar":"https://scholar.google.ca/citations?user=8OT5mY0AAAAJ&hl=en"
- },
- {
-  "name":"Ke Dong",
-  "image":"assets/team/ke_dong_1.webp",
-  "description":"control theory, mobile manipulation. <div><b>next: Research Scientist, Tencent AI</b></div>",
-  "linkedIn":"https://ca.linkedin.com/in/ke-dong-7a33a9171",
-},
-{
-  "name":"Yewon Lee",
-  "image":"assets/team/yewon_lee_1.webp",
-  "description":"task and motion planning <div><b>next: U. of Washington CS PhD</b></div>",
-  "website":"https://yewon-lee.github.io/",
-},
-{
-  "name":"Yasasa Abeysirigoonawardena",
-  "image":"assets/team/yasasa_abeysirigoonawardena_1.webp",
-  "description":"adversarial scenario generation, neural rendering. <div><b>next: Research Scientist, Waabi</b></div>",
-"linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
-"website": "https://www.yasasa.me/"
-},
-{
-  "name":"Jinbang Huang",
-  "image":"assets/team/jinbang_huang_1.webp",
-  "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>. <div><b>next: Huawei AI, Toronto</b></div>",
-  "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
-},
-{
-  "name":"Anthony Lem",
-  "image":"assets/team/anthony_lem_1.webp",
-  "description":"human pose detection and prediction. <div><b>next: Epson, Toronto</b></div>",
-},
-{
-  "name":"Skylar Hao",
-  "image":"assets/team/skylar.webp",
-  "description":"sim-to-real transfer, safe learning, statistics, machine learning",
-},
-{
-  "name":"Mohamed Khodeir",
-  "image":"assets/team/mk.webp",
-  "linkedIn":"https://ca.linkedin.com/in/khodeir",
-  "description": "learning to plan, task and motion planning. <div><b>next: Robotics Engineer, Waabi</b></div>",
-},
-{
-  "name":"Blerim Abdullai",
-  "image":"assets/team/blerim_abdullai_1.webp",
-  "description":"computer vision, field robotics, stochastic planning <div><b>next: Robotics Engineer, Zeon Systems</b></div>",
-  "website":"https://www.cs.toronto.edu/~blerim/",
-  "linkedIn":"https://www.linkedin.com/in/blerimabdullai",
-    "googleScholar":"https://scholar.google.com/citations?user=wdKWt3gAAAAJ&hl=en",
-},
-],
+    "name":"Salar Hosseini",
+    "image":"assets/team/salar.webp",
+    "description":"computer vision, adversarial scenario generation. <div><b>next: Samsung AI</b></div>",
+    "linkedIn":"https://ca.linkedin.com/in/salar-hosseini",
+    "website":"https://salarios77.github.io/",
+    "googleScholar":"https://scholar.google.ca/citations?user=8OT5mY0AAAAJ&hl=en"
+  },
+  {
+    "name":"Ke Dong",
+    "image":"assets/team/ke_dong_1.webp",
+    "description":"control theory, mobile manipulation. <div><b>next: Research Scientist, Tencent AI</b></div>",
+    "linkedIn":"https://ca.linkedin.com/in/ke-dong-7a33a9171",
+  },
+  {
+    "name":"Yewon Lee",
+    "image":"assets/team/yewon_lee_1.webp",
+    "description":"task and motion planning <div><b>next: U. of Washington CS PhD</b></div>",
+    "website":"https://yewon-lee.github.io/",
+  },
+  {
+    "name":"Yasasa Abeysirigoonawardena",
+    "image":"assets/team/yasasa_abeysirigoonawardena_1.webp",
+    "description":"adversarial scenario generation, neural rendering. <div><b>next: Research Scientist, Waabi</b></div>",
+  "linkedIn":"https://ca.linkedin.com/in/yasasa-abeysirigoonawardena-819229198",
+  "website": "https://www.yasasa.me/"
+  },
+  {
+    "name":"Jinbang Huang",
+    "image":"assets/team/jinbang_huang_1.webp",
+    "description":"task and motion planning, control theory, optimization. co-supervised by <a href='http://stars.utias.utoronto.ca/~jkelly/'>Jonathan Kelly</a>. <div><b>next: Huawei AI, Toronto</b></div>",
+    "linkedIn":"https://ca.linkedin.com/in/jinbang-huang-989526170",
+  },
+  {
+    "name":"Anthony Lem",
+    "image":"assets/team/anthony_lem_1.webp",
+    "description":"human pose detection and prediction. <div><b>next: Epson, Toronto</b></div>",
+  },
+  {
+    "name":"Skylar Hao",
+    "image":"assets/team/skylar.webp",
+    "description":"sim-to-real transfer, safe learning, statistics, machine learning",
+  },
+  {
+    "name":"Mohamed Khodeir",
+    "image":"assets/team/mk.webp",
+    "linkedIn":"https://ca.linkedin.com/in/khodeir",
+    "description": "learning to plan, task and motion planning. <div><b>next: Robotics Engineer, Waabi</b></div>",
+  },
+  {
+    "name":"Blerim Abdullai",
+    "image":"assets/team/blerim_abdullai_1.webp",
+    "description":"computer vision, field robotics, stochastic planning <div><b>next: Robotics Engineer, Zeon Systems</b></div>",
+    "website":"https://www.cs.toronto.edu/~blerim/",
+    "linkedIn":"https://www.linkedin.com/in/blerimabdullai",
+      "googleScholar":"https://scholar.google.com/citations?user=wdKWt3gAAAAJ&hl=en",
+  },
+  ],
+
   "alumni: undergraduate students":[
-    
+
     {
       "name":"Ruiting Chen",
       "image":"assets/team/ruiting_chen_1.webp",
-	    "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization <div><b>next: Stanford CS MSc</b></div>",
-	    "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
+      "description":"physics simulation for robotic tasks, adversarial scenarios generation, mesh optimization <div><b>next: Stanford CS MSc</b></div>",
+      "linkedIn": "https://ca.linkedin.com/in/ruiting-chen-a24183216",
       "website":"https://ruiting-chen.github.io",
     },
     {
       "name":"Alex Alexiev",
       "image":"assets/team/alexiev.webp",
-	    "description":"non-rigid body manipulation <div><b>next: MIT MechEng PhD</b></div>",
+      "description":"non-rigid body manipulation <div><b>next: MIT MechEng PhD</b></div>",
       "linkedIn":"https://www.linkedin.com/in/alexander-alexiev-125a78201/",
-	    "website": "https://alex-alexiev.github.io/",
+      "website": "https://alex-alexiev.github.io/",
     },
     {
       "name":"Andrew Zou Li",
@@ -388,16 +399,16 @@ export const dataTeam = {
       "description":"perception, implicit occupancy and flow representation.",
       "linkedIn": "https://ca.linkedin.com/in/mariachzhen",
     },
-    
-   
+
+
     {
       "name":"Julia Chae",
       "image":"assets/team/julia_chae_1.webp",
       "description":"LiDAR and RGB representation learning <div><b>next: MIT EECS PhD</b></div>",
       "linkedIn":"https://ca.linkedin.com/in/julia-chae",
-	"website": "https://juliachae.github.io/",
+  "website": "https://juliachae.github.io/",
     },
-    
+
     {
       "name":"Ben Agro",
       "image":"assets/team/ben_agro.webp",
@@ -420,8 +431,8 @@ export const dataTeam = {
     {
       "name":"Hamza Dugmag",
       "image":"assets/team/hamza_dugmag_1.webp",
-	"description":"field robotics, autonomous boat",
-	"website": "https://hamzadugmag.com/"
+  "description":"field robotics, autonomous boat",
+  "website": "https://hamzadugmag.com/"
     },
     {
       "name":"Haozhe Sheng",
@@ -431,22 +442,22 @@ export const dataTeam = {
     {
       "name":"Jisu Qian",
       "image":"assets/team/jisu_qian_1.webp",
-	"description":"system identification",
-	"linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
+  "description":"system identification",
+  "linkedIn": "https://ca.linkedin.com/in/jisu-qian-85b18921b"
     },
-   
+
     {
-       "name":"Cathlyn Chen",
-       "image":"assets/team/cathlyn_chen_1.webp",
-       "description":"backwards reachability for nonlinear systems <div><b>next: UofT Neuroscience MSc</b></div>",
-       "link":"",
+        "name":"Cathlyn Chen",
+        "image":"assets/team/cathlyn_chen_1.webp",
+        "description":"backwards reachability for nonlinear systems <div><b>next: UofT Neuroscience MSc</b></div>",
+        "link":"",
     },
     {
-       "name":"Kathy Zhuang",
-       "image":"assets/team/kathy_zhuang_1.webp",
-	"description":"computer vision for transparent objects. <div><b>next: Berkeley CS MSc</b></div>",
-	"linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
-	"website": "https://kathyzhuang.github.io/"
+        "name":"Kathy Zhuang",
+        "image":"assets/team/kathy_zhuang_1.webp",
+  "description":"computer vision for transparent objects. <div><b>next: Berkeley CS MSc</b></div>",
+  "linkedIn": "https://ca.linkedin.com/in/yue-kathy-zhuang",
+  "website": "https://kathyzhuang.github.io/"
     },
     {
       "name":"Artur Kuramshin",
@@ -469,8 +480,8 @@ export const dataTeam = {
     },
     {
       "name":"Charlotte Zhang",
-	"image":"assets/team/charlotte_zhang_1.webp",
-	"description":"field robotics, autonomous boat <div><b>next: SFU CS PhD</b></div>",
+  "image":"assets/team/charlotte_zhang_1.webp",
+  "description":"field robotics, autonomous boat <div><b>next: SFU CS PhD</b></div>",
     },
     {
       "name":"Jason Tang",
@@ -480,9 +491,9 @@ export const dataTeam = {
     {
       "name":"Pranit Chawla",
       "image":"assets/team/pranit_chawla_1.webp",
-	"description":"LiDAR and RGB representation for imitation learning. <div><b>next: CMU CS MSc</b></div>",
-	"website": "https://www.pranitchawla.com/",
-	"linkedIn": "https://www.linkedin.com/in/pranit-chawla-503237145/"
+  "description":"LiDAR and RGB representation for imitation learning. <div><b>next: CMU CS MSc</b></div>",
+  "website": "https://www.pranitchawla.com/",
+  "linkedIn": "https://www.linkedin.com/in/pranit-chawla-503237145/"
     },
     {
       "name":"Cong Wei",
@@ -499,8 +510,8 @@ export const dataTeam = {
     {
       "name":"Stephen Zhao",
       "image":"assets/team/stephen_zhao_1.webp",
-	"description":"multi-agent reinforcement learning. co-supervised by <a href='http://www.cs.toronto.edu/~yangxu/'>Yang Xu</a>. <div><b>next: UofT CS MSc</b></div>",
-	"linkedIn": "https://ca.linkedin.com/in/zhaostephen"
+  "description":"multi-agent reinforcement learning. co-supervised by <a href='http://www.cs.toronto.edu/~yangxu/'>Yang Xu</a>. <div><b>next: UofT CS MSc</b></div>",
+  "linkedIn": "https://ca.linkedin.com/in/zhaostephen"
     },
     {
       "name":"Dhruv Sharma",
@@ -521,7 +532,7 @@ export const dataTeam = {
       "description":"differentiable rendering for self-driving simulators. <div><b>next: CMU CS MSc</b></div>",
       "linkedIn":"https://ca.linkedin.com/in/chuhan-chen",
     },
-    
+
     {
       "name":"Chris Agia",
       "image":"assets/team/chris_agia_1.webp",
@@ -541,7 +552,7 @@ export const dataTeam = {
       "description":"reinforcement learning, control, simulation, and manipulation. <div><b>next: CMU RI PhD</b></div>",
       "website":"https://jasonjzliu.com/",
     },
-    
+
     {
       "name":"Shichen Lu",
       "image":"assets/team/shichen_lu_1.webp",
@@ -576,8 +587,8 @@ export const dataTeam = {
     {
       "name":"Sirui (Ariel) Chen",
       "image":"assets/team/ariel_chen_1.webp",
-	    "description":"pedestrian trajectory prediction. <div><b>next: Stanford MSc</b></div>",
-	    "website": "https://github.com/arielchen07",
+      "description":"pedestrian trajectory prediction. <div><b>next: Stanford MSc</b></div>",
+      "website": "https://github.com/arielchen07",
         "linkedIn": "https://ca.linkedin.com/in/sirui-chen-6492a0232"
     },
     {
@@ -588,8 +599,8 @@ export const dataTeam = {
       "linkedin":"https://www.linkedin.com/in/kellyzhu-ca",
       "website":"https://kellyzoo.github.io",
     },
-    
-   
+
+
     {
       "name":"Aditya Saigal",
       "image":"assets/team/profile.webp",
