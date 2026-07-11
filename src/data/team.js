@@ -117,9 +117,8 @@ export const dataTeam = {
       "linkedIn":"https://www.linkedin.com/in/jamesrosstwo/",
     },
     {
-      // TODO: replace placeholder with real headshot -- submitted Drive link requires sign-in
       "name":"Zhengyang Liang",
-      "image":"assets/team/white_640x480.webp",
+      "image":"assets/team/zhengyang-liang.webp",
       "description":"computer vision, generative models",
       "website":"https://maxleung99.github.io/",
       "twitter":"https://x.com/zyliang99",
