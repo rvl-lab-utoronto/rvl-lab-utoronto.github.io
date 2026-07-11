@@ -102,9 +102,6 @@ export const dataTeam = {
       "description":"reinforcement learning, long-horizon planning, human-robot interaction, cognitive science",
         "website":"http://bransthre.github.io/",
     },
-  ],
-
-  "MSc students":[
     {
       "name":"Daniel Hocevar",
       "image":"assets/team/headshot-danielhocevar.webp",
@@ -120,12 +117,32 @@ export const dataTeam = {
       "linkedIn":"https://www.linkedin.com/in/jamesrosstwo/",
     },
     {
-      "name":"Nathan de Lara",
-      "image":"assets/team/nathan.webp",
-      "description":"reinforcement learning, optimal control, optimization",
-      "googleScholar":"https://scholar.google.ca/citations?user=-OvkuacAAAAJ&hl=en",
-      "linkedIn":"https://www.linkedin.com/in/nathan-d-a00821126/",
-      "website":"http://www.delaraanalytics.com",
+      // TODO: replace placeholder with real headshot -- submitted Drive link requires sign-in
+      "name":"Zhengyang Liang",
+      "image":"assets/team/white_640x480.webp",
+      "description":"computer vision, generative models",
+      "website":"https://maxleung99.github.io/",
+      "twitter":"https://x.com/zyliang99",
+      "googleScholar":"https://scholar.google.ca/citations?user=o2CMgkUAAAAJ",
+    },
+  ],
+
+  "MSc students":[
+    {
+      "name":"Shengxiang (Owen) Sun",
+      "image":"assets/team/owensun.webp",
+      "description":"robot learning, manipulation",
+      "linkedIn": "https://www.linkedin.com/in/shengxiang-sun/",
+      "website":"https://owensun2004.github.io/",
+      "googleScholar":"https://scholar.google.ca/citations?hl=en&user=4nVa1oIAAAAJ",
+    },
+    {
+      "name":"Kavi Dey",
+      "image":"assets/team/kavi-dey.webp",
+      "description":"computer vision, manipulation",
+      "website":"https://kavidey.com/",
+      "linkedIn":"https://www.linkedin.com/in/kavidey/",
+      "googleScholar":"https://scholar.google.com/citations?user=7quZjo4AAAAJ&hl=en",
     },
     {
       "name":"Jibran Iqbal Shah",
@@ -156,26 +173,11 @@ export const dataTeam = {
       "website":"https://emma-x1.github.io/",
     },
     {
-      "name":"Shengxiang (Owen) Sun",
-      "image":"assets/team/owensun.webp",
-	    "description":"robot manipulation, foundation models",
-	    "linkedIn": "https://www.linkedin.com/in/shengxiang-sun/",
-      "website":"https://owensun2004.github.io/",
-      "googleScholar":"https://scholar.google.ca/citations?hl=en&user=4nVa1oIAAAAJ",
-    },
-    {
       "name":"Yubo Wang",
       "image":"assets/team/yubo-wang.webp",
 	    "description":"field robotics, navigation, localization, autonomous surface vessels",
 	    "linkedIn": "https://www.linkedin.com/in/yubo-wang-yyz/",
       "website":"https://yubowng.github.io/",
-    },
-    {
-      "name":"Tanmay Patel",
-      "image":"assets/team/tanmay-patel.webp",
-	    "description":"non-rigid body manipulation, imitation learning",
-	    "linkedIn": "https://www.linkedin.com/in/tanmay-patel-uoft/",
-      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
     },
     {
       "name":"Liyu (Laura) Tao",
@@ -201,15 +203,6 @@ export const dataTeam = {
         "website":"https://nthiyag.github.io/resume/",
     },
     {
-      "name":"Andrew Magnuson",
-      "image":"assets/team/andrew_headshot.webp",
-      "description":"robot learning, manipulation",
-	    "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
-        "website":"https://www.andrewmagnuson.ca/",
-        "twitter":"https://x.com/ajwmagnuson",
-      "googleScholar":"https://scholar.google.com/citations?hl=en&user=x3L1rLQAAAAJ",
-    },
-    {
       "name":"Joshua Choi",
       "image":"assets/team/joshua-choi.webp",
       "description":"offline RL, imitation learning, data curation",
@@ -217,14 +210,35 @@ export const dataTeam = {
         "website":"https://choijoshua.github.io/",
     },
     {
-      "name":"Sofia Luo",
-      "image":"assets/team/sofia-luo.webp",
-      "description":"computer vision, robot learning",
-	    "linkedIn": "https://www.linkedin.com/in/sofialuo/",
-        "website":"https://sofialuo15.github.io/",
+      "name":"Leo Wang",
+      "image":"assets/team/leo-wang.webp",
+      "description":"robot manipulation",
+      "linkedIn":"https://www.linkedin.com/in/leo-wang-09833128a/",
     },
-
-
+    {
+      "name":"Kirill Utyashev",
+      "image":"assets/team/kirill-utyashev.webp",
+      "description":"reinforcement learning, robot learning",
+      "linkedIn":"https://www.linkedin.com/in/kirill-utyashev/",
+    },
+    {
+      "name":"Sheena Qin",
+      "image":"assets/team/sheena-qin.webp",
+      "description":"vision language action models",
+      "linkedIn":"https://www.linkedin.com/in/sheena-qin-537501322/",
+    },
+    {
+      "name":"Natasha Yang",
+      "image":"assets/team/natasha-yang.webp",
+      "description":"computer vision, robot learning, robot manipulation",
+      "linkedIn":"https://www.linkedin.com/in/natasha-yang-64a35a1a5/",
+    },
+    {
+      "name":"Emily Yan",
+      "image":"assets/team/emily-yan.webp",
+      "description":"computer vision, machine learning, biomedical systems",
+      "linkedIn":"https://www.linkedin.com/in/emily-yan-637580302/",
+    },
   ],
 
   "alumni: postdocs":[
@@ -248,40 +262,15 @@ export const dataTeam = {
     },
   ],
 
-  "alumni: research associates \& visitors":[
-    {
-      "name":"Sebastian Aegidius",
-      "image":"assets/team/seb_rvl.webp",
-      "description":"robot perception, motion and path planning, RL <div><b>next: PhD student, UTIAS",
-      "linkedIn":"https://www.linkedin.com/in/sebastian-aegidius-a7584521a/",
-    },
-    {
-      "name":"Derek Tan",
-      "image":"assets/team/derektan_headshot_v3.webp",
-      "description":"test-time adaptation, multimodal visual search. <div><b>next: PhD student, National University of Singapore</b></div>",
-      "website":"https://derektan95.github.io/",
-      "linkedIn":"https://www.linkedin.com/in/derektan95/",
-      "googleScholar":"https://scholar.google.com/citations?user=dVvzYaoAAAAJ&hl=en",
-    },
-    {
-      "name":"Melissa Mozifian",
-      "image":"assets/team/melissa_mozifian_1.webp",
-      "description":"visiting phd student, McGill/MILA. combining imitation and reinforcement learning. <div><b>visitor: MILA, McGill</b></div>",
-      "website":"https://melfm.github.io/about.html",
-      "googleScholar":"https://scholar.google.com/citations?user=sygJEU0AAAAJ&hl=en",
-    },
-    {
-      "name":"Fabian Damken",
-      "image":"assets/team/fabian_damken_1.webp",
-      "description":"learning planning heuristics <div><b>next: Mathematics PhD student, U. Twente</b></div>",
-      "linkedIn":"https://linkedin.com/in/fdamken",
-      "website": "https://fabian.damken.net/",
-      "twitter": "https://twitter.com/fabian_damken",
-      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
-    },
-  ],
-
   "alumni: graduate students":[
+    {
+      "name":"Nathan de Lara",
+      "image":"assets/team/nathan.webp",
+      "description":"reinforcement learning, optimal control, optimization. <div><b>next: CMU MLD PhD</b></div>",
+      "googleScholar":"https://scholar.google.ca/citations?user=-OvkuacAAAAJ&hl=en",
+      "linkedIn":"https://www.linkedin.com/in/nathan-d-a00821126/",
+      "website":"http://www.delaraanalytics.com",
+    },
     {
       "name":"Homanga Bharadhwaj",
       "image":"assets/team/homanga_bharadhwaj_1.webp",
@@ -370,8 +359,63 @@ export const dataTeam = {
   },
   ],
 
-  "alumni: undergraduate students":[
+  "alumni: research associates \& visitors":[
+    {
+      "name":"Sebastian Aegidius",
+      "image":"assets/team/seb_rvl.webp",
+      "description":"robot perception, motion and path planning, RL <div><b>next: PhD student, UTIAS",
+      "linkedIn":"https://www.linkedin.com/in/sebastian-aegidius-a7584521a/",
+    },
+    {
+      "name":"Derek Tan",
+      "image":"assets/team/derektan_headshot_v3.webp",
+      "description":"test-time adaptation, multimodal visual search. <div><b>next: PhD student, National University of Singapore</b></div>",
+      "website":"https://derektan95.github.io/",
+      "linkedIn":"https://www.linkedin.com/in/derektan95/",
+      "googleScholar":"https://scholar.google.com/citations?user=dVvzYaoAAAAJ&hl=en",
+    },
+    {
+      "name":"Melissa Mozifian",
+      "image":"assets/team/melissa_mozifian_1.webp",
+      "description":"visiting phd student, McGill/MILA. combining imitation and reinforcement learning. <div><b>visitor: MILA, McGill</b></div>",
+      "website":"https://melfm.github.io/about.html",
+      "googleScholar":"https://scholar.google.com/citations?user=sygJEU0AAAAJ&hl=en",
+    },
+    {
+      "name":"Fabian Damken",
+      "image":"assets/team/fabian_damken_1.webp",
+      "description":"learning planning heuristics <div><b>next: Mathematics PhD student, U. Twente</b></div>",
+      "linkedIn":"https://linkedin.com/in/fdamken",
+      "website": "https://fabian.damken.net/",
+      "twitter": "https://twitter.com/fabian_damken",
+      "googleScholar": "https://scholar.google.com/citations?user=EM-y6hYAAAAJ&hl=en",
+    },
+  ],
 
+  "alumni: undergraduate students":[
+    {
+      "name":"Sofia Luo",
+      "image":"assets/team/sofia-luo.webp",
+      "description":"computer vision, robot learning. <div><b>next: UofT PhD, Toronto Computational Imaging Group</b></div>",
+	    "linkedIn": "https://www.linkedin.com/in/sofialuo/",
+        "website":"https://sofialuo15.github.io/",
+    },
+    {
+      "name":"Tanmay Patel",
+      "image":"assets/team/tanmay-patel.webp",
+	    "description":"non-rigid body manipulation, imitation learning. <div><b>next: MIT EECS PhD</b></div>",
+	    "linkedIn": "https://www.linkedin.com/in/tanmay-patel-uoft/",
+      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
+    },
+    {
+      "name":"Andrew Magnuson",
+      "image":"assets/team/andrew_headshot.webp",
+      "description":"robot learning, manipulation. <div><b>next: CMU MSR</b></div>",
+	    "linkedIn": "https://www.linkedin.com/in/andrew-magnuson-03/",
+        "website":"https://www.andrewmagnuson.ca/",
+        "twitter":"https://x.com/ajwmagnuson",
+      "googleScholar":"https://scholar.google.com/citations?hl=en&user=x3L1rLQAAAAJ",
+    },
     {
       "name":"Ruiting Chen",
       "image":"assets/team/ruiting_chen_1.webp",
