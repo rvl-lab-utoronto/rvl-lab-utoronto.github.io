@@ -154,6 +154,11 @@ export const dataTeam = {
   ],
 
   "Visiting students":[
+    {
+      "name":"Alina Bohm",
+      "image":"assets/team/alina-bohm.webp",
+      "description":"world models for manipulation. visiting from <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a>",
+    },
       {
       "name":"Sehee Kweon",
       "image":"assets/team/sehee_kweon.webp",
