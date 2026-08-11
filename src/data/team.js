@@ -159,13 +159,6 @@ export const dataTeam = {
       "image":"assets/team/alina-bohm.webp",
       "description":"world models for manipulation. visiting from <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a>",
     },
-      {
-      "name":"Sehee Kweon",
-      "image":"assets/team/sehee_kweon.webp",
-      "description":"computer vision, generative models, robot learning. visiting from <a href='https://en.snu.ac.kr/'>Seoul National University</a>",
-      "linkedIn":"https://www.linkedin.com/in/sehee-kweon-6a2654172",
-      "googleScholar":"https://scholar.google.com/citations?hl=en&user=fw1FdlIAAAAJ",
-    },
   ],
 
   "undergraduate students":[
@@ -364,6 +357,13 @@ export const dataTeam = {
   ],
 
   "alumni: research associates \& visitors":[
+    {
+      "name":"Sehee Kweon",
+      "image":"assets/team/sehee_kweon.webp",
+      "description":"computer vision, generative models, robot learning. <div><b>visitor: Seoul National University</b></div>",
+      "linkedIn":"https://www.linkedin.com/in/sehee-kweon-6a2654172",
+      "googleScholar":"https://scholar.google.com/citations?hl=en&user=fw1FdlIAAAAJ",
+    },
     {
       "name":"Sebastian Aegidius",
       "image":"assets/team/seb_rvl.webp",
