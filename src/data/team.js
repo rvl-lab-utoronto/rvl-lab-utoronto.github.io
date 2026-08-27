@@ -124,6 +124,13 @@ export const dataTeam = {
       "twitter":"https://x.com/zyliang99",
       "googleScholar":"https://scholar.google.ca/citations?user=o2CMgkUAAAAJ",
     },
+    {
+      "name":"Yoonsu Kang",
+      "image":"assets/team/yoonsu-kang.webp",
+      "description":"computer vision, robot learning",
+      "website":"https://yskang05.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?user=toSjxOAAAAAJ&hl=en",
+    },
   ],
 
   "MSc students":[
