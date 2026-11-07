@@ -53,9 +53,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Pushing Changes to GitHub Pages
 
-After setting up and initialization to GitHub pages, deploy the app using ```npm run deploy``` to update the website with any changes.
+The site deploys automatically: every push to the `source` branch runs `.github/workflows/deploy.yml`, which builds the site on GitHub's servers and publishes it to GitHub Pages. Progress and errors show up in the repository's Actions tab; a deploy usually takes a few minutes. The workflow can also be started by hand from the Actions tab ("Build and deploy site" → "Run workflow").
 
-You can always test your changes before by running ```npm start```
+Pull requests into `source` run the same build without deploying, so a broken data file shows up as a failed check before it is merged.
+
+This requires Settings → Pages → Build and deployment → Source to be set to "GitHub Actions". With that setting, `npm run deploy` (which pushes to the `gh-pages` branch) no longer changes the live site.
+
+You can always test your changes before by running ```npm start```, or check the production build locally with ```npm run build``` followed by ```npx serve -s build```.
 
 # Configuration
 * All assets are stored in `public/assets/`
