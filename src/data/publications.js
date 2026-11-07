@@ -293,7 +293,7 @@ export const dataPublications = [
        }
     `,
 
-    "tags":['vision', 'vision', 'manipulation'],
+    "tags":['vision', 'manipulation'],
     "thumbnail":"/assets/publication-thumbnails/conceptgraphs2.webp",
     "video": "https://www.youtube.com/watch?v=mRhNkQwRYnc",
     "html": "https://arxiv.org/abs/2309.16650",
@@ -401,7 +401,7 @@ export const dataPublications = [
        @InProceedings{Wei_2023_CVPR,
           author    = {Cong Wei and Brendan Duke and Ruowei Jiang and Parham Aarabi and Graham Taylor and Florian Shkurti},
           title     = {Sparsifiner: Learning Sparse Instance-Dependent Attention for Efficient Vision Transformers},
-          booktitle = {IEEE/CVF Conference on vision and Pattern Recognition (CVPR)},
+          booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
           month     = {June},
           year      = {2023},
           pages     = {22680-22689}
@@ -419,7 +419,7 @@ export const dataPublications = [
       @InProceedings{Gu_2023_CVPR,
          author    = {Qiao Gu and Dongsub Shim and Florian Shkurti},
          title     = {Preserving Linear Separability in Continual Learning by Backward Feature Projection},
-         booktitle = {IEEE/CVF Conference on vision and Pattern Recognition (CVPR)},
+         booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
          month     = {June},
          year      = {2023},
          pages     = {24286-24295}
@@ -427,7 +427,7 @@ export const dataPublications = [
 
     `,
     "html": "https://arxiv.org/abs/2303.14595",
-    "tags":['vision', 'vision', 'continual learning'],
+    "tags":['vision', 'continual learning'],
     "code": "https://github.com/rvl-lab-utoronto/BFP",
     "thumbnail":"/assets/publication-thumbnails/cvpr23-bfp.webp",
     "description":"",
@@ -446,7 +446,7 @@ export const dataPublications = [
 
     `,
     "html": "https://arxiv.org/abs/2302.07241",
-    "tags":['vision', 'vision'],
+    "tags":['vision'],
     "code": "https://concept-fusion.github.io/",
     "video": "https://concept-fusion.github.io/",
     "thumbnail":"/assets/publication-thumbnails/rss23-conceptfusion2.webp",
@@ -529,7 +529,7 @@ export const dataPublications = [
       }
     `,
     "html":"https://arxiv.org/abs/2302.11683",
-    "tags":['vision', 'vision', 'lab automation robotics'],
+    "tags":['vision', 'lab automation robotics'],
     "code": "https://ac-rad.github.io/MVTrans/",
     "data": "https://ac-rad.github.io/MVTrans/",
     "video": "https://www.youtube.com/watch?v=8Qdc_xWVp-k&ab_channel=XuHaoping",
@@ -581,7 +581,7 @@ export const dataPublications = [
       @InProceedings{Xie_2021_ICCV,
         author    = {Kevin Xie and Tingwu Wang and Umar Iqbal and Yunrong Guo and Sanja Fidler and Florian Shkurti},
         title     = {Physics-Based Human Motion Estimation and Synthesis From Videos},
-        booktitle = {Proceedings of the IEEE/CVF International Conference on vision (ICCV)},
+        booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
         month     = {October},
         year      = {2021},
         pages     = {11532-11541}
@@ -617,7 +617,7 @@ export const dataPublications = [
       @InProceedings{Khorasgani_2022_CVPR,
     author    = {Salar Hosseini Khorasgani and Yuxuan Chen and Florian Shkurti},
     title     = {SLIC: Self-Supervised Learning With Iterative Clustering for Human Action Videos},
-    booktitle = {IEEE/CVF Conference on vision and Pattern Recognition (CVPR)},
+    booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2022},
     pages     = {16091-16101}
@@ -804,7 +804,7 @@ export const dataPublications = [
         eprint={2103.03891},
         archivePrefix={arXiv},
         primaryClass={cs.CV},
-        booktitle={vision and Pattern Recognition (CVPR)},
+        booktitle={Computer Vision and Pattern Recognition (CVPR)},
       }
     `,
     "html":"https://arxiv.org/abs/2103.03891",
@@ -959,7 +959,7 @@ export const dataPublications = [
     "bibtex":`
       @inproceedings{manderson_crv_2016,
         Author = {Travis Manderson and Florian Shkurti and Gregory Dudek},
-        Booktitle = {Conference on Computer and vision (CRV)},
+        Booktitle = {Conference on Computer and Robot Vision (CRV)},
         Month = {May},
         Publisher = {IEEE Computer Society},
         Title = {Texture-Aware SLAM Using Stereo Imagery And Inertial Information},
@@ -1010,7 +1010,7 @@ export const dataPublications = [
       @inproceedings{Meghjani:2014:ARS:2623380.2623579,
         author = { Malika Meghjani and  Florian Shkurti and  Juan Camilo Gamboa Higuera and Arnold Kalmbach and David Whitney and Gregory Dudek},
         title = {Asymmetric Rendezvous Search at Sea},
-        booktitle = {Conference on Computer and vision (CRV)},
+        booktitle = {Conference on Computer and Robot Vision (CRV)},
         year = {2014},
         pages = {175--180},
       }
@@ -1078,7 +1078,7 @@ export const dataPublications = [
       @InProceedings{ Gamboa2012SocialPlan,
         author = {Juan Camilo Gamboa Higuera and Anqi Xu and Florian Shkurti and Gregory Dudek},
         title = {Socially-Driven Collective Path Planning for Robot Missions},
-        booktitle = {Conference on Computer and vision (CRV)},
+        booktitle = {Conference on Computer and Robot Vision (CRV)},
         year = {2012},
         pages = {417--424},
         address = {Toronto, Canada},
@@ -1128,7 +1128,7 @@ export const dataPublications = [
     "bibtex":`
       @inproceedings{florian_crv_2011,
         Author = {Florian Shkurti and  Ioannis Rekleitis and  Gregory Dudek},
-        Booktitle = {Conference on Computer and vision},
+        Booktitle = {Conference on Computer and Robot Vision},
         Month = {May},
         Publisher = {IEEE Computer Society},
         Title = {Feature Tracking Evaluation for Pose Estimation in Underwater Environments},
