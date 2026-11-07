@@ -1,0 +1,197 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Learning to Search in Task and Motion Planning with Streams. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><script type="text/javascript">!function(a){if("/"===a.search[1]){var e=a.search.slice(1).split("&").map((function(a){return a.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,a.pathname.slice(0,-1)+e+a.hash)}a.pathname.length>1&&a.pathname.endsWith("/")&&window.history.replaceState(null,null,a.pathname.replace(/\/+$/,"")+a.search+a.hash)}(window.location)</script><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Learning to Search in Task and Motion Planning with Streams | Robot Vision and Learning Lab</title><script defer="defer" src="/static/js/main.7c373f77.js"></script><link href="/static/css/main.52530014.css" rel="stylesheet"><link rel="canonical" href="https://rvl.cs.toronto.edu/blog/learning-based-tamp/"><meta property="og:type" content="website"><meta property="og:site_name" content="Robot Vision and Learning Lab"><meta property="og:title" content="Learning to Search in Task and Motion Planning with Streams | Robot Vision and Learning Lab"><meta property="og:description" content="Learning to Search in Task and Motion Planning with Streams. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><meta property="og:url" content="https://rvl.cs.toronto.edu/blog/learning-based-tamp/"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><nav class="horizontal-padding" style="padding-top:20px;padding-bottom:10px"><a href="/" style="margin-right:18px">Home</a><a href="/publications/" style="margin-right:18px">Publications</a><a href="/team/" style="margin-right:18px">Team</a><a href="/research/" style="margin-right:18px">Research</a><a href="/joining/" style="margin-right:18px">Joining</a><a href="/blog/" style="margin-right:18px">Blog</a></nav><main class="center"><div class="horizontal-padding max-width-blog">
+
+ 
+   
+     
+       
+         
+          <h1>Learning To Search in Task and Motion Planning with Streams</h1>
+           
+             
+              <a href="https://khodeir.github.io/">Mohamed Khodeir</a>, 
+             
+              <a href="https://benagro314.github.io/">Ben Agro</a>, 
+             
+              <a href="https://www.cs.toronto.edu/~florian">Florian Shkurti</a>
+             
+           
+
+           
+             University of Toronto, UofT Robotics Institute, Vector Institute 
+           
+
+           
+             
+              
+               
+                <a href="https://arxiv.org/abs/2111.13144">
+                   
+                      <i></i>
+                   
+                   Paper 
+                </a>
+               
+               
+                <a href="https://arxiv.org/abs/2111.13144">
+                   
+                      <i></i>
+                   
+                   arXiv 
+                </a>
+               
+
+              
+               
+                <a href="https://github.com/rvl-lab-utoronto/drake-tamp">
+                   
+                      <i></i>
+                   
+                   Code 
+                  </a>
+               
+
+             
+           
+         
+       
+     
+   
+ 
+
+ 
+   
+    
+     
+       
+        <h2>Abstract</h2>
+         
+          <p>
+	    Task and motion planning problems in robotics combine symbolic planning over discrete task variables with motion optimization over continuous state and action variables. Recent works such as PDDLStream have focused on optimistic planning with an incrementally growing set of objects until a feasible trajectory is found. However, this set is exhaustively expanded in a breadth-first manner, regardless of the logical and geometric structure of the problem at hand, which makes long-horizon reasoning with large numbers of objects prohibitively time-consuming. To address this issue, we propose a geometrically informed symbolic planner that expands the set of objects and facts in a best-first manner, prioritized by a Graph Neural Network that is learned from prior search computations. We evaluate our approach on a diverse set of problems and demonstrate an improved ability to plan in difficult scenarios. We also apply our algorithm on a 7DOF robotic arm in block-stacking manipulation tasks.
+          </p>
+         
+
+        <br> 
+
+         <a href="https://www.youtube.com/embed/pzzpR4wh_Zk">Embedded video</a> 
+
+       
+     
+    
+   
+ 
+
+
+
+
+
+ 
+   
+     
+       
+         
+          <h1>Policy-Guided Lazy Search with Feedback for Task and Motion Planning</h1>
+           
+             
+              <a href="https://khodeir.github.io/">Mohamed Khodeir</a>1,2,3, 
+             
+              <a href="https://threewisemonkeys-as.github.io/">Atharv Sonwane</a>4, 
+	     
+              <a href="https://ca.linkedin.com/in/ruthrash-hari-b5b790112">Ruthrash Hari</a>1,2, 
+             
+              <a href="https://www.cs.toronto.edu/~florian">Florian Shkurti</a>1,2,3
+             
+           
+
+           
+             University of Toronto1, UofT Robotics Institute2, Vector Institute3, BITS Pilani4 
+           
+
+           
+             
+              
+               
+                <a href="https://arxiv.org/abs/2210.14055">
+                   
+                      <i></i>
+                   
+                   Paper 
+                </a>
+               
+               
+                <a href="https://arxiv.org/abs/2210.14055">
+                   
+                      <i></i>
+                   
+                   arXiv 
+                </a>
+               
+
+              
+               
+                <a href="https://github.com/rvl-lab-utoronto/policy-guided-lazy-tamp">
+                   
+                      <i></i>
+                   
+                   Code 
+                  </a>
+               
+
+             
+           
+         
+       
+     
+   
+ 
+
+
+ 
+   
+    
+     
+       
+        <h2>Abstract</h2>
+         
+          <p>
+	    PDDLStream solvers have recently emerged as viable solutions for Task and Motion Planning (TAMP) problems, extending PDDL to problems with continuous action spaces. Prior work has shown how PDDLStream problems can be reduced to a sequence of PDDL planning problems, which can then be solved using off-the-shelf planners. However, this approach can suffer from long runtimes. In this paper we propose LAZY, a solver for PDDLStream problems that maintains a single integrated search over action skeletons, which gets progressively more geometrically informed, as samples of possible motions are lazily drawn during motion planning. We explore how learned models of goal-directed policies and current motion sampling data can be incorporated in LAZY to adaptively guide the task planner. We show that this leads to significant speed-ups in the search for a feasible solution evaluated over unseen test environments of varying numbers of objects, goals, and initial conditions. We evaluate our TAMP approach by comparing to existing solvers for PDDLStream problems on a range of simulated 7DoF rearrangement/manipulation problems.
+          </p>
+         
+
+        <br> 
+        
+         <a href="https://www.youtube.com/embed/HjSZOVkXSLU">Embedded video</a> 
+
+       
+     
+    
+   
+ 
+
+
+
+
+ 
+   
+    <h2>BibTeX</h2>
+    <pre><code>
+    @article{khodeir_ral,
+ 	author = {Mohamed Khodeir and Ben Agro and Florian Shkurti},
+	title = {Learning to Search in Task and Motion Planning with Streams},
+	journal = {Robotics and Automation Letters (RA-L)},
+        year = {2023}
+    }
+
+    @article{Khodeir2023PolicyGuidedLS,
+        author = {Mohamed Khodeir and Atharv Sonwane and Ruthrash Hari and Florian Shkurti},     
+        title = {Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
+        booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+        year = {2023}
+    }
+    
+    </code></pre>
+   
+ 
+
+
+
+<p><a href="/assets/blog-pages/learning-based-tamp/index.html">View the full interactive post</a></p></div></main></div></body></html>

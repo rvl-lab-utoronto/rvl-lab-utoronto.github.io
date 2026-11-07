@@ -1,0 +1,133 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Continual Model-Based Reinforcement Learning with Hypernetworks. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><script type="text/javascript">!function(a){if("/"===a.search[1]){var e=a.search.slice(1).split("&").map((function(a){return a.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,a.pathname.slice(0,-1)+e+a.hash)}a.pathname.length>1&&a.pathname.endsWith("/")&&window.history.replaceState(null,null,a.pathname.replace(/\/+$/,"")+a.search+a.hash)}(window.location)</script><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Continual Model-Based Reinforcement Learning with Hypernetworks | Robot Vision and Learning Lab</title><script defer="defer" src="/static/js/main.7c373f77.js"></script><link href="/static/css/main.52530014.css" rel="stylesheet"><link rel="canonical" href="https://rvl.cs.toronto.edu/blog/hypercrl/"><meta property="og:type" content="website"><meta property="og:site_name" content="Robot Vision and Learning Lab"><meta property="og:title" content="Continual Model-Based Reinforcement Learning with Hypernetworks | Robot Vision and Learning Lab"><meta property="og:description" content="Continual Model-Based Reinforcement Learning with Hypernetworks. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><meta property="og:url" content="https://rvl.cs.toronto.edu/blog/hypercrl/"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><nav class="horizontal-padding" style="padding-top:20px;padding-bottom:10px"><a href="/" style="margin-right:18px">Home</a><a href="/publications/" style="margin-right:18px">Publications</a><a href="/team/" style="margin-right:18px">Team</a><a href="/research/" style="margin-right:18px">Research</a><a href="/joining/" style="margin-right:18px">Joining</a><a href="/blog/" style="margin-right:18px">Blog</a></nav><main class="center"><div class="horizontal-padding max-width-blog">
+
+ 
+ 
+<h1>Continual Model-Based Reinforcement Learning with Hypernetworks</h1>
+<p>Philip Huang</p>
+ 
+
+
+
+ 
+
+    
+     
+     Published 
+     
+      <p>August 18, 2020</p>
+     
+   
+  
+    
+   
+  
+
+
+ 
+
+
+ 
+<h1>Introduction</h1>
+<p>Effective planning in model-based reinforcement learning (MBRL) and model-predictive control (MPC) relies on the accuracy of the learned dynamics model. In many instances of MBRL and MPC, this model is assumed to be stationary and is periodically re-trained from scratch on state transition experience collected from the beginning of environment interactions. This implies that the time required to train the dynamics model – and the pause required between plan executions – grows linearly with the size of the collected experience. We argue that this is too slow for lifelong robot learning and propose HyperCRL<a href="#fn1">1</a>, a method that continually learns the encountered dynamics in a sequence of tasks using task-conditional hypernetworks.</p>
+  <p>1&nbsp;To learn more, you can read our <a href="https://arxiv.org/abs/2009.11997">HyperCRL paper</a> or check out the <a href="https://github.com/rvl-lab-utoronto/HyperCRL">code</a>.</p>  <p>Our method has three main attributes: first, it enables constant-time dynamics learning sessions between planning and only needs to store the most recent fixed-size portion of the state transition experience; second, it uses fixed-capacity hypernetworks to represent non-stationary and task-aware dynamics; third, it outperforms existing continual learning alternatives that rely on fixed-capacity networks, and does competitively with baselines that remember an ever increasing coreset of past experience. We show that HyperCRL is effective in continual model-based reinforcement learning in robot locomotion and manipulation scenarios, such as tasks involving pushing and door opening.</p>
+ 
+<h3>Problem Setting</h3>
+<p>We consider the following problem setting: A robot interacts with the environment to solve a sequence of  \(T\)  goal-directed tasks, each of which brings about different dynamics while having the same state-space  \(S\)  and action space  \(A\) . The robot is exposed to the tasks sequentially online without revisiting data collected in a previous task.</p>
+ 
+ 
+<h3>Our Method</h3>
+<p><img src="/assets/blog-pages/hypercrl/hypercrl_diag.png" loading="lazy" style="max-width:100%;height:auto"></p>
+<p>We have a learned dynamics model, the parameters of which are inferred through a task-conditioned hypernetwork. Given learned task embeddings and parameters of the hypernetwork, we infer parameters of the dynamics neural network. Using this dynamics model, we perform CEM optimization to generate action sequences and execute them in the environment for  \(K\)  time-steps with MPC. We store the observed transitions in the replay dataset and update the parameters of the hypernetwork and task-embeddings. We repeat this for  \(M\)  episodes per task, and for each of the  \(T\)  tasks sequentially.</p>
+ 
+ 
+<h3>Evaluation Tasks</h3>
+ 
+ 
+<figure>
+ 
+ <a href="https://www.youtube.com/embed/gsmLhP8WfKM?rel=0">Embedded video</a> 
+ 
+<figcaption>
+Figure&nbsp;1: Door opening with a Panda arm (2x real time)
+</figcaption>
+</figure>
+ 
+ 
+<p>A panda arm must be controlled to open a door. The reward function is designed such that the agent receives higher reward for opening the door to a wider angle. The agent is controlled using an operational space controller (both position and orientation). The different tasks correspond to different shapes of the door knob.</p>
+ 
+ 
+<figure>
+ 
+ <a href="https://www.youtube.com/embed/2fG-SJUXeNU?rel=0">Embedded video</a> 
+ 
+<figcaption>
+Figure&nbsp;2: Pushing a non-uniform cube with a Panda arm (2x real time)
+</figcaption>
+</figure>
+ 
+ 
+<p>A panda arm must be controlled to push a block to a goal location without changing the oreintation of the block. The agent is controlled using an operational space controller (only position. orientation of the end-effector is fixed.). The different tasks correspond to different friction coefficients between the cube and the two sides of the table top</p>
+ 
+ 
+<figure>
+ 
+ <a href="https://www.youtube.com/embed/stKMNnGDa8U?rel=0">Embedded video</a> 
+ 
+<figcaption>
+Figure&nbsp;3: Sliding a block towards a goal location (1x real time)
+</figcaption>
+</figure>
+ 
+ 
+<p>To move the second blue block to its goal pose, the panda arm should first hit block 1, which would slide away and in turn set the second block into sliding motion until stoopped by friction. The agent is controlled with an operational space controller similar to the pusher. The different tasks correspond to different friction coeffiecient between the second block and the table top</p>
+ 
+ 
+<h3>Experiment Results</h3>
+ 
+ 
+ 
+<figure>
+ 
+<img src="/assets/blog-pages/hypercrl/door_pose_reward-01.png" loading="lazy" style="max-width:100%;height:auto">
+ 
+<figcaption>
+Figure&nbsp;4: Normalized reward on the Door environment during training
+</figcaption>
+</figure>
+ 
+ 
+ 
+ 
+ 
+ 
+<figure>
+ 
+<img src="/assets/blog-pages/hypercrl/pusher_reward-01.png" loading="lazy" style="max-width:100%;height:auto">
+ 
+<figcaption>
+Figure&nbsp;5: Reward on the Pusher environment during training
+</figcaption>
+</figure>
+ 
+ 
+ 
+ 
+ 
+ 
+<figure>
+ 
+<img src="/assets/blog-pages/hypercrl/pusher_slide_reward-01.png" loading="lazy" style="max-width:100%;height:auto">
+ 
+<figcaption>
+Figure&nbsp;6: Reward on the Slider environment during training
+</figcaption>
+</figure>
+ 
+ 
+ 
+
+ 
+ 
+
+
+<p><a href="/assets/blog-pages/hypercrl/hypercrl.html">View the full interactive post</a></p></div></main></div></body></html>

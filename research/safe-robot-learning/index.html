@@ -1,0 +1,97 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Safe robot learning. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><script type="text/javascript">!function(a){if("/"===a.search[1]){var e=a.search.slice(1).split("&").map((function(a){return a.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,a.pathname.slice(0,-1)+e+a.hash)}a.pathname.length>1&&a.pathname.endsWith("/")&&window.history.replaceState(null,null,a.pathname.replace(/\/+$/,"")+a.search+a.hash)}(window.location)</script><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Safe robot learning | Robot Vision and Learning Lab</title><script defer="defer" src="/static/js/main.7c373f77.js"></script><link href="/static/css/main.52530014.css" rel="stylesheet"><link rel="canonical" href="https://rvl.cs.toronto.edu/research/safe-robot-learning/"><meta property="og:type" content="website"><meta property="og:site_name" content="Robot Vision and Learning Lab"><meta property="og:title" content="Safe robot learning | Robot Vision and Learning Lab"><meta property="og:description" content="Safe robot learning. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><meta property="og:url" content="https://rvl.cs.toronto.edu/research/safe-robot-learning/"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><nav class="horizontal-padding" style="padding-top:20px;padding-bottom:10px"><a href="/" style="margin-right:18px">Home</a><a href="/publications/" style="margin-right:18px">Publications</a><a href="/team/" style="margin-right:18px">Team</a><a href="/research/" style="margin-right:18px">Research</a><a href="/joining/" style="margin-right:18px">Joining</a><a href="/blog/" style="margin-right:18px">Blog</a></nav><main class="center"><div class="horizontal-padding max-width-blog"><h2><strong>Safety Considerations During Robot Learning and Deployment</strong></h2>
+<p>While progress in deep learning and computer vision research has been one of the key enablers of deploying
+modern robotics systems in the real world, there is an abundance of research, engineering, and regulatory
+challenges currently precluding the certification of these systems as safe for deployment around humans
+and other animals. Yet, that has not prevented private companies and other organizations from frequently
+deploying and testing (semi-)autonomous robot systems in the wild, among humans who have not necessarily
+explicitly consented to be part of such experiments. In order for the public to trust autonomous robots,
+these systems need to be able to reason about risk and how to minimize it, especially in the face of rare
+events.</p>
+<blockquote>
+<p>In our lab, we aim to provide safety guarantees about the operation of learning based robotic systems.
+This includes making progress on (a) <strong>safe exploration</strong> during the learning process, such as bounding the number
+of mistakes a robot will commit, (b) safety assessments before deployment, in the form of <strong>photorealistic adversarial simulation scenarios</strong> that generate rare events,
+and (c) safety monitoring during deployment through test-time <strong>uncertainty quantification</strong>.</p>
+</blockquote>
+<p>While we are focusing our research efforts on directions (a)-(c), we recognize that they will only be partial ingredients
+in the formal process of functional safety certification of autonomous robot systems that operate in human
+environments. A more holistic view of safety that includes hardware, continuous monitoring of systems in the field,
+and lifelong fixes and improvements, are also necessary in solving this very complex puzzle.</p>
+<h3><strong>Safe Exploration During Reinforcement Learning</strong></h3>
+<p>Safe exploration is an oxymoron. Exploration encourages visiting an unseen state or deliberatively attempting a new action, while
+safety is about staying close to previously visited states and actions that are known to be relatively low-cost.
+A more tractable way to think about safe exploration is in terms of an acceptable tradeoff: what is the maximum
+probability of an accident or bad outcomes that we allow our systems to incur, while they optimize for another set of task
+objectives or while they try to gather more information about the environment they operate in.</p>
+<p>For safety-critical tasks, such as driving and surgery, we are likely only comfortable with this probability being zero,
+i.e. no autonomous exploration in real environments, only learning from human demonstration data. For less safety-critical
+systems, for example, robot arms learning to grasp rigid or non-rigid objects, we might be more willing to increase that
+probability. This helps our autonomous systems to explore on their own in order to improve their predictive models of how
+the world works, and in response, improve their own behavior in it.</p>
+<p>There are at least two major technical issues here: first, it is really challenging to have a calibrated estimate of the
+probability of an accident for a given autonomous feedback controller (policy); second, we need to ensure that our autonomous
+systems provably commit fewer mistakes as they gain more data and experience, preferably at a sublinear rate in terms of the
+number of epochs.</p>
+<p>Our <a href="https://arxiv.org/abs/2010.14497">Conservative Safety Critics paper</a> aims to address both of these issues (but only partially succeeds at ensuring safety).
+We make use of the <a href="https://arxiv.org/abs/2006.04779">Conservative Q-Learning</a> method from Aviral Kumar, Aurick Zhou, George Tucker, and Sergey Levine, in order to provably overestimate the probability of an accident. By upper-bounding the overestimate, we conservatively upper-bound the true probability of an accident. We also show (Theorem 3 in the paper) that if the maximum allowed threshold for a probability of failure is set to decrease rapidly in terms of the number of epochs, then the cumulative number of failures for <code>T</code> epochs will grow as <code>O(\sqrt{T})</code>.</p>
+ 
+  <p>
+  <img src="/assets/project-assets/images/csc.jpg" alt="method diag" loading="lazy" style="max-width:100%;height:auto">
+  </p>
+ 
+ 
+    <p>
+        <em>The general overview of how CSC works. Qc denotes the probability of failure. </em>
+    </p>
+ 
+<h3><strong>Automatically Generating Adversarial Driving Scenarios in Photorealistic Simulators</strong></h3>
+<p>How can we evaluate the performance of self-driving car perception and navigation software in terms of safety
+in the face of rare events? One approach is to measure miles per intervention from real driving data on the road.
+According to <a href="https://doi.org/10.1016/j.tra.2016.09.010">recent estimates</a>, the number of miles that would have to be driven on the road in order to demonstrate
+the safety of a car in a statistically significant sense is in the range of hundreds of millions of miles, which
+corresponds to decades of driving, assuming current projections about the sizes of fleets of self-driving
+vehicles. Another, complementary, approach is to design rich simulation scenarios that will provide a preliminary
+assessment of the self-driving software stack. The question then becomes: what is the best way to design these driving
+scenarios in order to minimize the chances of accidents on public roads?</p>
+<p>Current best practices for stress-testing self-driving navigation software involve a <a href="https://www.theatlantic.com/technology/archive/2017/08/inside-waymos-secret-testing-and-simulation-facilities/537648/">semi-autonomous process</a>, in which
+a human operator specifies the number of cars and pedestrians in the scene, their initial locations and their approximate
+trajectories, while their speeds are automatically selected from a wide range of options. Human involvement
+and specification renders this process time-consuming and difficult to scale to new environments. Most importantly,
+however, it could result in missing critical testing configurations.</p>
+<p><a href="http://www.cim.mcgill.ca/~florian/pdfs/icra-2019-adversarial.pdf">In a paper published at ICRA 2019</a> we show how to automate the generation of driving scenarios in high-fidelity simulators, by optimizing the behaviors of pedestrians and other vehicles on the road, so that they navigate adversarially with respect to the self-driving vehicle that is being tested. Our proposed system automatically explores and finds parameters of trajectories, in a way that reduces human involvement, and results in possible crashes and dangerous configurations.</p>
+ 
+  <p>
+ <a href="https://www.youtube.com/embed/TUeCtB9xuKA">Embedded video</a> 
+  </p>
+ 
+ 
+    <p>
+        <em>Adversarial scenario generation using Bayesian Optimization, treating the simulator as non-differentiable.</em>
+    </p>
+ 
+<h3><strong>Generating Adversarial Driving Scenarios in Simulation so that They Transfer in the Real World</strong></h3>
+<p>How do we ensure that an adversarial scenario that we find in simulation transfers (remains adversarial to the driving pipeline)
+when physically constructed in the real world? Answering this question will help us ensure that we can test autonomous driving
+policies in simulation while providing guarantees about their performance in the real world. Consider the following experiment
+from our <a href="https://arxiv.org/abs/2309.15770">CoRL 2023 paper</a>:</p>
+<figure>
+<p>
+  <img src="/assets/project-assets/images/adv-scenarios-corl23.jpg" alt="method diag" loading="lazy" style="max-width:100%;height:auto">  
+</p>
+</figure>
+<p>The first row of images shows a vision-based driving policy that has been trained to do lane following and which manages to execute a full square trajectory along the real track. The second row overlays a random synthetic object on the side of the square track, and adds random texture to that object; the car does not deviate and is still able to execute the square. This means that we need to optimize the texture if we want it to be adversarial to the given driving policy. To do this, we train a NeRF representation of the entire scene and we assume we have a physics-based dynamics model of the car. We can optimize the texture, mesh, and location of the synthetic adversarial object; this is shown in row 4, where the car indeed deviates from its desired trajectory in the NeRF simulation environment. Due to the similarity between NeRF and the real scene, in row 3 we see that the same adversarial object found in simulation actually transfers to the real scene, without further optimization.</p>
+<p>How does the optimization work? We cast adversarial scenario generation as a high-dimensional optimal control problem. Given a known image-based driving policy that we want to attack, as well as the dynamics of the autonomous vehicle, we aim to optimize a photorealistic simulation environment such that it produces sensor observations that are 3D-viewpoint-consistent, but adversarial with respect to the policy, causing it to deviate from its nominal trajectory. The objective of the optimal control problem is to maximize this deviation through plausible perturbations of objects in the photorealistic environment. The figure below shows an overview of the method:</p>
+<figure>
+<p>
+  <img src="/assets/project-assets/images/method-overview-corl23.jpg" alt="method diag" loading="lazy" style="max-width:100%;height:auto">  
+</p>
+<figcaption>
+     <em>Adversarial scenario generation using optimal control, treating the physics and rendering simulator as differentiable.</em>
+</figcaption>
+</figure>
+<p>The inner driving loop shown in the figure above consists of three components: the neural rendering model, the differentiable driving
+policy, and the differentiable kinematic car model. We inject the adversarial perturbation to the surrogate scene by composing the
+outputs of one or more neural object renderers (the single object case is shown above for simplicity) with the output of the neural
+background scene renderer. The parameters of the object renderer(s) are optimized to maximize the deviation of the realized trajectory from the
+reference trajectory, while keeping the parameters of the driving policy and background scene renderer frozen. The parameters <code>\theta</code> include
+the mesh, texture, and the location of the synthetic objects that are optimized. More details are included in our <a href="https://arxiv.org/abs/2309.15770">CoRL 2023 paper</a>.</p></div></main></div></body></html>

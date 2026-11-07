@@ -1,0 +1,73 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Robotics for chemistry and biology lab automation. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><script type="text/javascript">!function(a){if("/"===a.search[1]){var e=a.search.slice(1).split("&").map((function(a){return a.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,a.pathname.slice(0,-1)+e+a.hash)}a.pathname.length>1&&a.pathname.endsWith("/")&&window.history.replaceState(null,null,a.pathname.replace(/\/+$/,"")+a.search+a.hash)}(window.location)</script><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Robotics for chemistry and biology lab automation | Robot Vision and Learning Lab</title><script defer="defer" src="/static/js/main.7c373f77.js"></script><link href="/static/css/main.52530014.css" rel="stylesheet"><link rel="canonical" href="https://rvl.cs.toronto.edu/research/robotics-for-chemistry-and-biology-lab-automation/"><meta property="og:type" content="website"><meta property="og:site_name" content="Robot Vision and Learning Lab"><meta property="og:title" content="Robotics for chemistry and biology lab automation | Robot Vision and Learning Lab"><meta property="og:description" content="Robotics for chemistry and biology lab automation. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><meta property="og:url" content="https://rvl.cs.toronto.edu/research/robotics-for-chemistry-and-biology-lab-automation/"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><nav class="horizontal-padding" style="padding-top:20px;padding-bottom:10px"><a href="/" style="margin-right:18px">Home</a><a href="/publications/" style="margin-right:18px">Publications</a><a href="/team/" style="margin-right:18px">Team</a><a href="/research/" style="margin-right:18px">Research</a><a href="/joining/" style="margin-right:18px">Joining</a><a href="/blog/" style="margin-right:18px">Blog</a></nav><main class="center"><div class="horizontal-padding max-width-blog"><h2><strong>Robotics for Lab Automation</strong></h2>
+<p>Robotics for lab automation focuses on enabling general-purpose robots to perform complex experiments in chemistry and biology laboratories autonomously and robustly. Our research spans methods in perception, manipulation, planning, and decision-making to replace repetitive manual workflows with intelligent robotic systems that accelerate scientific discovery and improve reproducibility.</p>
+<blockquote>
+<p>Automating laboratory workflows stands to transform scientific research by increasing experiment
+throughput, improving reproducibility, and enabling new modes of discovery where human scientists and
+robots collaborate seamlessly. Our research aims to bridge fundamental robotics with real-world
+laboratory systems to make <strong>self-driving labs</strong> a practical reality. Our lab collaborates very
+closely with chemists and biologists at the <a href="http://acceleration.utoronto.ca/">Acceleration Consortium</a> at the University of Toronto (e.g. Alan Aspuru-Guzik and Milica Radisic).</p>
+</blockquote>
+<p>Traditional experimentation in chemistry and biology involves labor-intensive and time-consuming
+procedures that limit throughput and scale. In our lab develops AI-driven robotic systems capable of
+handling diverse experimental materials (e.g., liquids, powders) and interacting with standard lab
+equipment with high precision and adaptability. By combining
+experiment specification in natural language, with reasoning and planning, as well as vision-based manipulation skills for robotics, we want to: (a) automate repetitive and multi-step experiments, allowing human scientists to focus on experiment design and analysis of results; (b) improve reliability and reproducibility across experimental runs; (c) accelerate data generation for hypothesis testing, materials discovery, and biological assays; (d) integrate with high-level experiment planning and optimization frameworks to close the loop from planning to execution.</p>
+<h3>Robotics Research Challenges</h3>
+<p>Lab automation robotics introduces unique challenges and opportunities that make it a hybrid between industrial automation robotics and home robotics. In chemistry and biology labs robots must perceive and manipulate a wide variety of delicate tools, containers, and biological or chemical samples with high precision, often under cluttered and visually complex conditions. Because experimental setups vary frequently, systems must generalize to new equipment and layouts without extensive reconfiguration. Safe interaction is essential: robots need to perform contact-rich actions without damaging fragile glassware, compromising sterility, or disrupting ongoing experiments, while also operating safely around human scientists. The long-horizon nature of many protocols, spanning dozens of steps and unfolding over hours or days, requires reliable monitoring, error detection, and recovery throughout execution. Moreover, robotic platforms must integrate seamlessly with scientific workflows so that data, observations, and experiment goals can inform subsequent actions in a closed scientific loop. These constraints make lab automation a demanding testbed for perception, manipulation, planning, and decision-making methods.</p>
+<h3>Optimal Experiment Design Challenges</h3>
+<p>Discovering molecules with desirable properties is crucial for drug design, materials science, and chemical engineering. Given the vast chemical space, exhaustive evaluation is infeasible. Density functional theory (DFT) simulations are computationally expensive and experiments are laborious and time-consuming. Bayesian Optimization promises to minimize costly evaluations and accelerate discovery by using acquisition functions, expressed as the expected utility under a surrogate model (e.g., Gaussian Processes (GPs) and Bayesian Neural Networks (BNNs)) to guide the search toward promising candidates, balancing exploration of uncertain regions with exploitation of high observed-value regions.
+However, BayesOpt does not leverage the vast amounts of scientific knowledge distilled into large foundation models for chemistry and biology. We therefore need to develop new exploration and experiment design methods that combine the best of both worlds, or perform better at scale than traditional methods.</p>
+<h3>Representative Projects &amp; Publications</h3>
+<p>Below are representative contributions that illustrate our lab’s research in lab automation:</p>
+<h4><em>ORGANA</em></h4>
+<p><a href="https://arxiv.org/abs/2401.06949">https://arxiv.org/abs/2401.06949</a></p>
+<p>A robotic assistant for automated chemistry experimentation and characterization, integrating manipulation with analytical workflows.</p>
+ 
+  <p>
+ <a href="https://www.youtube.com/embed/fpe1_2FeMnE?si=bvC6fg-awT9R18jJ">Embedded video</a> 
+
+  </p>
+ 
+<h4><em>RoboCulture</em></h4>
+<p><a href="https://arxiv.org/abs/2505.14941">https://arxiv.org/abs/2505.14941</a></p>
+<p>A general-purpose robotic platform for automated biological experimentation that performs liquid handling and real-time monitoring using vision and force feedback. Demonstrated autonomous execution of long-duration yeast culture experiments.</p>
+ 
+  <p>
+
+  
+  Your browser does not support the video tag.
+
+
+  
+  Your browser does not support the video tag.
+
+
+  
+  Your browser does not support the video tag.
+
+  </p>
+ 
+<h4><em>MATTERIX</em></h4>
+<p>A digital twin for robotics-assisted chemistry lab automation, presenting a framework for simulating and optimizing laboratory procedures with robotic agents.</p>
+<figure>
+<p>
+<img src="/assets/publication-thumbnails/matterix.webp" alt="method diag" loading="lazy" style="max-width:100%;height:auto">
+</p><figcaption>
+     <em></em>
+  </figcaption>
+<p></p>
+</figure>
+<h4><em>CLAIRIFY</em></h4>
+<p><a href="https://arxiv.org/abs/2303.14100">https://arxiv.org/abs/2303.14100</a></p>
+<p><a href="https://arxiv.org/abs/2212.09672">https://arxiv.org/abs/2212.09672</a></p>
+<p>CLAIRIFY is an approach that combines automatic iterative prompting with program verification to ensure programs written in data-scarce domain-specific language are syntactically valid and incorporate environment constraints. Our approach provides effective guidance to the language model on generating structured-like task plans by incorporating any errors as feedback, while the verifier ensures the syntactic accuracy of the generated plans. We demonstrate the effectiveness of CLAIRIFY in planning chemistry experiments by achieving state-of-the-art results. We also show that the generated plans can be executed on a real robot by integrating them with a task and motion planner.</p>
+ 
+  <p>
+ <a href="https://www.youtube.com/embed/-87yrXytluw?si=cFaJa6Z7Oe9seFyr">Embedded video</a> 
+</p>
+ 
+ 
+  <p>
+   <a href="https://www.youtube.com/embed/lnXevj4Mm8A">Embedded video</a> 
+  </p>
+ </div></main></div></body></html>

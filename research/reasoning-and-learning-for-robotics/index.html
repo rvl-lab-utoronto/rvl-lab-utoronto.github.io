@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Reasoning and learning for robotics. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><script type="text/javascript">!function(a){if("/"===a.search[1]){var e=a.search.slice(1).split("&").map((function(a){return a.replace(/~and~/g,"&")})).join("?");window.history.replaceState(null,null,a.pathname.slice(0,-1)+e+a.hash)}a.pathname.length>1&&a.pathname.endsWith("/")&&window.history.replaceState(null,null,a.pathname.replace(/\/+$/,"")+a.search+a.hash)}(window.location)</script><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>Reasoning and learning for robotics | Robot Vision and Learning Lab</title><script defer="defer" src="/static/js/main.7c373f77.js"></script><link href="/static/css/main.52530014.css" rel="stylesheet"><link rel="canonical" href="https://rvl.cs.toronto.edu/research/reasoning-and-learning-for-robotics/"><meta property="og:type" content="website"><meta property="og:site_name" content="Robot Vision and Learning Lab"><meta property="og:title" content="Reasoning and learning for robotics | Robot Vision and Learning Lab"><meta property="og:description" content="Reasoning and learning for robotics. The Robot Vision and Learning (RVL) lab at the University of Toronto, led by Prof. Florian Shkurti, develops methods that let robots perceive, reason, and act effectively and safely."><meta property="og:url" content="https://rvl.cs.toronto.edu/research/reasoning-and-learning-for-robotics/"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"><nav class="horizontal-padding" style="padding-top:20px;padding-bottom:10px"><a href="/" style="margin-right:18px">Home</a><a href="/publications/" style="margin-right:18px">Publications</a><a href="/team/" style="margin-right:18px">Team</a><a href="/research/" style="margin-right:18px">Research</a><a href="/joining/" style="margin-right:18px">Joining</a><a href="/blog/" style="margin-right:18px">Blog</a></nav><main class="center"><div class="horizontal-padding max-width-blog"><h2><strong>Reasoning and Learning for Robotics</strong></h2>
+<p>The intersection of robotics and machine learning research has been one of the key enablers of progress that is leading robotics technologies to be deployed in the real world.
+One one hand, manually-engineered robotics methods usually make strong assumptions about the distribution of sensor data streams, and are typically brittle in practice.
+On the other hand, when machine learning methods are applied to robotics problems without taking into account the constraints imposed by physics or the inherent
+structure of the problem at hand, they end up generalizing poorly, and cannot address physical reasoning and out-of-distribution tasks in the real world. There is a lot of work to do
+in the middle of these two ends of the spectrum to figure out what are the best ways for robots to learn to improve their performance, while leveraging the physics structure of the underlying
+problems we want them to tackle.</p>
+<blockquote>
+<p>We want to enable robots to interact effectively with humans and the physical world.
+Robots need to learn from their own experience, from other robots&#x27; experience, from vast streams of simulated data,
+and from limited human supervision and intervention.</p>
+</blockquote>
+<h3><strong>Learning to Search in Task and Motion Planning</strong></h3>
+<p>Task and motion planning (TAMP) involves searching over both symbolic actions that determine a high-level task sequence and low-level motion controls that result in feasible trajectories.
+The symbolic task planner operates on high-level abstractions of the environment, including object definitions, operations that can be applied to them, and pre- and post-conditions that these
+operations have to satisfy. On the other hand, the motion planner requires a non-abstracted description of its surrounding environment. The motion planner informs the symbolic planner about the
+kinematic and dynamic feasibility of a proposed coarse task plan, possibly leading to backtracking.</p>
+<p>This interplay between high and low level planning has a significant effect on the total runtime of discovering a solution. Symbolic planning can scale exponentially with the number of objects and
+task variables, making an exhaustive search over task sequences prohibitive. We are developing machine learning methods that learn planning heuristics to reduce the runtime of TAMP methods, as more
+planning queries are successfully solved by the planner across different environments. One of the learning-to-search methods we have developed has used Graph Neural Networks to encode instances of symbolic planning
+problems, trying to predict a ranking of high-level actions to be attempted next, given an unseen problem instance. <a href="https://arxiv.org/abs/2111.13144">Our learning-based TAMP paper</a> is summarized in this video:</p>
+ 
+  <p>
+   <a href="https://www.youtube.com/embed/pzzpR4wh_Zk">Embedded video</a> 
+</p>
+ 
+<p><a href="https://arxiv.org/abs/2210.14055">In a follow up paper</a> we developed a better learning-based TAMP solver, called LAZY, which enabled posterior updates of the learned heuristic with runtime experience collected during the execution of the plan.</p>
+<figure>
+<p>
+  <img src="/assets/project-assets/images/lazy-policy-diagram-1.jpg" alt="method diag" loading="lazy" style="max-width:100%;height:auto">
+  </p><figcaption>
+   <em> </em>  
+  </figcaption>
+<p></p>
+</figure>
+<figure>
+<p>
+  <img src="/assets/project-assets/images/train-vs-solve-lazy.jpg" alt="method diag" loading="lazy" style="max-width:100%;height:auto">
+  </p><figcaption>
+   <em> Planning time decreases and more problems are solved, as the planning heuristic is trained on more data (solutions to previously solved problems). See <a href="https://arxiv.org/abs/2210.14055">our paper</a> for more details.</em>  
+  </figcaption>
+<p></p>
+</figure>
+<p>There are many reasons we are excited about task and motion planning methods that are flexible enough to improve over time and to handle dynamic objects, one of them being that such methods could allow
+for simultaneous optimization of the planning, control, and perception systems considered holistically, while respecting the structure of all individual components. Additionally, task and motion planning
+methods are fundamental in a variety of applications areas, ranging from multi-robot manipulation, assembly, and construction applications, to autonomous robots operating in chemistry labs, possibly
+around human chemists. See for example <a href="https://arxiv.org/abs/2212.09672">our collaborative paper</a> on how we use task and constrained motion planning solvers to enable multi-step chemistry experiments:</p>
+ 
+  <p>
+   <a href="https://www.youtube.com/embed/lnXevj4Mm8A">Embedded video</a> 
+  </p>
+ 
+<h3><strong>Machine Learning for Optimal Control</strong></h3>
+<p>Mobile manipulators consist of a mobile platform equipped with one or more robot arms and are of interest for a wide array of challenging tasks because of their extended workspace and dexterity. Typically, mobile manipulators are deployed in slow-motion collaborative robot scenarios. <a href="https://arxiv.org/abs/2003.07489">In a paper published at IROS&#x27;20</a> we consider scenarios where accurate high-speed motions are required. We introduce a framework for this regime of tasks including two main components: (i) a bi-level motion optimization algorithm for real-time trajectory generation, which relies on Sequential Quadratic Programming (SQP) and Quadratic Programming (QP), respectively; and (ii) a learning-based controller optimized for precise tracking of high-speed motions via a learned inverse dynamics model. We evaluate our framework with a mobile manipulator platform through numerous high-speed ball catching experiments:</p>
+<figure>
+<p>
+<img src="/assets/slideshow/ball_catching_ke.gif" alt="method diag" loading="lazy" style="max-width:100%;height:auto">
+</p><figcaption>
+     <em></em>
+  </figcaption>
+<p></p>
+</figure></div></main></div></body></html>
