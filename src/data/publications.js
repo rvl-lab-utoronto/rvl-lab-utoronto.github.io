@@ -294,7 +294,7 @@ export const dataPublications = [
     `,
 
     "tags":['vision', 'vision', 'manipulation'],
-    "thumbnail":"/assets/publication-thumbnails/conceptgraphs2.gif",
+    "thumbnail":"/assets/publication-thumbnails/conceptgraphs2.webp",
     "video": "https://www.youtube.com/watch?v=mRhNkQwRYnc",
     "html": "https://arxiv.org/abs/2309.16650",
     "project": "https://concept-graphs.github.io/",
@@ -389,7 +389,7 @@ export const dataPublications = [
     `,
     "html": "https://link.springer.com/article/10.1007/s10514-023-10136-2",
     "tags":['planning', 'task and motion planning', 'manipulation', 'lab automation robotics'],
-    "thumbnail":"/assets/publication-thumbnails/auro23_llms_chemistry_robotics2.gif",
+    "thumbnail":"/assets/publication-thumbnails/auro23_llms_chemistry_robotics2.webp",
     "video": "https://www.youtube.com/watch?v=-87yrXytluw",
     "code": "https://github.com/ac-rad/xdl-generation",
     "description":"",
@@ -449,7 +449,7 @@ export const dataPublications = [
     "tags":['vision', 'vision'],
     "code": "https://concept-fusion.github.io/",
     "video": "https://concept-fusion.github.io/",
-    "thumbnail":"/assets/publication-thumbnails/rss23-conceptfusion2.gif",
+    "thumbnail":"/assets/publication-thumbnails/rss23-conceptfusion2.webp",
     "description":"",
     },
 
@@ -553,7 +553,7 @@ export const dataPublications = [
     "video": "https://ac-rad.github.io/robot-chemist-tamp/",
     "code": "https://ac-rad.github.io/robot-chemist-tamp/",
     "data": "https://ac-rad.github.io/robot-chemist-tamp/",
-    "thumbnail":"/assets/publication-thumbnails/icra23-chemistry-tamp2.gif",
+    "thumbnail":"/assets/publication-thumbnails/icra23-chemistry-tamp2.webp",
     "description":"",
     },
 

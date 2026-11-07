@@ -10,6 +10,7 @@ import { dataBlog } from './data/blogs';
 import { BlogEntryPage } from './components/blogEntry';
 import { dataProjects } from './data/projects';
 import { ProjectEntryPage } from './components/projectEntry';
+import { metaForPath } from './data/pageMeta';
 
 function App() {
   const navbarRef = React.useRef();
@@ -22,6 +23,12 @@ function App() {
   React.useEffect(() => {
     handlePageChange(location.pathname);
   }, [location]);
+
+  React.useEffect(() => {
+    const { title, description } = metaForPath(location.pathname, dataBlog, dataProjects);
+    document.title = title;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', description);
+  }, [location.pathname]);
 
   function handlePageChange(link) {
     navbarRef.current?.handlePageChange(link);

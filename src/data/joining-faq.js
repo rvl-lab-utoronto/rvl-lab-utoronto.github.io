@@ -1,3 +1,26 @@
+// The text above the FAQs on the Joining page. Markdown, with inline HTML allowed.
+export const joiningIntro = `
+## Prospective students
+
+I am always looking for excellent students and researchers at all levels: postdocs, PhD, MSc, and
+undergraduates with computer science or engineering backgrounds. Our lab is an intellectually
+vibrant and a socially inclusive environment, and I enjoy working closely with my students, both
+graduate and undergraduate. When you join RVL, you will also have the opportunity to closely interact
+with my colleagues at the UofT CS Robotics Group as well as their students. We have very active
+members and weekly reading groups, as well as state-of-the-art facilities for robotics
+research. You will be part of a large, vibrant and healthy community. To learn more about the research at RVL
+check out our <a href='https://rvl.cs.toronto.edu/research'>lab's research</a>,
+our <a href='https://rvl.cs.toronto.edu/publications'>publications</a>, and
+this <a href='https://github.com/rvl-lab-utoronto/lab_onboarding_recommended_reading'>recommended reading list</a> for
+new and prospective students. Note that you do not need to be interested in all of these areas, but at least one.
+
+### Email policy
+
+I welcome emails from prospective students, however, I will not be able to answer all of them.
+I reply to messages from prospective students who seem like a good fit for my lab and I encourage them to apply.
+If I haven't replied to your message, it is probably because I don't see a strong fit with my lab's research.
+`;
+
 // A list of objects : {"question":"", "answer":""}
 export const postdocFAQ = [
 

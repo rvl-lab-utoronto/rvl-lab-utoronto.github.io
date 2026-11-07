@@ -15,34 +15,18 @@ export default function PublicationEntry(props) {
   const { getCollapseProps, getToggleProps } = useCollapse();
   let thumbnail = <></>;
 
-  if (props.publication['pdf'] && props.publication['thumbnail']) {
-    thumbnail = (
-      <a href={props.publication['pdf']}>
-        <img
-          className="publication-thumbnail"
-          alt={props.publication['title']}
-          src={'../' + props.publication['thumbnail']}
-        />
-      </a>
-    );
-  } else if (props.publication['html'] && props.publication['thumbnail']) {
-    thumbnail = (
-      <a href={props.publication['html']}>
-        <img
-          className="publication-thumbnail"
-          alt={props.publication['title']}
-          src={'../' + props.publication['thumbnail']}
-        />
-      </a>
-    );
-  } else if (props.publication['thumbnail']) {
-    thumbnail = (
+  if (props.publication['thumbnail']) {
+    const thumbnailImage = (
       <img
         className="publication-thumbnail"
         alt={props.publication['title']}
         src={'../' + props.publication['thumbnail']}
+        loading="lazy"
+        decoding="async"
       />
     );
+    const thumbnailLink = props.publication['pdf'] || props.publication['html'];
+    thumbnail = thumbnailLink ? <a href={thumbnailLink}>{thumbnailImage}</a> : thumbnailImage;
   }
 
   return (

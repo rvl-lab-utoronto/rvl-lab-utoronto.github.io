@@ -37,6 +37,13 @@
               l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
+        // Pages are served from <route>/index.html, so GitHub Pages redirects /team to /team/.
+        // Show and route the URL without the trailing slash.
+        if (l.pathname.length > 1 && l.pathname.endsWith('/')) {
+          window.history.replaceState(null, null,
+              l.pathname.replace(/\/+$/, '') + l.search + l.hash
+          );
+        }
       }(window.location))
     </script>
 

@@ -60,6 +60,13 @@ You can always test your changes before by running ```npm start```
 # Configuration
 * All assets are stored in `public/assets/`
 * All data files are stored in `src/data/`
+* Files in `src/data/` must stay plain JavaScript: no JSX and no `import`s. Besides the app, they are read at build time by `scripts/generate-route-pages.mjs`, and `npm run build` / `npm run deploy` fail with an explanatory message if one of them can't be loaded. The same applies to `src/util/parsePublications.js`, which may only import npm packages.
+
+## What the build produces
+`npm run build` runs `scripts/generate-route-pages.mjs` afterwards (the `postbuild` script). It writes a separate `build/<route>/index.html` for every page, including each blog post and research page, so that GitHub Pages serves them with status 200 instead of 404. Each file has its own title, description, and canonical URL, plus a plain-HTML copy of the page's content that search engines and LLM agents can read without running JavaScript. React replaces it when the app loads. The script also writes `build/sitemap.xml` and `build/llms.txt`. Nothing needs to be done by hand: new publications, team members, news, blog posts, and research pages are picked up automatically. A publication whose BibTeX can't be parsed fails the build with a message naming the entry. On the live site it would simply be skipped.
+
+## Pages
+The main pages (navbar order, titles, and search-engine descriptions) are listed in `src/data/pageMeta.js`. To add a page, add an entry there and map its `link` to a component in `src/util/pages.js`.
 ## News Entries
 1. Open `src/data/news.js` in an editor
 2. Add News objects to the list
@@ -313,8 +320,12 @@ The RVL Blog supports 3 types of blog posts: a local .html file, a local .md mar
 | `link` | string (optional) | A URL leading to a project | `"https://google.ca"` |
 
 ## Joining
-1. Open `src/data/joining.md` in an editor
-2. Edit the markdown file to edit content
+1. Open `src/data/joining-faq.js` in an editor
+2. Edit `joiningIntro` (markdown, inline HTML allowed) for the text at the top of the page, and the FAQ lists below it
+
+## Homepage Welcome Text
+1. Open `src/data/labIntro.js` in an editor
+2. Edit `labIntroHtml` (supports inline HTML)
 
 ## Socials
 1. Open `src/data/socials.js` in an editor
@@ -359,3 +370,12 @@ The converter script is located at `public/assets/webp-converter.js` and uses th
    ```
    
 It will automatically process all supported image format('.jpeg', '.jpg', '.png', and '.gif') in the specified input folder.
+
+### Publication thumbnails
+Thumbnails are displayed at 170x150, so large files only slow the Publications page down. Keep each one under ~500 KB. After adding a publication, run from the repository root:
+
+```bash
+node scripts/optimize-thumbnails.mjs
+```
+
+It resizes every referenced thumbnail over 500 KB to 340x300 WebP (animations stay animated), updates the path in `src/data/publications.js` when a `.gif`/`.png` becomes `.webp`, and skips files that are also used elsewhere. For long animations that are still over 1 MB, redo a single file with fewer frames and lower quality, e.g. `node scripts/optimize-thumbnails.mjs --quality 50 --frame-step 2 my-thumbnail.gif`. Use `--dry-run` to preview.
