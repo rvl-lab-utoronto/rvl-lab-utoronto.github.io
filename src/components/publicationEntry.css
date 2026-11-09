@@ -34,6 +34,18 @@
   font-family: "Helvetica", "Arial", sans-serif;  
 }
 
+.publication-entry p span.presentation-badge{
+  font-weight: 600;
+  background-color: #f6d77a;
+  color: #5c4300;
+}
+.presentation-badge svg{
+  width: 1em;
+  height: 1em;
+  margin-right: 4px;
+  vertical-align: -0.125em;
+}
+
 .bibtex-expand{
   margin: 10px 15px;
   font-weight:300;

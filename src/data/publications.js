@@ -2,9 +2,275 @@
 export const dataPublications = [
   {
     "bibtex":`
+      @inproceedings{sirigiri2026diversity,
+        title        = {Diversity You Can Actually Measure: A Fast, Model-Free Diversity Metric for Robotics Datasets},
+        author       = {Sreevardhan Sirigiri and Nathan Samuel de Lara and Christopher Agia and Florian Shkurti and Fabio Ramos},
+        booktitle    = {Conference on Robot Learning (CoRL)},
+        year         = {2026},
+        organization = {PMLR}
+      }
+    `,
+    "tags":['imitation learning'],
+    "presentation": "oral",
+    "thumbnail":"/assets/publication-thumbnails/Diversity You Can Actually Measure A Fast, Model-Free Diversity Metric for Robotics.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2603.11634",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{son2026tam,
+        title        = {TAM: Torque Adaptation Module for Robust Motion Transfer in Manipulation},
+        author       = {Dongwon Son and Florian Shkurti and Jason Lee and Naman Shah and Beomjoon Kim and Dieter Fox},
+        booktitle    = {Conference on Robot Learning (CoRL)},
+        year         = {2026},
+        organization = {PMLR}
+      }
+    `,
+    "tags":['manipulation', 'control'],
+    "presentation": "spotlight",
+    "thumbnail":"/assets/publication-thumbnails/TAM Torque Adaptation Module for Robust Motion Transfer in Manipulation.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2606.06218",
+    "project": "https://dongwon-son.github.io/tam-project-page/",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{tseng2026sc3eval,
+        title   = {SC3-Eval: Evaluating Robot Foundation Models via Self-Consistent Video Generation},
+        author  = {Wei-Cheng Tseng and Gashon Hussein and Yuzhu Dong and Allen Z. Ren and Lucy X. Shi and XuDong Wang and Sergey Levine and Zhaoshuo Li and Jinwei Gu and Florian Shkurti and Ming-Yu Liu and Quan Vuong},
+        journal = {arXiv},
+        year    = {2026}
+      }
+    `,
+    "tags":['policy evaluation', 'generative models'],
+    "thumbnail":"/assets/publication-thumbnails/SC3-Eval Evaluating Robot Foundation Models via Self-Consistent Video Generation.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2606.18610",
+    "project": "https://weichengtseng.github.io/sc3-eval/",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{gu2026e3c,
+        title   = {E³C: Video Generation with 3D Environmental Memory and Ego-Exo Human Pose Control},
+        author  = {Qiao Gu and Lingni Ma and Adam W. Harley and Richard Newcombe and Florian Shkurti and Julian Straub},
+        journal = {arXiv},
+        year    = {2026}
+      }
+    `,
+    "tags":['generative models', 'vision'],
+    "thumbnail":"/assets/publication-thumbnails/E3C Video Generation with 3D Environmental Memory and Ego-Exo Human Pose Control.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2605.26316",
+    "project": "https://e3c-videogen.github.io/",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{delara2026smac,
+        title        = {SMAC: Score-Matched Actor-Critics for Robust Offline-to-Online Transfer},
+        author       = {Nathan Samuel de Lara and Florian Shkurti},
+        booktitle    = {International Conference on Machine Learning (ICML)},
+        year         = {2026},
+        organization = {PMLR}
+      }
+    `,
+    "tags":['reinforcement learning'],
+    "thumbnail":"/assets/publication-thumbnails/SMAC Score-Matched Actor-Critics for Robust Offline-to-Online Transfer.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2602.17632",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{shah2026classuncertainty,
+        title   = {The Impact of Class Uncertainty Propagation in Perception-Based Motion Planning},
+        author  = {Jibran Iqbal Shah and Andrei Ivanovic and Kelly Zhu and Masha Itkina and Rowan McAllister and Igor Gilitschenski and Florian Shkurti},
+        journal = {arXiv},
+        year    = {2026}
+      }
+    `,
+    "tags":['planning', 'safe learning', 'vision'],
+    "thumbnail":"/assets/publication-thumbnails/The Impact of Class Uncertainty Propagation in Perception-Based Motion Planning.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2602.16035",
+    "project": "",
+    "code": "https://github.com/aivanovic1/uncertainty-trajectron",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{chen2025acquisition,
+        title     = {Informing Acquisition Functions via Foundation Models for Molecular Discovery},
+        author    = {Qi Chen and Fabio Ramos and Alán Aspuru-Guzik and Florian Shkurti},
+        booktitle = {Neural Information Processing Systems (NeurIPS)},
+        year      = {2026}
+      }
+    `,
+    "tags":['generative models'],
+    "thumbnail":"/assets/publication-thumbnails/Informing Acquisition Functions via Foundation Models for Molecular Discovery.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2512.13935",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{zhao2025anyplace,
+        title        = {AnyPlace: Learning Generalizable Object Placement for Robot Manipulation},
+        author       = {Yuchi Zhao and Miroslav Bogdanovic and Chengyuan Luo and Steven Tohme and Kourosh Darvish and Alán Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+        booktitle    = {Conference on Robot Learning (CoRL)},
+        pages        = {4038--4057},
+        year         = {2025},
+        organization = {PMLR}
+      }
+    `,
+    "tags":['manipulation', 'lab automation robotics', 'simulation'],
+    "thumbnail":"/assets/publication-thumbnails/AnyPlace Learning Generalizable Object Placement for Robot Manipulation.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2502.04531",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{singh2025synthetica,
+        title     = {Synthetica: Large Scale Synthetic Data Generation for Robot Perception},
+        author    = {Ritvik Singh and Jingzhou Liu and Karl Van Wyk and Yu-Wei Chao and Jean-Francois Lafleche and Florian Shkurti and Nathan Ratliff and Ankur Handa},
+        booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+        pages     = {7810--7817},
+        year      = {2025},
+        doi       = {10.1109/IROS60139.2025.11247126}
+      }
+    `,
+    "tags":['vision', 'simulation'],
+    "thumbnail":"/assets/publication-thumbnails/Synthetica Large Scale Synthetic Data Generation for Robot Perception.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2410.21153",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{samavi2025sicnavfield,
+        title     = {Deploying SICNav in the Field: Safe and Interactive Crowd Navigation using MPC and Bilevel Optimization},
+        author    = {Sepehr Samavi and Garvish Bhutani and Florian Shkurti and Angela P. Schoellig},
+        booktitle = {IEEE ICRA Workshop on Field Robotics},
+        year      = {2025}
+      }
+    `,
+    "tags":['social navigation', 'control', 'planning', 'field robotics'],
+    "thumbnail":"/assets/publication-thumbnails/Deploying SICNav in the Field Safe and Interactive Crowd Navigation.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2506.08851",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{abdullai2025rascl,
+        title   = {RaSCL: Radar to Satellite Crossview Localization},
+        author  = {Blerim Abdullai and Tony Wang and Xinyuan Qiao and Florian Shkurti and Timothy D. Barfoot},
+        journal = {arXiv},
+        year    = {2025}
+      }
+    `,
+    "tags":['vision', 'field robotics'],
+    "thumbnail":"/assets/publication-thumbnails/RaSCL Radar to Satellite Crossview Localization.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2504.15899",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{chen2024rewardconfusion,
+        title     = {Exploring and Addressing Reward Confusion in Offline Preference Learning},
+        author    = {Xin Chen and Sam Toyer and Florian Shkurti},
+        booktitle = {NeurIPS Workshop on Bayesian Decision-making and Uncertainty},
+        year      = {2024}
+      }
+    `,
+    "tags":['reinforcement learning', 'safe learning'],
+    "thumbnail":"/assets/publication-thumbnails/Exploring and Addressing Reward Confusion in Offline Preference Learning.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2407.16025",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @inproceedings{samavi2023unpredictability,
+        title     = {Does Unpredictability Influence Driving Behavior?},
+        author    = {Sepehr Samavi and Florian Shkurti and Angela P. Schoellig},
+        booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+        pages     = {1720--1727},
+        year      = {2023},
+        doi       = {10.1109/IROS55552.2023.10342534}
+      }
+    `,
+    "tags":['social navigation', 'planning'],
+    "thumbnail":"/assets/publication-thumbnails/Does Unpredictability Influence Driving Behavior.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2307.15287",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{zajac2023continualdiffusion,
+        title   = {Exploring Continual Learning of Diffusion Models},
+        author  = {Michał Zając and Kamil Deja and Anna Kuzina and Jakub M. Tomczak and Tomasz Trzciński and Florian Shkurti and Piotr Miłoś},
+        journal = {arXiv},
+        year    = {2023}
+      }
+    `,
+    "tags":['continual learning', 'generative models'],
+    "thumbnail":"/assets/publication-thumbnails/Exploring Continual Learning of Diffusion Models.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2303.15342",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
+      @article{skreta2023errors,
+        title   = {Errors are Useful Prompts: Instruction Guided Task Programming with Verifier-Assisted Iterative Prompting},
+        author  = {Marta Skreta and Naruki Yoshikawa and Sebastian Arellano-Rubach and Zhi Ji and Lasse Bjørn Kristensen and Kourosh Darvish and Alán Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+        journal = {arXiv},
+        year    = {2023}
+      }
+    `,
+    "tags":['lab automation robotics', 'task and motion planning'],
+    "thumbnail":"/assets/publication-thumbnails/Errors are Useful Prompts Instruction Guided Task Programming with Verifier-Assisted.webp",
+    "video": "",
+    "html": "https://arxiv.org/abs/2303.14100",
+    "project": "",
+    "code": "",
+    "description":"",
+  },
+  {
+    "bibtex":`
     @inproceedings{tan2025searchtta,
       title        = {Search-TTA: A Multimodal Test-Time Adaptation Framework for Visual Search in the Wild},
-      author       = {Derek Ming Siang Tan, Shailesh, Boyang Liu, Alok Raj, Qi Xuan Ang, Weiheng Dai, Tanishq Duhan, Jimmy Chiun, Yuhong Cao, Florian Shkurti, Guillaume Sartoretti},
+      author       = {Derek Ming Siang Tan and Shailesh and Boyang Liu and Alok Raj and Qi Xuan Ang and Weiheng Dai and Tanishq Duhan and Jimmy Chiun and Yuhong Cao and Florian Shkurti and Guillaume Sartoretti},
       booktitle    = {Conference on Robot Learning (CoRL)},
       year         = {2025},
       organization = {PMLR}
@@ -63,11 +329,12 @@ export const dataPublications = [
   {
     "bibtex":`
 
-      @Article{clark2025needdiversetrajectorystitching,
-        title={What Do You Need for Diverse Trajectory Composition in Diffusion Planning?},
-        author={Quentin Clark and Florian Shkurti},
-        year={2026},
-        journal={arXiv}
+      @inproceedings{clark2025needdiversetrajectorystitching,
+        title        = {What Do You Need for Compositional Generalization in Diffusion Planning?},
+        author       = {Quentin Clark and Florian Shkurti},
+        booktitle    = {Conference on Robot Learning (CoRL)},
+        year         = {2026},
+        organization = {PMLR}
       }
 
     `,
@@ -82,11 +349,15 @@ export const dataPublications = [
    {
     "bibtex":`
 
-     @misc{angers2025robocultureroboticsplatformautomated,
-      title={RoboCulture: A Robotics Platform for Automated Biological Experimentation}, 
+     @article{angers2026roboculture,
+      title={RoboCulture enables modular robotic plate-based cell automation},
       author={Kevin Angers and Kourosh Darvish and Naruki Yoshikawa and Sargol Okhovatian and Dawn Bannerman and Ilya Yakavets and Florian Shkurti and Alán Aspuru-Guzik and Milica Radisic},
-      year={2025}, 
-      journal={arXiv}
+      journal={Cell Reports Physical Science},
+      volume={7},
+      number={7},
+      pages={103335},
+      year={2026},
+      doi={10.1016/j.xcrp.2026.103335}
     }
     `,
     "tags":['lab automation robotics', 'vision', 'planning', 'manipulation'],
@@ -101,13 +372,14 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{stitch_ope,
-          title={ STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation },
+          title={STITCH-OPE: Trajectory Stitching with Guided Diffusion for Off-Policy Evaluation},
           author={Hossein Goli and Michael Gimelfarb and Nathan Samuel de Lara and Haruki Nishimura and Masha Itkina and Florian Shkurti},
           year={2025},
-          booktitle={Neural Information Processing Systems (NeurIPS) [spotlight]},
+          booktitle={Neural Information Processing Systems (NeurIPS)},
         }
     `,
     "tags":['policy evaluation', 'reinforcement learning', 'generative models', 'safe learning'],
+    "presentation": "spotlight",
     "thumbnail":"/assets/publication-thumbnails/stitch_ope.webp",
     "video": "",
     "html": "https://arxiv.org/abs/2505.20781",
@@ -119,7 +391,7 @@ export const dataPublications = [
     "bibtex":`
 
         @InProceedings{qiao_safe,
-          title={ SAFE: Multitask Failure Detection for Vision-Language-Action Models },
+          title={SAFE: Multitask Failure Detection for Vision-Language-Action Models},
           author={Qiao Gu and Yuanliang Ju and Shengxiang Sun and Igor Gilitschenski and Haruki Nishimura and Masha Itkina and Florian Shkurti},
           year={2025},
           booktitle={Neural Information Processing Systems (NeurIPS)},
@@ -137,14 +409,18 @@ export const dataPublications = [
   {
     "bibtex":`
 
-        @InProceedings{matterix,
-          title={ MATTERIX: Towards a Digital Twin for Robotics-Assisted Chemistry Lab Automation },
-          author={Kourosh Darvish and Arjun Sohal and Abhijoy Mandal and Hatem Fakhruldeen and Nikola Radulov and Zhengxue Zhou and Joshua Choi and Skyler Han and Brayden Zhang and Jeeyeoun Chae and Satheeshkumar Veeramani and Alex Wright and Yijie Wang and Hossein Darvish and Yuchi (Allan) Zhao and Gary Tom and Han Hao and Miroslav Bogdanovic and Gabriella Pizzuto and Andrew Cooper and Alan Aspuru Guzik and  Florian Shkurti and Animesh Garg},
-          year={2025},
-          booktitle={Nature Computational Science},
+        @article{matterix,
+          title={MATTERIX: toward a digital twin for robotics-assisted chemistry laboratory automation},
+          author={Kourosh Darvish and Arjun Sohal and Abhijoy Mandal and Hatem Fakhruldeen and Nikola Radulov and Zhengxue Zhou and Satheeshkumar Veeramani and Joshua Choi and Skyler Han and Brayden Zhang and Jeeyeoun Chae and Alex Wright and Yijie Wang and Hossein Darvish and Yuchi (Allan) Zhao and Gary Tom and Han Hao and Miroslav Bogdanovic and Gabriella Pizzuto and Andrew Cooper and Alan Aspuru Guzik and Florian Shkurti and Animesh Garg},
+          journal={Nature Computational Science},
+          volume={6},
+          number={1},
+          pages={67--82},
+          year={2026},
         }
     `,
     "tags":['lab automation robotics', 'simulation'],
+    "presentation": "cover",
     "thumbnail":"/assets/publication-thumbnails/matterix.webp",
     "video": "",
     "html": "https://ac-rad.github.io/matterix",
@@ -153,24 +429,28 @@ export const dataPublications = [
     "description":"",
   },
 
-  /* {
+  {
     "bibtex":`
 
-        @InProceedings{cooper2025acceleratingdiscoverynaturalscience,
-          title={Accelerating Discovery in Natural Science Laboratories with AI and Robotics: Perspectives and Challenges from the 2024 IEEE ICRA Workshop, Yokohama, Japan},
+        @article{cooper2025acceleratingdiscoverynaturalscience,
+          title={Accelerating discovery in natural science laboratories with AI and robotics: Perspectives and challenges},
           author={Andrew I. Cooper and Patrick Courtney and Kourosh Darvish and Moritz Eckhoff and Hatem Fakhruldeen and Andrea Gabrielli and Animesh Garg and Sami Haddadin and Kanako Harada and Jason Hein and Maria Hübner and Dennis Knobbe and Gabriella Pizzuto and Florian Shkurti and Ruja Shrestha and Kerstin Thurow and Rafael Vescovi and Birgit Vogel-Heuser and Ádám Wolf and Naruki Yoshikawa and Yan Zeng and Zhengxue Zhou and Henning Zwirnmann},
+          journal={Science Robotics},
+          volume={10},
+          number={106},
+          pages={eadv7932},
           year={2025},
-          booktitle={Science Robotics},
+          doi={10.1126/scirobotics.adv7932}
         }
     `,
     "tags":['lab automation robotics'],
-    "thumbnail":"/assets/publication-thumbnails/organa_setup.webp",
+    "thumbnail":"/assets/publication-thumbnails/Accelerating discovery in natural science laboratories with AI and robotics Perspectives.webp",
     "video": "",
     "html": "https://arxiv.org/abs/2501.06847",
     "project": "",
     "code": "",
     "description":"",
-  }, */
+  },
   {
     "bibtex":`
          @InProceedings{tseng2025,
@@ -267,7 +547,9 @@ export const dataPublications = [
         @article{Huang2024FieldTesting,
            title={Field Testing of a Stochastic Planner for ASV Navigation System using Satellite Images},
            author={Yizhou Huang and Tony Wang and Florian Shkurti and Timothy D. Barfoot},
-           booktitle={Field Robotics},
+           journal={IEEE Transactions on Field Robotics},
+           volume={1},
+           pages={131--160},
            year={2024},
         }
 
@@ -309,12 +591,16 @@ export const dataPublications = [
       @article{darvish2024organa,
       title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization},
       author={Kourosh Darvish and Marta Skreta and Yuchi Zhao and Naruki Yoshikawa and Sagnik Som and Miroslav Bogdanovic and Yang Cao and Han Hao and Haoping Xu and Alán Aspuru-Guzik and Animesh Garg and Florian Shkurti},
-      year={2024},
-      booktitle={Matter},
+      journal={Matter},
+      volume={8},
+      number={2},
+      pages={101897},
+      year={2025},
       }
     `,
 
     "tags":['task and motion planning', 'manipulation', 'lab automation robotics'],
+    "presentation": "cover",
     "thumbnail":"/assets/publication-thumbnails/organa_setup.webp",
     "video": "https://www.youtube.com/watch?v=fpe1_2FeMnE",
     "html": "https://arxiv.org/abs/2401.06949",
@@ -327,13 +613,15 @@ export const dataPublications = [
     {
     "bibtex":`
 
-       @misc{lee2023stamp,
+       @article{lee2023stamp,
          title={STAMP: Differentiable Task and Motion Planning via Stein Variational Gradient Descent},
-         author={Yewon Lee and Philip Huang and Krishna Murthy Jatavallabhula and Andrew Z. Li and Fabian Damken and Eric Heiden and Kevin Smith and Derek Nowrouzezahrai and Fabio Ramos and Florian Shkurti},
-         year={2023},
-         eprint={2310.01775},
-         archivePrefix={arXiv},
-         primaryClass={cs.RO}
+         author={Yewon Lee and Andrew Z. Li and Philip Huang and Eric Heiden and Krishna Murthy Jatavallabhula and Fabian Damken and Kevin Smith and Derek Nowrouzezahrai and Fabio Ramos and Florian Shkurti},
+         journal={IEEE Robotics and Automation Letters (RA-L)},
+         volume={10},
+         number={6},
+         pages={6007--6014},
+         year={2025},
+         doi={10.1109/LRA.2025.3561575}
        }
 
     `,
@@ -353,8 +641,8 @@ export const dataPublications = [
        @article{samavi2024sicnav,
         title={SICNav: Safe and Interactive Crowd Navigation using Model Predictive Control and Bilevel Optimization},
         author={Sepehr Samavi and James Han and Florian Shkurti and Angela P. Schoellig},
-        year={2024},
-        booktitle={IEEE Transactions on Robotics (T-RO)},
+        year={2025},
+        journal={IEEE Transactions on Robotics (T-RO)},
         volume={41},
         number={},
         pages={801-818},
@@ -378,12 +666,13 @@ export const dataPublications = [
 
 
        @article{auro_llms_chemistry_robotics_2023,
-          author    = {Naruki Yoshikawa, Marta Skreta, Kourosh Darvish, Sebastian Arellano-Rubach, Zhi Ji, Lasse Bjørn Kristensen, Andrew Zou Li, Yuchi Zhao, Haoping Xu, Artur Kuramshin, Alán Aspuru-Guzik, Florian Shkurti, Animesh Garg},
+          author    = {Naruki Yoshikawa and Marta Skreta and Kourosh Darvish and Sebastian Arellano-Rubach and Zhi Ji and Lasse Bjørn Kristensen and Andrew Zou Li and Yuchi Zhao and Haoping Xu and Artur Kuramshin and Alán Aspuru-Guzik and Florian Shkurti and Animesh Garg},
           title     = {Large Language Models for lab automation robotics},
-          booktitle = {Autonomous Robots},
+          journal   = {Autonomous Robots},
           year      = {2023},
-          pages     = {1057-1086},
-          issue     = {47}
+          volume    = {47},
+          number    = {8},
+          pages     = {1057-1086}
        }
 
     `,
@@ -437,7 +726,7 @@ export const dataPublications = [
     {
     "bibtex":`
 
-      @article{jatavallabhula2023conceptfusion,
+      @inproceedings{jatavallabhula2023conceptfusion,
           title={ConceptFusion: Open-set Multimodal 3D Mapping},
           author={Krishna Murthy Jatavallabhula and Alihusein Kuwajerwala and Qiao Gu and Mohd Omama and Tao Chen and Shuang Li and Ganesh Iyer and Soroush Saryazdi and Nikhil Keetha and Ayush Tewari and Joshua B. Tenenbaum and Celso Miguel de Melo and Madhava Krishna and Liam Paull and Florian Shkurti and Antonio Torralba},
           year={2023},
@@ -457,7 +746,7 @@ export const dataPublications = [
     {
     "bibtex":`
 
-       @article{Khodeir2023PolicyGuidedLS,
+       @inproceedings{Khodeir2023PolicyGuidedLS,
          title={Policy-Guided Lazy Search with Feedback for Task and Motion Planning},
          author={Mohamed Khodeir and Atharv Sonwane and Ruthrash Hari and Florian Shkurti},
          booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
@@ -482,7 +771,9 @@ export const dataPublications = [
        title = {Learning to Search in Task and Motion Planning with Streams},
        journal = {Robotics and Automation Letters (RA-L)},
        year = {2023},
-       volume={abs/2111.13144}
+       volume={8},
+       number={4},
+       pages={1983--1990}
     }
 
     `,
@@ -500,7 +791,7 @@ export const dataPublications = [
     {
     "bibtex":`
 
-        @article{Huang2022StochasticPF,
+        @inproceedings{Huang2022StochasticPF,
            title={Stochastic Planning for ASV Navigation Using Satellite Images},
            author={Yizhou Huang and Hamza Dugmag and Tim D. Barfoot and Florian Shkurti},
            booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
@@ -521,7 +812,7 @@ export const dataPublications = [
     {
     "bibtex":`
 
-      @article{wang2023mvtrans,
+      @inproceedings{wang2023mvtrans,
           title={MVTrans: Multi-View Perception of Transparent Objects},
           author={Yi Ru Wang and Yuchi Zhao and Haoping Xu and Saggi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
           year={2023},
@@ -569,6 +860,7 @@ export const dataPublications = [
       `,
       "html":"https://openreview.net/forum?id=tCfLLiP7vje",
       "tags":["vision"],
+      "presentation": "oral",
       "video": "https://www.youtube.com/watch?v=SuUMKy52b4E&ab_channel=ConferenceonRobotLearning",
       "code": "https://www.pair.toronto.edu/TranspareNet/",
       "data": "https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/ZJJAJ3",
@@ -625,6 +917,7 @@ export const dataPublications = [
     `,
     "html":"https://openaccess.thecvf.com/content/CVPR2022/html/Khorasgani_SLIC_Self-Supervised_Learning_With_Iterative_Clustering_for_Human_Action_Videos_CVPR_2022_paper.html",
     "tags":["vision"],
+    "presentation": "oral",
     "video": "https://youtu.be/iTt4rOLdjCo",
     "code": "https://github.com/rvl-lab-utoronto/video_similarity_search",
     "thumbnail":"/assets/publication-thumbnails/slic.webp",
@@ -666,7 +959,7 @@ export const dataPublications = [
   {
     "bibtex":`
       @inproceedings{gradsim,
-        title={gradSim: Differentiable simulation for system identification and visuomotor control },
+        title={gradSim: Differentiable simulation for system identification and visuomotor control},
         author={Krishna Jatavallabhula and Miles Macklin and Florian Golemo and Vikram Voleti and Linda Petrini and Martin Weiss and Breandan Considine and Jerome Parent-Levesque and Kevin Xie and Kenny Erleben and Liam Paull and Florian Shkurti and Sanja Fidler and Derek Nowrouzezahrai},
         year={2021},
         booktitle = {International Conference on Learning Representations (ICLR)},
@@ -849,10 +1142,10 @@ export const dataPublications = [
   },
   {
     "bibtex":`
-      @article{Abeysirigoonawardena2019GeneratingAD,
+      @inproceedings{Abeysirigoonawardena2019GeneratingAD,
         title={Generating Adversarial Driving Scenarios in High-Fidelity Simulators},
         author={Yasasa Abeysirigoonawardena and Florian Shkurti and Gregory Dudek},
-        journal={International Conference on Robotics and Automation (ICRA)},
+        booktitle={International Conference on Robotics and Automation (ICRA)},
         year={2019},
         pages={8271-8277},
       }
@@ -963,7 +1256,7 @@ export const dataPublications = [
         Month = {May},
         Publisher = {IEEE Computer Society},
         Title = {Texture-Aware SLAM Using Stereo Imagery And Inertial Information},
-              Pages = {465--463},
+              Pages = {456--463},
               Year = {2016},
       }
     `,

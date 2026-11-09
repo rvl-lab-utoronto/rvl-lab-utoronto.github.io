@@ -157,6 +157,16 @@ function publicationLinks(publication) {
   return links;
 }
 
+const presentationLabels = { oral: "Oral", spotlight: "Spotlight", cover: "Cover Article" };
+
+function publicationVenue(publication, { withYear = false } = {}) {
+  let venue = publication.booktitle || publication.journal;
+  if (!venue) return venue;
+  if (withYear && publication.year) venue += `, ${publication.year}`;
+  const label = presentationLabels[(publication.presentation || "").toLowerCase()];
+  return label ? `${venue} (${label})` : venue;
+}
+
 function publicationsSnapshot() {
   let html = '<h1 class="page-header">Publications</h1>';
   let previousYear = null;
@@ -167,7 +177,7 @@ function publicationsSnapshot() {
       html += `<hr><h2>${escapeHtml(publication.year)}</h2>`;
     }
     html += `<h3>${escapeHtml(publication.title)}</h3><p>${escapeHtml(publication.author)}</p>`;
-    const venue = publication.booktitle || publication.journal;
+    const venue = publicationVenue(publication, { withYear: true });
     if (venue) html += `<p><span>${escapeHtml(venue)}</span></p>`;
     const links = publicationLinks(publication);
     if (links.length) {
@@ -397,7 +407,7 @@ llms.push("## Publications", "");
 for (const publication of publications) {
   const link = publicationLinks(publication).find(([label]) => label === "pdf" || label === "project")?.[1];
   const title = link ? `[${md(publication.title)}](${absolute(link)})` : md(publication.title);
-  const venue = publication.booktitle || publication.journal;
+  const venue = publicationVenue(publication);
   llms.push(`- ${title}: ${md(publication.author)}.${venue ? ` ${md(venue)},` : ""} ${md(publication.year)}.`);
 }
 llms.push("", "## Blog", "");

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './publicationEntry.css';
 import useCollapse from 'react-collapsed';
+import PresentationBadge from './presentationBadge';
 
 export default function PublicationEntry(props) {
   let extraParams = {
@@ -13,6 +14,8 @@ export default function PublicationEntry(props) {
   };
 
   const { getCollapseProps, getToggleProps } = useCollapse();
+  const withYear = (venue) =>
+    props.publication['year'] ? `${venue}, ${props.publication['year']}` : venue;
   let thumbnail = <></>;
 
   if (props.publication['thumbnail']) {
@@ -46,12 +49,16 @@ export default function PublicationEntry(props) {
           <p>{props.publication['author']}</p>
           {props.publication['booktitle'] && (
             <p>
-              <span>{props.publication['booktitle']}</span>
+              <span>{withYear(props.publication['booktitle'])}</span>
+              <PresentationBadge presentation={props.publication['presentation']} />
             </p>
           )}
           {props.publication['journal'] && (
             <p>
-              <span>{props.publication['journal']}</span>
+              <span>{withYear(props.publication['journal'])}</span>
+              {!props.publication['booktitle'] && (
+                <PresentationBadge presentation={props.publication['presentation']} />
+              )}
             </p>
           )}
           {props.publication['tags'] && (

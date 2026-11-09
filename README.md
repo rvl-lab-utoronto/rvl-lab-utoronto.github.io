@@ -229,6 +229,7 @@ The RVL Blog supports 3 types of blog posts: a local .html file, a local .md mar
 | `project` | string (optional) | A URL leading to a project | `""https://google.com"` |
 | `tags` | list of string | Tags used for tag searching | `["tag1","tag2"]` |
 | `thumbnail` | string | A thumbnail image location from `public/` assets. | `"assets/publication-thumbnails/thumbnail.png"` |
+| `presentation` | string (optional) | `"oral"`, `"spotlight"` or `"cover"` (Cover Article); shows a badge next to the venue. Keep it out of the BibTeX `booktitle`. | `"oral"` |
 | `description` | string | Unused as of now | `"Lorem ipsum..."` |
 
 ## Research Themes

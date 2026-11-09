@@ -12,48 +12,14 @@ export const dataTeam = {
   ],
     "Postdocs":[
     {
-      "name":"Mike Gimelfarb",
-      "image":"assets/team/mike_gimelfarb_1.webp",
-      "description":"reinforcement learning, planning, learning to search",
-      "website":"https://mike-gimelfarb.github.io/",
-      "linkedIn":"https://ca.linkedin.com/in/michael-gimelfarb-0ba5723b",
-      "googleScholar":"https://scholar.google.com/citations?user=1tBgyLYAAAAJ&hl=en",
-      "github": "https://github.com/mike-gimelfarb"
-    },
-    {
-      "name":"Miroslav Bogdanovic",
-      "image":"assets/team/miroslav_bogdanovic_1.webp",
-      "description":"robotics, control, imitation and reinforcement learning. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>",
-      "website":"https://miroslavbogdanovic.super.site/",
-      "linkedIn":"https://de.linkedin.com/in/miroslavbogdanovic",
-      "googleScholar":"https://scholar.google.com/citations?user=SAdQhg4AAAAJ&hl=fr",
-    },
-    {
     "name":"Giseung Park",
     "image":"assets/team/Giseung-Park.webp",
     "description":"reinforcement learning, RL applications",
     "website":"https://sites.google.com/view/giseung-park",
     "googleScholar":"https://scholar.google.com/citations?user=M0n5A0AAAAAJ&hl=en&oi=ao",
   },
-  {
-    "name":"Adam Heins",
-    "image":"assets/team/adam_heins_rvl.webp",
-    "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alán Aspuru-Guzik</a>",
-    "website":"https://adamheins.com/",
-    "linkedIn":"https://linkedin.com/in/adamwheins",
-    "googleScholar":"https://scholar.google.com/citations?hl=en&user=4G2IkRUAAAAJ",
-  },
   ],
   "PhD students":[
-    {
-      "name":"Qiao Gu",
-      "image":"assets/team/qiaogu.webp",
-      "website":"https://georgegu1997.github.io/",
-      "googleScholar":"https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en",
-      "linkedIn":"https://www.linkedin.com/in/qiao-gu/",
-      "twitter":"https://x.com/qiaogu1997",
-      "description": "3D computer vision, robot learning"
-    },
     {
       "name":"Wei-Cheng Tseng",
       "image":"assets/team/weicheng_tseng_1.webp",
@@ -85,7 +51,7 @@ export const dataTeam = {
     {
       "name":"Yuchi (Allan) Zhao",
       "image":"assets/team/yuchi_allan_zhao_1.webp",
-      "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alan Aspuru-Guzik</a> and <a href='https://animesh.garg.tech'>Animesh Garg</a>",
+      "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alán Aspuru-Guzik</a>",
       "website": "https://y556zhao.github.io/",
       "linkedIn": "https://www.linkedin.com/in/yuchi-allan-zhao/"
     },
@@ -150,86 +116,13 @@ export const dataTeam = {
       "linkedIn":"https://www.linkedin.com/in/kavidey/",
       "googleScholar":"https://scholar.google.com/citations?user=7quZjo4AAAAJ&hl=en",
     },
-    {
-      "name":"Jibran Iqbal Shah",
-      "image":"assets/team/jibran_headshot.webp",
-	    "description":"trajectory prediction, uncertainty-aware planning",
-	    "linkedIn": "https://www.linkedin.com/in/jibran-iqbal-shah/",
-      "website":"https://jibby1729.github.io/",
-      "googleScholar":"https://scholar.google.com/citations?user=XxKtRlMAAAAJ&hl=en",
-    },
   ],
-
-  "Visiting students":[
-    {
-      "name":"Alina Böhm",
-      "image":"assets/team/alina-bohm.webp",
-      "description":"world models for manipulation. visiting from <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a>",
-    },
-  ],
-
   "undergraduate students":[
-    {
-      "name":"Emma Xing",
-      "image":"assets/team/emma-xing-headshot.webp",
-	    "description":"non-rigid body manipulation, physics simulation for robotics, imitation learning",
-	    "linkedIn": "https://www.linkedin.com/in/emmaxing/",
-      "website":"https://emma-x1.github.io/",
-    },
-    {
-      "name":"Yubo Wang",
-      "image":"assets/team/yubo-wang.webp",
-	    "description":"field robotics, navigation, localization, autonomous surface vessels",
-	    "linkedIn": "https://www.linkedin.com/in/yubo-wang-yyz/",
-      "website":"https://yubowng.github.io/",
-    },
-    {
-      "name":"Liyu (Laura) Tao",
-      "image":"assets/team/liyu-tao.webp",
-	    "description":"robot manipulation, chemistry lab automation, imitation learning",
-	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
-        "website":"https://github.com/laura513",
-      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
-    },
-    {
-      "name":"Frank Jiang",
-      "image":"assets/team/frank-jiang.webp",
-	    "description":"non-rigid body manipulation, robot learning",
-	    "linkedIn": "https://ca.linkedin.com/in/frank-zhaodong-jiang-04558b261",
-        "website":"https://frankzhaodong.github.io/",
-      "googleScholar":"https://scholar.google.com/citations?user=ISNrsywAAAAJ&hl=en",
-    },
-    {
-      "name":"Nikhil Thiyagarajan",
-      "image":"assets/team/Nikhil-Profile-Picture.webp",
-	    "description":"crowd navigation, multi-robot planning",
-	    "linkedIn": "https://www.linkedin.com/in/nikhil-thiyagarajan-7800841b4/",
-        "website":"https://nthiyag.github.io/resume/",
-    },
-    {
-      "name":"Joshua Choi",
-      "image":"assets/team/joshua-choi.webp",
-      "description":"offline RL, imitation learning, data curation",
-	    "linkedIn": "https://www.linkedin.com/in/joshua-choi-416-uoft/",
-        "website":"https://choijoshua.github.io/",
-    },
-    {
-      "name":"Leo Wang",
-      "image":"assets/team/leo-wang.webp",
-      "description":"robot manipulation",
-      "linkedIn":"https://www.linkedin.com/in/leo-wang-09833128a/",
-    },
     {
       "name":"Kirill Utyashev",
       "image":"assets/team/kirill-utyashev.webp",
       "description":"reinforcement learning, robot learning",
       "linkedIn":"https://www.linkedin.com/in/kirill-utyashev/",
-    },
-    {
-      "name":"Sheena Qin",
-      "image":"assets/team/sheena-qin.webp",
-      "description":"vision language action models",
-      "linkedIn":"https://www.linkedin.com/in/sheena-qin-537501322/",
     },
     {
       "name":"Natasha Yang",
@@ -238,14 +131,39 @@ export const dataTeam = {
       "linkedIn":"https://www.linkedin.com/in/natasha-yang-64a35a1a5/",
     },
     {
-      "name":"Emily Yan",
-      "image":"assets/team/emily-yan.webp",
-      "description":"computer vision, machine learning, biomedical systems",
-      "linkedIn":"https://www.linkedin.com/in/emily-yan-637580302/",
+      "name":"Yijie Wang",
+      "image":"assets/team/yije.webp",
+      "description":"constrained motion planning, chemistry lab automation",
+      "linkedIn":"https://www.linkedin.com/in/yijie-wang0806/",
     },
   ],
 
   "alumni: postdocs":[
+    {
+      "name":"Mike Gimelfarb",
+      "image":"assets/team/mike_gimelfarb_1.webp",
+      "description":"reinforcement learning, planning, learning to search. <div><b>next: Senior Engineer, Qualcomm</b></div>",
+      "website":"https://mike-gimelfarb.github.io/",
+      "linkedIn":"https://ca.linkedin.com/in/michael-gimelfarb-0ba5723b",
+      "googleScholar":"https://scholar.google.com/citations?user=1tBgyLYAAAAJ&hl=en",
+      "github": "https://github.com/mike-gimelfarb"
+    },
+    {
+      "name":"Miroslav Bogdanovic",
+      "image":"assets/team/miroslav_bogdanovic_1.webp",
+      "description":"robotics, control, imitation and reinforcement learning. co-supervised by <a href='https://animesh.garg.tech/'>Animesh Garg</a>. <div><b>next: Postdoc, Acceleration Consortium</b></div>",
+      "website":"https://miroslavbogdanovic.super.site/",
+      "linkedIn":"https://de.linkedin.com/in/miroslavbogdanovic",
+      "googleScholar":"https://scholar.google.com/citations?user=SAdQhg4AAAAJ&hl=fr",
+    },
+    {
+    "name":"Adam Heins",
+    "image":"assets/team/adam_heins_rvl.webp",
+    "description":"robot manipulation, chemistry lab automation. co-supervised by <a href='https://www.matter.toronto.edu/basic-content-page/about-alan'>Alán Aspuru-Guzik</a>. <div><b>next: Postdoc, Acceleration Consortium</b></div>",
+    "website":"https://adamheins.com/",
+    "linkedIn":"https://linkedin.com/in/adamwheins",
+    "googleScholar":"https://scholar.google.com/citations?hl=en&user=4G2IkRUAAAAJ",
+  },
     {
       "name":"Qi Chen",
       "image":"assets/team/qi_chen_1.webp",
@@ -267,6 +185,23 @@ export const dataTeam = {
   ],
 
   "alumni: graduate students":[
+    {
+      "name":"Qiao Gu",
+      "image":"assets/team/qiaogu.webp",
+      "website":"https://georgegu1997.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?user=MF7ISVAAAAAJ&hl=en",
+      "linkedIn":"https://www.linkedin.com/in/qiao-gu/",
+      "twitter":"https://x.com/qiaogu1997",
+      "description": "3D computer vision, robot learning. <div><b>next: Research Scientist, Veeda</b></div>"
+    },
+    {
+      "name":"Jibran Iqbal Shah",
+      "image":"assets/team/jibran_headshot.webp",
+	    "description":"trajectory prediction, uncertainty-aware planning. <div><b>next: Block</b></div>",
+	    "linkedIn": "https://www.linkedin.com/in/jibran-iqbal-shah/",
+      "website":"https://jibby1729.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?user=XxKtRlMAAAAJ&hl=en",
+    },
     {
       "name":"Nathan de Lara",
       "image":"assets/team/nathan.webp",
@@ -321,7 +256,7 @@ export const dataTeam = {
   {
     "name":"Yewon Lee",
     "image":"assets/team/yewon_lee_1.webp",
-    "description":"task and motion planning <div><b>next: U. of Washington CS PhD</b></div>",
+    "description":"task and motion planning <div><b>next: UPenn CS PhD</b></div>",
     "website":"https://yewon-lee.github.io/",
   },
   {
@@ -365,6 +300,11 @@ export const dataTeam = {
 
   "alumni: research associates \& visitors":[
     {
+      "name":"Alina Böhm",
+      "image":"assets/team/alina-bohm.webp",
+      "description":"world models for manipulation. visiting from <a href='https://www.tu-darmstadt.de/'>TU Darmstadt</a>. <div><b>next: PhD student, KIT, Germany</b></div>",
+    },
+    {
       "name":"Sehee Kweon",
       "image":"assets/team/sehee_kweon.webp",
       "description":"computer vision, generative models, robot learning. <div><b>visitor: Seoul National University</b></div>",
@@ -404,6 +344,68 @@ export const dataTeam = {
   ],
 
   "alumni: undergraduate students":[
+    {
+      "name":"Emma Xing",
+      "image":"assets/team/emma-xing-headshot.webp",
+	    "description":"non-rigid body manipulation, physics simulation for robotics, imitation learning",
+	    "linkedIn": "https://www.linkedin.com/in/emmaxing/",
+      "website":"https://emma-x1.github.io/",
+    },
+    {
+      "name":"Yubo Wang",
+      "image":"assets/team/yubo-wang.webp",
+	    "description":"field robotics, navigation, localization, autonomous surface vessels",
+	    "linkedIn": "https://www.linkedin.com/in/yubo-wang-yyz/",
+      "website":"https://yubowng.github.io/",
+    },
+    {
+      "name":"Liyu (Laura) Tao",
+      "image":"assets/team/liyu-tao.webp",
+	    "description":"robot manipulation, chemistry lab automation, imitation learning",
+	    "linkedIn": "http://www.linkedin.com/in/liyu-tao",
+        "website":"https://github.com/laura513",
+      "googleScholar":"https://scholar.google.com/citations?user=IlhHMPQAAAAJ&hl=en",
+    },
+    {
+      "name":"Frank Jiang",
+      "image":"assets/team/frank-jiang.webp",
+	    "description":"non-rigid body manipulation, robot learning",
+	    "linkedIn": "https://ca.linkedin.com/in/frank-zhaodong-jiang-04558b261",
+        "website":"https://frankzhaodong.github.io/",
+      "googleScholar":"https://scholar.google.com/citations?user=ISNrsywAAAAJ&hl=en",
+    },
+    {
+      "name":"Nikhil Thiyagarajan",
+      "image":"assets/team/Nikhil-Profile-Picture.webp",
+	    "description":"crowd navigation, multi-robot planning. <div><b>next: MASc student, UTIAS</b></div>",
+	    "linkedIn": "https://www.linkedin.com/in/nikhil-thiyagarajan-7800841b4/",
+        "website":"https://nthiyag.github.io/resume/",
+    },
+    {
+      "name":"Joshua Choi",
+      "image":"assets/team/joshua-choi.webp",
+      "description":"offline RL, imitation learning, data curation",
+	    "linkedIn": "https://www.linkedin.com/in/joshua-choi-416-uoft/",
+        "website":"https://choijoshua.github.io/",
+    },
+    {
+      "name":"Leo Wang",
+      "image":"assets/team/leo-wang.webp",
+      "description":"robot manipulation",
+      "linkedIn":"https://www.linkedin.com/in/leo-wang-09833128a/",
+    },
+    {
+      "name":"Sheena Qin",
+      "image":"assets/team/sheena-qin.webp",
+      "description":"vision language action models",
+      "linkedIn":"https://www.linkedin.com/in/sheena-qin-537501322/",
+    },
+    {
+      "name":"Emily Yan",
+      "image":"assets/team/emily-yan.webp",
+      "description":"computer vision, machine learning, biomedical systems",
+      "linkedIn":"https://www.linkedin.com/in/emily-yan-637580302/",
+    },
     {
       "name":"Sofia Luo",
       "image":"assets/team/sofia-luo.webp",
@@ -472,12 +474,6 @@ export const dataTeam = {
       "twitter":"https://twitter.com/BenAgro4",
     },
     {
-      "name":"Yijie Wang",
-      "image":"assets/team/yije.webp",
-      "description":"constrained motion planning, chemistry lab automation",
-      "linkedIn":"https://www.linkedin.com/in/yijie-wang0806/",
-    },
-    {
       "name":"Garvish Bhutani",
       "image":"assets/team/garvish.webp",
       "description":"robotic crowd navigation",
@@ -537,6 +533,7 @@ export const dataTeam = {
       "name":"Charlotte Zhang",
   "image":"assets/team/charlotte_zhang_1.webp",
   "description":"field robotics, autonomous boat <div><b>next: SFU CS PhD</b></div>",
+      "website":"https://ziyu-charlotte-zhang.github.io/",
     },
     {
       "name":"Jason Tang",
@@ -554,6 +551,7 @@ export const dataTeam = {
       "name":"Cong Wei",
       "image":"assets/team/cong_wei_1.webp",
       "linkedIn":"https://ca.linkedin.com/in/cong-wei-30",
+      "website":"https://congwei1230.github.io/",
       "description": "video summarization, generative models <div><b>next: Waterloo CS PhD</b></div>",
     },
     {

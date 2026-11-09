@@ -2,6 +2,22 @@
 // Date is of format : year-month-day
 export const dataNews = [
   {
+    "date":"2026-09-25",
+    "content":"Qi Chen's paper on <a href='https://arxiv.org/abs/2512.13935'>using foundation models to inform acquisition functions for molecular discovery</a> was accepted at NeurIPS'26. This is a collaboration with Fabio Ramos and Alán Aspuru-Guzik. Congratulations, Qi!"
+  },
+  {
+    "date":"2026-08-15",
+    "content":"Three papers accepted at CoRL'26: one on <a href='https://arxiv.org/abs/2603.11634'>a fast, model-free diversity metric for robotics datasets</a>, selected as an oral, another on <a href='https://dongwon-son.github.io/tam-project-page/'>torque adaptation for robust motion transfer in manipulation</a>, selected as a spotlight, and a third on <a href='https://arxiv.org/abs/2505.18083'>what you need for compositional generalization in diffusion planning</a>. Congratulations to Sreevardhan Sirigiri, Nathan de Lara, Dongwon Son, Quentin Clark, and the rest of the co-authors!"
+  },
+  {
+    "date":"2026-05-01",
+    "content":"Nathan de Lara's paper <a href='https://arxiv.org/abs/2602.17632'>SMAC</a> on score-matched actor-critics for robust offline-to-online transfer was accepted at ICML'26. Congratulations, Nathan!"
+  },
+  {
+    "date":"2026-01-15",
+    "content":"Our paper <a href='https://ac-rad.github.io/roboculture/'>RoboCulture</a> on modular robotic plate-based cell automation was published in Cell Reports Physical Science. Congratulations to Kevin Angers, Kourosh Darvish, and our collaborators in Milica Radisic's and Alán Aspuru-Guzik's groups!"
+  },
+  {
     "date":"2025-11-01",
     "content":"Wei-Cheng's paper on leveraging <a href='https://arxiv.org/abs/2511.11520'>video models for policy evaluation</a> in robotic manipulation is out on arxiv."
   },
@@ -22,8 +38,20 @@ export const dataNews = [
     "content":"Two papers accepted at CoRL'25, one on <a href='https://anyplace-pnp.github.io'>learning policies for generalizable placement</a> and another on <a href='https://search-tta.github.io'>test-time adaptation of VLMs for Bayesian search</a>. Congratulations to Yuchi Zhao, Derek Tan, and the rest of the co-authors!"
   },
   {
+    "date":"2025-06-16",
+    "content":"Ritvik Singh's paper <a href='https://arxiv.org/abs/2410.21153'>Synthetica</a> on large-scale synthetic data generation for robot perception, a collaboration with NVIDIA, was accepted at IROS'25. Congratulations to Ritvik and the co-authors!"
+  },
+  {
     "date":"2025-06-1",
     "content":"Congratulations to PhD student <a href='https://georgegu1997.github.io'>Qiao Gu</a>, who started another internship at Meta. "
+  },
+  {
+    "date":"2025-02-01",
+    "content":"Two papers accepted at ICRA'25, one on <a href='https://arxiv.org/abs/2410.09740'>Gaussian Splatting visual MPC for granular media manipulation</a> and another on <a href='https://arxiv.org/abs/2410.16445'>automated planning domain inference for task and motion planning</a>, a collaboration with Jonathan Kelly. Congratulations to Wei-Cheng Tseng, Ellina Zhang, Jinbang Huang, and the rest of the co-authors!"
+  },
+  {
+    "date":"2025-01-22",
+    "content":"Qi Chen's paper on <a href='https://openreview.net/forum?id=NGB6YNnO5o'>a unified information-theoretic view of generalization in VAEs and diffusion models</a> was accepted at ICLR'25. Congratulations, Qi!"
   },
   {
     "date":"2025-1-1",
